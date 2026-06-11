@@ -33,7 +33,7 @@ async function promptConfig() {
     if (m) flags[m[1]] = m[2];
   }
 
-  const configBase   = `/Users/claysmith/Documents/JournalFeed/PubMetric Meta`;
+  const configBase   = `/path/to/your/pdf/folder`; // replace with the folder containing your PDF subfolders
   const savedConfigs = './validation_project_configs.json';
   const configs      = fs.existsSync(savedConfigs) ? JSON.parse(fs.readFileSync(savedConfigs, 'utf8')) : {};
 
@@ -53,7 +53,7 @@ async function promptConfig() {
     const rl  = readline.createInterface({ input: process.stdin, output: process.stdout });
     const ask = (q) => new Promise(resolve => rl.question(q, resolve));
     console.log('\n── PubMetric Dual-AI Validation ──────────────────────────');
-    projectId  = (await ask('Project ID (press Enter for TXA default): ')).trim() || 'bN0b7Bmmz095W26sveYf';
+    projectId  = (await ask('Project ID: ')).trim() || 'YOUR_PROJECT_ID';
     folderName = (await ask('PDF subfolder name under "PubMetric Meta" (press Enter for TXA default): ')).trim() || 'TXA SR-MA';
     rl.close();
   }
