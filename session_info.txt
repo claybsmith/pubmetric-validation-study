@@ -1,0 +1,79 @@
+Loading required package: lpSolve
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Loading required package: mvtnorm
+Loading required package: ellipse
+
+Attaching package: ‘ellipse’
+
+The following object is masked from ‘package:graphics’:
+
+    pairs
+
+Loading required package: mvmeta
+This is mvmeta 1.0.3. For an overview type: help('mvmeta-package').
+Loading required package: metafor
+Loading required package: Matrix
+Loading required package: metadat
+Loading required package: numDeriv
+
+Loading the 'metafor' package (version 5.0-1). For an
+introduction to the package please type: help(metafor)
+
+
+Attaching package: ‘metafor’
+
+The following object is masked from ‘package:mvmeta’:
+
+    blup
+
+
+Attaching package: ‘mada’
+
+The following object is masked from ‘package:metafor’:
+
+    forest
+
+The following object is masked from ‘package:psych’:
+
+    AUC
+
+R version 4.6.0 (2026-04-24)
+Platform: aarch64-apple-darwin23
+Running under: macOS Sequoia 15.6.1
+
+Matrix products: default
+BLAS:   /Library/Frameworks/R.framework/Versions/4.6/Resources/lib/libRblas.0.dylib 
+LAPACK: /Library/Frameworks/R.framework/Versions/4.6/Resources/lib/libRlapack.dylib;  LAPACK version 3.12.1
+
+locale:
+[1] en_US/en_US/en_US/C/en_US/en_US
+
+time zone: America/Chicago
+tzcode source: internal
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+ [1] mada_0.5.12         metafor_5.0-1       numDeriv_2016.8-1.1
+ [4] metadat_1.6-0       Matrix_1.7-5        mvmeta_1.0.3       
+ [7] ellipse_0.5.0       mvtnorm_1.4-1       dplyr_1.2.1        
+[10] psych_2.6.5         irr_0.84.1          lpSolve_5.6.23     
+
+loaded via a namespace (and not attached):
+ [1] vctrs_0.7.3      nlme_3.1-169     cli_3.6.6        rlang_1.2.0     
+ [5] generics_0.1.4   glue_1.8.1       grid_4.6.0       tibble_3.3.1    
+ [9] lifecycle_1.0.5  compiler_4.6.0   mathjaxr_2.0-0   pkgconfig_2.0.3 
+[13] mixmeta_1.2.2    digest_0.6.39    lattice_0.22-9   R6_2.6.1        
+[17] tidyselect_1.2.1 pillar_1.11.1    mnormt_2.1.2     parallel_4.6.0  
+[21] magrittr_2.0.5   tools_4.6.0     

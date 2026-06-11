@@ -1,0 +1,379 @@
+study,outcome,timepoint,data_type,field,field_category,Sam_value,Brit_value,PM_value,Claude_value,SvBr,SvPM,SvCl,BvPM,BvCl,PMvCl,Ground Truth,Sam_truth,Brit_truth,PM_truth,Claude_truth
+Albers,Median score on the modified Rankin scale at 90 days (median [IQR]),90 days,Continuous,n_intervention,Continuous,228,228,228,226,YES,YES,NO,YES,NO,NO,226,NO,NO,NO,YES
+Albers,Median score on the modified Rankin scale at 90 days (median [IQR]),90 days,Continuous,n_control,Continuous,230,230,230,229,YES,YES,NO,YES,NO,NO,229,NO,NO,NO,YES
+Albers,Median score on the modified Rankin scale at 90 days (median [IQR]),90 days,Continuous,median_intervention,Continuous,3,3,3,3,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Albers,Median score on the modified Rankin scale at 90 days (median [IQR]),90 days,Continuous,iqr_lower_intervention,Continuous,1,1,1,1,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Albers,Median score on the modified Rankin scale at 90 days (median [IQR]),90 days,Continuous,iqr_upper_intervention,Continuous,5,5,5,5,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Albers,Median score on the modified Rankin scale at 90 days (median [IQR]),90 days,Continuous,median_control,Continuous,3,3,3,3,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Albers,Median score on the modified Rankin scale at 90 days (median [IQR]),90 days,Continuous,iqr_lower_control,Continuous,1,1,1,1,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Albers,Median score on the modified Rankin scale at 90 days (median [IQR]),90 days,Continuous,iqr_upper_control,Continuous,4,4,4,4,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Albers,Median score on the modified Rankin scale at 90 days (median [IQR]),90 days,Continuous,effect_size,Effect/CI,,1.13,,,Sam N/A,,,PM N/A,Claude N/A,,,Sam N/A,YES,PM N/A,Claude N/A
+Albers,Median score on the modified Rankin scale at 90 days (median [IQR]),90 days,Continuous,ci_lower,Effect/CI,,0.82,,,Sam N/A,,,PM N/A,Claude N/A,,,Sam N/A,YES,PM N/A,Claude N/A
+Albers,Median score on the modified Rankin scale at 90 days (median [IQR]),90 days,Continuous,ci_upper,Effect/CI,,1.57,,,Sam N/A,,,PM N/A,Claude N/A,,,Sam N/A,YES,PM N/A,Claude N/A
+Albers,Distribution of scores on the modified Rankin scale at 90 days,90 days,Ordinal,n_intervention,Dichotomous,,226,,,Sam N/A,,,PM N/A,Claude N/A,,,Sam N/A,YES,PM N/A,Claude N/A
+Albers,Distribution of scores on the modified Rankin scale at 90 days,90 days,Ordinal,n_control,Dichotomous,,229,,,Sam N/A,,,PM N/A,Claude N/A,,,Sam N/A,YES,PM N/A,Claude N/A
+Albers,Distribution of scores on the modified Rankin scale at 90 days,90 days,Ordinal,effect_size,Effect/CI,1.13,1.13,1.13,1.13,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Albers,Distribution of scores on the modified Rankin scale at 90 days,90 days,Ordinal,ci_lower,Effect/CI,0.82,0.82,0.82,0.82,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Albers,Distribution of scores on the modified Rankin scale at 90 days,90 days,Ordinal,ci_upper,Effect/CI,1.57,1.57,1.57,1.57,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Albers,Functional independence at 90 days,90 days,Dichotomous,n_intervention,Dichotomous,226,226,226,226,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Albers,Functional independence at 90 days,90 days,Dichotomous,events_intervention,Dichotomous,104,104,104,104,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Albers,Functional independence at 90 days,90 days,Dichotomous,n_control,Dichotomous,229,229,229,229,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Albers,Functional independence at 90 days,90 days,Dichotomous,events_control,Dichotomous,97,97,97,97,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Albers,Functional independence at 90 days,90 days,Dichotomous,effect_size,Effect/CI,1.18,,,,Brit N/A,PM N/A,Claude N/A,,,,,YES,Brit N/A,PM N/A,Claude N/A
+Albers,Functional independence at 90 days,90 days,Dichotomous,ci_lower,Effect/CI,0.8,,,,Brit N/A,PM N/A,Claude N/A,,,,,YES,Brit N/A,PM N/A,Claude N/A
+Albers,Functional independence at 90 days,90 days,Dichotomous,ci_upper,Effect/CI,1.74,,,,Brit N/A,PM N/A,Claude N/A,,,,,YES,Brit N/A,PM N/A,Claude N/A
+Albers,Recanalization at 24 hr,24 hours,Dichotomous,n_intervention,Dichotomous,193,193,193,193,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Albers,Recanalization at 24 hr,24 hours,Dichotomous,events_intervention,Dichotomous,148,148,148,148,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Albers,Recanalization at 24 hr,24 hours,Dichotomous,n_control,Dichotomous,194,194,194,194,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Albers,Recanalization at 24 hr,24 hours,Dichotomous,events_control,Dichotomous,124,124,124,124,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Albers,Recanalization at 24 hr,24 hours,Dichotomous,effect_size,Effect/CI,1.89,,,,Brit N/A,PM N/A,Claude N/A,,,,,YES,Brit N/A,PM N/A,Claude N/A
+Albers,Recanalization at 24 hr,24 hours,Dichotomous,ci_lower,Effect/CI,1.21,,,,Brit N/A,PM N/A,Claude N/A,,,,,YES,Brit N/A,PM N/A,Claude N/A
+Albers,Recanalization at 24 hr,24 hours,Dichotomous,ci_upper,Effect/CI,2.95,,,,Brit N/A,PM N/A,Claude N/A,,,,,YES,Brit N/A,PM N/A,Claude N/A
+Albers,Reperfusion at 24 hr,24 hours,Dichotomous,n_intervention,Dichotomous,174,174,174,174,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Albers,Reperfusion at 24 hr,24 hours,Dichotomous,events_intervention,Dichotomous,99,99,99,99,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Albers,Reperfusion at 24 hr,24 hours,Dichotomous,n_control,Dichotomous,182,182,182,182,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Albers,Reperfusion at 24 hr,24 hours,Dichotomous,events_control,Dichotomous,105,105,105,105,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Albers,Reperfusion at 24 hr,24 hours,Dichotomous,effect_size,Effect/CI,1.04,,,,Brit N/A,PM N/A,Claude N/A,,,,,YES,Brit N/A,PM N/A,Claude N/A
+Albers,Reperfusion at 24 hr,24 hours,Dichotomous,ci_lower,Effect/CI,0.69,,,,Brit N/A,PM N/A,Claude N/A,,,,,YES,Brit N/A,PM N/A,Claude N/A
+Albers,Reperfusion at 24 hr,24 hours,Dichotomous,ci_upper,Effect/CI,1.57,,,,Brit N/A,PM N/A,Claude N/A,,,,,YES,Brit N/A,PM N/A,Claude N/A
+Albers,Reperfusion at the conclusion of endovascular thrombectomy,Conclusion of procedure,Dichotomous,n_intervention,Dichotomous,175,175,175,175,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Albers,Reperfusion at the conclusion of endovascular thrombectomy,Conclusion of procedure,Dichotomous,events_intervention,Dichotomous,156,156,156,156,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Albers,Reperfusion at the conclusion of endovascular thrombectomy,Conclusion of procedure,Dichotomous,n_control,Dichotomous,178,178,178,178,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Albers,Reperfusion at the conclusion of endovascular thrombectomy,Conclusion of procedure,Dichotomous,events_control,Dichotomous,152,152,152,152,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Albers,Reperfusion at the conclusion of endovascular thrombectomy,Conclusion of procedure,Dichotomous,effect_size,Effect/CI,1.42,,,,Brit N/A,PM N/A,Claude N/A,,,,,YES,Brit N/A,PM N/A,Claude N/A
+Albers,Reperfusion at the conclusion of endovascular thrombectomy,Conclusion of procedure,Dichotomous,ci_lower,Effect/CI,0.75,,,,Brit N/A,PM N/A,Claude N/A,,,,,YES,Brit N/A,PM N/A,Claude N/A
+Albers,Reperfusion at the conclusion of endovascular thrombectomy,Conclusion of procedure,Dichotomous,ci_upper,Effect/CI,2.67,,,,Brit N/A,PM N/A,Claude N/A,,,,,YES,Brit N/A,PM N/A,Claude N/A
+Albers,Death within 30 days,30 days,Dichotomous,n_intervention,Dichotomous,218,218,218,218,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Albers,Death within 30 days,30 days,Dichotomous,events_intervention,Dichotomous,32,32,32,32,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Albers,Death within 30 days,30 days,Dichotomous,n_control,Dichotomous,214,214,214,214,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Albers,Death within 30 days,30 days,Dichotomous,events_control,Dichotomous,32,32,32,32,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Albers,Death within 90 days,90 days,Dichotomous,n_intervention,Dichotomous,218,218,218,218,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Albers,Death within 90 days,90 days,Dichotomous,events_intervention,Dichotomous,43,43,43,43,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Albers,Death within 90 days,90 days,Dichotomous,n_control,Dichotomous,214,214,214,214,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Albers,Death within 90 days,90 days,Dichotomous,events_control,Dichotomous,39,39,39,39,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Albers,Symptomatic intracranial hemorrhage within 36 hr,36 hours,Dichotomous,n_intervention,Dichotomous,218,218,218,218,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Albers,Symptomatic intracranial hemorrhage within 36 hr,36 hours,Dichotomous,events_intervention,Dichotomous,7,7,7,7,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Albers,Symptomatic intracranial hemorrhage within 36 hr,36 hours,Dichotomous,n_control,Dichotomous,214,214,214,214,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Albers,Symptomatic intracranial hemorrhage within 36 hr,36 hours,Dichotomous,events_control,Dichotomous,5,5,5,5,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Albers,Parenchymal hematoma within 72 hr - Type 1,72 hours,Dichotomous,n_intervention,Dichotomous,218,218,218,218,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Albers,Parenchymal hematoma within 72 hr - Type 1,72 hours,Dichotomous,events_intervention,Dichotomous,2,2,2,2,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Albers,Parenchymal hematoma within 72 hr - Type 1,72 hours,Dichotomous,n_control,Dichotomous,214,214,214,214,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Albers,Parenchymal hematoma within 72 hr - Type 1,72 hours,Dichotomous,events_control,Dichotomous,1,1,1,1,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Albers,Parenchymal hematoma within 72 hr - Type 2,72 hours,Dichotomous,n_intervention,Dichotomous,218,218,218,218,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Albers,Parenchymal hematoma within 72 hr - Type 2,72 hours,Dichotomous,events_intervention,Dichotomous,8,8,8,8,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Albers,Parenchymal hematoma within 72 hr - Type 2,72 hours,Dichotomous,n_control,Dichotomous,214,214,214,214,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Albers,Parenchymal hematoma within 72 hr - Type 2,72 hours,Dichotomous,events_control,Dichotomous,6,6,6,6,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Albers,Final infarct volume (mean +/- SD),Final,Continuous,n_intervention,Continuous,,216,228,228,NO,NO,NO,NO,NO,YES,228,Sam N/A,NO,YES,YES
+Albers,Final infarct volume (mean +/- SD),Final,Continuous,n_control,Continuous,,218,230,230,NO,NO,NO,NO,NO,YES,230,Sam N/A,NO,YES,YES
+Albers,Final infarct volume (mean +/- SD),Final,Continuous,mean_intervention,Continuous,47.9,47.9,47.9,47.9,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Albers,Final infarct volume (mean +/- SD),Final,Continuous,sd_intervention,Continuous,71.1,71.1,71.1,71.1,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Albers,Final infarct volume (mean +/- SD),Final,Continuous,mean_control,Continuous,56.5,56.5,56.5,56.5,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Albers,Final infarct volume (mean +/- SD),Final,Continuous,sd_control,Continuous,81.5,81.5,81.5,81.5,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Albers,Final infarct volume (mean +/- SD),Final,Continuous,effect_size,Effect/CI,,-2,,,Sam N/A,,,PM N/A,Claude N/A,,,Sam N/A,YES,PM N/A,Claude N/A
+Albers,Final infarct volume (mean +/- SD),Final,Continuous,ci_lower,Effect/CI,,-6,,,Sam N/A,,,PM N/A,Claude N/A,,,Sam N/A,YES,PM N/A,Claude N/A
+Albers,Final infarct volume (mean +/- SD),Final,Continuous,ci_upper,Effect/CI,,3,,,Sam N/A,,,PM N/A,Claude N/A,,,Sam N/A,YES,PM N/A,Claude N/A
+Cheng,Primary outcome (major reperfusion without sICH 24 to 48 hours after randomization),24 to 48 hours post-randomization,Dichotomous,n_intervention,Dichotomous,111,111,111,111,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Cheng,Primary outcome (major reperfusion without sICH 24 to 48 hours after randomization),24 to 48 hours post-randomization,Dichotomous,events_intervention,Dichotomous,37,37,37,37,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Cheng,Primary outcome (major reperfusion without sICH 24 to 48 hours after randomization),24 to 48 hours post-randomization,Dichotomous,n_control,Dichotomous,111,111,111,111,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Cheng,Primary outcome (major reperfusion without sICH 24 to 48 hours after randomization),24 to 48 hours post-randomization,Dichotomous,events_control,Dichotomous,12,12,12,12,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Cheng,Recanalization,initial catheter angiography or 4- to 6-hour CTA,Dichotomous,n_intervention,Dichotomous,109,109,109,109,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Cheng,Recanalization,initial catheter angiography or 4- to 6-hour CTA,Dichotomous,events_intervention,Dichotomous,39,39,39,39,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Cheng,Recanalization,initial catheter angiography or 4- to 6-hour CTA,Dichotomous,n_control,Dichotomous,112,112,112,112,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Cheng,Recanalization,initial catheter angiography or 4- to 6-hour CTA,Dichotomous,events_control,Dichotomous,16,16,16,16,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Cheng,Infarct growth at 3-5 d (median [IQR]),3 to 5 days,Continuous,n_intervention,Continuous,,111,102,102,NO,NO,NO,NO,NO,YES,102,Sam N/A,NO,YES,YES
+Cheng,Infarct growth at 3-5 d (median [IQR]),3 to 5 days,Continuous,n_control,Continuous,,113,109,109,NO,NO,NO,NO,NO,YES,109,Sam N/A,NO,YES,YES
+Cheng,Infarct growth at 3-5 d (median [IQR]),3 to 5 days,Continuous,median_intervention,Continuous,18.9,18.9,18.9,18.9,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Cheng,Infarct growth at 3-5 d (median [IQR]),3 to 5 days,Continuous,iqr_lower_intervention,Continuous,4.2,4.2,4.2,4.2,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Cheng,Infarct growth at 3-5 d (median [IQR]),3 to 5 days,Continuous,iqr_upper_intervention,Continuous,59.6,59.6,59.6,59.6,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Cheng,Infarct growth at 3-5 d (median [IQR]),3 to 5 days,Continuous,median_control,Continuous,16.5,16.5,16.5,16.5,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Cheng,Infarct growth at 3-5 d (median [IQR]),3 to 5 days,Continuous,iqr_lower_control,Continuous,2.6,2.6,2.6,2.6,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Cheng,Infarct growth at 3-5 d (median [IQR]),3 to 5 days,Continuous,iqr_upper_control,Continuous,42.3,42.3,42.3,42.3,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Cheng,Infarct growth at 3-5 d (median [IQR]),3 to 5 days,Continuous,effect_size,Effect/CI,,5,,,Sam N/A,,,PM N/A,Claude N/A,,,Sam N/A,YES,PM N/A,Claude N/A
+Cheng,Infarct growth at 3-5 d (median [IQR]),3 to 5 days,Continuous,ci_lower,Effect/CI,,-2.8,,,Sam N/A,,,PM N/A,Claude N/A,,,Sam N/A,YES,PM N/A,Claude N/A
+Cheng,Infarct growth at 3-5 d (median [IQR]),3 to 5 days,Continuous,ci_upper,Effect/CI,,12.9,,,Sam N/A,,,PM N/A,Claude N/A,,,Sam N/A,YES,PM N/A,Claude N/A
+Cheng,Major neurological improvement,24 to 48 hours,Dichotomous,n_intervention,Dichotomous,110,110,110,110,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Cheng,Major neurological improvement,24 to 48 hours,Dichotomous,events_intervention,Dichotomous,24,24,24,24,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Cheng,Major neurological improvement,24 to 48 hours,Dichotomous,n_control,Dichotomous,112,112,112,112,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Cheng,Major neurological improvement,24 to 48 hours,Dichotomous,events_control,Dichotomous,26,26,26,26,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Cheng,Change in NIHSS score compared with baseline (median [IQR]),24 to 48 hours,Continuous,n_intervention,Continuous,,111,110,110,NO,NO,NO,NO,NO,YES,110,Sam N/A,NO,YES,YES
+Cheng,Change in NIHSS score compared with baseline (median [IQR]),24 to 48 hours,Continuous,n_control,Continuous,,113,112,112,NO,NO,NO,NO,NO,YES,112,Sam N/A,NO,YES,YES
+Cheng,Change in NIHSS score compared with baseline (median [IQR]),24 to 48 hours,Continuous,median_intervention,Continuous,-1,-1,-1,-1,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Cheng,Change in NIHSS score compared with baseline (median [IQR]),24 to 48 hours,Continuous,iqr_lower_intervention,Continuous,-4,-4,-4,-4,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Cheng,Change in NIHSS score compared with baseline (median [IQR]),24 to 48 hours,Continuous,iqr_upper_intervention,Continuous,0,0,0,0,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Cheng,Change in NIHSS score compared with baseline (median [IQR]),24 to 48 hours,Continuous,median_control,Continuous,-1,-1,-1,-1,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Cheng,Change in NIHSS score compared with baseline (median [IQR]),24 to 48 hours,Continuous,iqr_lower_control,Continuous,-5,-5,-5,-5,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Cheng,Change in NIHSS score compared with baseline (median [IQR]),24 to 48 hours,Continuous,iqr_upper_control,Continuous,0,0,0,0,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Cheng,Change in NIHSS score compared with baseline (median [IQR]),24 to 48 hours,Continuous,effect_size,Effect/CI,,0.2,,,Sam N/A,,,PM N/A,Claude N/A,,,Sam N/A,YES,PM N/A,Claude N/A
+Cheng,Change in NIHSS score compared with baseline (median [IQR]),24 to 48 hours,Continuous,ci_lower,Effect/CI,,-1,,,Sam N/A,,,PM N/A,Claude N/A,,,Sam N/A,YES,PM N/A,Claude N/A
+Cheng,Change in NIHSS score compared with baseline (median [IQR]),24 to 48 hours,Continuous,ci_upper,Effect/CI,,1.4,,,Sam N/A,,,PM N/A,Claude N/A,,,Sam N/A,YES,PM N/A,Claude N/A
+Cheng,mRS score 0-1,90 days,Dichotomous,n_intervention,Dichotomous,111,111,111,111,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Cheng,mRS score 0-1,90 days,Dichotomous,events_intervention,Dichotomous,44,44,44,44,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Cheng,mRS score 0-1,90 days,Dichotomous,n_control,Dichotomous,113,113,113,113,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Cheng,mRS score 0-1,90 days,Dichotomous,events_control,Dichotomous,41,41,41,41,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Cheng,mRS score 0-2,90 days,Dichotomous,n_intervention,Dichotomous,111,111,111,111,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Cheng,mRS score 0-2,90 days,Dichotomous,events_intervention,Dichotomous,56,56,56,56,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Cheng,mRS score 0-2,90 days,Dichotomous,n_control,Dichotomous,113,113,113,113,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Cheng,mRS score 0-2,90 days,Dichotomous,events_control,Dichotomous,66,66,66,66,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Cheng,Symptomatic intracranial hemorrhage,24 to 48 hours,Dichotomous,n_intervention,Dichotomous,111,111,111,111,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Cheng,Symptomatic intracranial hemorrhage,24 to 48 hours,Dichotomous,events_intervention,Dichotomous,6,6,6,6,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Cheng,Symptomatic intracranial hemorrhage,24 to 48 hours,Dichotomous,n_control,Dichotomous,113,113,113,113,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Cheng,Symptomatic intracranial hemorrhage,24 to 48 hours,Dichotomous,events_control,Dichotomous,5,5,5,5,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Cheng,Any intracranial hemorrhage,24 to 48 hours,Dichotomous,n_intervention,Dichotomous,111,111,111,111,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Cheng,Any intracranial hemorrhage,24 to 48 hours,Dichotomous,events_intervention,Dichotomous,27,27,27,27,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Cheng,Any intracranial hemorrhage,24 to 48 hours,Dichotomous,n_control,Dichotomous,113,113,113,113,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Cheng,Any intracranial hemorrhage,24 to 48 hours,Dichotomous,events_control,Dichotomous,21,21,21,21,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Cheng,Parenchymal hemorrhage type 2,24 to 48 hours,Dichotomous,n_intervention,Dichotomous,111,111,111,111,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Cheng,Parenchymal hemorrhage type 2,24 to 48 hours,Dichotomous,events_intervention,Dichotomous,10,10,10,10,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Cheng,Parenchymal hemorrhage type 2,24 to 48 hours,Dichotomous,n_control,Dichotomous,113,113,113,113,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Cheng,Parenchymal hemorrhage type 2,24 to 48 hours,Dichotomous,events_control,Dichotomous,4,4,4,4,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Cheng,mRS score 5-6,90 days,Dichotomous,n_intervention,Dichotomous,111,111,111,111,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Cheng,mRS score 5-6,90 days,Dichotomous,events_intervention,Dichotomous,22,22,22,22,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Cheng,mRS score 5-6,90 days,Dichotomous,n_control,Dichotomous,113,113,113,113,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Cheng,mRS score 5-6,90 days,Dichotomous,events_control,Dichotomous,20,20,20,20,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Cheng,Systemic hemorrhage,discharge,Dichotomous,n_intervention,Dichotomous,111,111,111,111,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Cheng,Systemic hemorrhage,discharge,Dichotomous,events_intervention,Dichotomous,5,5,5,5,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Cheng,Systemic hemorrhage,discharge,Dichotomous,n_control,Dichotomous,113,113,113,113,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Cheng,Systemic hemorrhage,discharge,Dichotomous,events_control,Dichotomous,7,7,7,7,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Wang,mRS (0-1) at 90 days,90 days,Dichotomous,n_intervention,Dichotomous,40,40,40,40,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Wang,mRS (0-1) at 90 days,90 days,Dichotomous,events_intervention,Dichotomous,21,21,21,21,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Wang,mRS (0-1) at 90 days,90 days,Dichotomous,n_control,Dichotomous,40,40,40,40,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Wang,mRS (0-1) at 90 days,90 days,Dichotomous,events_control,Dichotomous,20,20,20,20,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Wang,mRS (0-2) at 90 days,90 days,Dichotomous,n_intervention,Dichotomous,40,40,40,40,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Wang,mRS (0-2) at 90 days,90 days,Dichotomous,events_intervention,Dichotomous,26,26,26,26,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Wang,mRS (0-2) at 90 days,90 days,Dichotomous,n_control,Dichotomous,40,40,40,40,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Wang,mRS (0-2) at 90 days,90 days,Dichotomous,events_control,Dichotomous,24,24,24,24,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Wang,mRS distribution at 90 days,90 days,Ordinal,n_intervention,Dichotomous,,40,,,Sam N/A,,,PM N/A,Claude N/A,,,Sam N/A,YES,PM N/A,Claude N/A
+Wang,mRS distribution at 90 days,90 days,Ordinal,n_control,Dichotomous,,40,,,Sam N/A,,,PM N/A,Claude N/A,,,Sam N/A,YES,PM N/A,Claude N/A
+Wang,mRS distribution at 90 days,90 days,Ordinal,effect_size,Effect/CI,0.91,0.91,0.91,0.91,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Wang,mRS distribution at 90 days,90 days,Ordinal,ci_lower,Effect/CI,0.42,0.42,0.42,0.42,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Wang,mRS distribution at 90 days,90 days,Ordinal,ci_upper,Effect/CI,1.98,1.98,1.98,1.98,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Wang,Changes in NIHSS at 24 hours (median [IQR]),24 hours,Continuous,n_intervention,Continuous,,40,40,40,NO,NO,NO,YES,YES,YES,40,Sam N/A,YES,YES,YES
+Wang,Changes in NIHSS at 24 hours (median [IQR]),24 hours,Continuous,n_control,Continuous,,40,40,40,NO,NO,NO,YES,YES,YES,40,Sam N/A,YES,YES,YES
+Wang,Changes in NIHSS at 24 hours (median [IQR]),24 hours,Continuous,median_intervention,Continuous,-2,-2,-2,-2,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Wang,Changes in NIHSS at 24 hours (median [IQR]),24 hours,Continuous,iqr_lower_intervention,Continuous,-4,-4,-4,-4,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Wang,Changes in NIHSS at 24 hours (median [IQR]),24 hours,Continuous,iqr_upper_intervention,Continuous,0,0,0,0,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Wang,Changes in NIHSS at 24 hours (median [IQR]),24 hours,Continuous,median_control,Continuous,0,0,0,0,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Wang,Changes in NIHSS at 24 hours (median [IQR]),24 hours,Continuous,iqr_lower_control,Continuous,-2,-2,-2,-2,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Wang,Changes in NIHSS at 24 hours (median [IQR]),24 hours,Continuous,iqr_upper_control,Continuous,0,0,0,0,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Wang,Changes in NIHSS at 24 hours (median [IQR]),24 hours,Continuous,effect_size,Effect/CI,,-1.29,,,Sam N/A,,,PM N/A,Claude N/A,,,Sam N/A,YES,PM N/A,Claude N/A
+Wang,Changes in NIHSS at 24 hours (median [IQR]),24 hours,Continuous,ci_lower,Effect/CI,,-2.71,,,Sam N/A,,,PM N/A,Claude N/A,,,Sam N/A,YES,PM N/A,Claude N/A
+Wang,Changes in NIHSS at 24 hours (median [IQR]),24 hours,Continuous,ci_upper,Effect/CI,,0.12,,,Sam N/A,,,PM N/A,Claude N/A,,,Sam N/A,YES,PM N/A,Claude N/A
+Wang,Changes in NIHSS at 7 days (median [IQR]),7 days,Continuous,n_intervention,Continuous,,40,40,40,NO,NO,NO,YES,YES,YES,40,Sam N/A,YES,YES,YES
+Wang,Changes in NIHSS at 7 days (median [IQR]),7 days,Continuous,n_control,Continuous,,40,40,40,NO,NO,NO,YES,YES,YES,40,Sam N/A,YES,YES,YES
+Wang,Changes in NIHSS at 7 days (median [IQR]),7 days,Continuous,median_intervention,Continuous,-3,-3,-3,-3,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Wang,Changes in NIHSS at 7 days (median [IQR]),7 days,Continuous,iqr_lower_intervention,Continuous,-6,-6,-6,-6,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Wang,Changes in NIHSS at 7 days (median [IQR]),7 days,Continuous,iqr_upper_intervention,Continuous,0,0,0,0,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Wang,Changes in NIHSS at 7 days (median [IQR]),7 days,Continuous,median_control,Continuous,-2,-2,-2,-2,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Wang,Changes in NIHSS at 7 days (median [IQR]),7 days,Continuous,iqr_lower_control,Continuous,-4,-4,-4,-4,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Wang,Changes in NIHSS at 7 days (median [IQR]),7 days,Continuous,iqr_upper_control,Continuous,-1,-1,-1,-1,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Wang,Changes in NIHSS at 7 days (median [IQR]),7 days,Continuous,effect_size,Effect/CI,,-0.47,,,Sam N/A,,,PM N/A,Claude N/A,,,Sam N/A,YES,PM N/A,Claude N/A
+Wang,Changes in NIHSS at 7 days (median [IQR]),7 days,Continuous,ci_lower,Effect/CI,,-2,,,Sam N/A,,,PM N/A,Claude N/A,,,Sam N/A,YES,PM N/A,Claude N/A
+Wang,Changes in NIHSS at 7 days (median [IQR]),7 days,Continuous,ci_upper,Effect/CI,,1.05,,,Sam N/A,,,PM N/A,Claude N/A,,,Sam N/A,YES,PM N/A,Claude N/A
+Wang,ENI (Early neurological improvement),24 hours,Dichotomous,n_intervention,Dichotomous,40,40,40,40,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Wang,ENI (Early neurological improvement),24 hours,Dichotomous,events_intervention,Dichotomous,11,11,11,11,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Wang,ENI (Early neurological improvement),24 hours,Dichotomous,n_control,Dichotomous,40,40,40,40,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Wang,ENI (Early neurological improvement),24 hours,Dichotomous,events_control,Dichotomous,3,3,3,3,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Wang,sICH,48 hours,Dichotomous,n_intervention,Dichotomous,40,40,40,40,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Wang,sICH,48 hours,Dichotomous,events_intervention,Dichotomous,0,0,0,0,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Wang,sICH,48 hours,Dichotomous,n_control,Dichotomous,40,40,40,40,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Wang,sICH,48 hours,Dichotomous,events_control,Dichotomous,0,0,0,0,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Wang,HT within 7 days,7 days,Dichotomous,n_intervention,Dichotomous,40,40,40,40,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Wang,HT within 7 days,7 days,Dichotomous,events_intervention,Dichotomous,3,3,3,3,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Wang,HT within 7 days,7 days,Dichotomous,n_control,Dichotomous,40,40,40,40,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Wang,HT within 7 days,7 days,Dichotomous,events_control,Dichotomous,0,0,0,0,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Wang,HI-1,7 days,Dichotomous,n_intervention,Dichotomous,40,40,40,40,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Wang,HI-1,7 days,Dichotomous,events_intervention,Dichotomous,0,0,0,0,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Wang,HI-1,7 days,Dichotomous,n_control,Dichotomous,40,40,40,40,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Wang,HI-1,7 days,Dichotomous,events_control,Dichotomous,0,0,0,0,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Wang,HI-2,7 days,Dichotomous,n_intervention,Dichotomous,40,40,40,40,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Wang,HI-2,7 days,Dichotomous,events_intervention,Dichotomous,0,0,0,0,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Wang,HI-2,7 days,Dichotomous,n_control,Dichotomous,40,40,40,40,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Wang,HI-2,7 days,Dichotomous,events_control,Dichotomous,0,0,0,0,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Wang,PH-1,48 hours,Dichotomous,n_intervention,Dichotomous,40,40,40,40,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Wang,PH-1,48 hours,Dichotomous,events_intervention,Dichotomous,2,2,2,2,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Wang,PH-1,48 hours,Dichotomous,n_control,Dichotomous,40,40,40,40,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Wang,PH-1,48 hours,Dichotomous,events_control,Dichotomous,0,0,0,0,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Wang,PH-2,48 hours,Dichotomous,n_intervention,Dichotomous,40,40,40,40,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Wang,PH-2,48 hours,Dichotomous,events_intervention,Dichotomous,1,1,1,1,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Wang,PH-2,48 hours,Dichotomous,n_control,Dichotomous,40,40,40,40,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Wang,PH-2,48 hours,Dichotomous,events_control,Dichotomous,0,0,0,0,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Wang,Other bleeding events within 7 days,7 days,Dichotomous,n_intervention,Dichotomous,40,40,40,40,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Wang,Other bleeding events within 7 days,7 days,Dichotomous,events_intervention,Dichotomous,0,0,0,0,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Wang,Other bleeding events within 7 days,7 days,Dichotomous,n_control,Dichotomous,40,40,40,40,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Wang,Other bleeding events within 7 days,7 days,Dichotomous,events_control,Dichotomous,0,0,0,0,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Wang,Death within 14 days,14 days,Dichotomous,n_intervention,Dichotomous,40,40,40,40,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Wang,Death within 14 days,14 days,Dichotomous,events_intervention,Dichotomous,0,0,0,0,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Wang,Death within 14 days,14 days,Dichotomous,n_control,Dichotomous,40,40,40,40,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Wang,Death within 14 days,14 days,Dichotomous,events_control,Dichotomous,0,0,0,0,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Wang,Adverse events,90 days,Dichotomous,n_intervention,Dichotomous,40,40,40,40,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Wang,Adverse events,90 days,Dichotomous,events_intervention,Dichotomous,11,11,11,11,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Wang,Adverse events,90 days,Dichotomous,n_control,Dichotomous,40,40,40,40,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Wang,Adverse events,90 days,Dichotomous,events_control,Dichotomous,4,4,4,4,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Wang,Severe adverse events,90 days,Dichotomous,n_intervention,Dichotomous,40,40,40,40,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Wang,Severe adverse events,90 days,Dichotomous,events_intervention,Dichotomous,7,7,7,7,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Wang,Severe adverse events,90 days,Dichotomous,n_control,Dichotomous,40,40,40,40,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Wang,Severe adverse events,90 days,Dichotomous,events_control,Dichotomous,2,2,2,2,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Xiong,Score of 0 or 1 on the modified Rankin scale,90 days,Dichotomous,n_intervention,Dichotomous,264,264,264,264,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Xiong,Score of 0 or 1 on the modified Rankin scale,90 days,Dichotomous,events_intervention,Dichotomous,87,87,87,87,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Xiong,Score of 0 or 1 on the modified Rankin scale,90 days,Dichotomous,n_control,Dichotomous,252,252,252,252,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Xiong,Score of 0 or 1 on the modified Rankin scale,90 days,Dichotomous,events_control,Dichotomous,61,61,61,61,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Xiong,Score of 0 or 1 on the modified Rankin scale,90 days,Dichotomous,mean_intervention,Continuous,,,0,,,Sam N/A,,Brit N/A,,,,Sam N/A,Brit N/A,PM N/A,Claude N/A
+Xiong,Score of 0 or 1 on the modified Rankin scale,90 days,Dichotomous,sd_intervention,Continuous,,,0,,,Sam N/A,,Brit N/A,,,,Sam N/A,Brit N/A,PM N/A,Claude N/A
+Xiong,Score of 0 or 1 on the modified Rankin scale,90 days,Dichotomous,mean_control,Continuous,,,0,,,Sam N/A,,Brit N/A,,,,Sam N/A,Brit N/A,PM N/A,Claude N/A
+Xiong,Score of 0 or 1 on the modified Rankin scale,90 days,Dichotomous,sd_control,Continuous,,,0,,,Sam N/A,,Brit N/A,,,,Sam N/A,Brit N/A,PM N/A,Claude N/A
+Xiong,Ordinal distribution of scores on the modified Rankin scale,90 days,Ordinal,n_intervention,Dichotomous,,264,,,Sam N/A,,,PM N/A,Claude N/A,,,Sam N/A,YES,PM N/A,Claude N/A
+Xiong,Ordinal distribution of scores on the modified Rankin scale,90 days,Ordinal,n_control,Dichotomous,,252,,,Sam N/A,,,PM N/A,Claude N/A,,,Sam N/A,YES,PM N/A,Claude N/A
+Xiong,Ordinal distribution of scores on the modified Rankin scale,90 days,Ordinal,mean_intervention,Continuous,,,0,,,Sam N/A,,Brit N/A,,,,Sam N/A,Brit N/A,PM N/A,Claude N/A
+Xiong,Ordinal distribution of scores on the modified Rankin scale,90 days,Ordinal,sd_intervention,Continuous,,,0,,,Sam N/A,,Brit N/A,,,,Sam N/A,Brit N/A,PM N/A,Claude N/A
+Xiong,Ordinal distribution of scores on the modified Rankin scale,90 days,Ordinal,mean_control,Continuous,,,0,,,Sam N/A,,Brit N/A,,,,Sam N/A,Brit N/A,PM N/A,Claude N/A
+Xiong,Ordinal distribution of scores on the modified Rankin scale,90 days,Ordinal,sd_control,Continuous,,,0,,,Sam N/A,,Brit N/A,,,,Sam N/A,Brit N/A,PM N/A,Claude N/A
+Xiong,Ordinal distribution of scores on the modified Rankin scale,90 days,Ordinal,effect_size,Effect/CI,1.33,1.33,1.33,1.33,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Xiong,Ordinal distribution of scores on the modified Rankin scale,90 days,Ordinal,ci_lower,Effect/CI,0.98,0.98,0.98,0.98,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Xiong,Ordinal distribution of scores on the modified Rankin scale,90 days,Ordinal,ci_upper,Effect/CI,1.81,1.81,1.81,1.81,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Xiong,"Score of <=2 on the modified Rankin scale, indicating functional independence",90 days,Dichotomous,n_intervention,Dichotomous,264,264,264,264,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Xiong,"Score of <=2 on the modified Rankin scale, indicating functional independence",90 days,Dichotomous,events_intervention,Dichotomous,115,115,115,115,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Xiong,"Score of <=2 on the modified Rankin scale, indicating functional independence",90 days,Dichotomous,n_control,Dichotomous,252,252,252,252,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Xiong,"Score of <=2 on the modified Rankin scale, indicating functional independence",90 days,Dichotomous,events_control,Dichotomous,84,84,84,84,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Xiong,"Score of <=2 on the modified Rankin scale, indicating functional independence",90 days,Dichotomous,mean_intervention,Continuous,,,0,,,Sam N/A,,Brit N/A,,,,Sam N/A,Brit N/A,PM N/A,Claude N/A
+Xiong,"Score of <=2 on the modified Rankin scale, indicating functional independence",90 days,Dichotomous,sd_intervention,Continuous,,,0,,,Sam N/A,,Brit N/A,,,,Sam N/A,Brit N/A,PM N/A,Claude N/A
+Xiong,"Score of <=2 on the modified Rankin scale, indicating functional independence",90 days,Dichotomous,mean_control,Continuous,,,0,,,Sam N/A,,Brit N/A,,,,Sam N/A,Brit N/A,PM N/A,Claude N/A
+Xiong,"Score of <=2 on the modified Rankin scale, indicating functional independence",90 days,Dichotomous,sd_control,Continuous,,,0,,,Sam N/A,,Brit N/A,,,,Sam N/A,Brit N/A,PM N/A,Claude N/A
+Xiong,Major neurologic improvement,72 hours,Dichotomous,n_intervention,Dichotomous,250,250,250,250,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Xiong,Major neurologic improvement,72 hours,Dichotomous,events_intervention,Dichotomous,40,40,40,40,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Xiong,Major neurologic improvement,72 hours,Dichotomous,n_control,Dichotomous,249,249,249,249,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Xiong,Major neurologic improvement,72 hours,Dichotomous,events_control,Dichotomous,15,15,15,15,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Xiong,Major neurologic improvement,72 hours,Dichotomous,mean_intervention,Continuous,,,0,,,Sam N/A,,Brit N/A,,,,Sam N/A,Brit N/A,PM N/A,Claude N/A
+Xiong,Major neurologic improvement,72 hours,Dichotomous,sd_intervention,Continuous,,,0,,,Sam N/A,,Brit N/A,,,,Sam N/A,Brit N/A,PM N/A,Claude N/A
+Xiong,Major neurologic improvement,72 hours,Dichotomous,mean_control,Continuous,,,0,,,Sam N/A,,Brit N/A,,,,Sam N/A,Brit N/A,PM N/A,Claude N/A
+Xiong,Major neurologic improvement,72 hours,Dichotomous,sd_control,Continuous,,,0,,,Sam N/A,,Brit N/A,,,,Sam N/A,Brit N/A,PM N/A,Claude N/A
+Xiong,Reperfusion,24 hours,Dichotomous,n_intervention,Dichotomous,239,239,239,239,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Xiong,Reperfusion,24 hours,Dichotomous,events_intervention,Dichotomous,48,48,48,48,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Xiong,Reperfusion,24 hours,Dichotomous,n_control,Dichotomous,229,229,229,229,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Xiong,Reperfusion,24 hours,Dichotomous,events_control,Dichotomous,27,27,27,27,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Xiong,Reperfusion,24 hours,Dichotomous,mean_intervention,Continuous,,,0,,,Sam N/A,,Brit N/A,,,,Sam N/A,Brit N/A,PM N/A,Claude N/A
+Xiong,Reperfusion,24 hours,Dichotomous,sd_intervention,Continuous,,,0,,,Sam N/A,,Brit N/A,,,,Sam N/A,Brit N/A,PM N/A,Claude N/A
+Xiong,Reperfusion,24 hours,Dichotomous,mean_control,Continuous,,,0,,,Sam N/A,,Brit N/A,,,,Sam N/A,Brit N/A,PM N/A,Claude N/A
+Xiong,Reperfusion,24 hours,Dichotomous,sd_control,Continuous,,,0,,,Sam N/A,,Brit N/A,,,,Sam N/A,Brit N/A,PM N/A,Claude N/A
+Xiong,Change in the NIHSS score (median [IQR]),7 days,Continuous,n_intervention,Continuous,,264,264,264,NO,NO,NO,YES,YES,YES,264,Sam N/A,YES,YES,YES
+Xiong,Change in the NIHSS score (median [IQR]),7 days,Continuous,n_control,Continuous,,252,252,252,NO,NO,NO,YES,YES,YES,252,Sam N/A,YES,YES,YES
+Xiong,Change in the NIHSS score (median [IQR]),7 days,Continuous,mean_intervention,Continuous,,,0,,,Sam N/A,,Brit N/A,,,,Sam N/A,Brit N/A,PM N/A,Claude N/A
+Xiong,Change in the NIHSS score (median [IQR]),7 days,Continuous,sd_intervention,Continuous,,,0,,,Sam N/A,,Brit N/A,,,,Sam N/A,Brit N/A,PM N/A,Claude N/A
+Xiong,Change in the NIHSS score (median [IQR]),7 days,Continuous,median_intervention,Continuous,-4,-4,-4,-4,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Xiong,Change in the NIHSS score (median [IQR]),7 days,Continuous,iqr_lower_intervention,Continuous,-6,-6,-6,-6,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Xiong,Change in the NIHSS score (median [IQR]),7 days,Continuous,iqr_upper_intervention,Continuous,-1,-1,-1,-1,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Xiong,Change in the NIHSS score (median [IQR]),7 days,Continuous,mean_control,Continuous,,,0,,,Sam N/A,,Brit N/A,,,,Sam N/A,Brit N/A,PM N/A,Claude N/A
+Xiong,Change in the NIHSS score (median [IQR]),7 days,Continuous,sd_control,Continuous,,,0,,,Sam N/A,,Brit N/A,,,,Sam N/A,Brit N/A,PM N/A,Claude N/A
+Xiong,Change in the NIHSS score (median [IQR]),7 days,Continuous,median_control,Continuous,-2,-2,-2,-2,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Xiong,Change in the NIHSS score (median [IQR]),7 days,Continuous,iqr_lower_control,Continuous,-5,-5,-5,-5,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Xiong,Change in the NIHSS score (median [IQR]),7 days,Continuous,iqr_upper_control,Continuous,0,0,0,0,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Xiong,Change in the NIHSS score (median [IQR]),7 days,Continuous,effect_size,Effect/CI,,-1.47,,,Sam N/A,,,PM N/A,Claude N/A,,,Sam N/A,YES,PM N/A,Claude N/A
+Xiong,Change in the NIHSS score (median [IQR]),7 days,Continuous,ci_lower,Effect/CI,,-2.3,,,Sam N/A,,,PM N/A,Claude N/A,,,Sam N/A,YES,PM N/A,Claude N/A
+Xiong,Change in the NIHSS score (median [IQR]),7 days,Continuous,ci_upper,Effect/CI,,-0.64,,,Sam N/A,,,PM N/A,Claude N/A,,,Sam N/A,YES,PM N/A,Claude N/A
+Xiong,Symptomatic intracranial hemorrhage within 36 hr after randomization,36 hours,Dichotomous,n_intervention,Dichotomous,264,264,264,264,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Xiong,Symptomatic intracranial hemorrhage within 36 hr after randomization,36 hours,Dichotomous,events_intervention,Dichotomous,8,8,8,8,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Xiong,Symptomatic intracranial hemorrhage within 36 hr after randomization,36 hours,Dichotomous,n_control,Dichotomous,252,252,252,252,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Xiong,Symptomatic intracranial hemorrhage within 36 hr after randomization,36 hours,Dichotomous,events_control,Dichotomous,2,2,2,2,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Xiong,Symptomatic intracranial hemorrhage within 36 hr after randomization,36 hours,Dichotomous,mean_intervention,Continuous,,,0,,,Sam N/A,,Brit N/A,,,,Sam N/A,Brit N/A,PM N/A,Claude N/A
+Xiong,Symptomatic intracranial hemorrhage within 36 hr after randomization,36 hours,Dichotomous,sd_intervention,Continuous,,,0,,,Sam N/A,,Brit N/A,,,,Sam N/A,Brit N/A,PM N/A,Claude N/A
+Xiong,Symptomatic intracranial hemorrhage within 36 hr after randomization,36 hours,Dichotomous,mean_control,Continuous,,,0,,,Sam N/A,,Brit N/A,,,,Sam N/A,Brit N/A,PM N/A,Claude N/A
+Xiong,Symptomatic intracranial hemorrhage within 36 hr after randomization,36 hours,Dichotomous,sd_control,Continuous,,,0,,,Sam N/A,,Brit N/A,,,,Sam N/A,Brit N/A,PM N/A,Claude N/A
+Xiong,Death within 90 days,90 days,Dichotomous,n_intervention,Dichotomous,264,264,264,264,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Xiong,Death within 90 days,90 days,Dichotomous,events_intervention,Dichotomous,35,35,35,35,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Xiong,Death within 90 days,90 days,Dichotomous,n_control,Dichotomous,252,252,252,252,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Xiong,Death within 90 days,90 days,Dichotomous,events_control,Dichotomous,33,33,33,33,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Xiong,Death within 90 days,90 days,Dichotomous,mean_intervention,Continuous,,,0,,,Sam N/A,,Brit N/A,,,,Sam N/A,Brit N/A,PM N/A,Claude N/A
+Xiong,Death within 90 days,90 days,Dichotomous,sd_intervention,Continuous,,,0,,,Sam N/A,,Brit N/A,,,,Sam N/A,Brit N/A,PM N/A,Claude N/A
+Xiong,Death within 90 days,90 days,Dichotomous,mean_control,Continuous,,,0,,,Sam N/A,,Brit N/A,,,,Sam N/A,Brit N/A,PM N/A,Claude N/A
+Xiong,Death within 90 days,90 days,Dichotomous,sd_control,Continuous,,,0,,,Sam N/A,,Brit N/A,,,,Sam N/A,Brit N/A,PM N/A,Claude N/A
+Xiong,Moderate or severe systemic bleeding within 90 days,90 days,Dichotomous,n_intervention,Dichotomous,264,264,264,264,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Xiong,Moderate or severe systemic bleeding within 90 days,90 days,Dichotomous,events_intervention,Dichotomous,5,5,5,5,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Xiong,Moderate or severe systemic bleeding within 90 days,90 days,Dichotomous,n_control,Dichotomous,252,252,252,252,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Xiong,Moderate or severe systemic bleeding within 90 days,90 days,Dichotomous,events_control,Dichotomous,2,2,2,2,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Xiong,Moderate or severe systemic bleeding within 90 days,90 days,Dichotomous,mean_intervention,Continuous,,,0,,,Sam N/A,,Brit N/A,,,,Sam N/A,Brit N/A,PM N/A,Claude N/A
+Xiong,Moderate or severe systemic bleeding within 90 days,90 days,Dichotomous,sd_intervention,Continuous,,,0,,,Sam N/A,,Brit N/A,,,,Sam N/A,Brit N/A,PM N/A,Claude N/A
+Xiong,Moderate or severe systemic bleeding within 90 days,90 days,Dichotomous,mean_control,Continuous,,,0,,,Sam N/A,,Brit N/A,,,,Sam N/A,Brit N/A,PM N/A,Claude N/A
+Xiong,Moderate or severe systemic bleeding within 90 days,90 days,Dichotomous,sd_control,Continuous,,,0,,,Sam N/A,,Brit N/A,,,,Sam N/A,Brit N/A,PM N/A,Claude N/A
+Xiong,Any adverse event,90 days,Dichotomous,n_intervention,Dichotomous,264,264,264,264,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Xiong,Any adverse event,90 days,Dichotomous,events_intervention,Dichotomous,134,134,134,134,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Xiong,Any adverse event,90 days,Dichotomous,n_control,Dichotomous,252,252,252,252,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Xiong,Any adverse event,90 days,Dichotomous,events_control,Dichotomous,129,129,129,129,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Xiong,Any adverse event,90 days,Dichotomous,mean_intervention,Continuous,,,0,,,Sam N/A,,Brit N/A,,,,Sam N/A,Brit N/A,PM N/A,Claude N/A
+Xiong,Any adverse event,90 days,Dichotomous,sd_intervention,Continuous,,,0,,,Sam N/A,,Brit N/A,,,,Sam N/A,Brit N/A,PM N/A,Claude N/A
+Xiong,Any adverse event,90 days,Dichotomous,mean_control,Continuous,,,0,,,Sam N/A,,Brit N/A,,,,Sam N/A,Brit N/A,PM N/A,Claude N/A
+Xiong,Any adverse event,90 days,Dichotomous,sd_control,Continuous,,,0,,,Sam N/A,,Brit N/A,,,,Sam N/A,Brit N/A,PM N/A,Claude N/A
+Xiong,Any serious adverse event,90 days,Dichotomous,n_intervention,Dichotomous,264,264,264,264,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Xiong,Any serious adverse event,90 days,Dichotomous,events_intervention,Dichotomous,54,53,53,53,NO,NO,NO,YES,YES,YES,53,NO,YES,YES,YES
+Xiong,Any serious adverse event,90 days,Dichotomous,n_control,Dichotomous,252,252,252,252,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Xiong,Any serious adverse event,90 days,Dichotomous,events_control,Dichotomous,43,43,43,43,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Xiong,Any serious adverse event,90 days,Dichotomous,mean_intervention,Continuous,,,0,,,Sam N/A,,Brit N/A,,,,Sam N/A,Brit N/A,PM N/A,Claude N/A
+Xiong,Any serious adverse event,90 days,Dichotomous,sd_intervention,Continuous,,,0,,,Sam N/A,,Brit N/A,,,,Sam N/A,Brit N/A,PM N/A,Claude N/A
+Xiong,Any serious adverse event,90 days,Dichotomous,mean_control,Continuous,,,0,,,Sam N/A,,Brit N/A,,,,Sam N/A,Brit N/A,PM N/A,Claude N/A
+Xiong,Any serious adverse event,90 days,Dichotomous,sd_control,Continuous,,,0,,,Sam N/A,,Brit N/A,,,,Sam N/A,Brit N/A,PM N/A,Claude N/A
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: Age <80 yr),90 days,Dichotomous,n_intervention,Dichotomous,236,236,236,236,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: Age <80 yr),90 days,Dichotomous,events_intervention,Dichotomous,81,81,81,81,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: Age <80 yr),90 days,Dichotomous,n_control,Dichotomous,213,213,213,213,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: Age <80 yr),90 days,Dichotomous,events_control,Dichotomous,57,57,57,57,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: Age <80 yr),90 days,Dichotomous,mean_intervention,Continuous,,,0,,,Sam N/A,,Brit N/A,,,,Sam N/A,Brit N/A,PM N/A,Claude N/A
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: Age <80 yr),90 days,Dichotomous,sd_intervention,Continuous,,,0,,,Sam N/A,,Brit N/A,,,,Sam N/A,Brit N/A,PM N/A,Claude N/A
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: Age <80 yr),90 days,Dichotomous,mean_control,Continuous,,,0,,,Sam N/A,,Brit N/A,,,,Sam N/A,Brit N/A,PM N/A,Claude N/A
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: Age <80 yr),90 days,Dichotomous,sd_control,Continuous,,,0,,,Sam N/A,,Brit N/A,,,,Sam N/A,Brit N/A,PM N/A,Claude N/A
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: Age >=80 yr),90 days,Dichotomous,n_intervention,Dichotomous,28,28,28,28,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: Age >=80 yr),90 days,Dichotomous,events_intervention,Dichotomous,6,6,6,6,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: Age >=80 yr),90 days,Dichotomous,n_control,Dichotomous,39,39,39,39,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: Age >=80 yr),90 days,Dichotomous,events_control,Dichotomous,4,4,4,4,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: Age >=80 yr),90 days,Dichotomous,mean_intervention,Continuous,,,0,,,Sam N/A,,Brit N/A,,,,Sam N/A,Brit N/A,PM N/A,Claude N/A
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: Age >=80 yr),90 days,Dichotomous,sd_intervention,Continuous,,,0,,,Sam N/A,,Brit N/A,,,,Sam N/A,Brit N/A,PM N/A,Claude N/A
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: Age >=80 yr),90 days,Dichotomous,mean_control,Continuous,,,0,,,Sam N/A,,Brit N/A,,,,Sam N/A,Brit N/A,PM N/A,Claude N/A
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: Age >=80 yr),90 days,Dichotomous,sd_control,Continuous,,,0,,,Sam N/A,,Brit N/A,,,,Sam N/A,Brit N/A,PM N/A,Claude N/A
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: Time >4.5 to 9.0 hr),90 days,Dichotomous,n_intervention,Dichotomous,59,59,59,59,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: Time >4.5 to 9.0 hr),90 days,Dichotomous,events_intervention,Dichotomous,20,20,20,20,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: Time >4.5 to 9.0 hr),90 days,Dichotomous,n_control,Dichotomous,54,54,54,54,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: Time >4.5 to 9.0 hr),90 days,Dichotomous,events_control,Dichotomous,13,13,13,13,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: Time >4.5 to 9.0 hr),90 days,Dichotomous,mean_intervention,Continuous,,,0,,,Sam N/A,,Brit N/A,,,,Sam N/A,Brit N/A,PM N/A,Claude N/A
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: Time >4.5 to 9.0 hr),90 days,Dichotomous,sd_intervention,Continuous,,,0,,,Sam N/A,,Brit N/A,,,,Sam N/A,Brit N/A,PM N/A,Claude N/A
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: Time >4.5 to 9.0 hr),90 days,Dichotomous,mean_control,Continuous,,,0,,,Sam N/A,,Brit N/A,,,,Sam N/A,Brit N/A,PM N/A,Claude N/A
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: Time >4.5 to 9.0 hr),90 days,Dichotomous,sd_control,Continuous,,,0,,,Sam N/A,,Brit N/A,,,,Sam N/A,Brit N/A,PM N/A,Claude N/A
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: Time >9.0 to 24.0 hr),90 days,Dichotomous,n_intervention,Dichotomous,104,104,104,104,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: Time >9.0 to 24.0 hr),90 days,Dichotomous,events_intervention,Dichotomous,38,38,38,38,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: Time >9.0 to 24.0 hr),90 days,Dichotomous,n_control,Dichotomous,114,114,114,114,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: Time >9.0 to 24.0 hr),90 days,Dichotomous,events_control,Dichotomous,29,29,29,29,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: Time >9.0 to 24.0 hr),90 days,Dichotomous,mean_intervention,Continuous,,,0,,,Sam N/A,,Brit N/A,,,,Sam N/A,Brit N/A,PM N/A,Claude N/A
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: Time >9.0 to 24.0 hr),90 days,Dichotomous,sd_intervention,Continuous,,,0,,,Sam N/A,,Brit N/A,,,,Sam N/A,Brit N/A,PM N/A,Claude N/A
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: Time >9.0 to 24.0 hr),90 days,Dichotomous,mean_control,Continuous,,,0,,,Sam N/A,,Brit N/A,,,,Sam N/A,Brit N/A,PM N/A,Claude N/A
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: Time >9.0 to 24.0 hr),90 days,Dichotomous,sd_control,Continuous,,,0,,,Sam N/A,,Brit N/A,,,,Sam N/A,Brit N/A,PM N/A,Claude N/A
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: Stroke on awakening),90 days,Dichotomous,n_intervention,Dichotomous,101,101,101,101,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: Stroke on awakening),90 days,Dichotomous,events_intervention,Dichotomous,29,29,29,29,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: Stroke on awakening),90 days,Dichotomous,n_control,Dichotomous,84,84,84,84,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: Stroke on awakening),90 days,Dichotomous,events_control,Dichotomous,19,19,19,19,YES,YES,YES,YES,YES,YES,,YES,YES,YES,YES
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: Stroke on awakening),90 days,Dichotomous,mean_intervention,Continuous,,,0,,,Sam N/A,,Brit N/A,,,,Sam N/A,Brit N/A,PM N/A,Claude N/A
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: Stroke on awakening),90 days,Dichotomous,sd_intervention,Continuous,,,0,,,Sam N/A,,Brit N/A,,,,Sam N/A,Brit N/A,PM N/A,Claude N/A
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: Stroke on awakening),90 days,Dichotomous,mean_control,Continuous,,,0,,,Sam N/A,,Brit N/A,,,,Sam N/A,Brit N/A,PM N/A,Claude N/A
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: Stroke on awakening),90 days,Dichotomous,sd_control,Continuous,,,0,,,Sam N/A,,Brit N/A,,,,Sam N/A,Brit N/A,PM N/A,Claude N/A
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: Male),90 days,Dichotomous,n_intervention,Dichotomous,,183,,,Sam N/A,,,PM N/A,Claude N/A,,,Sam N/A,YES,PM N/A,Claude N/A
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: Male),90 days,Dichotomous,events_intervention,Dichotomous,,67,,,Sam N/A,,,PM N/A,Claude N/A,,,Sam N/A,YES,PM N/A,Claude N/A
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: Male),90 days,Dichotomous,n_control,Dichotomous,,167,,,Sam N/A,,,PM N/A,Claude N/A,,,Sam N/A,YES,PM N/A,Claude N/A
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: Male),90 days,Dichotomous,events_control,Dichotomous,,43,,,Sam N/A,,,PM N/A,Claude N/A,,,Sam N/A,YES,PM N/A,Claude N/A
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: Female),90 days,Dichotomous,n_intervention,Dichotomous,,81,,,Sam N/A,,,PM N/A,Claude N/A,,,Sam N/A,YES,PM N/A,Claude N/A
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: Female),90 days,Dichotomous,events_intervention,Dichotomous,,20,,,Sam N/A,,,PM N/A,Claude N/A,,,Sam N/A,YES,PM N/A,Claude N/A
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: Female),90 days,Dichotomous,n_control,Dichotomous,,85,,,Sam N/A,,,PM N/A,Claude N/A,,,Sam N/A,YES,PM N/A,Claude N/A
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: Female),90 days,Dichotomous,events_control,Dichotomous,,18,,,Sam N/A,,,PM N/A,Claude N/A,,,Sam N/A,YES,PM N/A,Claude N/A
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: NIHSS less than 10),90 days,Dichotomous,n_intervention,Dichotomous,,113,,,Sam N/A,,,PM N/A,Claude N/A,,,Sam N/A,YES,PM N/A,Claude N/A
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: NIHSS less than 10),90 days,Dichotomous,events_intervention,Dichotomous,,55,,,Sam N/A,,,PM N/A,Claude N/A,,,Sam N/A,YES,PM N/A,Claude N/A
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: NIHSS less than 10),90 days,Dichotomous,n_control,Dichotomous,,107,,,Sam N/A,,,PM N/A,Claude N/A,,,Sam N/A,YES,PM N/A,Claude N/A
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: NIHSS less than 10),90 days,Dichotomous,events_control,Dichotomous,,41,,,Sam N/A,,,PM N/A,Claude N/A,,,Sam N/A,YES,PM N/A,Claude N/A
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: NIHSS 10 or greater),90 days,Dichotomous,n_intervention,Dichotomous,,151,,,Sam N/A,,,PM N/A,Claude N/A,,,Sam N/A,YES,PM N/A,Claude N/A
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: NIHSS 10 or greater),90 days,Dichotomous,events_intervention,Dichotomous,,32,,,Sam N/A,,,PM N/A,Claude N/A,,,Sam N/A,YES,PM N/A,Claude N/A
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: NIHSS 10 or greater),90 days,Dichotomous,n_control,Dichotomous,,145,,,Sam N/A,,,PM N/A,Claude N/A,,,Sam N/A,YES,PM N/A,Claude N/A
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: NIHSS 10 or greater),90 days,Dichotomous,events_control,Dichotomous,,20,,,Sam N/A,,,PM N/A,Claude N/A,,,Sam N/A,YES,PM N/A,Claude N/A
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: internal carotid artery occlusion),90 days,Dichotomous,n_intervention,Dichotomous,,87,,,Sam N/A,,,PM N/A,Claude N/A,,,Sam N/A,YES,PM N/A,Claude N/A
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: internal carotid artery occlusion),90 days,Dichotomous,events_intervention,Dichotomous,,25,,,Sam N/A,,,PM N/A,Claude N/A,,,Sam N/A,YES,PM N/A,Claude N/A
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: internal carotid artery occlusion),90 days,Dichotomous,n_control,Dichotomous,,84,,,Sam N/A,,,PM N/A,Claude N/A,,,Sam N/A,YES,PM N/A,Claude N/A
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: internal carotid artery occlusion),90 days,Dichotomous,events_control,Dichotomous,,23,,,Sam N/A,,,PM N/A,Claude N/A,,,Sam N/A,YES,PM N/A,Claude N/A
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: M1 segment of middle cerebral artery occlusion),90 days,Dichotomous,n_intervention,Dichotomous,,119,,,Sam N/A,,,PM N/A,Claude N/A,,,Sam N/A,YES,PM N/A,Claude N/A
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: M1 segment of middle cerebral artery occlusion),90 days,Dichotomous,events_intervention,Dichotomous,,39,,,Sam N/A,,,PM N/A,Claude N/A,,,Sam N/A,YES,PM N/A,Claude N/A
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: M1 segment of middle cerebral artery occlusion),90 days,Dichotomous,n_control,Dichotomous,,130,,,Sam N/A,,,PM N/A,Claude N/A,,,Sam N/A,YES,PM N/A,Claude N/A
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: M1 segment of middle cerebral artery occlusion),90 days,Dichotomous,events_control,Dichotomous,,30,,,Sam N/A,,,PM N/A,Claude N/A,,,Sam N/A,YES,PM N/A,Claude N/A
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: M2 segment of middle cerebral artery occlusion),90 days,Dichotomous,n_intervention,Dichotomous,,58,,,Sam N/A,,,PM N/A,Claude N/A,,,Sam N/A,YES,PM N/A,Claude N/A
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: M2 segment of middle cerebral artery occlusion),90 days,Dichotomous,events_intervention,Dichotomous,,23,,,Sam N/A,,,PM N/A,Claude N/A,,,Sam N/A,YES,PM N/A,Claude N/A
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: M2 segment of middle cerebral artery occlusion),90 days,Dichotomous,n_control,Dichotomous,,38,,,Sam N/A,,,PM N/A,Claude N/A,,,Sam N/A,YES,PM N/A,Claude N/A
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: M2 segment of middle cerebral artery occlusion),90 days,Dichotomous,events_control,Dichotomous,,8,,,Sam N/A,,,PM N/A,Claude N/A,,,Sam N/A,YES,PM N/A,Claude N/A

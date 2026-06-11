@@ -1,0 +1,1619 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PubMetric Extraction Report — Project uNKVWyy0f1czz237ATb5</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      line-height: 1.6;
+      color: #1a1a1a;
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 32px 24px;
+      background: #fff;
+    }
+    h1 { font-size: 22px; margin-bottom: 4px; }
+    h2 { font-size: 17px; margin: 0 0 8px 0; color: #111; }
+    hr { border: none; border-top: 2px solid #e5e7eb; margin: 40px 0; }
+
+    .report-meta { color: #666; font-size: 13px; margin-bottom: 40px; }
+    .report-meta span { margin-right: 20px; }
+    .toc { background: #f9fafb; border: 1px solid #e5e7eb; border-radius: 8px;
+           padding: 20px 24px; margin-bottom: 40px; }
+    .toc h3 { margin: 0 0 12px 0; font-size: 14px; text-transform: uppercase;
+               letter-spacing: 0.05em; color: #666; }
+    .toc ol { margin: 0; padding-left: 20px; columns: 2; column-gap: 40px; }
+    .toc li { font-size: 13px; margin-bottom: 4px; }
+    .toc a { color: #2563eb; text-decoration: none; }
+    .toc a:hover { text-decoration: underline; }
+
+    .study { margin-bottom: 8px; }
+    .study.excluded { opacity: 0.6; }
+    .study-header { background: #f3f4f6; border-radius: 8px; padding: 16px 20px; margin-bottom: 16px; }
+    .study-meta { font-size: 13px; color: #555; margin-top: 6px; display: flex;
+                   flex-wrap: wrap; gap: 8px; align-items: baseline; }
+    .study-title { font-style: italic; color: #444; }
+
+    .excluded-badge {
+      display: inline-block; background: #fee2e2; color: #b91c1c;
+      font-size: 11px; font-weight: 700; padding: 2px 8px; border-radius: 4px;
+      text-transform: uppercase; letter-spacing: 0.05em; margin-left: 8px;
+    }
+
+    .tag {
+      display: inline-block; background: #e0e7ff; color: #3730a3;
+      font-size: 11px; font-weight: 600; padding: 2px 8px; border-radius: 4px;
+    }
+    .tag.primary { background: #d1fae5; color: #065f46; }
+
+    .rob-section { margin-top: 10px; font-size: 12px; }
+    .rob-badge { display: inline-block; font-size: 11px; font-weight: 600;
+                 padding: 1px 7px; border-radius: 4px; margin: 0 3px; }
+    .rob-low  { background: #d1fae5; color: #065f46; }
+    .rob-some { background: #fef3c7; color: #92400e; }
+    .rob-high { background: #fee2e2; color: #b91c1c; }
+
+    .outcome {
+      border: 1px solid #e5e7eb; border-radius: 8px; padding: 16px 20px;
+      margin-bottom: 16px; background: #fff;
+    }
+    .outcome-header {
+      display: flex; align-items: baseline; flex-wrap: wrap; gap: 8px;
+      margin-bottom: 12px;
+    }
+    .outcome-num {
+      display: inline-flex; align-items: center; justify-content: center;
+      width: 24px; height: 24px; border-radius: 50%; background: #2563eb;
+      color: #fff; font-size: 12px; font-weight: 700; flex-shrink: 0;
+    }
+    .outcome-name { font-weight: 600; font-size: 15px; }
+    .outcome-meta { display: flex; flex-wrap: wrap; gap: 6px; }
+
+    .data-table {
+      border-collapse: collapse; font-size: 13px; margin-bottom: 14px;
+      min-width: 320px;
+    }
+    .data-table th {
+      background: #f3f4f6; text-align: left; padding: 6px 14px;
+      font-weight: 600; border-bottom: 2px solid #d1d5db;
+    }
+    .data-table td {
+      padding: 5px 14px; border-bottom: 1px solid #e5e7eb;
+    }
+    .data-table tr:last-child td { border-bottom: none; }
+    .data-table td:first-child { font-weight: 600; color: #555; width: 160px; }
+
+    .val { color: #111; }
+    .empty { color: #9ca3af; }
+
+    blockquote.source-quote {
+      border-left: 4px solid #2563eb; margin: 12px 0 0 0; padding: 10px 16px;
+      background: #eff6ff; border-radius: 0 6px 6px 0;
+      font-size: 13px; color: #1e3a5f; line-height: 1.6;
+    }
+    .quote-label {
+      display: block; font-size: 10px; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 0.08em; color: #2563eb; margin-bottom: 6px;
+    }
+    .no-quote { font-size: 12px; color: #9ca3af; font-style: italic; margin: 8px 0 0; }
+    .no-outcomes { font-size: 13px; color: #9ca3af; font-style: italic; }
+
+    @media print {
+      body { max-width: 100%; padding: 0; font-size: 12px; }
+      .toc { display: none; }
+      section.study { page-break-inside: avoid; }
+      .outcome { page-break-inside: avoid; }
+      hr { border-top-color: #ccc; }
+    }
+  </style>
+</head>
+<body>
+
+<h1>PubMetric Extraction Report</h1>
+<div class="report-meta">
+  <span>Project: <strong>uNKVWyy0f1czz237ATb5</strong></span>
+  <span>Studies included: <strong>4</strong></span>
+  <span>Studies excluded: <strong>0</strong></span>
+  <span>Total outcomes: <strong>56</strong></span>
+  <span>Generated: <strong>5/9/2026, 1:47:49 PM</strong></span>
+</div>
+
+<div class="toc">
+  <h3>Studies</h3>
+  <ol>
+    <li><a href="#study-1">Albers</a></li>
+    <li><a href="#study-2">Cheng</a></li>
+    <li><a href="#study-3">Wang</a></li>
+    <li><a href="#study-4">Xiong</a></li>
+  </ol>
+</div>
+
+<div id="study-1">
+    <section class="study ">
+      <div class="study-header">
+        <h2>1. Albers </h2>
+        <div class="study-meta">
+          <span>2024</span>
+          <span class="tag">RCT</span>
+          <span class="study-title">Tenecteplase for Stroke at 4.5 to 24 Hours with Perfusion-Imaging Selection</span>
+          <span><a href="https://doi.org/10.1056/NEJMoa2310392" target="_blank">10.1056/NEJMoa2310392</a></span>
+        </div>
+        <div class="rob-section">
+      <strong>Risk of Bias (Cochrane RCT):</strong>
+      Randomization <span class="rob-badge rob-low">Low</span>
+      Deviations <span class="rob-badge rob-low">Low</span>
+      Missing data <span class="rob-badge rob-low">Low</span>
+      Measurement <span class="rob-badge rob-low">Low</span>
+      Reporting <span class="rob-badge rob-low">Low</span>
+      Overall <span class="rob-badge rob-low">Low</span>
+    </div>
+      </div>
+      <div class="outcomes-list">
+        
+    <div class="outcome">
+      <div class="outcome-header">
+        <span class="outcome-num">1</span>
+        <span class="outcome-name">Median score on the modified Rankin scale at 90 days (median [IQR])</span>
+        <span class="outcome-meta">
+          <span class="tag">Continuous</span>
+          <span class="tag primary">Primary</span>
+          <span class="tag">90 days</span>
+          <span class="tag">points</span>
+        </span>
+      </div>
+      
+    <table class="data-table">
+      <thead><tr><th></th><th>Intervention</th><th>Control</th></tr></thead>
+      <tbody><tr><td>N</td>
+    <td><span class="val">228</span></td>
+    <td><span class="val">230</span></td></tr>
+    <tr><td>Median</td>
+      <td><span class="val">3</span></td>
+      <td><span class="val">3</span></td></tr>
+    <tr><td>IQR</td>
+      <td><span class="val">1</span> – <span class="val">5</span></td>
+      <td><span class="val">1</span> – <span class="val">4</span></td></tr></tbody>
+    </table>
+      <blockquote class="source-quote"><span class="quote-label">Source quote</span>Table 2. Clinical, Imaging, and Safety Outcomes. Primary efficacy outcome: Median score on the modified Rankin scale at 90 days (IQR). Tenecteplase (N=228): 3 (1–5). Placebo (N=230): 3 (1–4). ... The median modified Rankin scale score (primary outcome) was 3 in each group (Fig. 1). The paper originally reported median and IQR.</blockquote>
+    </div>
+    <div class="outcome">
+      <div class="outcome-header">
+        <span class="outcome-num">2</span>
+        <span class="outcome-name">Distribution of scores on the modified Rankin scale at 90 days</span>
+        <span class="outcome-meta">
+          <span class="tag">Ordinal</span>
+          <span class="tag primary">Primary</span>
+          <span class="tag">90 days</span>
+          <span class="tag">OR</span>
+        </span>
+      </div>
+      
+      <blockquote class="source-quote"><span class="quote-label">Source quote</span>The adjusted common odds ratio for the distribution of scores on the modified Rankin scale at 90 days for tenecteplase as compared with placebo was 1.13 (95% confidence interval, 0.82 to 1.57; P=0.45).</blockquote>
+    </div>
+    <div class="outcome">
+      <div class="outcome-header">
+        <span class="outcome-num">3</span>
+        <span class="outcome-name">Functional independence at 90 days</span>
+        <span class="outcome-meta">
+          <span class="tag">Dichotomous</span>
+          
+          <span class="tag">90 days</span>
+          <span class="tag">participants</span>
+        </span>
+      </div>
+      
+    <table class="data-table">
+      <thead><tr><th></th><th>Intervention</th><th>Control</th></tr></thead>
+      <tbody>
+        <tr><td>N</td>
+          <td><span class="val">226</span></td>
+          <td><span class="val">229</span></td></tr>
+        <tr><td>Events</td>
+          <td><span class="val">104</span></td>
+          <td><span class="val">97</span></td></tr>
+      </tbody>
+    </table>
+      <blockquote class="source-quote"><span class="quote-label">Source quote</span>Table 2... Functional independence at 90 days — no./total no. (%) | Tenecteplase: 104/226 (46.0) | Placebo: 97/229 (42.4)</blockquote>
+    </div>
+    <div class="outcome">
+      <div class="outcome-header">
+        <span class="outcome-num">4</span>
+        <span class="outcome-name">Recanalization at 24 hr</span>
+        <span class="outcome-meta">
+          <span class="tag">Dichotomous</span>
+          
+          <span class="tag">24 hours</span>
+          <span class="tag">participants</span>
+        </span>
+      </div>
+      
+    <table class="data-table">
+      <thead><tr><th></th><th>Intervention</th><th>Control</th></tr></thead>
+      <tbody>
+        <tr><td>N</td>
+          <td><span class="val">193</span></td>
+          <td><span class="val">194</span></td></tr>
+        <tr><td>Events</td>
+          <td><span class="val">148</span></td>
+          <td><span class="val">124</span></td></tr>
+      </tbody>
+    </table>
+      <blockquote class="source-quote"><span class="quote-label">Source quote</span>Table 2... Recanalization at 24 hr — no./total no. (%) | Tenecteplase: 148/193 (76.7) | Placebo: 124/194 (63.9)</blockquote>
+    </div>
+    <div class="outcome">
+      <div class="outcome-header">
+        <span class="outcome-num">5</span>
+        <span class="outcome-name">Reperfusion at 24 hr</span>
+        <span class="outcome-meta">
+          <span class="tag">Dichotomous</span>
+          
+          <span class="tag">24 hours</span>
+          <span class="tag">participants</span>
+        </span>
+      </div>
+      
+    <table class="data-table">
+      <thead><tr><th></th><th>Intervention</th><th>Control</th></tr></thead>
+      <tbody>
+        <tr><td>N</td>
+          <td><span class="val">174</span></td>
+          <td><span class="val">182</span></td></tr>
+        <tr><td>Events</td>
+          <td><span class="val">99</span></td>
+          <td><span class="val">105</span></td></tr>
+      </tbody>
+    </table>
+      <blockquote class="source-quote"><span class="quote-label">Source quote</span>Table 2... Reperfusion at 24 hr — no./total no. (%) | Tenecteplase: 99/174 (56.9) | Placebo: 105/182 (57.7)</blockquote>
+    </div>
+    <div class="outcome">
+      <div class="outcome-header">
+        <span class="outcome-num">6</span>
+        <span class="outcome-name">Reperfusion at the conclusion of endovascular thrombectomy</span>
+        <span class="outcome-meta">
+          <span class="tag">Dichotomous</span>
+          
+          <span class="tag">Conclusion of procedure</span>
+          <span class="tag">participants</span>
+        </span>
+      </div>
+      
+    <table class="data-table">
+      <thead><tr><th></th><th>Intervention</th><th>Control</th></tr></thead>
+      <tbody>
+        <tr><td>N</td>
+          <td><span class="val">175</span></td>
+          <td><span class="val">178</span></td></tr>
+        <tr><td>Events</td>
+          <td><span class="val">156</span></td>
+          <td><span class="val">152</span></td></tr>
+      </tbody>
+    </table>
+      <blockquote class="source-quote"><span class="quote-label">Source quote</span>Table 2... Reperfusion at the conclusion of endovascular thrombectomy — no./total no. (%) | Tenecteplase: 156/175 (89.1) | Placebo: 152/178 (85.4)</blockquote>
+    </div>
+    <div class="outcome">
+      <div class="outcome-header">
+        <span class="outcome-num">7</span>
+        <span class="outcome-name">Death within 30 days</span>
+        <span class="outcome-meta">
+          <span class="tag">Dichotomous</span>
+          
+          <span class="tag">30 days</span>
+          <span class="tag">participants</span>
+        </span>
+      </div>
+      
+    <table class="data-table">
+      <thead><tr><th></th><th>Intervention</th><th>Control</th></tr></thead>
+      <tbody>
+        <tr><td>N</td>
+          <td><span class="val">218</span></td>
+          <td><span class="val">214</span></td></tr>
+        <tr><td>Events</td>
+          <td><span class="val">32</span></td>
+          <td><span class="val">32</span></td></tr>
+      </tbody>
+    </table>
+      <blockquote class="source-quote"><span class="quote-label">Source quote</span>Table 2... Safety outcomes... Death — no./total no. (%)... Within 30 days | Tenecteplase: 32/218 (14.7) | Placebo: 32/214 (15.0)</blockquote>
+    </div>
+    <div class="outcome">
+      <div class="outcome-header">
+        <span class="outcome-num">8</span>
+        <span class="outcome-name">Death within 90 days</span>
+        <span class="outcome-meta">
+          <span class="tag">Dichotomous</span>
+          
+          <span class="tag">90 days</span>
+          <span class="tag">participants</span>
+        </span>
+      </div>
+      
+    <table class="data-table">
+      <thead><tr><th></th><th>Intervention</th><th>Control</th></tr></thead>
+      <tbody>
+        <tr><td>N</td>
+          <td><span class="val">218</span></td>
+          <td><span class="val">214</span></td></tr>
+        <tr><td>Events</td>
+          <td><span class="val">43</span></td>
+          <td><span class="val">39</span></td></tr>
+      </tbody>
+    </table>
+      <blockquote class="source-quote"><span class="quote-label">Source quote</span>Table 2... Safety outcomes... Death — no./total no. (%)... Within 90 days | Tenecteplase: 43/218 (19.7) | Placebo: 39/214 (18.2)</blockquote>
+    </div>
+    <div class="outcome">
+      <div class="outcome-header">
+        <span class="outcome-num">9</span>
+        <span class="outcome-name">Symptomatic intracranial hemorrhage within 36 hr</span>
+        <span class="outcome-meta">
+          <span class="tag">Dichotomous</span>
+          
+          <span class="tag">36 hours</span>
+          <span class="tag">participants</span>
+        </span>
+      </div>
+      
+    <table class="data-table">
+      <thead><tr><th></th><th>Intervention</th><th>Control</th></tr></thead>
+      <tbody>
+        <tr><td>N</td>
+          <td><span class="val">218</span></td>
+          <td><span class="val">214</span></td></tr>
+        <tr><td>Events</td>
+          <td><span class="val">7</span></td>
+          <td><span class="val">5</span></td></tr>
+      </tbody>
+    </table>
+      <blockquote class="source-quote"><span class="quote-label">Source quote</span>Table 2... Safety outcomes... Symptomatic intracranial hemorrhage within 36 hr — no./total no. (%) | Tenecteplase: 7/218 (3.2) | Placebo: 5/214 (2.3)</blockquote>
+    </div>
+    <div class="outcome">
+      <div class="outcome-header">
+        <span class="outcome-num">10</span>
+        <span class="outcome-name">Parenchymal hematoma within 72 hr - Type 1</span>
+        <span class="outcome-meta">
+          <span class="tag">Dichotomous</span>
+          
+          <span class="tag">72 hours</span>
+          <span class="tag">participants</span>
+        </span>
+      </div>
+      
+    <table class="data-table">
+      <thead><tr><th></th><th>Intervention</th><th>Control</th></tr></thead>
+      <tbody>
+        <tr><td>N</td>
+          <td><span class="val">218</span></td>
+          <td><span class="val">214</span></td></tr>
+        <tr><td>Events</td>
+          <td><span class="val">2</span></td>
+          <td><span class="val">1</span></td></tr>
+      </tbody>
+    </table>
+      <blockquote class="source-quote"><span class="quote-label">Source quote</span>Table 2... Safety outcomes... Parenchymal hematoma within 72 hr — no./total no. (%)... Type 1 | Tenecteplase: 2/218 (0.9) | Placebo: 1/214 (0.5)</blockquote>
+    </div>
+    <div class="outcome">
+      <div class="outcome-header">
+        <span class="outcome-num">11</span>
+        <span class="outcome-name">Parenchymal hematoma within 72 hr - Type 2</span>
+        <span class="outcome-meta">
+          <span class="tag">Dichotomous</span>
+          
+          <span class="tag">72 hours</span>
+          <span class="tag">participants</span>
+        </span>
+      </div>
+      
+    <table class="data-table">
+      <thead><tr><th></th><th>Intervention</th><th>Control</th></tr></thead>
+      <tbody>
+        <tr><td>N</td>
+          <td><span class="val">218</span></td>
+          <td><span class="val">214</span></td></tr>
+        <tr><td>Events</td>
+          <td><span class="val">8</span></td>
+          <td><span class="val">6</span></td></tr>
+      </tbody>
+    </table>
+      <blockquote class="source-quote"><span class="quote-label">Source quote</span>Table 2... Safety outcomes... Parenchymal hematoma within 72 hr — no./total no. (%)... Type 2 | Tenecteplase: 8/218 (3.7) | Placebo: 6/214 (2.8)</blockquote>
+    </div>
+    <div class="outcome">
+      <div class="outcome-header">
+        <span class="outcome-num">12</span>
+        <span class="outcome-name">Final infarct volume (mean ± SD)</span>
+        <span class="outcome-meta">
+          <span class="tag">Continuous</span>
+          
+          <span class="tag">Final</span>
+          <span class="tag">ml</span>
+        </span>
+      </div>
+      
+    <table class="data-table">
+      <thead><tr><th></th><th>Intervention</th><th>Control</th></tr></thead>
+      <tbody><tr><td>N</td>
+    <td><span class="val">228</span></td>
+    <td><span class="val">230</span></td></tr>
+    <tr><td>Mean</td>
+      <td><span class="val">47.9</span></td>
+      <td><span class="val">56.5</span></td></tr>
+    <tr><td>SD</td>
+      <td><span class="val">71.1</span></td>
+      <td><span class="val">81.5</span></td></tr></tbody>
+    </table>
+      <blockquote class="source-quote"><span class="quote-label">Source quote</span>The mean (±SD) final infarct volume, one of the exploratory outcomes, appeared to be lower in the tenecteplase group (47.9±71.1 ml) than in the placebo group (56.5±81.5 ml). The paper originally reported SD. Note: specific N for this outcome was not detailed in text, used randomized ITT N.</blockquote>
+    </div>
+      </div>
+    </section></div>
+<hr>
+<div id="study-2">
+    <section class="study ">
+      <div class="study-header">
+        <h2>2. Cheng </h2>
+        <div class="study-meta">
+          <span>2025</span>
+          <span class="tag">RCT</span>
+          <span class="study-title">Tenecteplase Thrombolysis for Stroke up to 24 Hours After Onset With Perfusion Imaging Selection: The CHABLIS-T II Randomized Clinical Trial</span>
+          <span><a href="https://doi.org/10.1161/STROKEAHA.124.048375" target="_blank">10.1161/STROKEAHA.124.048375</a></span>
+        </div>
+        <div class="rob-section">
+      <strong>Risk of Bias (Cochrane RCT):</strong>
+      Randomization <span class="rob-badge rob-low">Low</span>
+      Deviations <span class="rob-badge rob-low">Low</span>
+      Missing data <span class="rob-badge rob-low">Low</span>
+      Measurement <span class="rob-badge rob-low">Low</span>
+      Reporting <span class="rob-badge rob-low">Low</span>
+      Overall <span class="rob-badge rob-low">Low</span>
+    </div>
+      </div>
+      <div class="outcomes-list">
+        
+    <div class="outcome">
+      <div class="outcome-header">
+        <span class="outcome-num">1</span>
+        <span class="outcome-name">Primary outcome (major reperfusion without sICH 24 to 48 hours after randomization)</span>
+        <span class="outcome-meta">
+          <span class="tag">Dichotomous</span>
+          <span class="tag primary">Primary</span>
+          <span class="tag">24 to 48 hours post-randomization</span>
+          <span class="tag">patients</span>
+        </span>
+      </div>
+      
+    <table class="data-table">
+      <thead><tr><th></th><th>Intervention</th><th>Control</th></tr></thead>
+      <tbody>
+        <tr><td>N</td>
+          <td><span class="val">111</span></td>
+          <td><span class="val">111</span></td></tr>
+        <tr><td>Events</td>
+          <td><span class="val">37</span></td>
+          <td><span class="val">12</span></td></tr>
+      </tbody>
+    </table>
+      <blockquote class="source-quote"><span class="quote-label">Source quote</span>Table 2. Outcomes | Primary outcome, n (%) | Tenecteplase (n=111): 37/111 (33.3%) | Best medical treatment (n=113): 12/111 (10.8%)</blockquote>
+    </div>
+    <div class="outcome">
+      <div class="outcome-header">
+        <span class="outcome-num">2</span>
+        <span class="outcome-name">Recanalization</span>
+        <span class="outcome-meta">
+          <span class="tag">Dichotomous</span>
+          
+          <span class="tag">initial catheter angiography or 4- to 6-hour CTA</span>
+          <span class="tag">patients</span>
+        </span>
+      </div>
+      
+    <table class="data-table">
+      <thead><tr><th></th><th>Intervention</th><th>Control</th></tr></thead>
+      <tbody>
+        <tr><td>N</td>
+          <td><span class="val">109</span></td>
+          <td><span class="val">112</span></td></tr>
+        <tr><td>Events</td>
+          <td><span class="val">39</span></td>
+          <td><span class="val">16</span></td></tr>
+      </tbody>
+    </table>
+      <blockquote class="source-quote"><span class="quote-label">Source quote</span>Table 2. Outcomes | Recanalization, n (%) | 39/109 (35.8%) | 16/112 (14.3%)</blockquote>
+    </div>
+    <div class="outcome">
+      <div class="outcome-header">
+        <span class="outcome-num">3</span>
+        <span class="outcome-name">Infarct growth at 3–5 d (median [IQR])</span>
+        <span class="outcome-meta">
+          <span class="tag">Continuous</span>
+          
+          <span class="tag">3 to 5 days</span>
+          <span class="tag">mL</span>
+        </span>
+      </div>
+      
+    <table class="data-table">
+      <thead><tr><th></th><th>Intervention</th><th>Control</th></tr></thead>
+      <tbody><tr><td>N</td>
+    <td><span class="val">102</span></td>
+    <td><span class="val">109</span></td></tr>
+    <tr><td>Median</td>
+      <td><span class="val">18.9</span></td>
+      <td><span class="val">16.5</span></td></tr>
+    <tr><td>IQR</td>
+      <td><span class="val">4.2</span> – <span class="val">59.6</span></td>
+      <td><span class="val">2.6</span> – <span class="val">42.3</span></td></tr></tbody>
+    </table>
+      <blockquote class="source-quote"><span class="quote-label">Source quote</span>Table 2. Outcomes | Infarct growth at 3–5 d, mL, median (IQR)* | 18.9 (4.2 to 59.6) | 16.5 (2.6 to 42.3) ... *n=102 for the tenecteplase group and n=109 for the best medical treatment group. The variability statistic originally reported was median and IQR.</blockquote>
+    </div>
+    <div class="outcome">
+      <div class="outcome-header">
+        <span class="outcome-num">4</span>
+        <span class="outcome-name">Major neurological improvement</span>
+        <span class="outcome-meta">
+          <span class="tag">Dichotomous</span>
+          
+          <span class="tag">24 to 48 hours</span>
+          <span class="tag">patients</span>
+        </span>
+      </div>
+      
+    <table class="data-table">
+      <thead><tr><th></th><th>Intervention</th><th>Control</th></tr></thead>
+      <tbody>
+        <tr><td>N</td>
+          <td><span class="val">110</span></td>
+          <td><span class="val">112</span></td></tr>
+        <tr><td>Events</td>
+          <td><span class="val">24</span></td>
+          <td><span class="val">26</span></td></tr>
+      </tbody>
+    </table>
+      <blockquote class="source-quote"><span class="quote-label">Source quote</span>Table 2. Outcomes | Major neurological improvement at 24–48 h, n (%) | 24/110 (21.8%) | 26/112 (23.1%)</blockquote>
+    </div>
+    <div class="outcome">
+      <div class="outcome-header">
+        <span class="outcome-num">5</span>
+        <span class="outcome-name">Change in NIHSS score compared with baseline (median [IQR])</span>
+        <span class="outcome-meta">
+          <span class="tag">Continuous</span>
+          
+          <span class="tag">24 to 48 hours</span>
+          <span class="tag">points</span>
+        </span>
+      </div>
+      
+    <table class="data-table">
+      <thead><tr><th></th><th>Intervention</th><th>Control</th></tr></thead>
+      <tbody><tr><td>N</td>
+    <td><span class="val">110</span></td>
+    <td><span class="val">112</span></td></tr>
+    <tr><td>Median</td>
+      <td><span class="val">-1</span></td>
+      <td><span class="val">-1</span></td></tr>
+    <tr><td>IQR</td>
+      <td><span class="val">-4</span> – <span class="val">0</span></td>
+      <td><span class="val">-5</span> – <span class="val">0</span></td></tr></tbody>
+    </table>
+      <blockquote class="source-quote"><span class="quote-label">Source quote</span>Table 2. Outcomes | Change in NIHSS score at 24–48 h compared with baseline, median (IQR)† | −1 (−4 to 0) | −1 (−5 to 0) ... †n=110 for the tenecteplase group and n=112 for the best medical treatment group. The variability statistic originally reported was median and IQR.</blockquote>
+    </div>
+    <div class="outcome">
+      <div class="outcome-header">
+        <span class="outcome-num">6</span>
+        <span class="outcome-name">mRS score 0–1</span>
+        <span class="outcome-meta">
+          <span class="tag">Dichotomous</span>
+          
+          <span class="tag">90 days</span>
+          <span class="tag">patients</span>
+        </span>
+      </div>
+      
+    <table class="data-table">
+      <thead><tr><th></th><th>Intervention</th><th>Control</th></tr></thead>
+      <tbody>
+        <tr><td>N</td>
+          <td><span class="val">111</span></td>
+          <td><span class="val">113</span></td></tr>
+        <tr><td>Events</td>
+          <td><span class="val">44</span></td>
+          <td><span class="val">41</span></td></tr>
+      </tbody>
+    </table>
+      <blockquote class="source-quote"><span class="quote-label">Source quote</span>Table 2. Outcomes | mRS score 0–1 at 90 d, n (%) | 44/111 (39.6%) | 41/113 (36.3%)</blockquote>
+    </div>
+    <div class="outcome">
+      <div class="outcome-header">
+        <span class="outcome-num">7</span>
+        <span class="outcome-name">mRS score 0–2</span>
+        <span class="outcome-meta">
+          <span class="tag">Dichotomous</span>
+          
+          <span class="tag">90 days</span>
+          <span class="tag">patients</span>
+        </span>
+      </div>
+      
+    <table class="data-table">
+      <thead><tr><th></th><th>Intervention</th><th>Control</th></tr></thead>
+      <tbody>
+        <tr><td>N</td>
+          <td><span class="val">111</span></td>
+          <td><span class="val">113</span></td></tr>
+        <tr><td>Events</td>
+          <td><span class="val">56</span></td>
+          <td><span class="val">66</span></td></tr>
+      </tbody>
+    </table>
+      <blockquote class="source-quote"><span class="quote-label">Source quote</span>Table 2. Outcomes | mRS score 0–2 at 90 d, n (%) | 56/111 (50.5%) | 66/113 (58.4%)</blockquote>
+    </div>
+    <div class="outcome">
+      <div class="outcome-header">
+        <span class="outcome-num">8</span>
+        <span class="outcome-name">Symptomatic intracranial hemorrhage</span>
+        <span class="outcome-meta">
+          <span class="tag">Dichotomous</span>
+          
+          <span class="tag">24 to 48 hours</span>
+          <span class="tag">patients</span>
+        </span>
+      </div>
+      
+    <table class="data-table">
+      <thead><tr><th></th><th>Intervention</th><th>Control</th></tr></thead>
+      <tbody>
+        <tr><td>N</td>
+          <td><span class="val">111</span></td>
+          <td><span class="val">113</span></td></tr>
+        <tr><td>Events</td>
+          <td><span class="val">6</span></td>
+          <td><span class="val">5</span></td></tr>
+      </tbody>
+    </table>
+      <blockquote class="source-quote"><span class="quote-label">Source quote</span>Table 2. Outcomes | Symptomatic intracranial hemorrhage, n (%) | 6/111 (5.4%) | 5/113 (4.4%)</blockquote>
+    </div>
+    <div class="outcome">
+      <div class="outcome-header">
+        <span class="outcome-num">9</span>
+        <span class="outcome-name">Any intracranial hemorrhage</span>
+        <span class="outcome-meta">
+          <span class="tag">Dichotomous</span>
+          
+          <span class="tag">24 to 48 hours</span>
+          <span class="tag">patients</span>
+        </span>
+      </div>
+      
+    <table class="data-table">
+      <thead><tr><th></th><th>Intervention</th><th>Control</th></tr></thead>
+      <tbody>
+        <tr><td>N</td>
+          <td><span class="val">111</span></td>
+          <td><span class="val">113</span></td></tr>
+        <tr><td>Events</td>
+          <td><span class="val">27</span></td>
+          <td><span class="val">21</span></td></tr>
+      </tbody>
+    </table>
+      <blockquote class="source-quote"><span class="quote-label">Source quote</span>Table 2. Outcomes | Any intracranial hemorrhage, n (%) | 27/111 (24.3%) | 21/113 (18.6%)</blockquote>
+    </div>
+    <div class="outcome">
+      <div class="outcome-header">
+        <span class="outcome-num">10</span>
+        <span class="outcome-name">Parenchymal hemorrhage type 2</span>
+        <span class="outcome-meta">
+          <span class="tag">Dichotomous</span>
+          
+          <span class="tag">24 to 48 hours</span>
+          <span class="tag">patients</span>
+        </span>
+      </div>
+      
+    <table class="data-table">
+      <thead><tr><th></th><th>Intervention</th><th>Control</th></tr></thead>
+      <tbody>
+        <tr><td>N</td>
+          <td><span class="val">111</span></td>
+          <td><span class="val">113</span></td></tr>
+        <tr><td>Events</td>
+          <td><span class="val">10</span></td>
+          <td><span class="val">4</span></td></tr>
+      </tbody>
+    </table>
+      <blockquote class="source-quote"><span class="quote-label">Source quote</span>Table 2. Outcomes | Parenchymal hemorrhage type 2, n (%) | 10/111 (9.0%) | 4/113 (3.5%)</blockquote>
+    </div>
+    <div class="outcome">
+      <div class="outcome-header">
+        <span class="outcome-num">11</span>
+        <span class="outcome-name">mRS score 5–6</span>
+        <span class="outcome-meta">
+          <span class="tag">Dichotomous</span>
+          
+          <span class="tag">90 days</span>
+          <span class="tag">patients</span>
+        </span>
+      </div>
+      
+    <table class="data-table">
+      <thead><tr><th></th><th>Intervention</th><th>Control</th></tr></thead>
+      <tbody>
+        <tr><td>N</td>
+          <td><span class="val">111</span></td>
+          <td><span class="val">113</span></td></tr>
+        <tr><td>Events</td>
+          <td><span class="val">22</span></td>
+          <td><span class="val">20</span></td></tr>
+      </tbody>
+    </table>
+      <blockquote class="source-quote"><span class="quote-label">Source quote</span>Table 2. Outcomes | mRS score 5–6 at 90 d, n (%) | 22 (19.8%) | 20 (17.7%)</blockquote>
+    </div>
+    <div class="outcome">
+      <div class="outcome-header">
+        <span class="outcome-num">12</span>
+        <span class="outcome-name">Systemic hemorrhage</span>
+        <span class="outcome-meta">
+          <span class="tag">Dichotomous</span>
+          
+          <span class="tag">discharge</span>
+          <span class="tag">patients</span>
+        </span>
+      </div>
+      
+    <table class="data-table">
+      <thead><tr><th></th><th>Intervention</th><th>Control</th></tr></thead>
+      <tbody>
+        <tr><td>N</td>
+          <td><span class="val">111</span></td>
+          <td><span class="val">113</span></td></tr>
+        <tr><td>Events</td>
+          <td><span class="val">5</span></td>
+          <td><span class="val">7</span></td></tr>
+      </tbody>
+    </table>
+      <blockquote class="source-quote"><span class="quote-label">Source quote</span>Table 2. Outcomes | Systemic hemorrhage, n (%) | 5/111 (4.5%) | 7/113 (6.2%)</blockquote>
+    </div>
+      </div>
+    </section></div>
+<hr>
+<div id="study-3">
+    <section class="study ">
+      <div class="study-header">
+        <h2>3. Wang </h2>
+        <div class="study-meta">
+          <span>2023</span>
+          <span class="tag">RCT</span>
+          <span class="study-title">Intravenous Tenecteplase for Acute Ischemic Stroke Within 4.5–24 Hours of Onset (ROSE-TNK): A Phase 2, Randomized, Multicenter Study</span>
+          <span><a href="https://doi.org/10.5853/jos.2023.00668" target="_blank">10.5853/jos.2023.00668</a></span>
+        </div>
+        <div class="rob-section">
+      <strong>Risk of Bias (Cochrane RCT):</strong>
+      Randomization <span class="rob-badge rob-low">Low</span>
+      Deviations <span class="rob-badge rob-low">Low</span>
+      Missing data <span class="rob-badge rob-low">Low</span>
+      Measurement <span class="rob-badge rob-low">Low</span>
+      Reporting <span class="rob-badge rob-low">Low</span>
+      Overall <span class="rob-badge rob-low">Low</span>
+    </div>
+      </div>
+      <div class="outcomes-list">
+        
+    <div class="outcome">
+      <div class="outcome-header">
+        <span class="outcome-num">1</span>
+        <span class="outcome-name">mRS (0–1) at 90 days</span>
+        <span class="outcome-meta">
+          <span class="tag">Dichotomous</span>
+          <span class="tag primary">Primary</span>
+          <span class="tag">90 days</span>
+          <span class="tag">participants</span>
+        </span>
+      </div>
+      
+    <table class="data-table">
+      <thead><tr><th></th><th>Intervention</th><th>Control</th></tr></thead>
+      <tbody>
+        <tr><td>N</td>
+          <td><span class="val">40</span></td>
+          <td><span class="val">40</span></td></tr>
+        <tr><td>Events</td>
+          <td><span class="val">21</span></td>
+          <td><span class="val">20</span></td></tr>
+      </tbody>
+    </table>
+      <blockquote class="source-quote"><span class="quote-label">Source quote</span>Table 2. Efficacy and safety outcomes | Primary outcome | mRS (0–1) at 90 days | TNK group (n=40): 21 (52.5) | Control group (n=40): 20 (50.0)</blockquote>
+    </div>
+    <div class="outcome">
+      <div class="outcome-header">
+        <span class="outcome-num">2</span>
+        <span class="outcome-name">mRS (0–2) at 90 days</span>
+        <span class="outcome-meta">
+          <span class="tag">Dichotomous</span>
+          
+          <span class="tag">90 days</span>
+          <span class="tag">participants</span>
+        </span>
+      </div>
+      
+    <table class="data-table">
+      <thead><tr><th></th><th>Intervention</th><th>Control</th></tr></thead>
+      <tbody>
+        <tr><td>N</td>
+          <td><span class="val">40</span></td>
+          <td><span class="val">40</span></td></tr>
+        <tr><td>Events</td>
+          <td><span class="val">26</span></td>
+          <td><span class="val">24</span></td></tr>
+      </tbody>
+    </table>
+      <blockquote class="source-quote"><span class="quote-label">Source quote</span>Table 2. Efficacy and safety outcomes | Secondary outcomes | mRS (0–2) at 90 days | TNK group (n=40): 26 (65.0) | Control group (n=40): 24 (60.0)</blockquote>
+    </div>
+    <div class="outcome">
+      <div class="outcome-header">
+        <span class="outcome-num">3</span>
+        <span class="outcome-name">mRS distribution at 90 days</span>
+        <span class="outcome-meta">
+          <span class="tag">Ordinal</span>
+          
+          <span class="tag">90 days</span>
+          <span class="tag">OR</span>
+        </span>
+      </div>
+      
+      <blockquote class="source-quote"><span class="quote-label">Source quote</span>Table 2. Efficacy and safety outcomes | Secondary outcomes | mRS distribution at 90 days | Unadjusted Odds ratio (95% CI): 0.91 (0.42 to 1.98)</blockquote>
+    </div>
+    <div class="outcome">
+      <div class="outcome-header">
+        <span class="outcome-num">4</span>
+        <span class="outcome-name">Changes in NIHSS at 24 hours (median [IQR])</span>
+        <span class="outcome-meta">
+          <span class="tag">Continuous</span>
+          
+          <span class="tag">24 hours</span>
+          <span class="tag">points</span>
+        </span>
+      </div>
+      
+    <table class="data-table">
+      <thead><tr><th></th><th>Intervention</th><th>Control</th></tr></thead>
+      <tbody><tr><td>N</td>
+    <td><span class="val">40</span></td>
+    <td><span class="val">40</span></td></tr>
+    <tr><td>Median</td>
+      <td><span class="val">-2</span></td>
+      <td><span class="val">0</span></td></tr>
+    <tr><td>IQR</td>
+      <td><span class="val">-4</span> – <span class="val">0</span></td>
+      <td><span class="val">-2</span> – <span class="val">0</span></td></tr></tbody>
+    </table>
+      <blockquote class="source-quote"><span class="quote-label">Source quote</span>Table 2. Efficacy and safety outcomes | Secondary outcomes | Changes in NIHSS at 24 hours | TNK group (n=40): -2.00 (-4.00 to 0.00) | Control group (n=40): 0.00 (-2.00 to 0.00). Data are presented as n (%) or median (interquartile range).</blockquote>
+    </div>
+    <div class="outcome">
+      <div class="outcome-header">
+        <span class="outcome-num">5</span>
+        <span class="outcome-name">Changes in NIHSS at 7 days (median [IQR])</span>
+        <span class="outcome-meta">
+          <span class="tag">Continuous</span>
+          
+          <span class="tag">7 days</span>
+          <span class="tag">points</span>
+        </span>
+      </div>
+      
+    <table class="data-table">
+      <thead><tr><th></th><th>Intervention</th><th>Control</th></tr></thead>
+      <tbody><tr><td>N</td>
+    <td><span class="val">40</span></td>
+    <td><span class="val">40</span></td></tr>
+    <tr><td>Median</td>
+      <td><span class="val">-3</span></td>
+      <td><span class="val">-2</span></td></tr>
+    <tr><td>IQR</td>
+      <td><span class="val">-6</span> – <span class="val">0</span></td>
+      <td><span class="val">-4</span> – <span class="val">-1</span></td></tr></tbody>
+    </table>
+      <blockquote class="source-quote"><span class="quote-label">Source quote</span>Table 2. Efficacy and safety outcomes | Secondary outcomes | Changes in NIHSS at 7 days | TNK group (n=40): -3.00 (-6.00 to 0.00) | Control group (n=40): -2.00 (-4.00 to -1.00). Data are presented as n (%) or median (interquartile range).</blockquote>
+    </div>
+    <div class="outcome">
+      <div class="outcome-header">
+        <span class="outcome-num">6</span>
+        <span class="outcome-name">ENI (Early neurological improvement)</span>
+        <span class="outcome-meta">
+          <span class="tag">Dichotomous</span>
+          
+          <span class="tag">24 hours</span>
+          <span class="tag">participants</span>
+        </span>
+      </div>
+      
+    <table class="data-table">
+      <thead><tr><th></th><th>Intervention</th><th>Control</th></tr></thead>
+      <tbody>
+        <tr><td>N</td>
+          <td><span class="val">40</span></td>
+          <td><span class="val">40</span></td></tr>
+        <tr><td>Events</td>
+          <td><span class="val">11</span></td>
+          <td><span class="val">3</span></td></tr>
+      </tbody>
+    </table>
+      <blockquote class="source-quote"><span class="quote-label">Source quote</span>Table 2. Efficacy and safety outcomes | Secondary outcomes | ENI | TNK group (n=40): 11 (27.5) | Control group (n=40): 3 (7.5)</blockquote>
+    </div>
+    <div class="outcome">
+      <div class="outcome-header">
+        <span class="outcome-num">7</span>
+        <span class="outcome-name">sICH</span>
+        <span class="outcome-meta">
+          <span class="tag">Dichotomous</span>
+          
+          <span class="tag">48 hours</span>
+          <span class="tag">participants</span>
+        </span>
+      </div>
+      
+    <table class="data-table">
+      <thead><tr><th></th><th>Intervention</th><th>Control</th></tr></thead>
+      <tbody>
+        <tr><td>N</td>
+          <td><span class="val">40</span></td>
+          <td><span class="val">40</span></td></tr>
+        <tr><td>Events</td>
+          <td><span class="val">0</span></td>
+          <td><span class="val">0</span></td></tr>
+      </tbody>
+    </table>
+      <blockquote class="source-quote"><span class="quote-label">Source quote</span>Table 2. Efficacy and safety outcomes | Safety outcome | sICH | TNK group (n=40): 0 (0.0) | Control group (n=40): 0 (0.0)</blockquote>
+    </div>
+    <div class="outcome">
+      <div class="outcome-header">
+        <span class="outcome-num">8</span>
+        <span class="outcome-name">HT within 7 days</span>
+        <span class="outcome-meta">
+          <span class="tag">Dichotomous</span>
+          
+          <span class="tag">7 days</span>
+          <span class="tag">participants</span>
+        </span>
+      </div>
+      
+    <table class="data-table">
+      <thead><tr><th></th><th>Intervention</th><th>Control</th></tr></thead>
+      <tbody>
+        <tr><td>N</td>
+          <td><span class="val">40</span></td>
+          <td><span class="val">40</span></td></tr>
+        <tr><td>Events</td>
+          <td><span class="val">3</span></td>
+          <td><span class="val">0</span></td></tr>
+      </tbody>
+    </table>
+      <blockquote class="source-quote"><span class="quote-label">Source quote</span>Table 2. Efficacy and safety outcomes | Safety outcome | HT within 7 days | TNK group (n=40): 3 (7.5) | Control group (n=40): 0 (0.0)</blockquote>
+    </div>
+    <div class="outcome">
+      <div class="outcome-header">
+        <span class="outcome-num">9</span>
+        <span class="outcome-name">HI-1</span>
+        <span class="outcome-meta">
+          <span class="tag">Dichotomous</span>
+          
+          <span class="tag">7 days</span>
+          <span class="tag">participants</span>
+        </span>
+      </div>
+      
+    <table class="data-table">
+      <thead><tr><th></th><th>Intervention</th><th>Control</th></tr></thead>
+      <tbody>
+        <tr><td>N</td>
+          <td><span class="val">40</span></td>
+          <td><span class="val">40</span></td></tr>
+        <tr><td>Events</td>
+          <td><span class="val">0</span></td>
+          <td><span class="val">0</span></td></tr>
+      </tbody>
+    </table>
+      <blockquote class="source-quote"><span class="quote-label">Source quote</span>Table 2. Efficacy and safety outcomes | Safety outcome | HI-1 | TNK group (n=40): 0 (0.0) | Control group (n=40): 0 (0.0)</blockquote>
+    </div>
+    <div class="outcome">
+      <div class="outcome-header">
+        <span class="outcome-num">10</span>
+        <span class="outcome-name">HI-2</span>
+        <span class="outcome-meta">
+          <span class="tag">Dichotomous</span>
+          
+          <span class="tag">7 days</span>
+          <span class="tag">participants</span>
+        </span>
+      </div>
+      
+    <table class="data-table">
+      <thead><tr><th></th><th>Intervention</th><th>Control</th></tr></thead>
+      <tbody>
+        <tr><td>N</td>
+          <td><span class="val">40</span></td>
+          <td><span class="val">40</span></td></tr>
+        <tr><td>Events</td>
+          <td><span class="val">0</span></td>
+          <td><span class="val">0</span></td></tr>
+      </tbody>
+    </table>
+      <blockquote class="source-quote"><span class="quote-label">Source quote</span>Table 2. Efficacy and safety outcomes | Safety outcome | HI-2 | TNK group (n=40): 0 (0.0) | Control group (n=40): 0 (0.0)</blockquote>
+    </div>
+    <div class="outcome">
+      <div class="outcome-header">
+        <span class="outcome-num">11</span>
+        <span class="outcome-name">PH-1</span>
+        <span class="outcome-meta">
+          <span class="tag">Dichotomous</span>
+          
+          <span class="tag">48 hours</span>
+          <span class="tag">participants</span>
+        </span>
+      </div>
+      
+    <table class="data-table">
+      <thead><tr><th></th><th>Intervention</th><th>Control</th></tr></thead>
+      <tbody>
+        <tr><td>N</td>
+          <td><span class="val">40</span></td>
+          <td><span class="val">40</span></td></tr>
+        <tr><td>Events</td>
+          <td><span class="val">2</span></td>
+          <td><span class="val">0</span></td></tr>
+      </tbody>
+    </table>
+      <blockquote class="source-quote"><span class="quote-label">Source quote</span>Table 2. Efficacy and safety outcomes | Safety outcome | PH-1 | TNK group (n=40): 2 (5.0) | Control group (n=40): 0 (0.0)</blockquote>
+    </div>
+    <div class="outcome">
+      <div class="outcome-header">
+        <span class="outcome-num">12</span>
+        <span class="outcome-name">PH-2</span>
+        <span class="outcome-meta">
+          <span class="tag">Dichotomous</span>
+          
+          <span class="tag">48 hours</span>
+          <span class="tag">participants</span>
+        </span>
+      </div>
+      
+    <table class="data-table">
+      <thead><tr><th></th><th>Intervention</th><th>Control</th></tr></thead>
+      <tbody>
+        <tr><td>N</td>
+          <td><span class="val">40</span></td>
+          <td><span class="val">40</span></td></tr>
+        <tr><td>Events</td>
+          <td><span class="val">1</span></td>
+          <td><span class="val">0</span></td></tr>
+      </tbody>
+    </table>
+      <blockquote class="source-quote"><span class="quote-label">Source quote</span>Table 2. Efficacy and safety outcomes | Safety outcome | PH-2 | TNK group (n=40): 1 (2.5) | Control group (n=40): 0 (0.0)</blockquote>
+    </div>
+    <div class="outcome">
+      <div class="outcome-header">
+        <span class="outcome-num">13</span>
+        <span class="outcome-name">Other bleeding events within 7 days</span>
+        <span class="outcome-meta">
+          <span class="tag">Dichotomous</span>
+          
+          <span class="tag">7 days</span>
+          <span class="tag">participants</span>
+        </span>
+      </div>
+      
+    <table class="data-table">
+      <thead><tr><th></th><th>Intervention</th><th>Control</th></tr></thead>
+      <tbody>
+        <tr><td>N</td>
+          <td><span class="val">40</span></td>
+          <td><span class="val">40</span></td></tr>
+        <tr><td>Events</td>
+          <td><span class="val">0</span></td>
+          <td><span class="val">0</span></td></tr>
+      </tbody>
+    </table>
+      <blockquote class="source-quote"><span class="quote-label">Source quote</span>Table 2. Efficacy and safety outcomes | Safety outcome | Other bleeding events within 7 days | TNK group (n=40): 0 (0.0) | Control group (n=40): 0 (0.0)</blockquote>
+    </div>
+    <div class="outcome">
+      <div class="outcome-header">
+        <span class="outcome-num">14</span>
+        <span class="outcome-name">Death within 14 days</span>
+        <span class="outcome-meta">
+          <span class="tag">Dichotomous</span>
+          
+          <span class="tag">14 days</span>
+          <span class="tag">participants</span>
+        </span>
+      </div>
+      
+    <table class="data-table">
+      <thead><tr><th></th><th>Intervention</th><th>Control</th></tr></thead>
+      <tbody>
+        <tr><td>N</td>
+          <td><span class="val">40</span></td>
+          <td><span class="val">40</span></td></tr>
+        <tr><td>Events</td>
+          <td><span class="val">0</span></td>
+          <td><span class="val">0</span></td></tr>
+      </tbody>
+    </table>
+      <blockquote class="source-quote"><span class="quote-label">Source quote</span>Table 2. Efficacy and safety outcomes | Safety outcome | Death within 14 days | TNK group (n=40): 0 (0.0) | Control group (n=40): 0 (0.0)</blockquote>
+    </div>
+    <div class="outcome">
+      <div class="outcome-header">
+        <span class="outcome-num">15</span>
+        <span class="outcome-name">Adverse events</span>
+        <span class="outcome-meta">
+          <span class="tag">Dichotomous</span>
+          
+          <span class="tag">90 days</span>
+          <span class="tag">participants</span>
+        </span>
+      </div>
+      
+    <table class="data-table">
+      <thead><tr><th></th><th>Intervention</th><th>Control</th></tr></thead>
+      <tbody>
+        <tr><td>N</td>
+          <td><span class="val">40</span></td>
+          <td><span class="val">40</span></td></tr>
+        <tr><td>Events</td>
+          <td><span class="val">11</span></td>
+          <td><span class="val">4</span></td></tr>
+      </tbody>
+    </table>
+      <blockquote class="source-quote"><span class="quote-label">Source quote</span>Table 2. Efficacy and safety outcomes | Safety outcome | Adverse events | TNK group (n=40): 11 (27.5) | Control group (n=40): 4 (10.0)</blockquote>
+    </div>
+    <div class="outcome">
+      <div class="outcome-header">
+        <span class="outcome-num">16</span>
+        <span class="outcome-name">Severe adverse events</span>
+        <span class="outcome-meta">
+          <span class="tag">Dichotomous</span>
+          
+          <span class="tag">90 days</span>
+          <span class="tag">participants</span>
+        </span>
+      </div>
+      
+    <table class="data-table">
+      <thead><tr><th></th><th>Intervention</th><th>Control</th></tr></thead>
+      <tbody>
+        <tr><td>N</td>
+          <td><span class="val">40</span></td>
+          <td><span class="val">40</span></td></tr>
+        <tr><td>Events</td>
+          <td><span class="val">7</span></td>
+          <td><span class="val">2</span></td></tr>
+      </tbody>
+    </table>
+      <blockquote class="source-quote"><span class="quote-label">Source quote</span>Table 2. Efficacy and safety outcomes | Safety outcome | Severe adverse events | TNK group (n=40): 7 (17.5) | Control group (n=40): 2 (5.0)</blockquote>
+    </div>
+      </div>
+    </section></div>
+<hr>
+<div id="study-4">
+    <section class="study ">
+      <div class="study-header">
+        <h2>4. Xiong </h2>
+        <div class="study-meta">
+          <span>2024</span>
+          <span class="tag">RCT</span>
+          <span class="study-title">Tenecteplase for Ischemic Stroke at 4.5 to 24 Hours without Thrombectomy</span>
+          <span><a href="https://doi.org/10.1056/NEJMoa2402980" target="_blank">10.1056/NEJMoa2402980</a></span>
+        </div>
+        <div class="rob-section">
+      <strong>Risk of Bias (Cochrane RCT):</strong>
+      Randomization <span class="rob-badge rob-low">Low</span>
+      Deviations <span class="rob-badge rob-low">Low</span>
+      Missing data <span class="rob-badge rob-low">Low</span>
+      Measurement <span class="rob-badge rob-low">Low</span>
+      Reporting <span class="rob-badge rob-low">Low</span>
+      Overall <span class="rob-badge rob-low">Low</span>
+    </div>
+      </div>
+      <div class="outcomes-list">
+        
+    <div class="outcome">
+      <div class="outcome-header">
+        <span class="outcome-num">1</span>
+        <span class="outcome-name">Score of 0 or 1 on the modified Rankin scale</span>
+        <span class="outcome-meta">
+          <span class="tag">Dichotomous</span>
+          <span class="tag primary">Primary</span>
+          <span class="tag">90 days</span>
+          <span class="tag">participants</span>
+        </span>
+      </div>
+      
+    <table class="data-table">
+      <thead><tr><th></th><th>Intervention</th><th>Control</th></tr></thead>
+      <tbody>
+        <tr><td>N</td>
+          <td><span class="val">264</span></td>
+          <td><span class="val">252</span></td></tr>
+        <tr><td>Events</td>
+          <td><span class="val">87</span></td>
+          <td><span class="val">61</span></td></tr>
+      </tbody>
+    </table>
+      <blockquote class="source-quote"><span class="quote-label">Source quote</span>Table 2. Efficacy and Safety Outcomes. Primary outcome: Score of 0 or 1 on the modified Rankin scale at 90 days — no. (%) | Tenecteplase (N=264) 87 (33.0) | Standard Medical Treatment (N=252) 61 (24.2)</blockquote>
+    </div>
+    <div class="outcome">
+      <div class="outcome-header">
+        <span class="outcome-num">2</span>
+        <span class="outcome-name">Ordinal distribution of scores on the modified Rankin scale</span>
+        <span class="outcome-meta">
+          <span class="tag">Ordinal</span>
+          
+          <span class="tag">90 days</span>
+          <span class="tag">OR</span>
+        </span>
+      </div>
+      
+      <blockquote class="source-quote"><span class="quote-label">Source quote</span>Table 2. Efficacy and Safety Outcomes. Ordinal distribution of scores on the modified Rankin scale at 90 days ... 1.33 (0.98 to 1.81). * The common odds ratio is shown for the ordinal distribution of scores on the modified Rankin scale.</blockquote>
+    </div>
+    <div class="outcome">
+      <div class="outcome-header">
+        <span class="outcome-num">3</span>
+        <span class="outcome-name">Score of ≤2 on the modified Rankin scale, indicating functional independence</span>
+        <span class="outcome-meta">
+          <span class="tag">Dichotomous</span>
+          
+          <span class="tag">90 days</span>
+          <span class="tag">participants</span>
+        </span>
+      </div>
+      
+    <table class="data-table">
+      <thead><tr><th></th><th>Intervention</th><th>Control</th></tr></thead>
+      <tbody>
+        <tr><td>N</td>
+          <td><span class="val">264</span></td>
+          <td><span class="val">252</span></td></tr>
+        <tr><td>Events</td>
+          <td><span class="val">115</span></td>
+          <td><span class="val">84</span></td></tr>
+      </tbody>
+    </table>
+      <blockquote class="source-quote"><span class="quote-label">Source quote</span>Table 2. Efficacy and Safety Outcomes. Score of ≤2 on the modified Rankin scale, indicating functional independence, at 90 days — no. (%) | 115 (43.6) | 84 (33.3)</blockquote>
+    </div>
+    <div class="outcome">
+      <div class="outcome-header">
+        <span class="outcome-num">4</span>
+        <span class="outcome-name">Major neurologic improvement</span>
+        <span class="outcome-meta">
+          <span class="tag">Dichotomous</span>
+          
+          <span class="tag">72 hours</span>
+          <span class="tag">participants</span>
+        </span>
+      </div>
+      
+    <table class="data-table">
+      <thead><tr><th></th><th>Intervention</th><th>Control</th></tr></thead>
+      <tbody>
+        <tr><td>N</td>
+          <td><span class="val">250</span></td>
+          <td><span class="val">249</span></td></tr>
+        <tr><td>Events</td>
+          <td><span class="val">40</span></td>
+          <td><span class="val">15</span></td></tr>
+      </tbody>
+    </table>
+      <blockquote class="source-quote"><span class="quote-label">Source quote</span>Table 2. Efficacy and Safety Outcomes. Major neurologic improvement at 72 hr — no./total no. (%) | 40/250 (16.0) | 15/249 (6.0)</blockquote>
+    </div>
+    <div class="outcome">
+      <div class="outcome-header">
+        <span class="outcome-num">5</span>
+        <span class="outcome-name">Reperfusion</span>
+        <span class="outcome-meta">
+          <span class="tag">Dichotomous</span>
+          
+          <span class="tag">24 hours</span>
+          <span class="tag">participants</span>
+        </span>
+      </div>
+      
+    <table class="data-table">
+      <thead><tr><th></th><th>Intervention</th><th>Control</th></tr></thead>
+      <tbody>
+        <tr><td>N</td>
+          <td><span class="val">239</span></td>
+          <td><span class="val">229</span></td></tr>
+        <tr><td>Events</td>
+          <td><span class="val">48</span></td>
+          <td><span class="val">27</span></td></tr>
+      </tbody>
+    </table>
+      <blockquote class="source-quote"><span class="quote-label">Source quote</span>Table 2. Efficacy and Safety Outcomes. Reperfusion at 24 hr — no./total no. (%) | 48/239 (20.1) | 27/229 (11.8)</blockquote>
+    </div>
+    <div class="outcome">
+      <div class="outcome-header">
+        <span class="outcome-num">6</span>
+        <span class="outcome-name">Change in the NIHSS score (median [IQR])</span>
+        <span class="outcome-meta">
+          <span class="tag">Continuous</span>
+          
+          <span class="tag">7 days</span>
+          <span class="tag">points</span>
+        </span>
+      </div>
+      
+    <table class="data-table">
+      <thead><tr><th></th><th>Intervention</th><th>Control</th></tr></thead>
+      <tbody><tr><td>N</td>
+    <td><span class="val">264</span></td>
+    <td><span class="val">252</span></td></tr>
+    <tr><td>Mean</td>
+      <td><span class="val">0</span></td>
+      <td><span class="val">0</span></td></tr>
+    <tr><td>SD</td>
+      <td><span class="val">0</span></td>
+      <td><span class="val">0</span></td></tr>
+    <tr><td>Median</td>
+      <td><span class="val">-4</span></td>
+      <td><span class="val">-2</span></td></tr>
+    <tr><td>IQR</td>
+      <td><span class="val">-6</span> – <span class="val">-1</span></td>
+      <td><span class="val">-5</span> – <span class="val">0</span></td></tr>
+    <tr><td>Range</td>
+      <td><span class="empty">—</span> – <span class="empty">—</span></td>
+      <td><span class="empty">—</span> – <span class="empty">—</span></td></tr></tbody>
+    </table>
+      <blockquote class="source-quote"><span class="quote-label">Source quote</span>Table 2. Efficacy and Safety Outcomes. Change in the NIHSS score at 7 days | -4 (-6 to -1) | -2 (-5 to 0). Paper reports median and IQR for this continuous outcome.</blockquote>
+    </div>
+    <div class="outcome">
+      <div class="outcome-header">
+        <span class="outcome-num">7</span>
+        <span class="outcome-name">Symptomatic intracranial hemorrhage within 36 hr after randomization</span>
+        <span class="outcome-meta">
+          <span class="tag">Dichotomous</span>
+          
+          <span class="tag">36 hours</span>
+          <span class="tag">participants</span>
+        </span>
+      </div>
+      
+    <table class="data-table">
+      <thead><tr><th></th><th>Intervention</th><th>Control</th></tr></thead>
+      <tbody>
+        <tr><td>N</td>
+          <td><span class="val">264</span></td>
+          <td><span class="val">252</span></td></tr>
+        <tr><td>Events</td>
+          <td><span class="val">8</span></td>
+          <td><span class="val">2</span></td></tr>
+      </tbody>
+    </table>
+      <blockquote class="source-quote"><span class="quote-label">Source quote</span>Table 2. Efficacy and Safety Outcomes. Symptomatic intracranial hemorrhage within 36 hr after randomization — no. (%) | 8 (3.0) | 2 (0.8)</blockquote>
+    </div>
+    <div class="outcome">
+      <div class="outcome-header">
+        <span class="outcome-num">8</span>
+        <span class="outcome-name">Death within 90 days</span>
+        <span class="outcome-meta">
+          <span class="tag">Dichotomous</span>
+          
+          <span class="tag">90 days</span>
+          <span class="tag">participants</span>
+        </span>
+      </div>
+      
+    <table class="data-table">
+      <thead><tr><th></th><th>Intervention</th><th>Control</th></tr></thead>
+      <tbody>
+        <tr><td>N</td>
+          <td><span class="val">264</span></td>
+          <td><span class="val">252</span></td></tr>
+        <tr><td>Events</td>
+          <td><span class="val">35</span></td>
+          <td><span class="val">33</span></td></tr>
+      </tbody>
+    </table>
+      <blockquote class="source-quote"><span class="quote-label">Source quote</span>Table 2. Efficacy and Safety Outcomes. Death within 90 days — no. (%) | 35 (13.3) | 33 (13.1)</blockquote>
+    </div>
+    <div class="outcome">
+      <div class="outcome-header">
+        <span class="outcome-num">9</span>
+        <span class="outcome-name">Moderate or severe systemic bleeding within 90 days</span>
+        <span class="outcome-meta">
+          <span class="tag">Dichotomous</span>
+          
+          <span class="tag">90 days</span>
+          <span class="tag">participants</span>
+        </span>
+      </div>
+      
+    <table class="data-table">
+      <thead><tr><th></th><th>Intervention</th><th>Control</th></tr></thead>
+      <tbody>
+        <tr><td>N</td>
+          <td><span class="val">264</span></td>
+          <td><span class="val">252</span></td></tr>
+        <tr><td>Events</td>
+          <td><span class="val">5</span></td>
+          <td><span class="val">2</span></td></tr>
+      </tbody>
+    </table>
+      <blockquote class="source-quote"><span class="quote-label">Source quote</span>Table 2. Efficacy and Safety Outcomes. Moderate or severe systemic bleeding within 90 days — no. (%) | 5 (1.9) | 2 (0.8)</blockquote>
+    </div>
+    <div class="outcome">
+      <div class="outcome-header">
+        <span class="outcome-num">10</span>
+        <span class="outcome-name">Any adverse event</span>
+        <span class="outcome-meta">
+          <span class="tag">Dichotomous</span>
+          
+          <span class="tag">90 days</span>
+          <span class="tag">participants</span>
+        </span>
+      </div>
+      
+    <table class="data-table">
+      <thead><tr><th></th><th>Intervention</th><th>Control</th></tr></thead>
+      <tbody>
+        <tr><td>N</td>
+          <td><span class="val">264</span></td>
+          <td><span class="val">252</span></td></tr>
+        <tr><td>Events</td>
+          <td><span class="val">134</span></td>
+          <td><span class="val">129</span></td></tr>
+      </tbody>
+    </table>
+      <blockquote class="source-quote"><span class="quote-label">Source quote</span>Table 2. Efficacy and Safety Outcomes. Any adverse event — no. (%) | 134 (50.8) | 129 (51.2)</blockquote>
+    </div>
+    <div class="outcome">
+      <div class="outcome-header">
+        <span class="outcome-num">11</span>
+        <span class="outcome-name">Any serious adverse event</span>
+        <span class="outcome-meta">
+          <span class="tag">Dichotomous</span>
+          
+          <span class="tag">90 days</span>
+          <span class="tag">participants</span>
+        </span>
+      </div>
+      
+    <table class="data-table">
+      <thead><tr><th></th><th>Intervention</th><th>Control</th></tr></thead>
+      <tbody>
+        <tr><td>N</td>
+          <td><span class="val">264</span></td>
+          <td><span class="val">252</span></td></tr>
+        <tr><td>Events</td>
+          <td><span class="val">53</span></td>
+          <td><span class="val">43</span></td></tr>
+      </tbody>
+    </table>
+      <blockquote class="source-quote"><span class="quote-label">Source quote</span>Table 2. Efficacy and Safety Outcomes. Any serious adverse event — no. (%) | 53 (20.1) | 43 (17.1)</blockquote>
+    </div>
+    <div class="outcome">
+      <div class="outcome-header">
+        <span class="outcome-num">12</span>
+        <span class="outcome-name">Score of 0 or 1 on the modified Rankin scale (Subgroup: Age &lt;80 yr)</span>
+        <span class="outcome-meta">
+          <span class="tag">Dichotomous</span>
+          
+          <span class="tag">90 days</span>
+          <span class="tag">participants</span>
+        </span>
+      </div>
+      
+    <table class="data-table">
+      <thead><tr><th></th><th>Intervention</th><th>Control</th></tr></thead>
+      <tbody>
+        <tr><td>N</td>
+          <td><span class="val">236</span></td>
+          <td><span class="val">213</span></td></tr>
+        <tr><td>Events</td>
+          <td><span class="val">81</span></td>
+          <td><span class="val">57</span></td></tr>
+      </tbody>
+    </table>
+      <blockquote class="source-quote"><span class="quote-label">Source quote</span>Figure 2. Relative Rate of a Modified Rankin Scale Score of 0 or 1 at 90 Days ... Subgroup: Age &lt;80 yr ... Tenecteplase 81/236 (34.3) | Standard Medical Treatment 57/213 (26.8)</blockquote>
+    </div>
+    <div class="outcome">
+      <div class="outcome-header">
+        <span class="outcome-num">13</span>
+        <span class="outcome-name">Score of 0 or 1 on the modified Rankin scale (Subgroup: Age &gt;=80 yr)</span>
+        <span class="outcome-meta">
+          <span class="tag">Dichotomous</span>
+          
+          <span class="tag">90 days</span>
+          <span class="tag">participants</span>
+        </span>
+      </div>
+      
+    <table class="data-table">
+      <thead><tr><th></th><th>Intervention</th><th>Control</th></tr></thead>
+      <tbody>
+        <tr><td>N</td>
+          <td><span class="val">28</span></td>
+          <td><span class="val">39</span></td></tr>
+        <tr><td>Events</td>
+          <td><span class="val">6</span></td>
+          <td><span class="val">4</span></td></tr>
+      </tbody>
+    </table>
+      <blockquote class="source-quote"><span class="quote-label">Source quote</span>Figure 2. Relative Rate of a Modified Rankin Scale Score of 0 or 1 at 90 Days ... Subgroup: Age ≥80 yr ... Tenecteplase 6/28 (21.4) | Standard Medical Treatment 4/39 (10.3)</blockquote>
+    </div>
+    <div class="outcome">
+      <div class="outcome-header">
+        <span class="outcome-num">14</span>
+        <span class="outcome-name">Score of 0 or 1 on the modified Rankin scale (Subgroup: Time &gt;4.5 to 9.0 hr)</span>
+        <span class="outcome-meta">
+          <span class="tag">Dichotomous</span>
+          
+          <span class="tag">90 days</span>
+          <span class="tag">participants</span>
+        </span>
+      </div>
+      
+    <table class="data-table">
+      <thead><tr><th></th><th>Intervention</th><th>Control</th></tr></thead>
+      <tbody>
+        <tr><td>N</td>
+          <td><span class="val">59</span></td>
+          <td><span class="val">54</span></td></tr>
+        <tr><td>Events</td>
+          <td><span class="val">20</span></td>
+          <td><span class="val">13</span></td></tr>
+      </tbody>
+    </table>
+      <blockquote class="source-quote"><span class="quote-label">Source quote</span>Figure 2. Relative Rate of a Modified Rankin Scale Score of 0 or 1 at 90 Days ... Subgroup: Time from symptom onset to treatment &gt;4.5 to 9.0 hr ... Tenecteplase 20/59 (33.9) | Standard Medical Treatment 13/54 (24.1)</blockquote>
+    </div>
+    <div class="outcome">
+      <div class="outcome-header">
+        <span class="outcome-num">15</span>
+        <span class="outcome-name">Score of 0 or 1 on the modified Rankin scale (Subgroup: Time &gt;9.0 to 24.0 hr)</span>
+        <span class="outcome-meta">
+          <span class="tag">Dichotomous</span>
+          
+          <span class="tag">90 days</span>
+          <span class="tag">participants</span>
+        </span>
+      </div>
+      
+    <table class="data-table">
+      <thead><tr><th></th><th>Intervention</th><th>Control</th></tr></thead>
+      <tbody>
+        <tr><td>N</td>
+          <td><span class="val">104</span></td>
+          <td><span class="val">114</span></td></tr>
+        <tr><td>Events</td>
+          <td><span class="val">38</span></td>
+          <td><span class="val">29</span></td></tr>
+      </tbody>
+    </table>
+      <blockquote class="source-quote"><span class="quote-label">Source quote</span>Figure 2. Relative Rate of a Modified Rankin Scale Score of 0 or 1 at 90 Days ... Subgroup: Time from symptom onset to treatment &gt;9.0 to 24.0 hr ... Tenecteplase 38/104 (36.5) | Standard Medical Treatment 29/114 (25.4)</blockquote>
+    </div>
+    <div class="outcome">
+      <div class="outcome-header">
+        <span class="outcome-num">16</span>
+        <span class="outcome-name">Score of 0 or 1 on the modified Rankin scale (Subgroup: Stroke on awakening)</span>
+        <span class="outcome-meta">
+          <span class="tag">Dichotomous</span>
+          
+          <span class="tag">90 days</span>
+          <span class="tag">participants</span>
+        </span>
+      </div>
+      
+    <table class="data-table">
+      <thead><tr><th></th><th>Intervention</th><th>Control</th></tr></thead>
+      <tbody>
+        <tr><td>N</td>
+          <td><span class="val">101</span></td>
+          <td><span class="val">84</span></td></tr>
+        <tr><td>Events</td>
+          <td><span class="val">29</span></td>
+          <td><span class="val">19</span></td></tr>
+      </tbody>
+    </table>
+      <blockquote class="source-quote"><span class="quote-label">Source quote</span>Figure 2. Relative Rate of a Modified Rankin Scale Score of 0 or 1 at 90 Days ... Subgroup: Stroke on awakening ... Tenecteplase 29/101 (28.7) | Standard Medical Treatment 19/84 (22.6)</blockquote>
+    </div>
+      </div>
+    </section></div>
+
+</body>
+</html>
