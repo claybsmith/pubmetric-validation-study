@@ -1,0 +1,864 @@
+{
+ "id": "p2txa-05",
+ "pdf": "6 RCT Benefits of the tranexamic acid in head trauma with no extracranial bleeding- a prospective follow-up of 180 patients.pdf",
+ "attempt": 1,
+ "extracted_at": "2026-10-14T17:04:01.221Z",
+ "seconds": 117,
+ "data": {
+  "id": "p2txa-05",
+  "title": "Benefits of the tranexamic acid in head trauma with no extracranial bleeding: a prospective follow-up of 180 patients",
+  "author": "Olfa Chakroun-Walha",
+  "year": 2019,
+  "design": "RCT",
+  "doi": "10.1007/s00068-018-0974-z",
+  "available_outcomes": [
+   {
+    "name": "Packed red cells transfused at day 1",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "units/day",
+    "mean_intervention": 0.5,
+    "sd_intervention": 1.2,
+    "mean_control": 0.2,
+    "sd_control": 0.6,
+    "n_intervention": 96,
+    "n_control": 84,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "harmonized_name": "",
+      "n": 96,
+      "mean": 0.5,
+      "sd": 1.2,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "noTXA",
+      "harmonized_name": "",
+      "n": 84,
+      "mean": 0.2,
+      "sd": 0.6,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Day 1",
+    "is_primary": true,
+    "source_quote": "Table 3 Comparison of the need of transfusion or surgery in ‘TXA’ and ‘noTXA’ groups of patients... Packed red cells transfused at day 1 (units/day); mean ± SD... originally reported as mean ± SD."
+   },
+   {
+    "name": "Packed red cells transfused at day 3",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "units/day",
+    "mean_intervention": 0.4,
+    "sd_intervention": 1,
+    "mean_control": 0.3,
+    "sd_control": 0.6,
+    "n_intervention": 96,
+    "n_control": 84,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "harmonized_name": "",
+      "n": 96,
+      "mean": 0.4,
+      "sd": 1,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "noTXA",
+      "harmonized_name": "",
+      "n": 84,
+      "mean": 0.3,
+      "sd": 0.6,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Day 3",
+    "is_primary": true,
+    "source_quote": "Table 3 Comparison of the need of transfusion or surgery in ‘TXA’ and ‘noTXA’ groups of patients... Packed red cells transfused at day 3 (units/day); mean ± SD... originally reported as mean ± SD."
+   },
+   {
+    "name": "Packed red cells transfused at day 7",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "units/day",
+    "mean_intervention": 0.1,
+    "sd_intervention": 0.5,
+    "mean_control": 0.1,
+    "sd_control": 0.4,
+    "n_intervention": 96,
+    "n_control": 84,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "harmonized_name": "",
+      "n": 96,
+      "mean": 0.1,
+      "sd": 0.5,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "noTXA",
+      "harmonized_name": "",
+      "n": 84,
+      "mean": 0.1,
+      "sd": 0.4,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Day 7",
+    "is_primary": true,
+    "source_quote": "Table 3 Comparison of the need of transfusion or surgery in ‘TXA’ and ‘noTXA’ groups of patients... Packed red cells transfused at day 7 (units/day); mean ± SD... originally reported as mean ± SD."
+   },
+   {
+    "name": "Fresh frozen plasma transfused at day 1",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "units/day",
+    "mean_intervention": 0.8,
+    "sd_intervention": 1.9,
+    "mean_control": 0.3,
+    "sd_control": 1.6,
+    "n_intervention": 96,
+    "n_control": 84,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "harmonized_name": "",
+      "n": 96,
+      "mean": 0.8,
+      "sd": 1.9,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "noTXA",
+      "harmonized_name": "",
+      "n": 84,
+      "mean": 0.3,
+      "sd": 1.6,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Day 1",
+    "is_primary": true,
+    "source_quote": "Table 3 Comparison of the need of transfusion or surgery in ‘TXA’ and ‘noTXA’ groups of patients... Fresh frozen plasma transfused at day 1 (units/day); mean ± SD... originally reported as mean ± SD."
+   },
+   {
+    "name": "Fresh frozen plasma transfused at day 3",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "units/day",
+    "mean_intervention": 0.4,
+    "sd_intervention": 1.2,
+    "mean_control": 0.5,
+    "sd_control": 1.8,
+    "n_intervention": 96,
+    "n_control": 84,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "harmonized_name": "",
+      "n": 96,
+      "mean": 0.4,
+      "sd": 1.2,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "noTXA",
+      "harmonized_name": "",
+      "n": 84,
+      "mean": 0.5,
+      "sd": 1.8,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Day 3",
+    "is_primary": true,
+    "source_quote": "Table 3 Comparison of the need of transfusion or surgery in ‘TXA’ and ‘noTXA’ groups of patients... Fresh frozen plasma transfused at day 3 (units/day); mean ± SD... originally reported as mean ± SD."
+   },
+   {
+    "name": "Platelets transfused at day 1",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "units/day",
+    "mean_intervention": 0.3,
+    "sd_intervention": 1.4,
+    "mean_control": 0,
+    "sd_control": 0,
+    "n_intervention": 96,
+    "n_control": 84,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "harmonized_name": "",
+      "n": 96,
+      "mean": 0.3,
+      "sd": 1.4,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "noTXA",
+      "harmonized_name": "",
+      "n": 84,
+      "mean": 0,
+      "sd": 0,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Day 1",
+    "is_primary": true,
+    "source_quote": "Table 3 Comparison of the need of transfusion or surgery in ‘TXA’ and ‘noTXA’ groups of patients... Platelets transfused at day 1 (units/day); mean ± SD... originally reported as mean ± SD."
+   },
+   {
+    "name": "Platelets transfused at day 3",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "units/day",
+    "mean_intervention": 0.6,
+    "sd_intervention": 2.2,
+    "mean_control": 0.5,
+    "sd_control": 2,
+    "n_intervention": 96,
+    "n_control": 84,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "harmonized_name": "",
+      "n": 96,
+      "mean": 0.6,
+      "sd": 2.2,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "noTXA",
+      "harmonized_name": "",
+      "n": 84,
+      "mean": 0.5,
+      "sd": 2,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Day 3",
+    "is_primary": true,
+    "source_quote": "Table 3 Comparison of the need of transfusion or surgery in ‘TXA’ and ‘noTXA’ groups of patients... Platelets transfused at day 3 (units/day); mean ± SD... originally reported as mean ± SD."
+   },
+   {
+    "name": "Platelets transfused at day 7",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "units/day",
+    "mean_intervention": 0.2,
+    "sd_intervention": 1.4,
+    "mean_control": 0,
+    "sd_control": 0,
+    "n_intervention": 96,
+    "n_control": 84,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "harmonized_name": "",
+      "n": 96,
+      "mean": 0.2,
+      "sd": 1.4,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "noTXA",
+      "harmonized_name": "",
+      "n": 84,
+      "mean": 0,
+      "sd": 0,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Day 7",
+    "is_primary": true,
+    "source_quote": "Table 3 Comparison of the need of transfusion or surgery in ‘TXA’ and ‘noTXA’ groups of patients... Platelets transfused at day 7 (units/day); mean ± SD... originally reported as mean ± SD."
+   },
+   {
+    "name": "Length of mechanical ventilation",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "days",
+    "mean_intervention": 8.2,
+    "sd_intervention": 10.7,
+    "mean_control": 6.7,
+    "sd_control": 9.4,
+    "n_intervention": 96,
+    "n_control": 84,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "harmonized_name": "",
+      "n": 96,
+      "mean": 8.2,
+      "sd": 10.7,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "noTXA",
+      "harmonized_name": "",
+      "n": 84,
+      "mean": 6.7,
+      "sd": 9.4,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Up to hospital discharge",
+    "is_primary": false,
+    "source_quote": "Table 3 Comparison of the need of transfusion or surgery in ‘TXA’ and ‘noTXA’ groups of patients... Length of mechanical ventilation (days); mean ± SD... originally reported as mean ± SD."
+   },
+   {
+    "name": "Neurosurgery",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "participants",
+    "events_intervention": 23,
+    "events_control": 16,
+    "n_intervention": 96,
+    "n_control": 84,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "harmonized_name": "",
+      "n": 96,
+      "events": 23,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "noTXA",
+      "harmonized_name": "",
+      "n": 84,
+      "events": 16,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "During hospitalization",
+    "is_primary": true,
+    "source_quote": "Table 3 Comparison of the need of transfusion or surgery in ‘TXA’ and ‘noTXA’ groups of patients... Neurosurgery; n (%)"
+   },
+   {
+    "name": "Extra cranial surgery",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "participants",
+    "events_intervention": 6,
+    "events_control": 3,
+    "n_intervention": 96,
+    "n_control": 84,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "harmonized_name": "",
+      "n": 96,
+      "events": 6,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "noTXA",
+      "harmonized_name": "",
+      "n": 84,
+      "events": 3,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "During hospitalization",
+    "is_primary": true,
+    "source_quote": "Table 3 Comparison of the need of transfusion or surgery in ‘TXA’ and ‘noTXA’ groups of patients... Extra cranial surgery; n (%)"
+   },
+   {
+    "name": "Delay of surgery",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "hours",
+    "mean_intervention": 16.4,
+    "sd_intervention": 83.3,
+    "mean_control": 12.7,
+    "sd_control": 58,
+    "n_intervention": 96,
+    "n_control": 84,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "harmonized_name": "",
+      "n": 96,
+      "mean": 16.4,
+      "sd": 83.3,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "noTXA",
+      "harmonized_name": "",
+      "n": 84,
+      "mean": 12.7,
+      "sd": 58,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "During hospitalization",
+    "is_primary": false,
+    "source_quote": "Table 3 Comparison of the need of transfusion or surgery in ‘TXA’ and ‘noTXA’ groups of patients... Delay of surgery (h); mean ± SD... originally reported as mean ± SD."
+   },
+   {
+    "name": "SOFA score at the 3rd day post-trauma",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "score",
+    "mean_intervention": 5.7,
+    "sd_intervention": 3.2,
+    "mean_control": 5.7,
+    "sd_control": 3.3,
+    "n_intervention": 96,
+    "n_control": 84,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "harmonized_name": "",
+      "n": 96,
+      "mean": 5.7,
+      "sd": 3.2,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "noTXA",
+      "harmonized_name": "",
+      "n": 84,
+      "mean": 5.7,
+      "sd": 3.3,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Day 3",
+    "is_primary": false,
+    "source_quote": "Table 4 Comparison of the outcome of ‘TXA’ and ‘noTXA’ groups of patients... SOFA score at the 3rd day post-trauma; mean ± SD... originally reported as mean ± SD."
+   },
+   {
+    "name": "SOFA score at the 7th day post-trauma",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "score",
+    "mean_intervention": 5.8,
+    "sd_intervention": 2.7,
+    "mean_control": 5.2,
+    "sd_control": 3.1,
+    "n_intervention": 96,
+    "n_control": 84,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "harmonized_name": "",
+      "n": 96,
+      "mean": 5.8,
+      "sd": 2.7,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "noTXA",
+      "harmonized_name": "",
+      "n": 84,
+      "mean": 5.2,
+      "sd": 3.1,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Day 7",
+    "is_primary": false,
+    "source_quote": "Table 4 Comparison of the outcome of ‘TXA’ and ‘noTXA’ groups of patients... SOFA score at the 7th day post-trauma; mean ± SD... originally reported as mean ± SD."
+   },
+   {
+    "name": "Hypoxia at the 7th day post-trauma",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "participants",
+    "events_intervention": 1,
+    "events_control": 1,
+    "n_intervention": 96,
+    "n_control": 84,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "harmonized_name": "",
+      "n": 96,
+      "events": 1,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "noTXA",
+      "harmonized_name": "",
+      "n": 84,
+      "events": 1,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Day 7",
+    "is_primary": false,
+    "source_quote": "Table 4 Comparison of the outcome of ‘TXA’ and ‘noTXA’ groups of patients... Hypoxia at the 7th day post-trauma; n (%)"
+   },
+   {
+    "name": "Shock at day the 3rd day post-trauma",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "participants",
+    "events_intervention": 6,
+    "events_control": 0,
+    "n_intervention": 96,
+    "n_control": 84,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "harmonized_name": "",
+      "n": 96,
+      "events": 6,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "noTXA",
+      "harmonized_name": "",
+      "n": 84,
+      "events": 0,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Day 3",
+    "is_primary": false,
+    "source_quote": "Table 4 Comparison of the outcome of ‘TXA’ and ‘noTXA’ groups of patients... Shock at day the 3rd day post-trauma; n (%)"
+   },
+   {
+    "name": "Shock at the 7th day post-trauma",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "participants",
+    "events_intervention": 0,
+    "events_control": 1,
+    "n_intervention": 96,
+    "n_control": 84,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "harmonized_name": "",
+      "n": 96,
+      "events": 0,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "noTXA",
+      "harmonized_name": "",
+      "n": 84,
+      "events": 1,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Day 7",
+    "is_primary": false,
+    "source_quote": "Table 4 Comparison of the outcome of ‘TXA’ and ‘noTXA’ groups of patients... Shock at the 7th day post-trauma; n (%)"
+   },
+   {
+    "name": "Pulmonary embolism",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "participants",
+    "events_intervention": 11,
+    "events_control": 2,
+    "n_intervention": 96,
+    "n_control": 84,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "harmonized_name": "",
+      "n": 96,
+      "events": 11,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "noTXA",
+      "harmonized_name": "",
+      "n": 84,
+      "events": 2,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Up to 28 days",
+    "is_primary": false,
+    "source_quote": "Table 4 Comparison of the outcome of ‘TXA’ and ‘noTXA’ groups of patients... Pulmonary embolism; n (%)"
+   },
+   {
+    "name": "Deep venous thrombosis",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "participants",
+    "events_intervention": 3,
+    "events_control": 3,
+    "n_intervention": 96,
+    "n_control": 84,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "harmonized_name": "",
+      "n": 96,
+      "events": 3,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "noTXA",
+      "harmonized_name": "",
+      "n": 84,
+      "events": 3,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Up to 28 days",
+    "is_primary": false,
+    "source_quote": "Table 4 Comparison of the outcome of ‘TXA’ and ‘noTXA’ groups of patients... Deep venous thrombosis; n (%)"
+   },
+   {
+    "name": "Length of ICU stay",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "days",
+    "mean_intervention": 16.9,
+    "sd_intervention": 16.8,
+    "mean_control": 12.5,
+    "sd_control": 13.8,
+    "n_intervention": 96,
+    "n_control": 84,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "harmonized_name": "",
+      "n": 96,
+      "mean": 16.9,
+      "sd": 16.8,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "noTXA",
+      "harmonized_name": "",
+      "n": 84,
+      "mean": 12.5,
+      "sd": 13.8,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Up to hospital discharge",
+    "is_primary": false,
+    "source_quote": "Table 4 Comparison of the outcome of ‘TXA’ and ‘noTXA’ groups of patients... Length of ICU stay (days); mean ± SD... originally reported as mean ± SD."
+   },
+   {
+    "name": "Length of in-hospital stay",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "days",
+    "mean_intervention": 15,
+    "sd_intervention": 15.5,
+    "mean_control": 14.4,
+    "sd_control": 16.3,
+    "n_intervention": 96,
+    "n_control": 84,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "harmonized_name": "",
+      "n": 96,
+      "mean": 15,
+      "sd": 15.5,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "noTXA",
+      "harmonized_name": "",
+      "n": 84,
+      "mean": 14.4,
+      "sd": 16.3,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Up to hospital discharge",
+    "is_primary": false,
+    "source_quote": "Table 4 Comparison of the outcome of ‘TXA’ and ‘noTXA’ groups of patients... Length of in-hospital stay (days); mean ± SD... originally reported as mean ± SD."
+   },
+   {
+    "name": "Mortality rate at the 28th day post trauma",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "participants",
+    "events_intervention": 27,
+    "events_control": 19,
+    "n_intervention": 96,
+    "n_control": 84,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "harmonized_name": "",
+      "n": 96,
+      "events": 27,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "noTXA",
+      "harmonized_name": "",
+      "n": 84,
+      "events": 19,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Day 28",
+    "is_primary": true,
+    "source_quote": "Table 4 Comparison of the outcome of ‘TXA’ and ‘noTXA’ groups of patients... Mortality rate at the 28th day post trauma; n (%)"
+   },
+   {
+    "name": "Persistent vegetative state (GOS 2) at the 28th day post trauma",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "participants",
+    "events_intervention": 13,
+    "events_control": 4,
+    "n_intervention": 96,
+    "n_control": 84,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "harmonized_name": "",
+      "n": 96,
+      "events": 13,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "noTXA",
+      "harmonized_name": "",
+      "n": 84,
+      "events": 4,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Day 28",
+    "is_primary": false,
+    "source_quote": "Table 4 Comparison of the outcome of ‘TXA’ and ‘noTXA’ groups of patients... Persistent vegetative state (GOS 2) at the 28th day post trauma; n (%)"
+   },
+   {
+    "name": "Severe disability (GOS 3) at the 28th day post trauma",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "participants",
+    "events_intervention": 10,
+    "events_control": 7,
+    "n_intervention": 96,
+    "n_control": 84,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "harmonized_name": "",
+      "n": 96,
+      "events": 10,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "noTXA",
+      "harmonized_name": "",
+      "n": 84,
+      "events": 7,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Day 28",
+    "is_primary": false,
+    "source_quote": "Table 4 Comparison of the outcome of ‘TXA’ and ‘noTXA’ groups of patients... Severe disability (GOS 3) at the 28th day post trauma; n (%)"
+   },
+   {
+    "name": "Moderate or good recovery (GOS 4 and 5) at the 28th day post trauma",
+    "type": "Benefit",
+    "data_type": "Dichotomous",
+    "unit": "participants",
+    "events_intervention": 50,
+    "events_control": 54,
+    "n_intervention": 96,
+    "n_control": 84,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "harmonized_name": "",
+      "n": 96,
+      "events": 50,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "noTXA",
+      "harmonized_name": "",
+      "n": 84,
+      "events": 54,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Day 28",
+    "is_primary": false,
+    "source_quote": "Table 4 Comparison of the outcome of ‘TXA’ and ‘noTXA’ groups of patients... Moderate or good recovery (GOS 4 and 5) at the 28th day post trauma; n (%)"
+   }
+  ],
+  "selected_outcome_idx": 0,
+  "rob": {
+   "randomization": "High",
+   "deviations": "Some concerns",
+   "missingData": "Low",
+   "measurement": "High",
+   "reporting": "Some concerns",
+   "overall": "High",
+   "quotes": {
+    "randomization": "randomized according to their medical file number to receive or not the TXA: patients in ‘TXA’ group were those having an even medical file number during the first 6 months and those having an odd medical file number during the last 6 months of the study.",
+    "deviations": "This was a prospective randomized open-label trial... This finding [pulmonary embolism] can be attributed to the open-label randomisation, the assessment of this complication was probably influenced by the TXA use.",
+    "missingData": "180 patients meeting inclusion criteria... 96 patients in 'TXA' group... 84 patients in 'noTXA' group. (Flowchart indicates all analyzed)",
+    "measurement": "the assessment of this complication was probably influenced by the TXA use... disability assessed by one investigator using the Glasgow Outcome Scale (GOS) at day-28",
+    "reporting": "The primary study endpoints were the benefits of TXA in reducing the needing of surgery or transfusion and the mortality rate up to 28 days after trauma. The secondary endpoints... (No trial registration mentioned)"
+   }
+  }
+ }
+}

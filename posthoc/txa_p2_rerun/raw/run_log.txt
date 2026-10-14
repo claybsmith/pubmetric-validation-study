@@ -1,0 +1,40 @@
+2026-10-14T17:00:18.647Z ok   p2txa-02 attempt 1 outcomes=15 3 RCT Effect of Out-of-Hospital Tranexamic Acid vs Placebo o
+2026-10-14T17:02:03.867Z ok   p2txa-01 attempt 1 outcomes=41 2 RCT Effects of tranexamic acid on death, vascular occlusiv
+2026-10-14T17:03:01.832Z FAIL p2txa-03 attempt 1: EXTRACTION_TIMEOUT 4 RCT Effects of tranexamic acid on death, disability, vascu
+2026-10-14T17:04:01.224Z ok   p2txa-05 attempt 1 outcomes=25 6 RCT Benefits of the tranexamic acid in head trauma with no
+2026-10-14T17:05:12.210Z ok   p2txa-04 attempt 1 outcomes=20 5 RCT Tranexamic Acid During Prehospital Transport in Patien
+2026-10-14T17:06:08.474Z ok   p2txa-07 attempt 1 outcomes=6 Administration of tranexamic acid in trauma patients under s
+2026-10-14T17:06:17.944Z ok   p2txa-03 attempt 2 outcomes=22 4 RCT Effects of tranexamic acid on death, disability, vascu
+2026-10-14T17:08:14.169Z ok   p2txa-09 attempt 1 outcomes=7 Association of Cryoprecipitate and Tranexamic Acid With Impr
+2026-10-14T17:08:20.662Z ok   p2txa-06 attempt 1 outcomes=12 7 RCT Tranexamic acid for patients with traumatic brain inju
+2026-10-14T17:08:20.665Z FAIL p2txa-11 attempt 1: Cannot convert argument to a ByteString because the character at index 101 has a value of 8217 which is greater than 255. Does tranexamic acid really work in an urban US level I trau
+2026-10-14T17:08:20.666Z FAIL p2txa-11 attempt 2: Cannot convert argument to a ByteString because the character at index 101 has a value of 8217 which is greater than 255. Does tranexamic acid really work in an urban US level I trau
+2026-10-14T17:10:03.175Z ok   p2txa-12 attempt 1 outcomes=10 Effectiveness of early administration of tranexamic acid in 
+2026-10-14T17:11:10.278Z FAIL p2txa-08 attempt 1: EXTRACTION_TIMEOUT Antifibrinolytics in a rural trauma state- assessing the opp
+2026-10-14T17:11:40.338Z ok   p2txa-13 attempt 1 outcomes=19 Evaluation of Military Use of Tranexamic Acid and Associated
+2026-10-14T17:12:21.786Z ok   p2txa-10 attempt 1 outcomes=4 Do all trauma patients benefit from tranexamic acid_.pdf
+2026-10-14T17:13:44.451Z ok   p2txa-08 attempt 2 outcomes=3 Antifibrinolytics in a rural trauma state- assessing the opp
+2026-10-14T17:15:42.278Z ok   p2txa-16 attempt 1 outcomes=10 Military use of tranexamic acid in combat trauma_ Does it ma
+2026-10-14T17:16:18.992Z ok   p2txa-14 attempt 1 outcomes=5 Improving Survival with Tranexamic Acid in Cerebral Contusio
+2026-10-14T17:17:23.639Z FAIL p2txa-15 attempt 1: EXTRACTION_TIMEOUT Military Application of Tranexamic Acid in Trauma Emergency 
+2026-10-14T17:19:58.601Z ok   p2txa-18 attempt 1 outcomes=11 Prehospital administration of tranexamic acid in trauma pati
+2026-10-14T17:20:02.162Z ok   p2txa-15 attempt 2 outcomes=19 Military Application of Tranexamic Acid in Trauma Emergency 
+2026-10-14T17:20:44.363Z FAIL p2txa-17 attempt 1: EXTRACTION_TIMEOUT Outcomes of tranexamic acid administration in military traum
+2026-10-14T17:20:51.374Z ok   p2txa-20 attempt 1 outcomes=6 Pulmonary Embolism following Complex Trauma- UK MTC Observat
+2026-10-14T17:22:46.476Z ok   p2txa-17 attempt 2 outcomes=8 Outcomes of tranexamic acid administration in military traum
+2026-10-14T17:23:21.523Z ok   p2txa-19 attempt 1 outcomes=18 Prehospital administration of tranexamic acid in trauma pati
+2026-10-14T17:24:10.487Z ok   p2txa-21 attempt 1 outcomes=31 Safety and Efficacy of Hospital Utilization of Tranexamic Ac
+2026-10-14T17:24:58.508Z ok   p2txa-22 attempt 1 outcomes=14 Severely injured trauma patients with admission hyperfibrino
+2026-10-14T17:25:04.599Z ok   p2txa-23 attempt 1 outcomes=11 The impact of tranexamic acid on mortality in injured patien
+2026-10-14T17:27:01.994Z ok   p2txa-25 attempt 1 outcomes=33 Tranexamic Acid in Civilian Trauma Care in the California Pr
+2026-10-14T17:27:22.195Z ok   p2txa-26 attempt 1 outcomes=22 Tranexamic Acid use in Trauma- Effective but not Without Con
+2026-10-14T17:27:34.536Z ok   p2txa-24 attempt 1 outcomes=37 Tranexamic Acid Use in Severely Injured Civilian Patients an
+2026-10-14T17:28:12.117Z ok   p2txa-27 attempt 1 outcomes=4 Tranexamic acid administration following head trauma in a co
+2026-10-14T17:30:40.036Z ok   p2txa-28 attempt 1 outcomes=14 Tranexamic acid administration is associated with an increas
+2026-10-14T17:31:55.187Z ok   p2txa-30 attempt 1 outcomes=5 Tranexamic acid in severe trauma patients managed in a matur
+2026-10-14T17:32:36.547Z FAIL p2txa-29 attempt 1: EXTRACTION_TIMEOUT Tranexamic acid in life-threatening military injury and the 
+2026-10-14T17:32:45.391Z ok   p2txa-31 attempt 1 outcomes=9 Tranexamic acid is associated with increased mortality in pa
+2026-10-14T17:34:02.989Z ok   p2txa-29 attempt 2 outcomes=6 Tranexamic acid in life-threatening military injury and the 
+2026-10-14T17:34:02.990Z done
+2026-10-14T17:36:17.440Z FAIL p2txa-11 attempt 1 (ASCII copy): EXTRACTION_TIMEOUT
+2026-10-14T17:41:06.359Z ok   p2txa-11 attempt 2 (ASCII-named copy) outcomes=10

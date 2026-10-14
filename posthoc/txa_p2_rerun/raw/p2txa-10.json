@@ -1,0 +1,181 @@
+{
+ "id": "p2txa-10",
+ "pdf": "Do all trauma patients benefit from tranexamic acid_.pdf",
+ "attempt": 1,
+ "extracted_at": "2026-10-14T17:12:21.784Z",
+ "seconds": 248,
+ "data": {
+  "id": "p2txa-10",
+  "title": "Do all trauma patients benefit from tranexamic acid?",
+  "author": "Valle",
+  "year": 2014,
+  "design": "Cohort",
+  "doi": "10.1097/TA.0000000000000242",
+  "available_outcomes": [
+   {
+    "name": "Mortality",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "patients",
+    "events_intervention": 46,
+    "events_control": 35,
+    "n_intervention": 150,
+    "n_control": 150,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "harmonized_name": "",
+      "n": 150,
+      "events": 46,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "No TXA",
+      "harmonized_name": "",
+      "n": 150,
+      "events": 35,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Hospital course",
+    "is_primary": true,
+    "source_quote": "Table 3. Fluid Requirements and Other Outcomes | Mortality | No TXA (n = 150) 23% | TXA (n = 150) 31% | p = 0.091. \n[Note: Event counts derived from percentages and stated total deaths: 150 * 0.31 = 46.5; 150 * 0.23 = 34.5. Total deaths = 81. 46 + 35 = 81.]"
+   },
+   {
+    "name": "Mortality (excluding DOA)",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "patients",
+    "events_intervention": 36,
+    "events_control": 25,
+    "n_intervention": 134,
+    "n_control": 146,
+    "arms": [
+     {
+      "source_name": "TXA (excluding DOA)",
+      "harmonized_name": "",
+      "n": 134,
+      "events": 36,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "No TXA (excluding DOA)",
+      "harmonized_name": "",
+      "n": 146,
+      "events": 25,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Hospital course",
+    "is_primary": false,
+    "source_quote": "Table 3. Fluid Requirements and Other Outcomes | Mortality (excluding DOA) | No TXA 17% | TXA 27% | p = 0.024. \n...of the 81 deaths, 20 patients arrived in extremis and survived less than 2 hours, despite lifesaving interventions. Those patients were defined as DOA and excluded from both groups. Then, the mortality rate changes and achieves statistical significance with TXA versus no TXA (27% vs. 17%, p = 0.024). \n[Note: Derived N and events algebraically since 20 patients were excluded from the total 300, leaving N=280 and 61 deaths. 134 * 0.27 = 36 deaths; 146 * 0.17 = 25 deaths. 36 + 25 = 61.]"
+   },
+   {
+    "name": "Mortality (No TBI)",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "patients",
+    "events_intervention": 25,
+    "events_control": 14,
+    "n_intervention": 109,
+    "n_control": 105,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "harmonized_name": "",
+      "n": 109,
+      "events": 25,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "No TXA",
+      "harmonized_name": "",
+      "n": 105,
+      "events": 14,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Hospital course",
+    "is_primary": false,
+    "source_quote": "TABLE 4. Effect of TBI | No TBI | TXA (n = 109) Mortality 22.9% | No TXA (n = 105) Mortality 13.3% | p = 0.050. \n[Note: Event counts calculated from percentages: 109 * 0.229 = 25; 105 * 0.133 = 14.]"
+   },
+   {
+    "name": "Mortality (TBI)",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "patients",
+    "events_intervention": 13,
+    "events_control": 9,
+    "n_intervention": 32,
+    "n_control": 34,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "harmonized_name": "",
+      "n": 32,
+      "events": 13,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "No TXA",
+      "harmonized_name": "",
+      "n": 34,
+      "events": 9,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Hospital course",
+    "is_primary": false,
+    "source_quote": "TABLE 4. Effect of TBI | TBI | TXA (n = 32) Mortality 40.6% | No TXA (n = 34) Mortality 26.5% | p = 0.169. \n[Note: Event counts calculated from percentages: 32 * 0.406 = 13; 34 * 0.265 = 9.]"
+   }
+  ],
+  "selected_outcome_idx": 0,
+  "rob": {
+   "randomization": "...",
+   "deviations": "...",
+   "missingData": "...",
+   "measurement": "...",
+   "reporting": "...",
+   "overall": "...",
+   "quotes": {}
+  },
+  "robinsI": {
+   "confounding": "Serious",
+   "selection": "Moderate",
+   "classification": "Low",
+   "deviations": "Low",
+   "missingData": "Low",
+   "measurement": "Low",
+   "reporting": "Low",
+   "overall": "Serious",
+   "quotes": {
+    "confounding": "TXA was given at the attending surgeon’s discretion, other variables may have determined the need for the TXA.",
+    "selection": "Consecutive trauma patients (n = 1,217) who required emergency surgery (OR) and/or transfusions... were reviewed. With the use of propensity scores... these patients were matched...",
+    "classification": "TXA was made available in the formulary... Resuscitation flow sheets, OR/anesthesia reports, and intensive care unit (ICU) records were reviewed.",
+    "deviations": "No specific deviations described post-matching.",
+    "missingData": "Mortality data derived directly from trauma registry data.",
+    "measurement": "Dead on arrival (DOA) was defined as a patient who arrived in extremis and who survived less than 2 hours...",
+    "reporting": "The paper reports mortality and clinical endpoints fully consistent with methods."
+   }
+  },
+  "quadas2": {
+   "patientSelection": "...",
+   "indexTest": "...",
+   "referenceStandard": "...",
+   "flowAndTiming": "...",
+   "appPatientSelection": "...",
+   "appIndexTest": "...",
+   "appReferenceStandard": "...",
+   "overall": "...",
+   "quotes": {}
+  }
+ }
+}

@@ -1,0 +1,130 @@
+{
+ "id": "p2txa-08",
+ "pdf": "Antifibrinolytics in a rural trauma state- assessing the opportunities.pdf",
+ "attempt": 2,
+ "extracted_at": "2026-10-14T17:13:44.449Z",
+ "seconds": 154,
+ "data": {
+  "id": "p2txa-08",
+  "title": "Antifibrinolytics in a rural trauma state: assessing the opportunities",
+  "author": "Bardes",
+  "year": 2017,
+  "design": "Cohort",
+  "doi": "10.1136/tsaco-2017-000107",
+  "available_outcomes": [
+   {
+    "name": "Mortality (TXA vs missed treatment within 3-hour window)",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "patients",
+    "events_intervention": 4,
+    "events_control": 23,
+    "n_intervention": 32,
+    "n_control": 119,
+    "arms": [
+     {
+      "source_name": "TXA treatment group",
+      "harmonized_name": "",
+      "n": 32,
+      "events": 4,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Missed treatment group",
+      "harmonized_name": "",
+      "n": 119,
+      "events": 23,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Overall",
+    "is_primary": false,
+    "source_quote": "Overall, in the TXA treatment group, there were four deaths, a mortality rate of 12.5%; 119 (29.8%) patients were considered a miss. Mortality within the patients who missed being treated with TXA was 19.5%. The mortality difference between the TXA group and those that missed treatment, was not statistically significant, p=0.45. [Note: events in the missed group calculated from 119 * 19.5% = 23]"
+   },
+   {
+    "name": "Mortality (TXA vs ineligible due to >3 hours)",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "patients",
+    "events_intervention": 4,
+    "events_control": 13,
+    "n_intervention": 32,
+    "n_control": 66,
+    "arms": [
+     {
+      "source_name": "TXA treatment group",
+      "harmonized_name": "",
+      "n": 32,
+      "events": 4,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Ineligible due to time",
+      "harmonized_name": "",
+      "n": 66,
+      "events": 13,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Overall",
+    "is_primary": false,
+    "source_quote": "Within the TXA indicated cohort, 66 (30.4%) of patients were deemed ineligible for treatment due to arrival beyond 3 hours from time of injury... Of those with an indication for TXA but were ineligible due to time, mortality was 19%. This was also not statistically significant when compared with patients treated with TXA, p=0.56. [Note: events in the ineligible group calculated from 66 * 19% = 13]"
+   },
+   {
+    "name": "Mortality (massive transfusion scene patients)",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "patients",
+    "events_intervention": 3,
+    "events_control": 5,
+    "n_intervention": 13,
+    "n_control": 11,
+    "arms": [
+     {
+      "source_name": "Received TXA",
+      "harmonized_name": "",
+      "n": 13,
+      "events": 3,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Did not receive TXA",
+      "harmonized_name": "",
+      "n": 11,
+      "events": 5,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Overall",
+    "is_primary": false,
+    "source_quote": "TXA was administered to 13 of 24 (54.2%) scene patients. No scene patient in the massive transfusion cohort was ineligible due to time... Of the eight deaths in the scene cohort, three patients received TXA, five did not. In the survivor cohort, 10 patients received TXA, 6 did not. There was no statistically significant effect of TXA in this group, p=0.39."
+   }
+  ],
+  "selected_outcome_idx": 0,
+  "robinsI": {
+   "confounding": "Serious",
+   "selection": "Moderate",
+   "classification": "Moderate",
+   "deviations": "Low",
+   "missingData": "Low",
+   "measurement": "Low",
+   "reporting": "Low",
+   "overall": "Serious",
+   "quotes": {
+    "confounding": "A multivariate regression was performed to evaluate the effect TXA may have had on mortality... TXA administration was not statistically significant for association with mortality (p=0.10), but shows a trend towards treatment effect.",
+    "selection": "Some of these misses were inevitably identified only by the retrospective review of the charts, with patients experiencing occult bleeding not recognized until later in the patients care.",
+    "classification": "TEG data were not available for all patients at the initiation of TXA treatment; this was to avoid missing the treatment window while awaiting results. Some patients with a TXA indication may have had normal levels of fibrinolysis and would not have benefited from the drug...",
+    "deviations": "The authors also recognize the low compliance with their institutions own TXA protocol, only 32 patients receiving treatment as indicated.",
+    "missingData": "The registry was queried from July 1 2013 through October 31 2014. Inclusion criteria were all adult full trauma team activations.",
+    "measurement": "Overall, in the TXA treatment group, there were four deaths...",
+    "reporting": "Data were analyzed using SPSS Statistics... Two-tailed, Fischer’s exact test was used to compare outcomes, and multivariate regression performed."
+   }
+  }
+ }
+}

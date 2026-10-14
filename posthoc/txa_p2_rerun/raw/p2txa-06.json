@@ -1,0 +1,381 @@
+{
+ "id": "p2txa-06",
+ "pdf": "7 RCT Tranexamic acid for patients with traumatic brain injury- a randomized, double-blinded, placebo-controlled trial.pdf",
+ "attempt": 1,
+ "extracted_at": "2026-10-14T17:08:20.662Z",
+ "seconds": 259,
+ "data": {
+  "id": "p2txa-06",
+  "title": "Tranexamic acid for patients with traumatic brain injury: a randomized, double-blinded, placebo-controlled trial",
+  "author": "Yutthakasemsunt",
+  "year": 2013,
+  "design": "RCT",
+  "doi": "10.1186/1471-227X-13-20",
+  "available_outcomes": [
+   {
+    "name": "Progressive intracranial haemorrhage (PIH)",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "participants",
+    "events_intervention": 21,
+    "n_intervention": 120,
+    "events_control": 32,
+    "n_control": 118,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "harmonized_name": "",
+      "n": 120,
+      "events": 21,
+      "is_control": false
+     },
+     {
+      "source_name": "Placebo",
+      "harmonized_name": "",
+      "n": 118,
+      "events": 32,
+      "is_control": true
+     }
+    ],
+    "timepoint": "24 hours",
+    "is_primary": true,
+    "source_quote": "Table 2 Study outcomes\nOutcomes | TXA (n = 120) | Placebo (n = 118)\nProgressive intracranial haemorrhage (PIH) | 21 (18%) | 32 (27%)\n...Table 3 ... 2. Assuming poor outcome ... TXA 21/120 18% ... Placebo 32/118 27%"
+   },
+   {
+    "name": "Progressive intracranial haemorrhage (complete case analysis)",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "participants",
+    "events_intervention": 16,
+    "n_intervention": 115,
+    "events_control": 28,
+    "n_control": 114,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "harmonized_name": "",
+      "n": 115,
+      "events": 16,
+      "is_control": false
+     },
+     {
+      "source_name": "Placebo",
+      "harmonized_name": "",
+      "n": 114,
+      "events": 28,
+      "is_control": true
+     }
+    ],
+    "timepoint": "24 hours",
+    "is_primary": true,
+    "source_quote": "Table 3 Effect of various methods of handling missing response in trial\n1. Complete case analysis | TXA 16/115 14% | Placebo 28/114 25%"
+   },
+   {
+    "name": "Increase in pressure effect",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "participants",
+    "events_intervention": 11,
+    "n_intervention": 114,
+    "events_control": 12,
+    "n_control": 115,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "harmonized_name": "",
+      "n": 114,
+      "events": 11,
+      "is_control": false
+     },
+     {
+      "source_name": "Placebo",
+      "harmonized_name": "",
+      "n": 115,
+      "events": 12,
+      "is_control": true
+     }
+    ],
+    "timepoint": "24 hours",
+    "is_primary": false,
+    "source_quote": "Table 2 Study outcomes\nIncrease in pressure effect* | *11 (10%) | 12 (11%)\n*Denominator for outcomes is 114 for TXA group and 115 for placebo group. This is an analysis based on complete case analysis that is not assumed the missing outcome."
+   },
+   {
+    "name": "Improved GCS motor score",
+    "type": "Benefit",
+    "data_type": "Dichotomous",
+    "unit": "participants",
+    "events_intervention": 37,
+    "n_intervention": 120,
+    "events_control": 37,
+    "n_control": 118,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "harmonized_name": "",
+      "n": 120,
+      "events": 37,
+      "is_control": false
+     },
+     {
+      "source_name": "Placebo",
+      "harmonized_name": "",
+      "n": 118,
+      "events": 37,
+      "is_control": true
+     }
+    ],
+    "timepoint": "24 hours",
+    "is_primary": false,
+    "source_quote": "Table 2 Study outcomes\nImproved GCS motor score at 24 hours | 37 (31%) | 37 (31%)"
+   },
+   {
+    "name": "Neurosurgical intervention",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "participants",
+    "events_intervention": 3,
+    "n_intervention": 120,
+    "events_control": 0,
+    "n_control": 118,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "harmonized_name": "",
+      "n": 120,
+      "events": 3,
+      "is_control": false
+     },
+     {
+      "source_name": "Placebo",
+      "harmonized_name": "",
+      "n": 118,
+      "events": 0,
+      "is_control": true
+     }
+    ],
+    "timepoint": "hospital discharge",
+    "is_primary": false,
+    "source_quote": "Table 2 Study outcomes\nNeurosurgical intervention | 3 (3%) | 0\nText: 'The neurosurgical interventions were not done in placebo group because the patients’ relatives did not allow us to perform the operation hence the relative risk for neurosurgical interventions could not be calculated.'"
+   },
+   {
+    "name": "Blood products transfusion",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "participants",
+    "events_intervention": 31,
+    "n_intervention": 120,
+    "events_control": 33,
+    "n_control": 118,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "harmonized_name": "",
+      "n": 120,
+      "events": 31,
+      "is_control": false
+     },
+     {
+      "source_name": "Placebo",
+      "harmonized_name": "",
+      "n": 118,
+      "events": 33,
+      "is_control": true
+     }
+    ],
+    "timepoint": "hospital discharge",
+    "is_primary": false,
+    "source_quote": "Table 2 Study outcomes\nBlood products transfusion | 31 (26%) | 33 (28%)"
+   },
+   {
+    "name": "Death",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "participants",
+    "events_intervention": 12,
+    "n_intervention": 120,
+    "events_control": 17,
+    "n_control": 118,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "harmonized_name": "",
+      "n": 120,
+      "events": 12,
+      "is_control": false
+     },
+     {
+      "source_name": "Placebo",
+      "harmonized_name": "",
+      "n": 118,
+      "events": 17,
+      "is_control": true
+     }
+    ],
+    "timepoint": "hospital discharge",
+    "is_primary": false,
+    "source_quote": "Table 2 Study outcomes\nDeath | 12 (10%) | 17 (14%)"
+   },
+   {
+    "name": "Unfavorable (GOS) outcome",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "participants",
+    "events_intervention": 21,
+    "n_intervention": 120,
+    "events_control": 27,
+    "n_control": 118,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "harmonized_name": "",
+      "n": 120,
+      "events": 21,
+      "is_control": false
+     },
+     {
+      "source_name": "Placebo",
+      "harmonized_name": "",
+      "n": 118,
+      "events": 27,
+      "is_control": true
+     }
+    ],
+    "timepoint": "hospital discharge",
+    "is_primary": false,
+    "source_quote": "Table 2 Study outcomes\nUnfavorable (GOS) outcome | 21 (18%) | 27 (23%)"
+   },
+   {
+    "name": "Stroke",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "participants",
+    "events_intervention": 0,
+    "n_intervention": 120,
+    "events_control": 3,
+    "n_control": 118,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "harmonized_name": "",
+      "n": 120,
+      "events": 0,
+      "is_control": false
+     },
+     {
+      "source_name": "Placebo",
+      "harmonized_name": "",
+      "n": 118,
+      "events": 3,
+      "is_control": true
+     }
+    ],
+    "timepoint": "in-hospital",
+    "is_primary": false,
+    "source_quote": "Table 2 Study outcomes\nAdverse events\nStroke | 0 | 3"
+   },
+   {
+    "name": "Pulmonary embolus",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "participants",
+    "events_intervention": 0,
+    "n_intervention": 120,
+    "events_control": 0,
+    "n_control": 118,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "harmonized_name": "",
+      "n": 120,
+      "events": 0,
+      "is_control": false
+     },
+     {
+      "source_name": "Placebo",
+      "harmonized_name": "",
+      "n": 118,
+      "events": 0,
+      "is_control": true
+     }
+    ],
+    "timepoint": "in-hospital",
+    "is_primary": false,
+    "source_quote": "Table 2 Study outcomes\nAdverse events\nPulmonary embolus | 0 | 0"
+   },
+   {
+    "name": "Deep vein thrombosis",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "participants",
+    "events_intervention": 0,
+    "n_intervention": 120,
+    "events_control": 0,
+    "n_control": 118,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "harmonized_name": "",
+      "n": 120,
+      "events": 0,
+      "is_control": false
+     },
+     {
+      "source_name": "Placebo",
+      "harmonized_name": "",
+      "n": 118,
+      "events": 0,
+      "is_control": true
+     }
+    ],
+    "timepoint": "in-hospital",
+    "is_primary": false,
+    "source_quote": "Table 2 Study outcomes\nAdverse events\nDeep vein thrombosis | 0 | 0"
+   },
+   {
+    "name": "Gastrointestinal bleeding",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "participants",
+    "events_intervention": 0,
+    "n_intervention": 120,
+    "events_control": 1,
+    "n_control": 118,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "harmonized_name": "",
+      "n": 120,
+      "events": 0,
+      "is_control": false
+     },
+     {
+      "source_name": "Placebo",
+      "harmonized_name": "",
+      "n": 118,
+      "events": 1,
+      "is_control": true
+     }
+    ],
+    "timepoint": "in-hospital",
+    "is_primary": false,
+    "source_quote": "Table 2 Study outcomes\nAdverse events\nGastrointestinal bleeding | 0 | 1"
+   }
+  ],
+  "selected_outcome_idx": 0,
+  "rob": {
+   "randomization": "Low",
+   "deviations": "Low",
+   "missingData": "Low",
+   "measurement": "Low",
+   "reporting": "Low",
+   "overall": "Low",
+   "quotes": {
+    "randomization": "The randomisation sequence (with a randomly varied block size) was generated from a computer by a person who was not involved with the trial... sequentially numbered sealed opaque envelopes",
+    "deviations": "This approach ensured good allocation concealment and also ensured that those caring for the patient and those conducting the trial did not know the assigned treatment. All patients received the allocated trial treatments (TXA or placebo) and there were no protocol violations.",
+    "missingData": "There were nine patients for whom a second CT scan could not be obtained: seven patients died before the second CT scan, one patient could not be scanned because of agitation, and one patient refused the second scan. There were two consents withdrawal in the placebo group",
+    "measurement": "The presence or absence of PIH was assessed by two independent readers... When there was disagreement about the presence or absence of PIH this was resolved by a third neurosurgeon reader.",
+    "reporting": "The trial protocol was registered with www.clinicaltrials.gov with the trial identifier NCT00755209."
+   }
+  }
+ }
+}

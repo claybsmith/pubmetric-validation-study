@@ -37,7 +37,7 @@ Long-format comparison table for the TXA (tranexamic acid) evaluation. Each row 
 - `pm_*` — values extracted by PubMetric
 - `claude_*` — values extracted independently by Claude (Anthropic)
 - `match_pre`, `match_post` — agreement before and after adjudication
-- `clay_comment` — adjudicator notes
+- adjudicator notes: see `data/txa_validation_comparison_adjudicated.csv` (column `Clay comments`)
 
 ### `data/tnk_ground_truth.csv`
 Long-format comparison table for the TNK (tenecteplase) evaluation against an adjudicated ground truth (three-physician consensus). Columns follow the same structure with `ground_truth_*` fields.
@@ -139,3 +139,24 @@ The run 1 project was later deleted from the application; the file below is the 
 All 10 run 1 errors were denominators in Albers et al.: run 1 applied the randomized N (228/230) to every efficacy outcome. Run 2 corrected 8 of the 10; the median modified Rankin scale denominator (228/230 vs 226/229) remained incorrect. Run 1 and run 2 agreed on 239 of 247 cells; the 8 differences are the corrected Albers denominators. Run 1 also extracted 15 outcomes (subgroups and hemorrhage-severity categories) that are not in the adjudicated ground truth and are not scored.
 
 TXA and TNK were development sets: the extraction prompt was revised using them, so accuracy on these sets is in-sample and may overestimate performance on new articles. Gemini temperature was not specified for these extractions (API default, 1.0).
+
+---
+
+## Post hoc analysis: TXA re-extracted on prompt P2 (added October 2026)
+
+The reported TXA extraction used prompt P1; TNK run 2 used the revised prompt P2. To show how TXA results depend on that revision, all 31 TXA articles were re-extracted on P2 in October 2026, following a plan written before the run (`posthoc/txa_p2_rerun/PLAN.md`, which also logs every incident during the run). This analysis is post hoc.
+
+Settings matched the May 2026 TNK run 2: the extraction code at that date, gemini-3.1-pro-preview (release 01-2026), temperature not specified (API default, 1.0).
+
+| File | Contents |
+|---|---|
+| `posthoc/txa_p2_rerun/RESULTS.md` | Summary of results |
+| `posthoc/txa_p2_rerun/results/p2_vs_txa_reference.csv` | Every scored cell: reference value, reported (P1) value, P2 value, and P2's source quote |
+| `posthoc/txa_p2_rerun/results/outcome_matching.csv` | How each reference outcome was paired with a P2 outcome, and outcomes found in only one run |
+| `posthoc/txa_p2_rerun/raw/` | Raw P2 output for each article, and the run log |
+| `posthoc/txa_p2_rerun/score_p2.py` | Reproduces the scoring (Python 3, standard library only) |
+| `data/txa_validation_comparison_adjudicated.csv` | The TXA comparison with the adjudicator's comment for each disagreement, used to build the reference |
+
+**Results.** On the 2,043 cells from outcomes extracted in both runs, P2 matched the TXA reference in 1,975 (96.7%), versus 2,031 (99.4%) for the reported run. Of the 68 differences, 50 were arm choices in two multi-arm trials (the reported run combined two tranexamic acid arms; P2 used one), 16 were values P2 left blank, and 2 were incorrect denominators. The set of outcomes extracted varied between runs: P2 extracted 417 of the 527 reference outcomes and 40 outcomes not in the reference.
+
+The TXA reference consists mainly of cells where PubMetric (P1) and Claude agreed, plus adjudicated disagreements; it is not an independent human extraction. The extraction script is not included because it contains the proprietary extraction prompt.

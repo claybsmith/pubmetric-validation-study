@@ -1,0 +1,232 @@
+{
+ "id": "p2txa-29",
+ "pdf": "Tranexamic acid in life-threatening military injury and the associated risk of infective complications.pdf",
+ "attempt": 2,
+ "extracted_at": "2026-10-14T17:34:02.987Z",
+ "seconds": 86,
+ "data": {
+  "id": "p2txa-29",
+  "title": "Tranexamic acid in life-threatening military injury and the associated risk of infective complications",
+  "author": "Lewis",
+  "year": 2016,
+  "design": "Cohort",
+  "doi": "10.1002/bjs.10055",
+  "available_outcomes": [
+   {
+    "name": "Time from injury to first infection (days) (median [IQR])",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "days",
+    "median_intervention": 5,
+    "iqr_lower_intervention": 3,
+    "iqr_upper_intervention": 9,
+    "median_control": 7,
+    "iqr_lower_control": 4,
+    "iqr_upper_control": 11,
+    "n_intervention": 335,
+    "n_control": 626,
+    "is_paired": false,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "harmonized_name": "",
+      "n": 335,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "No TXA",
+      "harmonized_name": "",
+      "n": 626,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Within 30 days of injury",
+    "is_primary": true,
+    "source_quote": "Table 2 Rate of infections, infection types and associated outcomes for injured patients\nTime from injury to first infection (days)* | 5 (3–9) | 7 (4–11) | 0.002\n*values are median (i.q.r.)."
+   },
+   {
+    "name": "Patients with any infection during hospital stay",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "patients",
+    "events_intervention": 255,
+    "n_intervention": 335,
+    "events_control": 366,
+    "n_control": 626,
+    "is_paired": false,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "harmonized_name": "",
+      "n": 335,
+      "events": 255,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "No TXA",
+      "harmonized_name": "",
+      "n": 626,
+      "events": 366,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "During hospital stay (up to 30 days)",
+    "is_primary": true,
+    "source_quote": "Table 2 Rate of infections, infection types and associated outcomes for injured patients\nPatients with any infection during hospital stay | 255 (76.1) | 366 (58.5) | <0.001\nValues in parentheses are percentages unless indicated otherwise"
+   },
+   {
+    "name": "No. of infections per patient within 30 days of injury (median [IQR])",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "infections",
+    "median_intervention": 2,
+    "iqr_lower_intervention": 1,
+    "iqr_upper_intervention": 4,
+    "median_control": 2,
+    "iqr_lower_control": 1,
+    "iqr_upper_control": 3,
+    "n_intervention": 335,
+    "n_control": 626,
+    "is_paired": false,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "harmonized_name": "",
+      "n": 335,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "No TXA",
+      "harmonized_name": "",
+      "n": 626,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Within 30 days of injury",
+    "is_primary": false,
+    "source_quote": "Table 2 Rate of infections, infection types and associated outcomes for injured patients\nNo. of infections per patient within 30 days of injury* | 2 (1–4) | 2 (1–3) | 0.002\n*values are median (i.q.r.)."
+   },
+   {
+    "name": "Death",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "patients",
+    "events_intervention": 10,
+    "n_intervention": 335,
+    "events_control": 11,
+    "n_control": 626,
+    "is_paired": false,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "harmonized_name": "",
+      "n": 335,
+      "events": 10,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "No TXA",
+      "harmonized_name": "",
+      "n": 626,
+      "events": 11,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Hospital stay",
+    "is_primary": false,
+    "source_quote": "Table 2 Rate of infections, infection types and associated outcomes for injured patients\nDeath | 10 (3.0) | 11 (1.8) | 0.215"
+   },
+   {
+    "name": "Risk of infection",
+    "type": "Harm",
+    "data_type": "Precalculated",
+    "unit": "OR",
+    "precalc_effect": 1.27,
+    "precalc_ci_lower": 0.85,
+    "precalc_ci_upper": 1.91,
+    "n_intervention": null,
+    "n_control": null,
+    "is_paired": false,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "harmonized_name": "",
+      "n": null,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "No TXA",
+      "harmonized_name": "",
+      "n": null,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Within 30 days of injury",
+    "is_primary": true,
+    "source_quote": "Table 4 Multivariable logistic regression analysis of factors associated with risk of infection\nTranexamic acid use | 1.27 (0.85, 1.91) | 0.243\nValues in parentheses are 95 per cent c.i. Adjusted analysis."
+   },
+   {
+    "name": "Time from injury to first infection",
+    "type": "Harm",
+    "data_type": "Precalculated",
+    "unit": "HR",
+    "precalc_effect": 1.16,
+    "precalc_ci_lower": 0.98,
+    "precalc_ci_upper": 1.38,
+    "n_intervention": null,
+    "n_control": null,
+    "is_paired": false,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "harmonized_name": "",
+      "n": null,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "No TXA",
+      "harmonized_name": "",
+      "n": null,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Time to first infection",
+    "is_primary": true,
+    "source_quote": "Table 5 Multivariable Cox proportional hazards analysis of factors associated with time from injury to first infection\nTranexamic acid use | 1.16 (0.98, 1.38) | 0.078\nValues in parentheses are 95 per cent c.i. Adjusted analysis."
+   }
+  ],
+  "selected_outcome_idx": 1,
+  "robinsI": {
+   "confounding": "Moderate",
+   "selection": "Low",
+   "classification": "Low",
+   "deviations": "Low",
+   "missingData": "Low",
+   "measurement": "Low",
+   "reporting": "Low",
+   "overall": "Moderate",
+   "quotes": {
+    "confounding": "Patients who received TXA were matched by Injury Severity Score with patients who did not receive TXA... Multivariable logistic regression analysis of factors associated with risk of infection",
+    "selection": "Data for this retrospective cohort analysis were collected through the Trauma Infectious Disease Outcomes Study (TIDOS), an ongoing observational cohort study",
+    "classification": "Information on trauma history, injury patterns, TXA administration, and clinical characteristics... was obtained from the Department of Defense Trauma Registry.",
+    "deviations": "TXA should be administered within 3 h of injury; however, information on the actual timing of administration of TXA is not available from the Department of Defense Trauma Registry.",
+    "missingData": "From 1 June 2009 to 31 December 2013, 2593 patients were admitted... 335 patients received TXA and were matched with 626 patients who did not.",
+    "measurement": "The TIDOS infectious disease module was used to gather data on infectious disease events and outcomes.",
+    "reporting": "Outcomes were the rate of any infection occurring within 30 days after injury and time to development of infection associated with TXA. These were fully reported in the results.",
+    "overall": "The study utilized a matched cohort and multivariable regression to address confounding, bringing the risk to moderate given the retrospective observational nature."
+   }
+  }
+ }
+}

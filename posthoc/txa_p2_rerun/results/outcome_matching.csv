@@ -1,0 +1,568 @@
+study,reference_outcome,timepoint,best_P2_outcome,match_score,result
+The CRASH-3 trial collaborators,All vascular occlusive events (<3 h),28 days,All vascular occlusive events (<3 h),1.4,"matched (name 1.00, words 1.00, numbers 1.00)"
+The CRASH-3 trial collaborators,Pulmonary embolism (<3 h),28 days,Pulmonary embolism (<3 h),1.4,"matched (name 1.00, words 1.00, numbers 1.00)"
+The CRASH-3 trial collaborators,Deep vein thrombosis (<3 h),28 days,Deep vein thrombosis (<3 h),1.4,"matched (name 1.00, words 1.00, numbers 1.00)"
+The CRASH-3 trial collaborators,Stroke (<3 h),28 days,Stroke (<3 h),1.4,"matched (name 1.00, words 1.00, numbers 1.00)"
+The CRASH-3 trial collaborators,Myocardial infarction (<3 h),28 days,Myocardial infarction (<3 h),1.4,"matched (name 1.00, words 1.00, numbers 1.00)"
+The CRASH-3 trial collaborators,Renal failure (<3 h),28 days,Renal failure (<3 h),1.4,"matched (name 1.00, words 1.00, numbers 1.00)"
+The CRASH-3 trial collaborators,Sepsis (<3 h),28 days,Sepsis (<3 h),1.4,"matched (name 1.00, words 1.00, numbers 1.00)"
+The CRASH-3 trial collaborators,Seizure (<3 h),28 days,Seizure (<3 h),1.4,"matched (name 1.00, words 1.00, numbers 1.00)"
+The CRASH-3 trial collaborators,Gastrointestinal bleeding (<3 h),28 days,Gastrointestinal bleeding (<3 h),1.4,"matched (name 1.00, words 1.00, numbers 1.00)"
+The CRASH-3 trial collaborators,All-cause mortality,28 days,All-cause mortality,1.4,"matched (name 1.00, words 1.00, numbers 1.00)"
+The CRASH-3 trial collaborators,Head injury-related death within 24 h excluding GCS 3 or bilateral unreactive pupils,24 h,Head injury-related death within 24 h of injury (excluding GCS 3 or bilateral unreactive pupils),1.37,"matched (name 0.94, words 1.00, numbers 1.00)"
+The CRASH-3 trial collaborators,Head injury-related death within 24 h,24 h,Head injury-related death within 24 h of injury,1.34,"matched (name 0.88, words 1.00, numbers 1.00)"
+The CRASH-3 trial collaborators,Head injury-related death (Mild to moderate GCS 9–15),28 days,"Head injury-related death (GCS Mild to moderate 9-15, within 3 h)",1.32,"matched (name 0.83, words 1.00, numbers 1.00)"
+The CRASH-3 trial collaborators,Head injury-related death (Severe GCS 3–8),28 days,"Head injury-related death (GCS Severe 3-8, within 3 h)",1.3,"matched (name 0.79, words 1.00, numbers 1.00)"
+The CRASH-3 trial collaborators,Non-head injury-related death,28 days,Non-head injury-related deaths,1.29,"matched (name 0.98, words 0.80, numbers 1.00)"
+The CRASH-3 trial collaborators,Head injury-related death excluding GCS 3 or bilateral unreactive pupils (<3 h),28 days,"Head injury-related death (randomised within 3 h, excluding GCS 3 or bilateral unreactive pupils)",1.28,"matched (name 0.84, words 0.92, numbers 1.00)"
+The CRASH-3 trial collaborators,Head injury-related death (Any non-reactive pupil),28 days,"Head injury-related death (Pupil reactivity: Any non-reactive, within 3 h)",1.27,"matched (name 0.75, words 1.00, numbers 1.00)"
+The CRASH-3 trial collaborators,Unable to wash or dress (<3 h),28 days,Patient-derived disability: Unable to wash or dress (<3 h),1.24,"matched (name 0.67, words 1.00, numbers 1.00)"
+The CRASH-3 trial collaborators,Confined to bed (<3 h),28 days,Patient-derived disability: Confined to bed (<3 h),1.2,"matched (name 0.60, words 1.00, numbers 1.00)"
+The CRASH-3 trial collaborators,Head injury-related death (<3 h),28 days,Head injury-related death (randomised within 3 h),1.19,"matched (name 0.75, words 0.83, numbers 1.00)"
+The CRASH-3 trial collaborators,Head injury-related death (Both pupils react),28 days,"Head injury-related death (Pupil reactivity: Both react, within 3 h)",1.17,"matched (name 0.69, words 0.86, numbers 1.00)"
+The CRASH-3 trial collaborators,Severe pain or discomfort (<3 h),28 days,,,NOT FOUND in P2
+The CRASH-3 trial collaborators,Severe anxiety or depression (<3 h),28 days,,,NOT FOUND in P2
+The CRASH-3 trial collaborators,Severe agitation or aggression (<3 h),28 days,,,NOT FOUND in P2
+The CRASH-3 trial collaborators,Severe fatigue (<3 h),28 days,,,NOT FOUND in P2
+The CRASH-3 trial collaborators,Mean Disability Rating Scale score (<3 h),28 days,,,NOT FOUND in P2
+The CRASH-3 trial collaborators,,,All vascular occlusive events (All),,P2 only (not in reference)
+CRASH-2 trial collaborators,Any vascular occlusive event,within 28 days,Any vascular occlusive event,1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+CRASH-2 trial collaborators,Myocardial infarction,within 28 days,Myocardial infarction,1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+CRASH-2 trial collaborators,Stroke,within 28 days,Stroke,1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+CRASH-2 trial collaborators,Pulmonary embolism,within 28 days,Pulmonary embolism,1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+CRASH-2 trial collaborators,Deep vein thrombosis,within 28 days,Deep vein thrombosis,1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+CRASH-2 trial collaborators,Blood product transfused,within 28 days,Blood product transfused,1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+CRASH-2 trial collaborators,Any surgery,within 28 days,Any surgery,1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+CRASH-2 trial collaborators,Neurosurgery,within 28 days,Neurosurgery,1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+CRASH-2 trial collaborators,Chest surgery,within 28 days,Chest surgery,1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+CRASH-2 trial collaborators,Abdominal surgery,within 28 days,Abdominal surgery,1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+CRASH-2 trial collaborators,Pelvic surgery,within 28 days,Pelvic surgery,1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+CRASH-2 trial collaborators,Units of blood product transfused (mean ± SD),within 28 days,Units of blood product transfused (mean ± SD),1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+CRASH-2 trial collaborators,Units of blood product transfused (median [IQR]),within 28 days,Units of blood product transfused (median [IQR]),1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+CRASH-2 trial collaborators,Gastrointestinal bleeding,within 28 days,Gastrointestinal bleeding,1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+CRASH-2 trial collaborators,Death due to bleeding on the day of randomisation,day of randomisation,Death due to bleeding on the day of randomisation,1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+CRASH-2 trial collaborators,All-cause mortality,within 4 weeks of injury,All-cause mortality,1.4,"matched (name 1.00, words 1.00, numbers 1.00)"
+CRASH-2 trial collaborators,Death due to bleeding,within 4 weeks of injury,Death due to bleeding,1.4,"matched (name 1.00, words 1.00, numbers 1.00)"
+CRASH-2 trial collaborators,Dependency: No symptoms,hospital discharge or day 28,Dependency: No symptoms,1.4,"matched (name 1.00, words 1.00, numbers 1.00)"
+CRASH-2 trial collaborators,Dependency: Minor symptoms,hospital discharge or day 28,Dependency: Minor symptoms,1.4,"matched (name 1.00, words 1.00, numbers 1.00)"
+CRASH-2 trial collaborators,Dependency: Some restriction,hospital discharge or day 28,Dependency: Some restriction,1.4,"matched (name 1.00, words 1.00, numbers 1.00)"
+CRASH-2 trial collaborators,Dependency: Dependent (not requiring constant attention),hospital discharge or day 28,Dependency: Dependent (not requiring constant attention),1.4,"matched (name 1.00, words 1.00, numbers 1.00)"
+CRASH-2 trial collaborators,Dependency: Fully dependent,hospital discharge or day 28,Dependency: Fully dependent,1.4,"matched (name 1.00, words 1.00, numbers 1.00)"
+CRASH-2 trial collaborators,Still in hospital at 28 days,at 28 days,Still in hospital at 28 days,1.4,"matched (name 1.00, words 1.00, numbers 1.00)"
+CRASH-2 trial collaborators,All-cause mortality (GCS 13-15),within 4 weeks of injury,All-cause mortality (GCS Mild 13-15),1.36,"matched (name 0.92, words 1.00, numbers 1.00)"
+CRASH-2 trial collaborators,All-cause mortality (GCS 3-8),within 4 weeks of injury,All-cause mortality (GCS Severe 3-8),1.34,"matched (name 0.89, words 1.00, numbers 1.00)"
+CRASH-2 trial collaborators,All-cause mortality (GCS 9-12),within 4 weeks of injury,All-cause mortality (GCS Moderate 9-12),1.33,"matched (name 0.86, words 1.00, numbers 1.00)"
+CRASH-2 trial collaborators,Received recombinant Factor VIIa,within 28 days,Treatment with recombinant Factor VIIa,1.33,"matched (name 0.80, words 0.75, numbers 1.00)"
+CRASH-2 trial collaborators,All-cause mortality (systolic BP 76-89 mm Hg),within 4 weeks of injury,All-cause mortality (Systolic blood pressure 76-89 mm Hg),1.28,"matched (name 0.88, words 0.89, numbers 1.00)"
+CRASH-2 trial collaborators,All-cause mortality (penetrating injury),within 4 weeks of injury,All-cause mortality (Injury type Penetrating),1.28,"matched (name 0.77, words 1.00, numbers 1.00)"
+CRASH-2 trial collaborators,All-cause mortality (blunt injury),within 4 weeks of injury,All-cause mortality (Injury type Blunt),1.28,"matched (name 0.75, words 1.00, numbers 1.00)"
+CRASH-2 trial collaborators,All-cause mortality (time from injury >1-≤3 h),within 4 weeks of injury,All-cause mortality (Time from injury >1-<=3h),1.27,"matched (name 0.97, words 0.78, numbers 1.00)"
+CRASH-2 trial collaborators,All-cause mortality (time from injury >3 h),within 4 weeks of injury,All-cause mortality (Time from injury >3h),1.27,"matched (name 0.99, words 0.75, numbers 1.00)"
+CRASH-2 trial collaborators,All-cause mortality (time from injury ≤1 h),within 4 weeks of injury,All-cause mortality (Time from injury <=1h),1.26,"matched (name 0.96, words 0.75, numbers 1.00)"
+CRASH-2 trial collaborators,Death due to vascular occlusion,within 4 weeks of injury,Death from vascular occlusion,1.21,"matched (name 0.87, words 0.75, numbers 1.00)"
+CRASH-2 trial collaborators,Death due to multiorgan failure,within 4 weeks of injury,Death from multiorgan failure,1.21,"matched (name 0.87, words 0.75, numbers 1.00)"
+CRASH-2 trial collaborators,Dead or dependent,at discharge or 28 days,Dead or dependent at discharge or 28 days,1.19,"matched (name 0.59, words 1.00, numbers 1.00)"
+CRASH-2 trial collaborators,Death due to other causes,within 4 weeks of injury,Death from other causes,1.19,"matched (name 0.83, words 0.75, numbers 1.00)"
+CRASH-2 trial collaborators,All-cause mortality (systolic BP ≥90 mm Hg),within 4 weeks of injury,All-cause mortality (Systolic blood pressure >=90 mm Hg),1.19,"matched (name 0.83, words 0.75, numbers 1.00)"
+CRASH-2 trial collaborators,All-cause mortality (systolic BP ≤75 mm Hg),within 4 weeks of injury,All-cause mortality (Systolic blood pressure <=75 mm Hg),1.19,"matched (name 0.83, words 0.75, numbers 1.00)"
+CRASH-2 trial collaborators,Death due to head injury,within 4 weeks of injury,Death from head injury,1.19,"matched (name 0.83, words 0.75, numbers 1.00)"
+CRASH-2 trial collaborators,,,Dependency: Alive (disability status not known),,P2 only (not in reference)
+Yutthakasemsunt,Neurosurgical intervention,hospital discharge,Neurosurgical intervention,1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+Yutthakasemsunt,Blood products transfusion,hospital discharge,Blood products transfusion,1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+Yutthakasemsunt,Death,hospital discharge,Death,1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+Yutthakasemsunt,Unfavorable (GOS) outcome,hospital discharge,Unfavorable (GOS) outcome,1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+Yutthakasemsunt,Stroke,in-hospital,Stroke,1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+Yutthakasemsunt,Pulmonary embolus,in-hospital,Pulmonary embolus,1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+Yutthakasemsunt,Deep vein thrombosis,in-hospital,Deep vein thrombosis,1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+Yutthakasemsunt,Gastrointestinal bleeding,in-hospital,Gastrointestinal bleeding,1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+Yutthakasemsunt,Progressive intracranial haemorrhage (PIH),24 hours ± 8 hours,Progressive intracranial haemorrhage (PIH),1.4,"matched (name 1.00, words 1.00, numbers 1.00)"
+Yutthakasemsunt,Increase in pressure effect,24 hours ± 8 hours,Increase in pressure effect,1.4,"matched (name 1.00, words 1.00, numbers 1.00)"
+Yutthakasemsunt,Progressive intracranial haemorrhage (PIH) - Complete case analysis,24 hours ± 8 hours,Progressive intracranial haemorrhage (complete case analysis),1.31,"matched (name 0.97, words 0.86, numbers 1.00)"
+Yutthakasemsunt,Improved GCS motor score at 24 hours,24 hours,Improved GCS motor score,1.28,"matched (name 0.80, words 0.67, numbers 1.00)"
+Chakroun-Walha,Pulmonary embolism,Up to 28 days,Pulmonary embolism,1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+Chakroun-Walha,Deep venous thrombosis,Up to 28 days,Deep venous thrombosis,1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+Chakroun-Walha,Fresh frozen plasma transfused,day 1,Fresh frozen plasma transfused at day 1,1.48,"matched (name 0.87, words 1.00, numbers 1.00)"
+Chakroun-Walha,Fresh frozen plasma transfused,day 3,Fresh frozen plasma transfused at day 3,1.48,"matched (name 0.87, words 1.00, numbers 1.00)"
+Chakroun-Walha,Packed red cells transfused,day 1,Packed red cells transfused at day 1,1.48,"matched (name 0.86, words 1.00, numbers 1.00)"
+Chakroun-Walha,Packed red cells transfused,day 3,Packed red cells transfused at day 3,1.48,"matched (name 0.86, words 1.00, numbers 1.00)"
+Chakroun-Walha,Packed red cells transfused,day 7,Packed red cells transfused at day 7,1.48,"matched (name 0.86, words 1.00, numbers 1.00)"
+Chakroun-Walha,Platelets transfused,day 1,Platelets transfused at day 1,1.46,"matched (name 0.82, words 1.00, numbers 1.00)"
+Chakroun-Walha,Platelets transfused,day 3,Platelets transfused at day 3,1.46,"matched (name 0.82, words 1.00, numbers 1.00)"
+Chakroun-Walha,Platelets transfused,day 7,Platelets transfused at day 7,1.46,"matched (name 0.82, words 1.00, numbers 1.00)"
+Chakroun-Walha,Length of mechanical ventilation,Up to 28 days,Length of mechanical ventilation,1.4,"matched (name 1.00, words 1.00, numbers 1.00)"
+Chakroun-Walha,Neurosurgery,Up to 28 days,Neurosurgery,1.4,"matched (name 1.00, words 1.00, numbers 1.00)"
+Chakroun-Walha,Extra cranial surgery,Up to 28 days,Extra cranial surgery,1.4,"matched (name 1.00, words 1.00, numbers 1.00)"
+Chakroun-Walha,Delay of surgery,Up to 28 days,Delay of surgery,1.4,"matched (name 1.00, words 1.00, numbers 1.00)"
+Chakroun-Walha,Length of ICU stay,Up to 28 days,Length of ICU stay,1.4,"matched (name 1.00, words 1.00, numbers 1.00)"
+Chakroun-Walha,Length of in-hospital stay,Up to 28 days,Length of in-hospital stay,1.4,"matched (name 1.00, words 1.00, numbers 1.00)"
+Chakroun-Walha,Moderate or good recovery (GOS 4 and 5),28th day post trauma,Moderate or good recovery (GOS 4 and 5) at the 28th day post trauma,1.26,"matched (name 0.73, words 1.00, numbers 1.00)"
+Chakroun-Walha,Persistent vegetative state (GOS 2),28th day post trauma,Persistent vegetative state (GOS 2) at the 28th day post trauma,1.25,"matched (name 0.70, words 1.00, numbers 1.00)"
+Chakroun-Walha,Severe disability (GOS 3),28th day post trauma,Severe disability (GOS 3) at the 28th day post trauma,1.21,"matched (name 0.62, words 1.00, numbers 1.00)"
+Chakroun-Walha,Mortality rate,28th day post trauma,Mortality rate at the 28th day post trauma,1.15,"matched (name 0.50, words 1.00, numbers 1.00)"
+Chakroun-Walha,SOFA score,3rd day post-trauma,SOFA score at the 3rd day post-trauma,1.11,"matched (name 0.43, words 1.00, numbers 1.00)"
+Chakroun-Walha,SOFA score,7th day post-trauma,SOFA score at the 7th day post-trauma,1.11,"matched (name 0.43, words 1.00, numbers 1.00)"
+Chakroun-Walha,Hypoxia,7th day post-trauma,Hypoxia at the 7th day post-trauma,1.07,"matched (name 0.34, words 1.00, numbers 1.00)"
+Chakroun-Walha,Shock,7th day post-trauma,Shock at the 7th day post-trauma,1.04,"matched (name 0.27, words 1.00, numbers 1.00)"
+Chakroun-Walha,Shock,3rd day post-trauma,Shock at day the 3rd day post-trauma,1.02,"matched (name 0.24, words 1.00, numbers 1.00)"
+Francis X. Guyette,30-day all-cause mortality,30 days,30-day all-cause mortality,1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+Francis X. Guyette,24-h Mortality,24 hours,24-h Mortality,1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+Francis X. Guyette,In-hospital mortality,In-hospital,In-hospital mortality,1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+Francis X. Guyette,30-day mortality (Shock severity - SBP <70 mm Hg),30 days,30-day mortality (Shock severity: SBP <70 mm Hg),1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+Francis X. Guyette,30-day mortality (Time from injury <= 1 h),30 days,30-day mortality (Time from injury: <=1 h),1.42,"matched (name 0.99, words 0.75, numbers 1.00)"
+Francis X. Guyette,Total blood component transfusion,6 hours,Total blood component transfusion (6-h Outcomes) (median [IQR]),1.42,"matched (name 0.73, words 1.00, numbers 1.00)"
+Francis X. Guyette,Total blood component transfusion,24 hours,Total blood component transfusion (24-h Outcomes) (median [IQR]),1.41,"matched (name 0.73, words 1.00, numbers 1.00)"
+Francis X. Guyette,Multiple organ failure,Follow-up,Multiple organ failure,1.4,"matched (name 1.00, words 1.00, numbers 1.00)"
+Francis X. Guyette,Nosocomial infection,Follow-up,Nosocomial infection,1.4,"matched (name 1.00, words 1.00, numbers 1.00)"
+Francis X. Guyette,Pulmonary embolism,Follow-up,Pulmonary embolism,1.4,"matched (name 1.00, words 1.00, numbers 1.00)"
+Francis X. Guyette,Deep vein thrombosis,Follow-up,Deep vein thrombosis,1.4,"matched (name 1.00, words 1.00, numbers 1.00)"
+Francis X. Guyette,Crystalloid infusion volume,6 hours,Crystalloid infusion volume (6-h Outcomes) (median [IQR]),1.4,"matched (name 0.69, words 1.00, numbers 1.00)"
+Francis X. Guyette,PRBC transfusion,6 hours,PRBC transfusion (6-h Outcomes) (median [IQR]),1.34,"matched (name 0.57, words 1.00, numbers 1.00)"
+Francis X. Guyette,Lactate,24 hours,Lactate (24-h Outcomes) (median [IQR]),1.23,"matched (name 0.36, words 1.00, numbers 1.00)"
+Francis X. Guyette,30-day mortality (Repeat regimen vs Placebo),30 days,30-day mortality (by prespecified dosing regimens),1.08,"matched (name 0.67, words 0.40, numbers 1.00)"
+Francis X. Guyette,Stroke,Follow-up,Stroke (arterial thrombotic complications),1.03,"matched (name 0.26, words 1.00, numbers 1.00)"
+Francis X. Guyette,Initial presenting international normalized ratio,Initial presenting,Initial presenting international normalized ratio >1.4,0.98,"matched (name 0.95, words 1.00, numbers 0.00)"
+Francis X. Guyette,Plasma transfusion,6 hours,,,NOT FOUND in P2
+Francis X. Guyette,Platelet transfusion,6 hours,,,NOT FOUND in P2
+Francis X. Guyette,Activated clotting time,Initial presenting,,,NOT FOUND in P2
+Francis X. Guyette,K-time,Initial presenting,,,NOT FOUND in P2
+Francis X. Guyette,alpha-Angle,Initial presenting,,,NOT FOUND in P2
+Francis X. Guyette,Acute respiratory distress syndrome,Follow-up,,,NOT FOUND in P2
+Francis X. Guyette,Myocardial infarction or ischemia,Follow-up,,,NOT FOUND in P2
+Francis X. Guyette,30-day mortality (Abbreviated regimen vs Placebo),30 days,,,NOT FOUND in P2
+Francis X. Guyette,30-day mortality (Standard regimen vs Placebo),30 days,,,NOT FOUND in P2
+Francis X. Guyette,,,Crystalloid infusion volume (24-h Outcomes) (median [IQR]),,P2 only (not in reference)
+Francis X. Guyette,,,Hyperfibrinolysis,,P2 only (not in reference)
+Francis X. Guyette,,,Seizure in first 24 h,,P2 only (not in reference)
+Bardes,Mortality (massive transfusion scene patients),Overall,Mortality (massive transfusion scene patients),1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+Bardes,Mortality,Overall,Mortality (TXA vs missed treatment within 3-hour window),1.19,"matched (name 0.29, words 1.00, numbers 1.00)"
+Bardes,,,Mortality (TXA vs ineligible due to >3 hours),,P2 only (not in reference)
+Ashley Dixon,Ventilation Days,Hospitalization,Ventilation Days,1.4,"matched (name 1.00, words 1.00, numbers 1.00)"
+Ashley Dixon,Total Platelet transfused,Hospitalization,Total Platelet,1.09,"matched (name 0.72, words 0.67, numbers 1.00)"
+Ashley Dixon,Total Plasma transfused,Hospitalization,Total Plasma,1.08,"matched (name 0.69, words 0.67, numbers 1.00)"
+Ashley Dixon,Total RBC transfused,Hospitalization,Total RBC,1.04,"matched (name 0.62, words 0.67, numbers 1.00)"
+Ashley Dixon,30-day mortality,30 days,Mortality,1.01,"matched (name 0.72, words 0.50, numbers 1.00)"
+Ashley Dixon,Hospital length of stay (LOS),Hospitalization,Hospital LOS,0.96,"matched (name 0.62, words 0.50, numbers 1.00)"
+Ashley Dixon,ICU length of stay (LOS),Hospitalization,ICU LOS,0.89,"matched (name 0.48, words 0.50, numbers 1.00)"
+Ashley Dixon,Pulmonary Embolus (PE),Hospitalization,PE,0.66,"matched (name 0.18, words 0.33, numbers 1.00)"
+Ashley Dixon,Myocardial Infarction (MI),Hospitalization,MI,0.64,"matched (name 0.15, words 0.33, numbers 1.00)"
+Ashley Dixon,Deep Venous Thrombosis (DVT),Hospitalization,DVT,0.63,"matched (name 0.21, words 0.25, numbers 1.00)"
+A. Shiraishi,28-day mortality,28 days,28-day mortality,1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+A. Shiraishi,Cause-specific mortality (Primary brain injury),28 days,Cause-specific mortality: Primary brain injury,1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+A. Shiraishi,Cause-specific mortality (Haemorrhage),28 days,Cause-specific mortality: Haemorrhage,1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+A. Shiraishi,Cause-specific mortality (Any other cause),28 days,Cause-specific mortality: Any other cause,1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+A. Shiraishi,Receipt of any blood transfusion,24 hours,Receipt of any blood transfusion,1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+A. Shiraishi,Thromboembolic complications,during hospital admission,Thromboembolic complications,1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+A. Shiraishi,Mean amount of PRBC transfused,24 hours,Mean amount of PRBC transfused within 24 h - Overall population,1.26,"matched (name 0.66, words 1.00, numbers 0.60)"
+A. Shiraishi,Mean amount of FFP transfused,24 hours,Mean amount of FFP transfused within 24 h - Overall population,1.26,"matched (name 0.65, words 1.00, numbers 0.60)"
+A. Shiraishi,,,Mean amount of PRBC transfused within 24 h - 24-h survivors,,P2 only (not in reference)
+A. Shiraishi,,,Mean amount of FFP transfused within 24 h - 24-h survivors,,P2 only (not in reference)
+Chan,Deep vein thrombosis,Overall,Deep vein thrombosis,1.4,"matched (name 1.00, words 1.00, numbers 1.00)"
+Chan,Pulmonary embolism,Overall,Pulmonary embolism,1.4,"matched (name 1.00, words 1.00, numbers 1.00)"
+Chan,Stroke,Overall,Stroke,1.4,"matched (name 1.00, words 1.00, numbers 1.00)"
+Chan,Acute coronary syndrome,Overall,Acute coronary syndrome,1.4,"matched (name 1.00, words 1.00, numbers 1.00)"
+Chan,30-day mortality (Adjusted analysis),30-day,30-day mortality,0.78,"matched (name 0.51, words 0.25, numbers 1.00)"
+Walker,Field GCS,Initial (field),Field GCS,1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+Walker,Discharge GCS,Discharge,Discharge GCS,1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+Walker,6-month GOS,6 months,6-month GOS,1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+Walker,Underwent cranial decompression,During admission,Underwent cranial decompression,1.4,"matched (name 1.00, words 1.00, numbers 1.00)"
+Walker,Change in GCS,Between initial and discharge,Change in GCS,1.4,"matched (name 1.00, words 1.00, numbers 1.00)"
+Walker,Mortality,Overall,Mortality,1.4,"matched (name 1.00, words 1.00, numbers 1.00)"
+Walker,Venous thromboembolism (VTE),During admission,Venous thromboembolism (VTE),1.4,"matched (name 1.00, words 1.00, numbers 1.00)"
+Walker,Progression of intracranial hemorrhage,Interval head CT,Progression of ICH,0.89,"matched (name 0.64, words 0.33, numbers 1.00)"
+Morrison 2012,In-hospital mortality (Overall cohort),In-hospital (mean follow-up 15 days),In-hospital mortality (Overall cohort),1.4,"matched (name 1.00, words 1.00, numbers 1.00)"
+Morrison 2012,Pulmonary embolism (Overall cohort),During hospitalization,Pulmonary embolism (Overall cohort),1.4,"matched (name 1.00, words 1.00, numbers 1.00)"
+Morrison 2012,Deep venous thrombosis (Overall cohort),During hospitalization,Deep venous thrombosis (Overall cohort),1.4,"matched (name 1.00, words 1.00, numbers 1.00)"
+Morrison 2012,In-hospital mortality (Massive Transfusion cohort),In-hospital (mean follow-up 16 days),In-hospital mortality (Massive Transfusion cohort),1.4,"matched (name 1.00, words 1.00, numbers 1.00)"
+Morrison 2012,Pulmonary embolism (Massive Transfusion cohort),During hospitalization,Pulmonary embolism (Massive Transfusion cohort),1.4,"matched (name 1.00, words 1.00, numbers 1.00)"
+Morrison 2012,Deep venous thrombosis (Massive Transfusion cohort),During hospitalization,Deep venous thrombosis (Massive Transfusion cohort),1.4,"matched (name 1.00, words 1.00, numbers 1.00)"
+Morrison 2012,24-h Transfusion Requirement - Platelets (Massive Transfusion cohort),24 hours,24-h Platelets transfusion (Massive Transfusion cohort),1.34,"matched (name 0.73, words 0.86, numbers 1.00)"
+Morrison 2012,24-h Transfusion Requirement - Cryoprecipitate (Massive Transfusion cohort),24 hours,24-h Cryoprecipitate transfusion (Massive Transfusion cohort),1.34,"matched (name 0.72, words 0.86, numbers 1.00)"
+Morrison 2012,24-h Transfusion Requirement - FFP (Massive Transfusion cohort),24 hours,24-h Fresh frozen plasma (FFP) transfusion (Massive Transfusion cohort),1.32,"matched (name 0.68, words 0.86, numbers 1.00)"
+Morrison 2012,All-cause mortality within 24 hours (Massive Transfusion cohort),24 hours,Mortality at 24 hours (Massive Transfusion cohort),1.31,"matched (name 0.85, words 0.67, numbers 1.00)"
+Morrison 2012,All-cause mortality within 48 hours (Massive Transfusion cohort),48 hours,Mortality at 48 hours (Massive Transfusion cohort),1.31,"matched (name 0.85, words 0.67, numbers 1.00)"
+Morrison 2012,24-h Transfusion Requirement - Cryoprecipitate (Overall cohort),24 hours,24-h Cryoprecipitate transfusion (Overall cohort),1.31,"matched (name 0.66, words 0.86, numbers 1.00)"
+Morrison 2012,24-h Transfusion Requirement - Platelets (Overall cohort),24 hours,24-h Platelets transfusion (Overall cohort),1.31,"matched (name 0.66, words 0.86, numbers 1.00)"
+Morrison 2012,24-h Transfusion Requirement - PRBCs (Massive Transfusion cohort),24 hours,24-h Packed red blood cells (PRBCs) transfusion (Massive Transfusion cohort),1.3,"matched (name 0.65, words 0.86, numbers 1.00)"
+Morrison 2012,24-h Transfusion Requirement - FFP (Overall cohort),24 hours,24-h Fresh frozen plasma (FFP) transfusion (Overall cohort),1.28,"matched (name 0.61, words 0.86, numbers 1.00)"
+Morrison 2012,All-cause mortality within 24 hours (Overall cohort),24 hours,Mortality at 24 hours (Overall cohort),1.27,"matched (name 0.81, words 0.62, numbers 1.00)"
+Morrison 2012,All-cause mortality within 48 hours (Overall cohort),48 hours,Mortality at 48 hours (Overall cohort),1.27,"matched (name 0.81, words 0.62, numbers 1.00)"
+Morrison 2012,24-h Transfusion Requirement - PRBCs (Overall cohort),24 hours,24-h Packed red blood cells (PRBCs) transfusion (Overall cohort),1.26,"matched (name 0.57, words 0.86, numbers 1.00)"
+Morrison 2012,"Survival (Massive Transfusion, Adjusted Analysis)",Overall follow-up (adjusted),"In-hospital survival (Adjusted, Massive Transfusion cohort)",1.09,"matched (name 0.59, words 0.80, numbers 1.00)"
+Morrison 2012,Time in ED (Overall cohort),Admission,,,NOT FOUND in P2
+Morrison 2012,Time in OR (Overall cohort),Initial operation,,,NOT FOUND in P2
+Morrison 2012,Lowest body temperature (Overall cohort),During admission/treatment,,,NOT FOUND in P2
+Morrison 2012,Time in ED (Massive Transfusion cohort),Admission,,,NOT FOUND in P2
+Morrison 2012,Time in OR (Massive Transfusion cohort),Initial operation,,,NOT FOUND in P2
+Morrison 2012,Lowest body temperature (Massive Transfusion cohort),During admission/treatment,,,NOT FOUND in P2
+Howard,24-h Mortality (Overall Sample),24 hours,24-h Mortality (Overall Sample),1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+Howard,48-h Mortality (Overall Sample),48 hours,48-h Mortality (Overall Sample),1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+Howard,30-d Mortality (Overall Sample),30 days,30-d Mortality (Overall Sample),1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+Howard,"30-d Mortality (Adjusted HR, Overall Sample)",30 days,"30-d Mortality (Adjusted, Overall Sample)",1.46,"matched (name 0.96, words 0.86, numbers 1.00)"
+Howard,30-d Mortality (Propensity-Matched Sample),30 days,30-d Mortality (Propensity-Matched),1.42,"matched (name 0.90, words 0.83, numbers 1.00)"
+Howard,"30-d Mortality (Adjusted HR, Propensity-Matched Sample)",30 days,"30-d Mortality (Adjusted, Propensity-Matched)",1.37,"matched (name 0.89, words 0.75, numbers 1.00)"
+Howard,PE (Overall Sample),Up to 30 days,Pulmonary Embolism (Overall Sample),1.22,"matched (name 0.68, words 0.67, numbers 1.00)"
+Howard,DVT (Overall Sample),Up to 30 days,Deep Vein Thrombosis (Overall Sample),1.22,"matched (name 0.68, words 0.67, numbers 1.00)"
+Howard,"PE (Adjusted HR, Overall Sample)",Up to 30 days,"Pulmonary Embolism (Adjusted, Overall Sample)",1.22,"matched (name 0.73, words 0.60, numbers 1.00)"
+Howard,"DVT (Adjusted HR, Overall Sample)",Up to 30 days,"Deep Vein Thrombosis (Adjusted, Overall Sample)",1.21,"matched (name 0.73, words 0.60, numbers 1.00)"
+Howard,24-h Mortality (MT Sample),24 hours,,,NOT FOUND in P2
+Howard,48-h Mortality (MT Sample),48 hours,,,NOT FOUND in P2
+Howard,30-d Mortality (MT Sample),30 days,,,NOT FOUND in P2
+Howard,PE (MT Sample),Up to 30 days,,,NOT FOUND in P2
+Howard,DVT (MT Sample),Up to 30 days,,,NOT FOUND in P2
+Howard,24-h Mortality (Propensity-Matched Sample),24 hours,,,NOT FOUND in P2
+Howard,48-h Mortality (Propensity-Matched Sample),48 hours,,,NOT FOUND in P2
+Howard,PE (Propensity-Matched Sample),Up to 30 days,,,NOT FOUND in P2
+Howard,DVT (Propensity-Matched Sample),Up to 30 days,,,NOT FOUND in P2
+Howard,24-h Mortality (NATO Military Sample),24 hours,,,NOT FOUND in P2
+Howard,48-h Mortality (NATO Military Sample),48 hours,,,NOT FOUND in P2
+Howard,30-d Mortality (NATO Military Sample),30 days,,,NOT FOUND in P2
+Howard,PE (NATO Military Sample),Up to 30 days,,,NOT FOUND in P2
+Howard,DVT (NATO Military Sample),Up to 30 days,,,NOT FOUND in P2
+Howard,"30-d Mortality (Adjusted HR, MT Sample)",30 days,,,NOT FOUND in P2
+Howard,"30-d Mortality (Adjusted HR, NATO Military Sample)",30 days,,,NOT FOUND in P2
+Howard,"PE (Adjusted HR, MT Sample)",Up to 30 days,,,NOT FOUND in P2
+Howard,"PE (Adjusted HR, Propensity-Matched Sample)",Up to 30 days,,,NOT FOUND in P2
+Howard,"PE (Adjusted HR, NATO Military Sample)",Up to 30 days,,,NOT FOUND in P2
+Howard,"DVT (Adjusted HR, NATO Military Sample)",Up to 30 days,,,NOT FOUND in P2
+Wafaisade,Hospital Length of Stay,Hospital discharge,Hospital length of stay,1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+Wafaisade,6-h mortality,6 hours,6-h mortality,1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+Wafaisade,12-h mortality,12 hours,12-h mortality,1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+Wafaisade,24-h mortality,24 hours,24-h mortality,1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+Wafaisade,30-day mortality,30 days,30-day mortality,1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+Wafaisade,In-hospital mortality overall,Hospital discharge,In-hospital mortality overall,1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+Wafaisade,ICU Length of Stay,During ICU stay,ICU length of stay,1.4,"matched (name 1.00, words 1.00, numbers 1.00)"
+Wafaisade,Thromboembolic event,During hospital stay,Thromboembolic event,1.4,"matched (name 1.00, words 1.00, numbers 1.00)"
+Wafaisade,Sepsis,During hospital stay,Sepsis,1.4,"matched (name 1.00, words 1.00, numbers 1.00)"
+Wafaisade,Multiple organ failure,During hospital stay,Multiple organ failure,1.4,"matched (name 1.00, words 1.00, numbers 1.00)"
+Wafaisade,Time to death,Until death,Time to death,1.4,"matched (name 1.00, words 1.00, numbers 1.00)"
+Wafaisade,pRBC transfusion,Between ER arrival and ICU admission,pRBC transfusion,1.4,"matched (name 1.00, words 1.00, numbers 1.00)"
+Wafaisade,FFP transfusion,Between ER arrival and ICU admission,FFP transfusion,1.4,"matched (name 1.00, words 1.00, numbers 1.00)"
+Wafaisade,Platelet transfusion,Between ER arrival and ICU admission,Platelet transfusion,1.4,"matched (name 1.00, words 1.00, numbers 1.00)"
+Wafaisade,"Massive transfusion, ≥10 pRBC",Between ER arrival and ICU admission,Massive transfusion (≥10 pRBC),1.4,"matched (name 1.00, words 1.00, numbers 1.00)"
+Wafaisade,Platelet units,Between ER arrival and ICU admission,Platelet units transfused,1.26,"matched (name 0.72, words 1.00, numbers 1.00)"
+Wafaisade,pRBC units,Between ER arrival and ICU admission,pRBC units transfused,1.22,"matched (name 0.65, words 1.00, numbers 1.00)"
+Wafaisade,FFP units,Between ER arrival and ICU admission,FFP units transfused,1.21,"matched (name 0.62, words 1.00, numbers 1.00)"
+Wafaisade,Haemostatic drugs,Between ER arrival and ICU admission,,,NOT FOUND in P2
+Wafaisade,Fibrinogen concentrate,Between ER arrival and ICU admission,,,NOT FOUND in P2
+Glover,Mortality,During hospital admission,Mortality,1.4,"matched (name 1.00, words 1.00, numbers 1.00)"
+Glover,Length of Stay (LOS),Hospital discharge,Length of Stay,1.32,"matched (name 0.88, words 0.67, numbers 1.00)"
+Glover,Total Pulmonary Embolism (PE),During hospital admission,Total Pulmonary Embolism,1.25,"matched (name 0.94, words 0.75, numbers 1.00)"
+Glover,Immediate PE,Diagnosed on initial trauma scan,Immediate Pulmonary Embolism,1.1,"matched (name 0.60, words 0.50, numbers 1.00)"
+Glover,Early PE,Within 72 hours of admission but not present on initial scan,Early Pulmonary Embolism,0.9,"matched (name 0.50, words 0.50, numbers 1.00)"
+Glover,Late PE,Diagnosed from 72 hours to 6 weeks into admission,Late Pulmonary Embolism,0.88,"matched (name 0.47, words 0.50, numbers 1.00)"
+Glover,Detection of sub-segmental PE (SSPE),Initial trauma scan or subsequent scans,,,NOT FOUND in P2
+Neeki 2020,VTE,Hospital stay,VTE,1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+Neeki 2020,Total Blood Product (Penetrating trauma),Hospital stay,Total Blood Product (Penetrating trauma subgroup) (median [IQR]),1.45,"matched (name 0.79, words 1.00, numbers 1.00)"
+Neeki 2020,Total Blood Product (Blood product ≥ 10 Units),Hospital stay,Total Blood Product (Blood product >= 10 Units subgroup) (median [IQR]),1.44,"matched (name 0.79, words 1.00, numbers 1.00)"
+Neeki 2020,Total blood product,Hospital stay,Total blood product (median [IQR]),1.44,"matched (name 0.78, words 1.00, numbers 1.00)"
+Neeki 2020,Total Blood Product (Blunt trauma),Hospital stay,Total Blood Product (Blunt trauma subgroup) (median [IQR]),1.43,"matched (name 0.76, words 1.00, numbers 1.00)"
+Neeki 2020,Hospital LOS (Penetrating trauma),Hospital stay,Hospital LOS (Penetrating trauma subgroup) (median [IQR]),1.43,"matched (name 0.76, words 1.00, numbers 1.00)"
+Neeki 2020,Hospital LOS (Blood product ≥ 10 Units),Hospital stay,Hospital LOS (Blood product >= 10 Units subgroup) (median [IQR]),1.43,"matched (name 0.75, words 1.00, numbers 1.00)"
+Neeki 2020,ICU LOS (Blood product ≥ 10 Units),Hospital stay,ICU LOS (Blood product >= 10 Units subgroup) (median [IQR]),1.41,"matched (name 0.72, words 1.00, numbers 1.00)"
+Neeki 2020,ICU LOS (Penetrating trauma),Hospital stay,ICU LOS (Penetrating trauma subgroup) (median [IQR]),1.41,"matched (name 0.72, words 1.00, numbers 1.00)"
+Neeki 2020,Hospital LOS (Blunt trauma),Hospital stay,Hospital LOS (Blunt trauma subgroup) (median [IQR]),1.41,"matched (name 0.71, words 1.00, numbers 1.00)"
+Neeki 2020,Hospital LOS,Hospital stay,Hospital LOS (median [IQR]),1.39,"matched (name 0.69, words 1.00, numbers 1.00)"
+Neeki 2020,ICU LOS (Blunt trauma),Hospital stay,ICU LOS (Blunt trauma subgroup) (median [IQR]),1.38,"matched (name 0.67, words 1.00, numbers 1.00)"
+Neeki 2020,Mortality at 28 days (Blood product ≥ 10 Units),28 days,Mortality (Blood product >= 10 Units subgroup),1.33,"matched (name 0.74, words 0.83, numbers 1.00)"
+Neeki 2020,ICU LOS,Hospital stay,ICU LOS (median [IQR]),1.33,"matched (name 0.56, words 1.00, numbers 1.00)"
+Neeki 2020,Total Blood Product (ISS >15),Hospital stay,Total Blood Product (ISS > 15 subgroup) (median [IQR]),1.31,"matched (name 0.72, words 0.80, numbers 1.00)"
+Neeki 2020,Mortality at 24 hours (Blood product ≥ 10 Units),24 hours,Mortality (Blood product >= 10 Units subgroup),1.27,"matched (name 0.73, words 0.71, numbers 1.00)"
+Neeki 2020,Mortality at 48 hours (Blood product ≥ 10 Units),48 hours,Mortality (Blood product >= 10 Units subgroup),1.27,"matched (name 0.73, words 0.71, numbers 1.00)"
+Neeki 2020,Hospital LOS (ISS >15),Hospital stay,Hospital LOS (ISS > 15 subgroup) (median [IQR]),1.25,"matched (name 0.66, words 0.75, numbers 1.00)"
+Neeki 2020,Mortality at 28 days (Penetrating trauma),28 days,Mortality (Penetrating trauma subgroup),1.25,"matched (name 0.74, words 0.67, numbers 1.00)"
+Neeki 2020,Mortality at 28 days (Blunt trauma),28 days,Mortality (Blunt trauma subgroup),1.23,"matched (name 0.69, words 0.67, numbers 1.00)"
+Neeki 2020,ICU LOS (ISS >15),Hospital stay,ICU LOS (ISS > 15 subgroup) (median [IQR]),1.22,"matched (name 0.59, words 0.75, numbers 1.00)"
+Neeki 2020,Mortality at 24 hours (Penetrating trauma),24 hours,Mortality (Penetrating trauma subgroup),1.16,"matched (name 0.73, words 0.50, numbers 1.00)"
+Neeki 2020,Mortality at 48 hours (Penetrating trauma),48 hours,Mortality (Penetrating trauma subgroup),1.16,"matched (name 0.73, words 0.50, numbers 1.00)"
+Neeki 2020,Mortality at 24 hours (Blunt trauma),24 hours,Mortality (Blunt trauma subgroup),1.14,"matched (name 0.68, words 0.50, numbers 1.00)"
+Neeki 2020,Mortality at 48 hours (Blunt trauma),48 hours,Mortality (Blunt trauma subgroup),1.14,"matched (name 0.68, words 0.50, numbers 1.00)"
+Neeki 2020,Mortality at 28 days,28 days,Mortality,1.11,"matched (name 0.62, words 0.50, numbers 1.00)"
+Neeki 2020,Mortality at 28 days (ISS >15),28 days,Mortality (ISS > 15 subgroup),1.11,"matched (name 0.62, words 0.50, numbers 1.00)"
+Neeki 2020,Mortality at 24 hours (ISS >15),24 hours,Mortality (ISS > 15 subgroup),1.05,"matched (name 0.61, words 0.40, numbers 1.00)"
+Neeki 2020,Mortality at 48 hours (ISS >15),48 hours,Mortality (ISS > 15 subgroup),1.05,"matched (name 0.61, words 0.40, numbers 1.00)"
+Neeki 2020,Mortality at 24 hours,24 hours,Mortality,1.02,"matched (name 0.60, words 0.33, numbers 1.00)"
+Neeki 2020,Mortality at 48 hours,48 hours,Mortality,1.02,"matched (name 0.60, words 0.33, numbers 1.00)"
+Harvin,In-hospital mortality (Unadjusted),In-hospital,In-hospital mortality (Unadjusted),1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+Harvin,In-hospital mortality (Adjusted),In-hospital,In-hospital mortality (Adjusted),1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+Harvin,24-hour mortality (Unadjusted),24 hours,24-hour mortality (Unadjusted),1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+Harvin,24-hour mortality (Adjusted),24 hours,24-hour mortality (Adjusted),1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+Harvin,Thrombotic event (Unadjusted),In-hospital,Thrombotic event rate (Unadjusted),1.51,"matched (name 0.92, words 1.00, numbers 1.00)"
+Harvin,Hospital-free days,28 days,Hospital-free days,1.48,"matched (name 1.00, words 1.00, numbers 0.75)"
+Harvin,ED deaths,Emergency Department phase,ED deaths,1.4,"matched (name 1.00, words 1.00, numbers 1.00)"
+Harvin,Thrombotic event (Adjusted),In-hospital,Thromboembolic event (Adjusted),1.33,"matched (name 0.89, words 0.67, numbers 1.00)"
+Harvin,ICU-free days,Not explicitly bounded,ICU-free days,1.33,"matched (name 1.00, words 1.00, numbers 0.75)"
+Harvin,Ventilator-free days,Not explicitly bounded,Ventilator-free days,1.33,"matched (name 1.00, words 1.00, numbers 0.75)"
+Harvin,Pulmonary embolism (PE),In-hospital,PE rate,0.79,"matched (name 0.14, words 0.33, numbers 1.00)"
+Sara P. Myers,Venous thromboembolism (VTE) - Unadjusted,In-hospital,Venous thromboembolism (VTE) (unadjusted),1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+Sara P. Myers,Survival - Unadjusted,In-hospital,Survival (unadjusted),1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+Sara P. Myers,Survival - Adjusted,In-hospital,Survival (adjusted),1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+Sara P. Myers,ICU days,In-hospital,ICU days,1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+Sara P. Myers,Hospital length of stay,In-hospital,Hospital length of stay,1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+Sara P. Myers,Patients requiring transfusion,In-hospital,Patients requiring transfusion,1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+Sara P. Myers,Massive Transfusion (MT),In-hospital,Massive transfusion (MT),1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+Sara P. Myers,Platelets transfused,In-hospital,Platelets transfused,1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+Sara P. Myers,Use of reversal agent,In-hospital,Use of reversal agent,1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+Sara P. Myers,Venous thromboembolism (VTE) - Adjusted,In-hospital,Venous thromboembolism (VTE) (adjusted aOR),1.52,"matched (name 0.95, words 1.00, numbers 1.00)"
+Sara P. Myers,FFP transfused,In-hospital,Fresh frozen plasma (FFP) transfused,1.34,"matched (name 0.58, words 1.00, numbers 1.00)"
+Sara P. Myers,PRBCs transfused,In-hospital,Packed red blood cells (PRBCs) transfused,1.34,"matched (name 0.58, words 1.00, numbers 1.00)"
+Sara P. Myers,Venous thromboembolism (VTE) - Competing risks,In-hospital,Venous thromboembolism (VTE) (competing risks adjusted),1.16,"matched (name 0.72, words 0.50, numbers 1.00)"
+Sara P. Myers,No. operations (median [IQR]),In-hospital,No. operations,1.15,"matched (name 0.70, words 0.50, numbers 1.00)"
+Sara P. Myers,VTE prophylaxis,In-hospital,,,NOT FOUND in P2
+Sara P. Myers,Days to VTE prophylaxis initiation,In-hospital,,,NOT FOUND in P2
+Lewis,Death,Hospital stay,Death,1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+Lewis,Patients with any infection during hospital stay,Hospital stay,Patients with any infection during hospital stay,1.4,"matched (name 1.00, words 1.00, numbers 1.00)"
+Lewis,Time from injury to first infection (median [IQR]),Hospital stay,Time from injury to first infection (days) (median [IQR]),1.37,"matched (name 0.95, words 1.00, numbers 1.00)"
+Lewis,Number of infections per patient within 30 days of injury (median [IQR]),30 days,No. of infections per patient within 30 days of injury (median [IQR]),1.0,"matched (name 0.76, words 0.44, numbers 1.00)"
+Lewis,Time to first infection (Adjusted),Hospital stay,Time from injury to first infection,0.86,"matched (name 0.55, words 0.38, numbers 1.00)"
+Lewis,Risk of infection within 30 days (Adjusted),30 days,Risk of infection,0.73,"matched (name 0.47, words 0.20, numbers 1.00)"
+Mathieu Boutonnet,In-hospital mortality (With pRBC in ER),In-hospital,In-hospital mortality (requiring pRBC transfusion in ER),1.42,"matched (name 0.75, words 1.00, numbers 1.00)"
+Mathieu Boutonnet,Adjusted in-hospital mortality (With pRBC in ER),In-hospital,"In-hospital mortality (requiring pRBC transfusion in ER, Adjusted)",1.36,"matched (name 0.62, words 1.00, numbers 1.00)"
+Mathieu Boutonnet,In-hospital mortality (Without pRBC in ER),In-hospital,In-hospital mortality (not requiring pRBC transfusion in ER),1.31,"matched (name 0.71, words 0.80, numbers 1.00)"
+Mathieu Boutonnet,In-hospital mortality (Overall),In-hospital,In-hospital mortality,1.3,"matched (name 0.84, words 0.67, numbers 1.00)"
+Mathieu Boutonnet,Adjusted in-hospital mortality (Without pRBC in ER),In-hospital,"In-hospital mortality (not requiring pRBC transfusion in ER, Adjusted)",1.27,"matched (name 0.60, words 0.83, numbers 1.00)"
+Moore,In-hospital mortality,In-hospital,In-hospital mortality,1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+Moore,Mortality - Physiological fibrinolysis phenotype,In-hospital,Mortality in physiological fibrinolysis phenotype,1.53,"matched (name 0.97, words 1.00, numbers 1.00)"
+Moore,Mortality - Shutdown phenotype,In-hospital,Mortality in fibrinolysis shutdown phenotype,1.44,"matched (name 0.78, words 1.00, numbers 1.00)"
+Moore,Massive transfusion,Within 6 hours of injury,Massive transfusion,1.4,"matched (name 1.00, words 1.00, numbers 1.00)"
+Moore,Mortality in Massive Transfusion Cohort,In-hospital,Mortality in massive transfusion patients,1.35,"matched (name 0.85, words 0.75, numbers 1.00)"
+Moore,Blood product use: Platelets (median [IQR]),Within 24 hours of injury,PLT use in massive transfusion patients (median [IQR]),0.92,"matched (name 0.55, words 0.50, numbers 1.00)"
+Moore,Blood product use: Cryoprecipitate (median [IQR]),Within 24 hours of injury,CRYO use in massive transfusion patients (median [IQR]),0.89,"matched (name 0.48, words 0.50, numbers 1.00)"
+Moore,Blood product use: Red Blood Cells (median [IQR]),Within 24 hours of injury,RBC use in massive transfusion patients (median [IQR]),0.84,"matched (name 0.45, words 0.43, numbers 1.00)"
+Moore,Blood product use: Fresh Frozen Plasma (median [IQR]),Within 24 hours of injury,FFP use in massive transfusion patients (median [IQR]),0.83,"matched (name 0.49, words 0.38, numbers 1.00)"
+Moore,Mortality - Hyperfibrinolysis phenotype,In-hospital,,,NOT FOUND in P2
+Swendsen,Death within 24 hours (Any criteria),24 hours,Death within 24 hours (Any criteria),1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+Swendsen,Death before hospital discharge (Any criteria),Hospital discharge,Death before hospital discharge (Any criteria),1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+Swendsen,Myocardial Infarction (Any criteria),Hospital discharge,Myocardial Infarction (Any criteria),1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+Swendsen,Stroke (Any criteria),Hospital discharge,Stroke (Any criteria),1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+Swendsen,Venous Thromboembolism (Any criteria),Hospital discharge,Venous Thromboembolism (Any criteria),1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+Swendsen,Acute Kidney Injury (Any criteria),Hospital discharge,Acute Kidney Injury (Any criteria),1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+Swendsen,Death within 24 hours (Operation cohort),24 hours,Death within 24 hours (Operation cohort),1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+Swendsen,Death before hospital discharge (Operation cohort),Hospital discharge,Death before hospital discharge (Operation cohort),1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+Swendsen,Myocardial Infarction (Operation cohort),Hospital discharge,Myocardial Infarction (Operation cohort),1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+Swendsen,Stroke (Operation cohort),Hospital discharge,Stroke (Operation cohort),1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+Swendsen,Venous Thromboembolism (Operation cohort),Hospital discharge,Venous Thromboembolism (Operation cohort),1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+Swendsen,Acute Kidney Injury (Operation cohort),Hospital discharge,Acute Kidney Injury (Operation cohort),1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+Swendsen,Platelets transfused (median [IQR]) (Operation cohort),Hospital discharge,Platelets transfused (Operation cohort) (median [IQR]),1.44,"matched (name 0.77, words 1.00, numbers 1.00)"
+Swendsen,Platelets transfused (median [IQR]) (Any criteria),Hospital discharge,Platelets transfused (Any criteria) (median [IQR]),1.43,"matched (name 0.75, words 1.00, numbers 1.00)"
+Swendsen,FFP transfused (median [IQR]) (Operation cohort),Hospital discharge,Fresh frozen plasma transfused (Operation cohort) (median [IQR]),1.28,"matched (name 0.62, words 0.83, numbers 1.00)"
+Swendsen,FFP transfused (median [IQR]) (Any criteria),Hospital discharge,Fresh frozen plasma transfused (Any criteria) (median [IQR]),1.26,"matched (name 0.59, words 0.83, numbers 1.00)"
+Swendsen,PRBC transfused (median [IQR]) (Operation cohort),Hospital discharge,Packed red blood cells transfused (Operation cohort) (median [IQR]),1.26,"matched (name 0.58, words 0.83, numbers 1.00)"
+Swendsen,PRBC transfused (median [IQR]) (Any criteria),Hospital discharge,Packed red blood cells transfused (Any criteria) (median [IQR]),1.24,"matched (name 0.54, words 0.83, numbers 1.00)"
+Swendsen,,,Death from hemorrhage (Any criteria),,P2 only (not in reference)
+Swendsen,,,Death from brain injury (Any criteria),,P2 only (not in reference)
+Swendsen,,,Death from hemorrhage (Operation cohort),,P2 only (not in reference)
+Swendsen,,,Death from brain injury (Operation cohort),,P2 only (not in reference)
+Cole,28/7 VFD (median [IQR]) (All),28 days,28/7 VFD (median [IQR]),1.42,"matched (name 0.90, words 0.83, numbers 1.00)"
+Cole,"MOF (Adjusted, Shock)",Hospitalization,Adjusted MOF - Shock cohort,1.38,"matched (name 0.65, words 1.00, numbers 1.00)"
+Cole,"VFD (Adjusted, Shock)",28 days,Adjusted VFD - Shock cohort,1.38,"matched (name 0.65, words 1.00, numbers 1.00)"
+Cole,Myocardial infarction (All),Hospitalization,Myocardial infarction,1.34,"matched (name 0.91, words 0.67, numbers 1.00)"
+Cole,Respiratory failure (All),Hospitalization,Respiratory failure,1.34,"matched (name 0.90, words 0.67, numbers 1.00)"
+Cole,Coagulation failure (All),Hospitalization,Coagulation failure,1.34,"matched (name 0.90, words 0.67, numbers 1.00)"
+Cole,Hepatic failure (All),Hospitalization,Hepatic failure,1.32,"matched (name 0.88, words 0.67, numbers 1.00)"
+Cole,Renal failure (All),Hospitalization,Renal failure,1.32,"matched (name 0.87, words 0.67, numbers 1.00)"
+Cole,CVS failure (All),Hospitalization,CVS failure,1.31,"matched (name 0.85, words 0.67, numbers 1.00)"
+Cole,CNS failure (All),Hospitalization,CNS failure,1.31,"matched (name 0.85, words 0.67, numbers 1.00)"
+Cole,Critical care LOS (median [IQR]) (All),Critical care stay,Critical care LOS (median [IQR]),1.28,"matched (name 0.93, words 0.83, numbers 1.00)"
+Cole,Hospital LOS (median [IQR]) (All),Hospital discharge,Hospital LOS (median [IQR]),1.26,"matched (name 0.92, words 0.80, numbers 1.00)"
+Cole,Mortality > 48 h (All),> 48 h,Mortality > 48 h,1.24,"matched (name 0.89, words 0.80, numbers 1.00)"
+Cole,Mortality ≤ 48 h (All),≤ 48 h,Mortality ≤ 48 h,1.21,"matched (name 0.88, words 0.75, numbers 1.00)"
+Cole,Infection (All),Hospitalization,Infection,1.21,"matched (name 0.82, words 0.50, numbers 1.00)"
+Cole,"MOF (Adjusted, All)",Hospitalization,Adjusted MOF,1.2,"matched (name 0.64, words 0.67, numbers 1.00)"
+Cole,Stroke (All),Hospitalization,Stroke,1.18,"matched (name 0.75, words 0.50, numbers 1.00)"
+Cole,"Mortality (Adjusted, Shock)",Hospital discharge,Adjusted Mortality - Shock cohort,1.17,"matched (name 0.55, words 1.00, numbers 1.00)"
+Cole,MOF (All),Hospitalization,MOF,1.1,"matched (name 0.60, words 0.50, numbers 1.00)"
+Cole,VTE (All),Hospitalization,VTE,1.1,"matched (name 0.60, words 0.50, numbers 1.00)"
+Cole,"Mortality (Adjusted, All)",Hospital discharge,Adjusted Mortality,1.01,"matched (name 0.55, words 0.67, numbers 1.00)"
+Cole,Mortality ≤ 48 h (No Shock),≤ 48 h,,,NOT FOUND in P2
+Cole,Mortality ≤ 48 h (Shock),≤ 48 h,,,NOT FOUND in P2
+Cole,Mortality > 48 h (No Shock),> 48 h,,,NOT FOUND in P2
+Cole,Mortality > 48 h (Shock),> 48 h,,,NOT FOUND in P2
+Cole,Respiratory failure (No Shock),Hospitalization,,,NOT FOUND in P2
+Cole,Respiratory failure (Shock),Hospitalization,,,NOT FOUND in P2
+Cole,MOF (Shock),Hospitalization,,,NOT FOUND in P2
+Cole,,,Adjusted Infection,,P2 only (not in reference)
+Cole,,,Adjusted VTE,,P2 only (not in reference)
+Cole,,,Adjusted Stroke/MI,,P2 only (not in reference)
+Cole,,,Adjusted Infection - Shock cohort,,P2 only (not in reference)
+Cole,,,Adjusted VTE - Shock cohort,,P2 only (not in reference)
+Cole,,,Adjusted Stroke/MI - Shock cohort,,P2 only (not in reference)
+Cole,,,Adjusted Mortality - No shock cohort,,P2 only (not in reference)
+Cole,,,Adjusted MOF - No shock cohort,,P2 only (not in reference)
+Cole,,,Adjusted Infection - No shock cohort,,P2 only (not in reference)
+Cole,,,Adjusted VTE - No shock cohort,,P2 only (not in reference)
+Cole,,,Adjusted Stroke/MI - No shock cohort,,P2 only (not in reference)
+Cole,,,Adjusted Critical care LOS - Shock cohort,,P2 only (not in reference)
+Cole,,,Adjusted Hospital LOS - Shock cohort,,P2 only (not in reference)
+Cole,,,Adjusted VFD - No shock cohort,,P2 only (not in reference)
+Cole,,,Adjusted Critical care LOS - No shock cohort,,P2 only (not in reference)
+Cole,,,Adjusted Hospital LOS - No shock cohort,,P2 only (not in reference)
+Susan E. Rowell,28-day mortality,28 days,28-day mortality,1.4,"matched (name 1.00, words 1.00, numbers 0.50)"
+Susan E. Rowell,Hospital-free days,28 days,Hospital-free days,1.4,"matched (name 1.00, words 1.00, numbers 0.50)"
+Susan E. Rowell,Intensive care unit–free days,28 days,Intensive care unit-free days,1.4,"matched (name 1.00, words 1.00, numbers 0.50)"
+Susan E. Rowell,Ventilator-free days,28 days,Ventilator-free days,1.4,"matched (name 1.00, words 1.00, numbers 0.50)"
+Susan E. Rowell,Progression of intracranial hemorrhage,During hospitalization,Progression of intracranial hemorrhage,1.25,"matched (name 1.00, words 1.00, numbers 0.50)"
+Susan E. Rowell,Seizure or seizure-like activity,Through hospital discharge or 28 days,Seizure or seizure-like activity,1.25,"matched (name 1.00, words 1.00, numbers 0.50)"
+Susan E. Rowell,Any thromboembolic event,Through hospital discharge or 28 days,Any thromboembolic event,1.25,"matched (name 1.00, words 1.00, numbers 0.50)"
+Susan E. Rowell,Any neurological intervention,28 days,Any neurological intervention,1.25,"matched (name 1.00, words 1.00, numbers 0.50)"
+Susan E. Rowell,Favorable neurologic outcome (Glasgow Outcome Scale-Extended score >4),6 months,6-month Glasgow Outcome Scale-Extended score >4,1.14,"matched (name 0.73, words 0.75, numbers 0.50)"
+Susan E. Rowell,Disability Rating Scale score (median [IQR]),6 months,,,NOT FOUND in P2
+Susan E. Rowell,Other adverse events,Through hospital discharge or 28 days,,,NOT FOUND in P2
+Susan E. Rowell,Any blood products administered,Through 24 hours,,,NOT FOUND in P2
+Susan E. Rowell,,,Myocardial infarction,,P2 only (not in reference)
+Susan E. Rowell,,,Pulmonary embolism,,P2 only (not in reference)
+Susan E. Rowell,,,Thrombotic stroke,,P2 only (not in reference)
+Susan E. Rowell,,,Deep vein thrombosis,,P2 only (not in reference)
+Susan E. Rowell,,,Craniotomy or craniectomy,,P2 only (not in reference)
+Susan E. Rowell,,,Intracranial pressure monitoring,,P2 only (not in reference)
+Morrison 2013,"In-hospital mortality (Adjusted, TXA vs No TXA/CRYO)",In-hospital (up to 30 days),In-hospital mortality (Adjusted TXA vs No TXA/CRYO),1.4,"matched (name 1.00, words 1.00, numbers 1.00)"
+Morrison 2013,"In-hospital mortality (Adjusted, CRYO vs No TXA/CRYO)",In-hospital (up to 30 days),In-hospital mortality (Adjusted CRYO vs No TXA/CRYO),1.4,"matched (name 1.00, words 1.00, numbers 1.00)"
+Morrison 2013,"In-hospital mortality (Adjusted, TXA/CRYO vs No TXA/CRYO)",In-hospital (up to 30 days),In-hospital mortality (Adjusted TXA/CRYO vs No TXA/CRYO),1.1,"matched (name 1.00, words 1.00, numbers 0.00)"
+Morrison 2013,PRBCs administered in first 24 hours (TXA/CRYO vs No TXA/CRYO),First 24 hours,PRBCs administered in first 24 hours,1.01,"matched (name 0.60, words 0.31, numbers 1.00)"
+Morrison 2013,PLTs administered in first 24 hours (TXA/CRYO vs No TXA/CRYO),First 24 hours,PLTs administered in first 24 hours,1.0,"matched (name 0.60, words 0.31, numbers 1.00)"
+Morrison 2013,FFP administered in first 24 hours (TXA/CRYO vs No TXA/CRYO),First 24 hours,FFP administered in first 24 hours,1.0,"matched (name 0.59, words 0.31, numbers 1.00)"
+Morrison 2013,"In-hospital mortality (Unadjusted, TXA vs No TXA/CRYO)",In-hospital (up to 30 days),In-hospital mortality (Unadjusted),0.68,"matched (name 0.62, words 0.25, numbers 0.50)"
+Morrison 2013,"In-hospital mortality (Unadjusted, CRYO vs No TXA/CRYO)",In-hospital (up to 30 days),,,NOT FOUND in P2
+Morrison 2013,rFVIIa administered in first 24 hours (TXA/CRYO vs No TXA/CRYO),First 24 hours,,,NOT FOUND in P2
+Morte,Thromboembolic events,In-hospital,Thromboembolic events,1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+Morte,Intubation at discharge,At discharge,Intubation at discharge,1.4,"matched (name 1.00, words 1.00, numbers 1.00)"
+Morte,Discharge GCS 14 to 15 (complete neurologic recovery or mild TBI),At discharge or transfer,Discharge Glasgow Coma Scale 14 to 15,0.78,"matched (name 0.42, words 0.33, numbers 1.00)"
+Morte,Discharge GCS consistent with moderate to severe TBI (<14),At discharge or transfer,,,NOT FOUND in P2
+Morte,,,In-hospital mortality,,P2 only (not in reference)
+Neeki 2018,Thromboembolic events,Hospital stay,Thromboembolic events,1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+Neeki 2018,Myocardial infarction events,Hospital stay,Myocardial infarction events,1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+Neeki 2018,Neurologic events,Hospital stay,Neurologic events,1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+Neeki 2018,Total blood products transfused,Hospital stay,Total blood products transfused (median [IQR]),1.47,"matched (name 0.85, words 1.00, numbers 1.00)"
+Neeki 2018,Total blood products transfused (Subgroup: <10 units of blood transfused),Hospital stay,Total blood products transfused (<10 units of blood transfused) (median [IQR]),1.41,"matched (name 0.86, words 0.86, numbers 1.00)"
+Neeki 2018,Mortality (Subgroup: <10 units of blood transfused),24 hours,Mortality at 24 hours (<10 units of blood transfused),1.39,"matched (name 0.85, words 0.83, numbers 1.00)"
+Neeki 2018,Mortality (Subgroup: <10 units of blood transfused),48 hours,Mortality at 48 hours (<10 units of blood transfused),1.39,"matched (name 0.85, words 0.83, numbers 1.00)"
+Neeki 2018,Mortality (Subgroup: <10 units of blood transfused),28 days,Mortality at 28 days (<10 units of blood transfused),1.39,"matched (name 0.84, words 0.83, numbers 1.00)"
+Neeki 2018,Mortality,28 days,Mortality at 28 days,1.36,"matched (name 0.62, words 1.00, numbers 1.00)"
+Neeki 2018,Mortality,48 hours,Mortality at 48 hours,1.35,"matched (name 0.60, words 1.00, numbers 1.00)"
+Neeki 2018,Total blood products transfused (Subgroup: ≥10 units of blood transfused),Hospital stay,Total blood products transfused (>=10 units of blood transfused) (median [IQR]),1.33,"matched (name 0.85, words 0.71, numbers 1.00)"
+Neeki 2018,Hospital length of stay,Hospital stay,Hospital length of stay (median [IQR]),1.3,"matched (name 0.81, words 1.00, numbers 1.00)"
+Neeki 2018,Mortality (Subgroup: ≥10 units of blood transfused),24 hours,Mortality at 24 hours (>=10 units of blood transfused),1.3,"matched (name 0.83, words 0.67, numbers 1.00)"
+Neeki 2018,Mortality (Subgroup: ≥10 units of blood transfused),48 hours,Mortality at 48 hours (>=10 units of blood transfused),1.3,"matched (name 0.83, words 0.67, numbers 1.00)"
+Neeki 2018,Total blood products transfused (Subgroup: ISS ≥ 16),Hospital stay,Total blood products transfused (ISS >=16) (median [IQR]),1.29,"matched (name 0.78, words 0.71, numbers 1.00)"
+Neeki 2018,ICU length of stay,Hospital stay,ICU length of stay (median [IQR]),1.28,"matched (name 0.77, words 1.00, numbers 1.00)"
+Neeki 2018,Mortality (Subgroup: ≥10 units of blood transfused),28 days,Mortality at 28 days (>=10 units of blood transfused),1.28,"matched (name 0.80, words 0.67, numbers 1.00)"
+Neeki 2018,Hospital length of stay (Subgroup: <10 units of blood transfused),Hospital stay,Hospital length of stay (<10 units of blood transfused) (median [IQR]),1.26,"matched (name 0.84, words 0.88, numbers 1.00)"
+Neeki 2018,Total blood products transfused (Subgroup: ISS < 16),Hospital stay,Total blood products transfused (ISS <16) (median [IQR]),1.26,"matched (name 0.79, words 0.62, numbers 1.00)"
+Neeki 2018,ICU length of stay (Subgroup: <10 units of blood transfused),Hospital stay,ICU length of stay (<10 units of blood transfused) (median [IQR]),1.25,"matched (name 0.83, words 0.88, numbers 1.00)"
+Neeki 2018,Hospital length of stay (Subgroup: ≥10 units of blood transfused),Hospital stay,Hospital length of stay (>=10 units of blood transfused) (median [IQR]),1.19,"matched (name 0.83, words 0.75, numbers 1.00)"
+Neeki 2018,ICU length of stay (Subgroup: ≥10 units of blood transfused),Hospital stay,ICU length of stay (>=10 units of blood transfused) (median [IQR]),1.18,"matched (name 0.81, words 0.75, numbers 1.00)"
+Neeki 2018,Mortality (Subgroup: ISS ≥ 16),24 hours,Mortality at 24 hours (ISS >=16),1.15,"matched (name 0.69, words 0.50, numbers 1.00)"
+Neeki 2018,Mortality (Subgroup: ISS ≥ 16),48 hours,Mortality at 48 hours (ISS >=16),1.15,"matched (name 0.69, words 0.50, numbers 1.00)"
+Neeki 2018,Mortality (Subgroup: ISS ≥ 16),28 days,Mortality at 28 days (ISS >=16),1.13,"matched (name 0.67, words 0.50, numbers 1.00)"
+Neeki 2018,Mortality (Subgroup: ISS < 16),24 hours,Mortality at 24 hours (ISS <16),1.11,"matched (name 0.71, words 0.40, numbers 1.00)"
+Neeki 2018,Mortality (Subgroup: ISS < 16),48 hours,Mortality at 48 hours (ISS <16),1.11,"matched (name 0.71, words 0.40, numbers 1.00)"
+Neeki 2018,Hospital length of stay (Subgroup: ISS ≥ 16),Hospital stay,Hospital length of stay (ISS >=16) (median [IQR]),1.1,"matched (name 0.73, words 0.67, numbers 1.00)"
+Neeki 2018,Mortality (Subgroup: ISS < 16),28 days,Mortality at 28 days (ISS <16),1.1,"matched (name 0.69, words 0.40, numbers 1.00)"
+Neeki 2018,ICU length of stay (Subgroup: ISS ≥ 16),Hospital stay,ICU length of stay (ISS >=16) (median [IQR]),1.08,"matched (name 0.69, words 0.67, numbers 1.00)"
+Neeki 2018,Hospital length of stay (Subgroup: ISS < 16),Hospital stay,Hospital length of stay (ISS <16) (median [IQR]),1.06,"matched (name 0.75, words 0.57, numbers 1.00)"
+Neeki 2018,ICU length of stay (Subgroup: ISS < 16),Hospital stay,ICU length of stay (ISS <16) (median [IQR]),1.04,"matched (name 0.71, words 0.57, numbers 1.00)"
+Neeki 2018,,,Mortality at 24 hours,,P2 only (not in reference)
+Evan J. Valle,Mortality (No TBI),Overall,Mortality (No TBI),1.4,"matched (name 1.00, words 1.00, numbers 1.00)"
+Evan J. Valle,Mortality (TBI),Overall,Mortality (TBI),1.4,"matched (name 1.00, words 1.00, numbers 1.00)"
+Evan J. Valle,ICU length of stay,Overall,,,NOT FOUND in P2
+Evan J. Valle,Hospital length of stay (LOS),Overall,,,NOT FOUND in P2
+Evan J. Valle,Emergency resuscitation area: pRBC,Emergency resuscitation area,,,NOT FOUND in P2
+Evan J. Valle,Emergency resuscitation area: FFP (mean ± SD),Emergency resuscitation area,,,NOT FOUND in P2
+Evan J. Valle,Emergency resuscitation area: FFP (median [IQR]),Emergency resuscitation area,,,NOT FOUND in P2
+Evan J. Valle,Emergency resuscitation area: Crystalloid,Emergency resuscitation area,,,NOT FOUND in P2
+Evan J. Valle,Emergency resuscitation area: Total Fluid,Emergency resuscitation area,,,NOT FOUND in P2
+Evan J. Valle,Operating room: pRBC,Operating room,,,NOT FOUND in P2
+Evan J. Valle,Operating room: FFP,Operating room,,,NOT FOUND in P2
+Evan J. Valle,Operating room: Total fluid,Operating room,,,NOT FOUND in P2
+Evan J. Valle,24-h totals: Total fluid,24 hours,,,NOT FOUND in P2
+Evan J. Valle,24-h total: Total fluid (No TBI),24 hours,,,NOT FOUND in P2
+Evan J. Valle,24-h total: Total fluid (TBI),24 hours,,,NOT FOUND in P2
+Evan J. Valle,,,Mortality,,P2 only (not in reference)
+Evan J. Valle,,,Mortality (excluding DOA),,P2 only (not in reference)
+Luehr,Mortality,Day 0,Mortality,1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+Luehr,Mortality,Day 3,Mortality,1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+Luehr,Mortality,Day 30,Mortality,1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+Luehr,Mortality,Day 1,Mortality,1.4,"matched (name 1.00, words 1.00, numbers 1.00)"
+Luehr,Mortality,Day 2,Mortality,1.4,"matched (name 1.00, words 1.00, numbers 1.00)"
+Luehr,Length of stay,Overall,,,NOT FOUND in P2
+Luehr,,,Venous thromboembolism (VTE),,P2 only (not in reference)
+Johnston,Total blood products in first 24 h (No Massive Transfusion),First 24 hours,Total blood products in first 24 h - No Massive Transfusion Subgroup,1.51,"matched (name 0.93, words 1.00, numbers 1.00)"
+Johnston,Total blood products in first 24 h (Massive Transfusion),First 24 hours,Total blood products in first 24 h - Massive Transfusion Subgroup,1.51,"matched (name 0.92, words 1.00, numbers 1.00)"
+Johnston,PRBC in first 24 h (No Massive Transfusion),First 24 hours,PRBC in first 24 h - No Massive Transfusion Subgroup,1.5,"matched (name 0.90, words 1.00, numbers 1.00)"
+Johnston,PRBC in first 24 h (Massive Transfusion),First 24 hours,PRBC in first 24 h - Massive Transfusion Subgroup,1.5,"matched (name 0.89, words 1.00, numbers 1.00)"
+Johnston,Total blood products in first 24 h (Overall),First 24 hours,Total blood products in first 24 h,1.43,"matched (name 0.89, words 0.86, numbers 1.00)"
+Johnston,Cryoprecipitate in first 24 h (Overall),First 24 hours,Cryoprecipitate in first 24 h,1.39,"matched (name 0.88, words 0.80, numbers 1.00)"
+Johnston,Platelets in first 24 h (Overall),First 24 hours,Platelets in first 24 h,1.38,"matched (name 0.85, words 0.80, numbers 1.00)"
+Johnston,PRBC in first 24 h (Overall),First 24 hours,PRBC in first 24 h,1.36,"matched (name 0.82, words 0.80, numbers 1.00)"
+Johnston,FFP in first 24 h (Overall),First 24 hours,FFP in first 24 h,1.35,"matched (name 0.81, words 0.80, numbers 1.00)"
+Johnston,WB in first 24 h (Overall),First 24 hours,WB in first 24 h,1.35,"matched (name 0.80, words 0.80, numbers 1.00)"
+Johnston,Mortality (No Massive Transfusion),Follow-up through initial hospitalization and readmissions,Mortality - No Massive Transfusion Subgroup,1.34,"matched (name 0.88, words 1.00, numbers 1.00)"
+Johnston,Venous thromboembolism (No Massive Transfusion),Follow-up through initial hospitalization and readmissions,Venous Thromboembolism (VTE) - No Massive Transfusion Subgroup,1.34,"matched (name 0.87, words 1.00, numbers 1.00)"
+Johnston,Venous thromboembolism (Massive Transfusion),Follow-up through initial hospitalization and readmissions,Venous Thromboembolism (VTE) - Massive Transfusion Subgroup,1.33,"matched (name 0.87, words 1.00, numbers 1.00)"
+Johnston,Mortality (Massive Transfusion),Follow-up through initial hospitalization and readmissions,Mortality - Massive Transfusion Subgroup,1.33,"matched (name 0.87, words 1.00, numbers 1.00)"
+Johnston,Venous thromboembolism (No Massive Transfusion) - Adjusted analysis,Follow-up through initial hospitalization and readmissions,Venous Thromboembolism (VTE) (Adjusted) - No Massive Transfusion Subgroup,1.19,"matched (name 0.72, words 0.86, numbers 1.00)"
+Johnston,Venous thromboembolism (Overall),Follow-up through initial hospitalization and readmissions,Venous Thromboembolism (VTE),1.18,"matched (name 0.89, words 0.67, numbers 1.00)"
+Johnston,Venous thromboembolism (Massive Transfusion) - Adjusted analysis,Follow-up through initial hospitalization and readmissions,Venous Thromboembolism (VTE) (Adjusted) - Massive Transfusion Subgroup,1.17,"matched (name 0.71, words 0.83, numbers 1.00)"
+Johnston,Venous thromboembolism (Overall) - Adjusted analysis,Follow-up through initial hospitalization and readmissions,Venous Thromboembolism (VTE) (Adjusted),1.11,"matched (name 0.82, words 0.60, numbers 1.00)"
+Johnston,Mortality (Overall),Follow-up through initial hospitalization and readmissions,Mortality,1.0,"matched (name 0.69, words 0.50, numbers 1.00)"
+Johnston,WB in first 24 h (Massive Transfusion),First 24 hours,,,NOT FOUND in P2
+Johnston,FFP in first 24 h (Massive Transfusion),First 24 hours,,,NOT FOUND in P2
+Johnston,Platelets in first 24 h (Massive Transfusion),First 24 hours,,,NOT FOUND in P2
+Johnston,Cryoprecipitate in first 24 h (Massive Transfusion),First 24 hours,,,NOT FOUND in P2
+Johnston,WB in first 24 h (No Massive Transfusion),First 24 hours,,,NOT FOUND in P2
+Johnston,FFP in first 24 h (No Massive Transfusion),First 24 hours,,,NOT FOUND in P2
+Johnston,Platelets in first 24 h (No Massive Transfusion),First 24 hours,,,NOT FOUND in P2
+Johnston,Cryoprecipitate in first 24 h (No Massive Transfusion),First 24 hours,,,NOT FOUND in P2
+Muhammad Khan,Rebleeding requiring intervention,Not specified,Rebleeding requiring intervention,1.4,"matched (name 1.00, words 1.00, numbers 1.00)"
+Muhammad Khan,Time to achieve hemostasis,End of procedure,Time to achieve hemostasis (median [IQR]),1.31,"matched (name 0.83, words 1.00, numbers 1.00)"
+Muhammad Khan,Multiple organ failure,Not specified,Complication: Multiple organ failure,1.29,"matched (name 0.77, words 1.00, numbers 1.00)"
+Muhammad Khan,Mortality,6 h,6-hour Mortality,1.26,"matched (name 0.72, words 1.00, numbers 1.00)"
+Muhammad Khan,Mortality,30 d,30-day Mortality,1.26,"matched (name 0.72, words 1.00, numbers 1.00)"
+Muhammad Khan,Mortality,12 h,12-hour Mortality,1.25,"matched (name 0.69, words 1.00, numbers 1.00)"
+Muhammad Khan,Mortality,18 h,18-hour Mortality,1.25,"matched (name 0.69, words 1.00, numbers 1.00)"
+Muhammad Khan,Mortality,24 h,24-hour Mortality,1.25,"matched (name 0.69, words 1.00, numbers 1.00)"
+Muhammad Khan,Hospital LOS,Not specified,Hospital LOS (median [IQR]),1.24,"matched (name 0.69, words 1.00, numbers 1.00)"
+Muhammad Khan,Transfusions - RBC,24 h,RBC Transfusions in 24 h (median [IQR]),1.17,"matched (name 0.55, words 1.00, numbers 1.00)"
+Muhammad Khan,Transfusions - Plasma,24 h,Plasma Transfusions in 24 h (median [IQR]),1.16,"matched (name 0.53, words 1.00, numbers 1.00)"
+Muhammad Khan,Sepsis,Not specified,Complication: Sepsis,1.14,"matched (name 0.48, words 1.00, numbers 1.00)"
+Muhammad Khan,Transfusions - Platelets,24 h,Platelets Transfusions in 24 h (median [IQR]),1.12,"matched (name 0.44, words 1.00, numbers 1.00)"
+Muhammad Khan,AKI,Not specified,Complication: AKI,1.06,"matched (name 0.32, words 1.00, numbers 1.00)"
+Muhammad Khan,Cause of death - Exsanguination/hemorrhagic shock,Not specified,,,NOT FOUND in P2
+Muhammad Khan,Cause of death - TBI,Not specified,,,NOT FOUND in P2
+Muhammad Khan,Cause of death - Respiratory,Not specified,,,NOT FOUND in P2
+Muhammad Khan,Cause of death - Other,Not specified,,,NOT FOUND in P2
+Muhammad Khan,DVT,Not specified,,,NOT FOUND in P2
+Muhammad Khan,PE (asymptomatic),Not specified,,,NOT FOUND in P2
+Muhammad Khan,PE (symptomatic),Not specified,,,NOT FOUND in P2
+Muhammad Khan,SIRS,Not specified,,,NOT FOUND in P2
+Muhammad Khan,Infections,Not specified,,,NOT FOUND in P2
+Muhammad Khan,ARDS,Not specified,,,NOT FOUND in P2
+Muhammad Khan,Stroke,Not specified,,,NOT FOUND in P2
+Muhammad Khan,ICU-free days,Not specified,,,NOT FOUND in P2
+Muhammad Khan,Ventilator days,Not specified,,,NOT FOUND in P2
+Muhammad Khan,Mortality - 1:1:1 Blood Product Subgroup,6 h,,,NOT FOUND in P2
+Muhammad Khan,Mortality - 1:1:1 Blood Product Subgroup,12 h,,,NOT FOUND in P2
+Muhammad Khan,Mortality - 1:1:1 Blood Product Subgroup,18 h,,,NOT FOUND in P2
+Muhammad Khan,Mortality - 1:1:1 Blood Product Subgroup,24 h,,,NOT FOUND in P2
+Muhammad Khan,Mortality - 1:1:1 Blood Product Subgroup,30 d,,,NOT FOUND in P2
+Muhammad Khan,Time to achieve hemostasis - 1:1:1 Blood Product Subgroup,End of procedure,,,NOT FOUND in P2
+Muhammad Khan,Mortality - 1:1:2 Blood Product Subgroup,6 h,,,NOT FOUND in P2
+Muhammad Khan,Mortality - 1:1:2 Blood Product Subgroup,12 h,,,NOT FOUND in P2
+Muhammad Khan,Mortality - 1:1:2 Blood Product Subgroup,18 h,,,NOT FOUND in P2
+Muhammad Khan,Mortality - 1:1:2 Blood Product Subgroup,24 h,,,NOT FOUND in P2
+Muhammad Khan,Mortality - 1:1:2 Blood Product Subgroup,30 d,,,NOT FOUND in P2
+Muhammad Khan,Time to achieve hemostasis - 1:1:2 Blood Product Subgroup,End of procedure,,,NOT FOUND in P2
+Ayman El-Menyar,"Blood units transfused (mean, 95% CI)",In-hospital,"Blood units transfused (mean, 95% CI)",1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+Ayman El-Menyar,Blood units transfused (median [range]),In-hospital,Blood units transfused (median [range]),1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+Ayman El-Menyar,Blood transfusion,In-hospital,Blood transfusion,1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+Ayman El-Menyar,Massive blood transfusion,In-hospital,Massive blood transfusion,1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+Ayman El-Menyar,Pulmonary embolism,In-hospital,Pulmonary embolism,1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+Ayman El-Menyar,Deep vein thrombosis,In-hospital,Deep vein thrombosis,1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+Ayman El-Menyar,Thromboembolic events,In-hospital,Thromboembolic events,1.55,"matched (name 1.00, words 1.00, numbers 1.00)"
+Ayman El-Menyar,First 4 h amount of blood transfused,First 4 hours,"First 4 h amount of blood (mean, 95% CI)",1.2,"matched (name 0.77, words 0.83, numbers 1.00)"
+Ayman El-Menyar,Overall mortality,In-hospital,Mortality,1.15,"matched (name 0.69, words 0.50, numbers 1.00)"
+Ayman El-Menyar,Massive Transfusion Protocol (MTP) activated,In-hospital,MTP activated,0.99,"matched (name 0.47, words 0.40, numbers 1.00)"
+Ayman El-Menyar,48-hour mortality,48 hours,,,NOT FOUND in P2
+Ayman El-Menyar,ED disposition: Dead,Emergency Department,,,NOT FOUND in P2
+Ayman El-Menyar,Blood units transfused (patients undergoing surgery),In-hospital,,,NOT FOUND in P2
+Ayman El-Menyar,Trauma room Mean shock index,Trauma room admission,,,NOT FOUND in P2
+Ayman El-Menyar,,,Mortality (Adjusted),,P2 only (not in reference)

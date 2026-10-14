@@ -1,0 +1,227 @@
+{
+ "id": "p2txa-20",
+ "pdf": "Pulmonary Embolism following Complex Trauma- UK MTC Observational Study.pdf",
+ "attempt": 1,
+ "extracted_at": "2026-10-14T17:20:51.372Z",
+ "seconds": 49,
+ "data": {
+  "id": "p2txa-20",
+  "title": "Pulmonary Embolism following Complex Trauma: UK MTC Observational Study",
+  "author": "Thomas E Glover",
+  "year": 2018,
+  "design": "Cohort",
+  "doi": "",
+  "available_outcomes": [
+   {
+    "name": "Total Pulmonary Embolism",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "",
+    "events_intervention": 21,
+    "n_intervention": 333,
+    "events_control": 27,
+    "n_control": 706,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "harmonized_name": "",
+      "n": 333,
+      "events": 21,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "No TXA",
+      "harmonized_name": "",
+      "n": 706,
+      "events": 27,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Hospital admission",
+    "is_primary": false,
+    "source_quote": "Table 3: TXA administration subgroup characteristics... Total PE (n, %): TXA 21 (6.3%), No TXA 27 (3.8%)"
+   },
+   {
+    "name": "Immediate Pulmonary Embolism",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "",
+    "events_intervention": 7,
+    "n_intervention": 333,
+    "events_control": 7,
+    "n_control": 706,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "harmonized_name": "",
+      "n": 333,
+      "events": 7,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "No TXA",
+      "harmonized_name": "",
+      "n": 706,
+      "events": 7,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Diagnosed on initial trauma scan",
+    "is_primary": false,
+    "source_quote": "Table 3: TXA administration subgroup characteristics... Immediate PE (n, %): TXA 7 (2.1%), No TXA 7 (1.0%)"
+   },
+   {
+    "name": "Early Pulmonary Embolism",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "",
+    "events_intervention": 5,
+    "n_intervention": 333,
+    "events_control": 3,
+    "n_control": 706,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "harmonized_name": "",
+      "n": 333,
+      "events": 5,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "No TXA",
+      "harmonized_name": "",
+      "n": 706,
+      "events": 3,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Within 72 hours of admission but not present initially",
+    "is_primary": false,
+    "source_quote": "Table 3: TXA administration subgroup characteristics... Early PE (n, %): TXA 5 (1.5%), No TXA 3 (0.4%)"
+   },
+   {
+    "name": "Late Pulmonary Embolism",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "",
+    "events_intervention": 9,
+    "n_intervention": 333,
+    "events_control": 17,
+    "n_control": 706,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "harmonized_name": "",
+      "n": 333,
+      "events": 9,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "No TXA",
+      "harmonized_name": "",
+      "n": 706,
+      "events": 17,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Diagnosed after 72 hours",
+    "is_primary": false,
+    "source_quote": "Table 3: TXA administration subgroup characteristics... Late PE (n, %): TXA 9 (2.7%), No TXA 17 (2.4%)"
+   },
+   {
+    "name": "Length of Stay",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "days",
+    "n_intervention": 333,
+    "mean_intervention": 27.8,
+    "ci_lower_intervention": 24.6,
+    "ci_upper_intervention": 31,
+    "n_control": 706,
+    "mean_control": 22.9,
+    "ci_lower_control": 21.1,
+    "ci_upper_control": 24.7,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "harmonized_name": "",
+      "n": 333,
+      "mean": 27.8,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "No TXA",
+      "harmonized_name": "",
+      "n": 706,
+      "mean": 22.9,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Hospital discharge",
+    "is_primary": false,
+    "source_quote": "Table 3: TXA administration subgroup characteristics... LOS (days): TXA 27.8 (± 3.2), No TXA 22.9 (± 1.8). Legend specifies: Results presented as mean ± 95% confidence interval. Converted from 95% CI explicitly calculated by subtracting and adding the ± margin."
+   },
+   {
+    "name": "Mortality",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "",
+    "events_intervention": 47,
+    "n_intervention": 333,
+    "events_control": 106,
+    "n_control": 706,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "harmonized_name": "",
+      "n": 333,
+      "events": 47,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "No TXA",
+      "harmonized_name": "",
+      "n": 706,
+      "events": 106,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Hospital admission",
+    "is_primary": false,
+    "source_quote": "Table 3: TXA administration subgroup characteristics... Mortality (%): TXA 14.1, No TXA 15.0. Events derived by arithmetic from reported percentage: 14.1% of 333 = 47; 15.0% of 706 = 106."
+   }
+  ],
+  "selected_outcome_idx": 0,
+  "robinsI": {
+   "confounding": "Serious",
+   "selection": "Moderate",
+   "classification": "Low",
+   "deviations": "Low",
+   "missingData": "Low",
+   "measurement": "Low",
+   "reporting": "Low",
+   "overall": "Serious",
+   "quotes": {
+    "confounding": "The patients who received TXA were younger, had more severe injuries overall and had significantly worse chest, pelvis and limb injuries than patients who had not received TXA",
+    "selection": "We conducted a retrospective study of consecutive patients aged 18 years and over admitted to the East of England Major Trauma Centre (MTC)",
+    "classification": "333 patients were given TXA either pre-hospital or immediately following admission",
+    "deviations": "TXA was administered to selected patients due to gradual integration of TXA into our MTN protocol during the study period.",
+    "missingData": "Data describing demographics, the nature and extent of injuries, process of care, timing of PE prophylaxis and tranexamic acid (TXA) administration... were collected.",
+    "measurement": "PE was defined as a filling defect within the pulmonary arterial system identified on CT imaging.",
+    "reporting": "We report an overall incidence of PE of 48/1039 (4.6%)"
+   }
+  }
+ }
+}

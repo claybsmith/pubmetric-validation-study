@@ -1,0 +1,587 @@
+{
+ "id": "p2txa-13",
+ "pdf": "Evaluation of Military Use of Tranexamic Acid and Associated Thromboembolic Events.pdf",
+ "attempt": 1,
+ "extracted_at": "2026-10-14T17:11:40.337Z",
+ "seconds": 97,
+ "data": {
+  "id": "p2txa-13",
+  "title": "Evaluation of Military Use of Tranexamic Acid and Associated Thromboembolic Events",
+  "author": "Johnston",
+  "year": 2018,
+  "design": "Cohort",
+  "doi": "10.1001/jamasurg.2017.3821",
+  "available_outcomes": [
+   {
+    "name": "Venous Thromboembolism (VTE)",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "participants",
+    "events_intervention": 50,
+    "events_control": 21,
+    "n_intervention": 146,
+    "n_control": 309,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "is_control": false,
+      "n": 146,
+      "events": 50
+     },
+     {
+      "source_name": "No TXA",
+      "is_control": true,
+      "n": 309,
+      "events": 21
+     }
+    ],
+    "timepoint": "Initial hospitalization and readmissions",
+    "is_primary": true,
+    "source_quote": "Table 1. Demographic and Clinical Data for Overall Cohort and Subgroups Based on Receipt of Tranexamic Acid (TXA) ... Overall (n = 455) ... TXA (n = 146) | No TXA (n = 309) ... VTE, No. (%) | 50 (34.2) | 21 (6.8)"
+   },
+   {
+    "name": "Venous Thromboembolism (VTE) (Adjusted)",
+    "type": "Harm",
+    "data_type": "Precalculated",
+    "unit": "OR",
+    "precalc_effect": 2.58,
+    "precalc_ci_lower": 1.2,
+    "precalc_ci_upper": 5.56,
+    "n_intervention": null,
+    "n_control": null,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "is_control": false,
+      "n": null
+     },
+     {
+      "source_name": "No TXA",
+      "is_control": true,
+      "n": null
+     }
+    ],
+    "timepoint": "Initial hospitalization and readmissions",
+    "is_primary": true,
+    "source_quote": "On logistic regression controlling for variables on univariate analysis with P < .15 (Table 2), TXA administration was found to be an independent risk factor for VTE (odds ratio [OR], 2.58; 95% CI, 1.20-5.56; P = .02). Adjusted analysis."
+   },
+   {
+    "name": "Mortality",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "participants",
+    "events_intervention": 1,
+    "events_control": 3,
+    "n_intervention": 146,
+    "n_control": 309,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "is_control": false,
+      "n": 146,
+      "events": 1
+     },
+     {
+      "source_name": "No TXA",
+      "is_control": true,
+      "n": 309,
+      "events": 3
+     }
+    ],
+    "timepoint": "Initial hospitalization and readmissions",
+    "is_primary": false,
+    "source_quote": "Table 1. Demographic and Clinical Data for Overall Cohort ... Overall (n = 455) ... TXA (n = 146) | No TXA (n = 309) ... Mortality, No. (%) | 1 (0.7) | 3 (1.0)"
+   },
+   {
+    "name": "Total blood products in first 24 h",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "units",
+    "mean_intervention": 34.5,
+    "sd_intervention": 25,
+    "mean_control": 5.2,
+    "sd_control": 14.5,
+    "n_intervention": 146,
+    "n_control": 309,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "is_control": false,
+      "n": 146,
+      "mean": 34.5,
+      "sd": 25
+     },
+     {
+      "source_name": "No TXA",
+      "is_control": true,
+      "n": 309,
+      "mean": 5.2,
+      "sd": 14.5
+     }
+    ],
+    "timepoint": "First 24 hours",
+    "is_primary": false,
+    "source_quote": "Table 1. Demographic and Clinical Data for Overall Cohort ... Mean (SD) ... Total in first 24 h | 34.5 (25.0) | 5.2 (14.5). Table originally reported Mean (SD)."
+   },
+   {
+    "name": "PRBC in first 24 h",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "units",
+    "mean_intervention": 13.1,
+    "sd_intervention": 8.6,
+    "mean_control": 2.2,
+    "sd_control": 5,
+    "n_intervention": 146,
+    "n_control": 309,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "is_control": false,
+      "n": 146,
+      "mean": 13.1,
+      "sd": 8.6
+     },
+     {
+      "source_name": "No TXA",
+      "is_control": true,
+      "n": 309,
+      "mean": 2.2,
+      "sd": 5
+     }
+    ],
+    "timepoint": "First 24 hours",
+    "is_primary": false,
+    "source_quote": "Table 1 ... Mean (SD) ... PRBC in first 24 h | 13.1 (8.6) | 2.2 (5.0). Table originally reported Mean (SD)."
+   },
+   {
+    "name": "WB in first 24 h",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "units",
+    "mean_intervention": 1.3,
+    "sd_intervention": 3.1,
+    "mean_control": 0.3,
+    "sd_control": 2,
+    "n_intervention": 146,
+    "n_control": 309,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "is_control": false,
+      "n": 146,
+      "mean": 1.3,
+      "sd": 3.1
+     },
+     {
+      "source_name": "No TXA",
+      "is_control": true,
+      "n": 309,
+      "mean": 0.3,
+      "sd": 2
+     }
+    ],
+    "timepoint": "First 24 hours",
+    "is_primary": false,
+    "source_quote": "Table 1 ... Mean (SD) ... WB in first 24 h | 1.3 (3.1) | 0.3 (2.0). Table originally reported Mean (SD)."
+   },
+   {
+    "name": "FFP in first 24 h",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "units",
+    "mean_intervention": 11.6,
+    "sd_intervention": 7.6,
+    "mean_control": 1.7,
+    "sd_control": 4.3,
+    "n_intervention": 146,
+    "n_control": 309,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "is_control": false,
+      "n": 146,
+      "mean": 11.6,
+      "sd": 7.6
+     },
+     {
+      "source_name": "No TXA",
+      "is_control": true,
+      "n": 309,
+      "mean": 1.7,
+      "sd": 4.3
+     }
+    ],
+    "timepoint": "First 24 hours",
+    "is_primary": false,
+    "source_quote": "Table 1 ... Mean (SD) ... FFP in first 24 h | 11.6 (7.6) | 1.7 (4.3). Table originally reported Mean (SD)."
+   },
+   {
+    "name": "Platelets in first 24 h",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "units",
+    "mean_intervention": 2,
+    "sd_intervention": 1.9,
+    "mean_control": 0.3,
+    "sd_control": 1.5,
+    "n_intervention": 146,
+    "n_control": 309,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "is_control": false,
+      "n": 146,
+      "mean": 2,
+      "sd": 1.9
+     },
+     {
+      "source_name": "No TXA",
+      "is_control": true,
+      "n": 309,
+      "mean": 0.3,
+      "sd": 1.5
+     }
+    ],
+    "timepoint": "First 24 hours",
+    "is_primary": false,
+    "source_quote": "Table 1 ... Mean (SD) ... Platelets in first 24 h | 2.0 (1.9) | 0.3 (1.5). Table originally reported Mean (SD)."
+   },
+   {
+    "name": "Cryoprecipitate in first 24 h",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "units",
+    "mean_intervention": 6.5,
+    "sd_intervention": 9,
+    "mean_control": 0.8,
+    "sd_control": 4.4,
+    "n_intervention": 146,
+    "n_control": 309,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "is_control": false,
+      "n": 146,
+      "mean": 6.5,
+      "sd": 9
+     },
+     {
+      "source_name": "No TXA",
+      "is_control": true,
+      "n": 309,
+      "mean": 0.8,
+      "sd": 4.4
+     }
+    ],
+    "timepoint": "First 24 hours",
+    "is_primary": false,
+    "source_quote": "Table 1 ... Mean (SD) ... Cryoprecipitate in first 24 h | 6.5 (9.0) | 0.8 (4.4). Table originally reported Mean (SD)."
+   },
+   {
+    "name": "Venous Thromboembolism (VTE) - Massive Transfusion Subgroup",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "participants",
+    "events_intervention": 47,
+    "events_control": 8,
+    "n_intervention": 127,
+    "n_control": 46,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "is_control": false,
+      "n": 127,
+      "events": 47
+     },
+     {
+      "source_name": "No TXA",
+      "is_control": true,
+      "n": 46,
+      "events": 8
+     }
+    ],
+    "timepoint": "Initial hospitalization and readmissions",
+    "is_primary": false,
+    "source_quote": "Table 1 ... Massive Transfusion (n = 173) ... TXA (n = 127) | No TXA (n = 46) ... VTE, No. (%) | 47 (37.0) | 8 (17)"
+   },
+   {
+    "name": "Venous Thromboembolism (VTE) (Adjusted) - Massive Transfusion Subgroup",
+    "type": "Harm",
+    "data_type": "Precalculated",
+    "unit": "OR",
+    "precalc_effect": 2.8,
+    "precalc_ci_lower": 1.2,
+    "precalc_ci_upper": 6.49,
+    "n_intervention": null,
+    "n_control": null,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "is_control": false,
+      "n": null
+     },
+     {
+      "source_name": "No TXA",
+      "is_control": true,
+      "n": null
+     }
+    ],
+    "timepoint": "Initial hospitalization and readmissions",
+    "is_primary": false,
+    "source_quote": "In the subgroup analysis of the MT cohort, the rate of VTE was 31.8%, and TXA administration was associated with an increased risk for VTE (OR, 2.80; 95% CI, 1.20-6.49; P = .02). Adjusted analysis."
+   },
+   {
+    "name": "Mortality - Massive Transfusion Subgroup",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "participants",
+    "events_intervention": 1,
+    "events_control": 2,
+    "n_intervention": 127,
+    "n_control": 46,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "is_control": false,
+      "n": 127,
+      "events": 1
+     },
+     {
+      "source_name": "No TXA",
+      "is_control": true,
+      "n": 46,
+      "events": 2
+     }
+    ],
+    "timepoint": "Initial hospitalization and readmissions",
+    "is_primary": false,
+    "source_quote": "Table 1 ... Massive Transfusion (n = 173) ... TXA (n = 127) | No TXA (n = 46) ... Mortality, No. (%) | 1 (0.8) | 2 (4)"
+   },
+   {
+    "name": "Total blood products in first 24 h - Massive Transfusion Subgroup",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "units",
+    "mean_intervention": 38.7,
+    "sd_intervention": 23.8,
+    "mean_control": 28.7,
+    "sd_control": 27.3,
+    "n_intervention": 127,
+    "n_control": 46,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "is_control": false,
+      "n": 127,
+      "mean": 38.7,
+      "sd": 23.8
+     },
+     {
+      "source_name": "No TXA",
+      "is_control": true,
+      "n": 46,
+      "mean": 28.7,
+      "sd": 27.3
+     }
+    ],
+    "timepoint": "First 24 hours",
+    "is_primary": false,
+    "source_quote": "Table 1 ... Massive Transfusion (n = 173) ... Mean (SD) ... Total in first 24 h | 38.7 (23.8) | 28.7 (27.3). Table originally reported Mean (SD)."
+   },
+   {
+    "name": "PRBC in first 24 h - Massive Transfusion Subgroup",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "units",
+    "mean_intervention": 14.6,
+    "sd_intervention": 8.1,
+    "mean_control": 10.6,
+    "sd_control": 8.4,
+    "n_intervention": 127,
+    "n_control": 46,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "is_control": false,
+      "n": 127,
+      "mean": 14.6,
+      "sd": 8.1
+     },
+     {
+      "source_name": "No TXA",
+      "is_control": true,
+      "n": 46,
+      "mean": 10.6,
+      "sd": 8.4
+     }
+    ],
+    "timepoint": "First 24 hours",
+    "is_primary": false,
+    "source_quote": "Table 1 ... Massive Transfusion (n = 173) ... Mean (SD) ... PRBC in first 24 h | 14.6.0 (8.1) | 10.6 (8.4). Table originally reported Mean (SD)."
+   },
+   {
+    "name": "Venous Thromboembolism (VTE) - No Massive Transfusion Subgroup",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "participants",
+    "events_intervention": 3,
+    "events_control": 13,
+    "n_intervention": 18,
+    "n_control": 264,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "is_control": false,
+      "n": 18,
+      "events": 3
+     },
+     {
+      "source_name": "No TXA",
+      "is_control": true,
+      "n": 264,
+      "events": 13
+     }
+    ],
+    "timepoint": "Initial hospitalization and readmissions",
+    "is_primary": false,
+    "source_quote": "Table 1 ... No Massive Transfusion (n = 282) ... TXA (n = 18) | No TXA (n = 264) ... VTE, No. (%) | 3 (17) | 13 (4.9)"
+   },
+   {
+    "name": "Venous Thromboembolism (VTE) (Adjusted) - No Massive Transfusion Subgroup",
+    "type": "Harm",
+    "data_type": "Precalculated",
+    "unit": "OR",
+    "precalc_effect": 3.9,
+    "precalc_ci_lower": 0.99,
+    "precalc_ci_upper": 15.03,
+    "n_intervention": null,
+    "n_control": null,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "is_control": false,
+      "n": null
+     },
+     {
+      "source_name": "No TXA",
+      "is_control": true,
+      "n": null
+     }
+    ],
+    "timepoint": "Initial hospitalization and readmissions",
+    "is_primary": false,
+    "source_quote": "In the subgroup that did not receive an MT, the VTE rate was 5.7%, and TXA administration (overuse) was not statically significantly associated with VTE in this group (OR, 3.9; 95% CI, 0.99-15.03; P = .07). Adjusted analysis."
+   },
+   {
+    "name": "Mortality - No Massive Transfusion Subgroup",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "participants",
+    "events_intervention": 0,
+    "events_control": 1,
+    "n_intervention": 18,
+    "n_control": 264,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "is_control": false,
+      "n": 18,
+      "events": 0
+     },
+     {
+      "source_name": "No TXA",
+      "is_control": true,
+      "n": 264,
+      "events": 1
+     }
+    ],
+    "timepoint": "Initial hospitalization and readmissions",
+    "is_primary": false,
+    "source_quote": "Table 1 ... No Massive Transfusion (n = 282) ... TXA (n = 18) | No TXA (n = 264) ... Mortality, No. (%) | 0 (0) | 1 (0.4)"
+   },
+   {
+    "name": "Total blood products in first 24 h - No Massive Transfusion Subgroup",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "units",
+    "mean_intervention": 4.4,
+    "sd_intervention": 3.2,
+    "mean_control": 1.1,
+    "sd_control": 2.2,
+    "n_intervention": 18,
+    "n_control": 264,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "is_control": false,
+      "n": 18,
+      "mean": 4.4,
+      "sd": 3.2
+     },
+     {
+      "source_name": "No TXA",
+      "is_control": true,
+      "n": 264,
+      "mean": 1.1,
+      "sd": 2.2
+     }
+    ],
+    "timepoint": "First 24 hours",
+    "is_primary": false,
+    "source_quote": "Table 1 ... No Massive Transfusion (n = 282) ... Mean (SD) ... Total in first 24 h | 4.4 (3.2) | 1.1 (2.2). Table originally reported Mean (SD)."
+   },
+   {
+    "name": "PRBC in first 24 h - No Massive Transfusion Subgroup",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "units",
+    "mean_intervention": 2.6,
+    "sd_intervention": 2,
+    "mean_control": 0.7,
+    "sd_control": 1.4,
+    "n_intervention": 18,
+    "n_control": 264,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "is_control": false,
+      "n": 18,
+      "mean": 2.6,
+      "sd": 2
+     },
+     {
+      "source_name": "No TXA",
+      "is_control": true,
+      "n": 264,
+      "mean": 0.7,
+      "sd": 1.4
+     }
+    ],
+    "timepoint": "First 24 hours",
+    "is_primary": false,
+    "source_quote": "Table 1 ... No Massive Transfusion (n = 282) ... Mean (SD) ... PRBC in first 24 h | 2.6 (2.0) | 0.7 (1.4). Table originally reported Mean (SD)."
+   }
+  ],
+  "selected_outcome_idx": 0,
+  "robinsI": {
+   "confounding": "Serious",
+   "selection": "Moderate",
+   "classification": "Low",
+   "deviations": "Low",
+   "missingData": "Low",
+   "measurement": "Low",
+   "reporting": "Low",
+   "overall": "Serious",
+   "quotes": {
+    "confounding": "In general, the patients who received TXA were younger... had higher Injury Severity Scores... received more blood products... While we attempted to control for confounding with multivariate analysis, the possibility of this occurs in a nonrandomized trial.",
+    "selection": "The JTS database includes only patients who survived to evacuation to a role 3 or combat support hospital. Consequently, there likely is a survival bias that may influence our results.",
+    "classification": "All cases of VTE in this cohort were defined as computed tomography–confirmed or ultrasonography-confirmed deep venous thrombosis or pulmonary embolus...",
+    "deviations": "Data collected for all patients included... receipt of blood products, TXA...",
+    "missingData": "We included 455 eligible patients who were treated at the Walter Reed National Military Medical Center during the study period.",
+    "measurement": "All medical records were reviewed to determine if casualties sustained a VTE at any point after injury. All cases of VTE... were defined as computed tomography–confirmed or ultrasonography-confirmed...",
+    "reporting": "All P values were 2-tailed, and significance was set at P < .05. All statistics were performed in STATA..."
+   }
+  }
+ }
+}

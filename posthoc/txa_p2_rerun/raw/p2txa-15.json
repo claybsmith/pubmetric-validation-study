@@ -1,0 +1,572 @@
+{
+ "id": "p2txa-15",
+ "pdf": "Military Application of Tranexamic Acid in Trauma Emergency Resuscitation (MATTERs) Study.pdf",
+ "attempt": 2,
+ "extracted_at": "2026-10-14T17:20:02.160Z",
+ "seconds": 159,
+ "data": {
+  "id": "p2txa-15",
+  "title": "Military Application of Tranexamic Acid in Trauma Emergency Resuscitation (MATTERs) Study",
+  "author": "Morrison",
+  "year": 2012,
+  "design": "Cohort",
+  "doi": "10.1001/archsurg.2011.287",
+  "available_outcomes": [
+   {
+    "name": "Mortality at 24 hours (Overall cohort)",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "events_intervention": 28,
+    "n_intervention": 293,
+    "events_control": 75,
+    "n_control": 603,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "n": 293,
+      "events": 28,
+      "is_control": false
+     },
+     {
+      "source_name": "No TXA",
+      "n": 603,
+      "events": 75,
+      "is_control": true
+     }
+    ],
+    "timepoint": "24 hours",
+    "is_primary": true,
+    "source_quote": "Table 2. All-Cause Mortality of Overall and Massive Transfusion Groups Within 24 Hours... Total No. of Patients in Follow-up (Mortality, %) | Overall <24 h | 293 (9.6) | 603 (12.4). (Events calculated as n * %)."
+   },
+   {
+    "name": "Mortality at 48 hours (Overall cohort)",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "events_intervention": 30,
+    "n_intervention": 264,
+    "events_control": 96,
+    "n_control": 507,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "n": 264,
+      "events": 30,
+      "is_control": false
+     },
+     {
+      "source_name": "No TXA",
+      "n": 507,
+      "events": 96,
+      "is_control": true
+     }
+    ],
+    "timepoint": "48 hours",
+    "is_primary": true,
+    "source_quote": "Table 2. All-Cause Mortality of Overall and Massive Transfusion Groups... Overall <48 h | 264 (11.3) | 507 (18.9). (Events calculated as n * %)."
+   },
+   {
+    "name": "In-hospital mortality (Overall cohort)",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "events_intervention": 46,
+    "n_intervention": 264,
+    "events_control": 144,
+    "n_control": 603,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "n": 264,
+      "events": 46,
+      "is_control": false
+     },
+     {
+      "source_name": "No TXA",
+      "n": 603,
+      "events": 144,
+      "is_control": true
+     }
+    ],
+    "timepoint": "In-hospital",
+    "is_primary": true,
+    "source_quote": "Table 2. All-Cause Mortality of Overall and Massive Transfusion Groups... Overall In-hospital mortality | 264 (17.4) | 603 (23.9). (Events calculated as n * %)."
+   },
+   {
+    "name": "Mortality at 24 hours (Massive Transfusion cohort)",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "events_intervention": 12,
+    "n_intervention": 125,
+    "events_control": 29,
+    "n_control": 196,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "n": 125,
+      "events": 12,
+      "is_control": false
+     },
+     {
+      "source_name": "No TXA",
+      "n": 196,
+      "events": 29,
+      "is_control": true
+     }
+    ],
+    "timepoint": "24 hours",
+    "is_primary": true,
+    "source_quote": "Table 2. All-Cause Mortality of Overall and Massive Transfusion Groups... Massive transfusion <24 h | 125 (9.6) | 196 (14.8). (Events calculated as n * %)."
+   },
+   {
+    "name": "Mortality at 48 hours (Massive Transfusion cohort)",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "events_intervention": 12,
+    "n_intervention": 112,
+    "events_control": 38,
+    "n_control": 160,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "n": 112,
+      "events": 12,
+      "is_control": false
+     },
+     {
+      "source_name": "No TXA",
+      "n": 160,
+      "events": 38,
+      "is_control": true
+     }
+    ],
+    "timepoint": "48 hours",
+    "is_primary": true,
+    "source_quote": "Table 2. All-Cause Mortality of Overall and Massive Transfusion Groups... Massive transfusion <48 h | 112 (10.4) | 160 (23.5). (Events calculated as n * %)."
+   },
+   {
+    "name": "In-hospital mortality (Massive Transfusion cohort)",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "events_intervention": 18,
+    "n_intervention": 125,
+    "events_control": 55,
+    "n_control": 196,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "n": 125,
+      "events": 18,
+      "is_control": false
+     },
+     {
+      "source_name": "No TXA",
+      "n": 196,
+      "events": 55,
+      "is_control": true
+     }
+    ],
+    "timepoint": "In-hospital",
+    "is_primary": true,
+    "source_quote": "Table 2. All-Cause Mortality of Overall and Massive Transfusion Groups... Massive transfusion In-hospital mortality | 125 (14.4) | 196 (28.1). (Events calculated as n * %)."
+   },
+   {
+    "name": "In-hospital survival (Adjusted, Massive Transfusion cohort)",
+    "type": "Benefit",
+    "data_type": "Precalculated",
+    "unit": "OR",
+    "precalc_effect": 7.228,
+    "precalc_ci_lower": 3.016,
+    "precalc_ci_upper": 17.322,
+    "n_intervention": null,
+    "n_control": null,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "n": null,
+      "is_control": false
+     },
+     {
+      "source_name": "No TXA",
+      "n": null,
+      "is_control": true
+     }
+    ],
+    "timepoint": "In-hospital",
+    "is_primary": true,
+    "source_quote": "Table 3. Factors Associated With Survival Following Multivariate Analysis of the Overall Group and the Massive Transfusion Group... Massive transfusion... TXA | 7.228 (3.016-17.322)"
+   },
+   {
+    "name": "Pulmonary embolism (Overall cohort)",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "events_intervention": 8,
+    "n_intervention": 293,
+    "events_control": 2,
+    "n_control": 603,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "n": 293,
+      "events": 8,
+      "is_control": false
+     },
+     {
+      "source_name": "No TXA",
+      "n": 603,
+      "events": 2,
+      "is_control": true
+     }
+    ],
+    "timepoint": "In-hospital",
+    "is_primary": false,
+    "source_quote": "Table 1. Demographic Data, Mechanism of Injury, Injury Severity, Physiology, and Transfusion Requirement... Overall... Pulmonary embolism, No. (%) | 8 (2.7) | 2 (0.3)"
+   },
+   {
+    "name": "Pulmonary embolism (Massive Transfusion cohort)",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "events_intervention": 4,
+    "n_intervention": 125,
+    "events_control": 0,
+    "n_control": 196,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "n": 125,
+      "events": 4,
+      "is_control": false
+     },
+     {
+      "source_name": "No TXA",
+      "n": 196,
+      "events": 0,
+      "is_control": true
+     }
+    ],
+    "timepoint": "In-hospital",
+    "is_primary": false,
+    "source_quote": "Table 1... Massive Transfusion... Pulmonary embolism, No. (%) | 4 (3.2) | 0"
+   },
+   {
+    "name": "Deep venous thrombosis (Overall cohort)",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "events_intervention": 7,
+    "n_intervention": 293,
+    "events_control": 1,
+    "n_control": 603,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "n": 293,
+      "events": 7,
+      "is_control": false
+     },
+     {
+      "source_name": "No TXA",
+      "n": 603,
+      "events": 1,
+      "is_control": true
+     }
+    ],
+    "timepoint": "In-hospital",
+    "is_primary": false,
+    "source_quote": "Table 1... Overall... Deep venous thrombosis, No. (%) | 7 (2.4) | 1 (0.2)"
+   },
+   {
+    "name": "Deep venous thrombosis (Massive Transfusion cohort)",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "events_intervention": 2,
+    "n_intervention": 125,
+    "events_control": 1,
+    "n_control": 196,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "n": 125,
+      "events": 2,
+      "is_control": false
+     },
+     {
+      "source_name": "No TXA",
+      "n": 196,
+      "events": 1,
+      "is_control": true
+     }
+    ],
+    "timepoint": "In-hospital",
+    "is_primary": false,
+    "source_quote": "Table 1... Massive Transfusion... Deep venous thrombosis, No. (%) | 2 (1.6) | 1 (0.5)"
+   },
+   {
+    "name": "24-h Packed red blood cells (PRBCs) transfusion (Overall cohort)",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "units",
+    "mean_intervention": 11.8,
+    "sd_intervention": 12.1,
+    "n_intervention": 293,
+    "mean_control": 9.8,
+    "sd_control": 13.1,
+    "n_control": 603,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "n": 293,
+      "mean": 11.8,
+      "sd": 12.1,
+      "is_control": false
+     },
+     {
+      "source_name": "No TXA",
+      "n": 603,
+      "mean": 9.8,
+      "sd": 13.1,
+      "is_control": true
+     }
+    ],
+    "timepoint": "24 hours",
+    "is_primary": false,
+    "source_quote": "Table 1... Overall... 24-h Transfusion, mean (SD), units | PRBCs | 11.8 (12.1) | 9.8 (13.1). Directly reported as mean and SD."
+   },
+   {
+    "name": "24-h Packed red blood cells (PRBCs) transfusion (Massive Transfusion cohort)",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "units",
+    "mean_intervention": 21,
+    "sd_intervention": 12.8,
+    "n_intervention": 125,
+    "mean_control": 22.5,
+    "sd_control": 15.9,
+    "n_control": 196,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "n": 125,
+      "mean": 21,
+      "sd": 12.8,
+      "is_control": false
+     },
+     {
+      "source_name": "No TXA",
+      "n": 196,
+      "mean": 22.5,
+      "sd": 15.9,
+      "is_control": true
+     }
+    ],
+    "timepoint": "24 hours",
+    "is_primary": false,
+    "source_quote": "Table 1... Massive Transfusion... 24-h Transfusion, mean (SD), units | PRBCs | 21.0 (12.8) | 22.5 (15.9). Directly reported as mean and SD."
+   },
+   {
+    "name": "24-h Fresh frozen plasma (FFP) transfusion (Overall cohort)",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "units",
+    "mean_intervention": 10.3,
+    "sd_intervention": 10.8,
+    "n_intervention": 293,
+    "mean_control": 8.6,
+    "sd_control": 11.7,
+    "n_control": 603,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "n": 293,
+      "mean": 10.3,
+      "sd": 10.8,
+      "is_control": false
+     },
+     {
+      "source_name": "No TXA",
+      "n": 603,
+      "mean": 8.6,
+      "sd": 11.7,
+      "is_control": true
+     }
+    ],
+    "timepoint": "24 hours",
+    "is_primary": false,
+    "source_quote": "Table 1... Overall... 24-h Transfusion, mean (SD), units | FFP | 10.3 (10.8) | 8.6 (11.7). Directly reported as mean and SD."
+   },
+   {
+    "name": "24-h Fresh frozen plasma (FFP) transfusion (Massive Transfusion cohort)",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "units",
+    "mean_intervention": 18.4,
+    "sd_intervention": 11.5,
+    "n_intervention": 125,
+    "mean_control": 19.6,
+    "sd_control": 14.3,
+    "n_control": 196,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "n": 125,
+      "mean": 18.4,
+      "sd": 11.5,
+      "is_control": false
+     },
+     {
+      "source_name": "No TXA",
+      "n": 196,
+      "mean": 19.6,
+      "sd": 14.3,
+      "is_control": true
+     }
+    ],
+    "timepoint": "24 hours",
+    "is_primary": false,
+    "source_quote": "Table 1... Massive Transfusion... 24-h Transfusion, mean (SD), units | FFP | 18.4 (11.5) | 19.6 (14.3). Directly reported as mean and SD."
+   },
+   {
+    "name": "24-h Platelets transfusion (Overall cohort)",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "units",
+    "mean_intervention": 1.6,
+    "sd_intervention": 2.2,
+    "n_intervention": 293,
+    "mean_control": 1.4,
+    "sd_control": 2.7,
+    "n_control": 603,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "n": 293,
+      "mean": 1.6,
+      "sd": 2.2,
+      "is_control": false
+     },
+     {
+      "source_name": "No TXA",
+      "n": 603,
+      "mean": 1.4,
+      "sd": 2.7,
+      "is_control": true
+     }
+    ],
+    "timepoint": "24 hours",
+    "is_primary": false,
+    "source_quote": "Table 1... Overall... 24-h Transfusion, mean (SD), units | Platelets | 1.6 (2.2) | 1.4 (2.7). Directly reported as mean and SD."
+   },
+   {
+    "name": "24-h Platelets transfusion (Massive Transfusion cohort)",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "units",
+    "mean_intervention": 3.2,
+    "sd_intervention": 2.4,
+    "n_intervention": 125,
+    "mean_control": 3.6,
+    "sd_control": 3.6,
+    "n_control": 196,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "n": 125,
+      "mean": 3.2,
+      "sd": 2.4,
+      "is_control": false
+     },
+     {
+      "source_name": "No TXA",
+      "n": 196,
+      "mean": 3.6,
+      "sd": 3.6,
+      "is_control": true
+     }
+    ],
+    "timepoint": "24 hours",
+    "is_primary": false,
+    "source_quote": "Table 1... Massive Transfusion... 24-h Transfusion, mean (SD), units | Platelets | 3.2 (2.4) | 3.6 (3.6). Directly reported as mean and SD."
+   },
+   {
+    "name": "24-h Cryoprecipitate transfusion (Overall cohort)",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "units",
+    "mean_intervention": 1.6,
+    "sd_intervention": 2.7,
+    "n_intervention": 293,
+    "mean_control": 0.5,
+    "sd_control": 1.3,
+    "n_control": 603,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "n": 293,
+      "mean": 1.6,
+      "sd": 2.7,
+      "is_control": false
+     },
+     {
+      "source_name": "No TXA",
+      "n": 603,
+      "mean": 0.5,
+      "sd": 1.3,
+      "is_control": true
+     }
+    ],
+    "timepoint": "24 hours",
+    "is_primary": false,
+    "source_quote": "Table 1... Overall... 24-h Transfusion, mean (SD), units | Cryoprecipitate | 1.6 (2.7) | 0.5 (1.3). Directly reported as mean and SD."
+   },
+   {
+    "name": "24-h Cryoprecipitate transfusion (Massive Transfusion cohort)",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "units",
+    "mean_intervention": 1.6,
+    "sd_intervention": 2.6,
+    "n_intervention": 125,
+    "mean_control": 0.7,
+    "sd_control": 1.6,
+    "n_control": 196,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "n": 125,
+      "mean": 1.6,
+      "sd": 2.6,
+      "is_control": false
+     },
+     {
+      "source_name": "No TXA",
+      "n": 196,
+      "mean": 0.7,
+      "sd": 1.6,
+      "is_control": true
+     }
+    ],
+    "timepoint": "24 hours",
+    "is_primary": false,
+    "source_quote": "Table 1... Massive Transfusion... 24-h Transfusion, mean (SD), units | Cryoprecipitate | 1.6 (2.6) | 0.7 (1.6). Directly reported as mean and SD."
+   }
+  ],
+  "selected_outcome_idx": 0,
+  "robinsI": {
+   "confounding": "Moderate",
+   "selection": "Low",
+   "classification": "Low",
+   "deviations": "Low",
+   "missingData": "Low",
+   "measurement": "Low",
+   "reporting": "Low",
+   "overall": "Moderate",
+   "quotes": {
+    "confounding": "Multivariate, stepwise logistic regression analysis to identify those independently associated with mortality.",
+    "selection": "From January 1, 2009, through December 31, 2010, consecutive patients who received at least 1 unit of PRBCs within 24 hours of admission following combat-related injury were identified...",
+    "classification": "Patients who received TXA were assigned to the treatment group (TXA group) and compared with those who did not receive TXA (no-TXA group).",
+    "deviations": "As part of a major hemorrhage protocol or clinical practice guideline, TXA was administered...",
+    "missingData": "Data collected included demographic characteristics, admission physiology, treatment timelines, and 24-hour transfusion requirement... from prospectively collected UK and US trauma registries.",
+    "measurement": "In-hospital mortality... secondary endpoints included transfusion requirements and coagulation parameters...",
+    "reporting": "All prespecified clinical outcomes such as mortality, PE, and DVT were reported in tables.",
+    "overall": "A retrospective cohort study was performed with patients having been treated at a single surgical hospital."
+   }
+  }
+ }
+}

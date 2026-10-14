@@ -1,0 +1,189 @@
+{
+ "id": "p2txa-27",
+ "pdf": "Tranexamic acid administration following head trauma in a combat setting_ Does tranexamic acid result in improved neurologic outcomes_.pdf",
+ "attempt": 1,
+ "extracted_at": "2026-10-14T17:28:12.117Z",
+ "seconds": 70,
+ "data": {
+  "id": "p2txa-27",
+  "title": "Tranexamic acid administration following head trauma in a combat setting: Does tranexamic acid result in improved neurologic outcomes?",
+  "author": "Douglas Morte",
+  "year": 2019,
+  "design": "Cohort",
+  "doi": "10.1097/TA.0000000000002269",
+  "available_outcomes": [
+   {
+    "name": "Discharge Glasgow Coma Scale 14 to 15",
+    "type": "Benefit",
+    "data_type": "Dichotomous",
+    "unit": "participants",
+    "events_intervention": 46,
+    "events_control": 40,
+    "n_intervention": 46,
+    "n_control": 46,
+    "is_paired": false,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "harmonized_name": "",
+      "n": 46,
+      "events": 46,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "No TXA",
+      "harmonized_name": "",
+      "n": 46,
+      "events": 40,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Discharge",
+    "is_primary": true,
+    "source_quote": "All patients who received TXA (n = 46) had a GCS of 14 or greater at time of discharge or transfer, indicating either complete neurologic recovery or mild TBI. In contrast, discharge GCS in the non-TXA group was 14 to 15 in only 87.0% (n = 40) of patients."
+   },
+   {
+    "name": "In-hospital mortality",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "participants",
+    "events_intervention": 0,
+    "events_control": 5,
+    "n_intervention": 46,
+    "n_control": 46,
+    "is_paired": false,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "harmonized_name": "",
+      "n": 46,
+      "events": 0,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "No TXA",
+      "harmonized_name": "",
+      "n": 46,
+      "events": 5,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "In-hospital",
+    "is_primary": true,
+    "source_quote": "Additionally, mortality was significantly improved among the TXA cohort (0% vs. 10.1%, p = 0.028). [Note: 10.1% of 46 is approx 4.6; 5 events (10.9%) extracted based on n=46 per group]"
+   },
+   {
+    "name": "Intubation at discharge",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "participants",
+    "events_intervention": 0,
+    "events_control": 1,
+    "n_intervention": 46,
+    "n_control": 46,
+    "is_paired": false,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "harmonized_name": "",
+      "n": 46,
+      "events": 0,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "No TXA",
+      "harmonized_name": "",
+      "n": 46,
+      "events": 1,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Discharge",
+    "is_primary": false,
+    "source_quote": "Intubation at discharge (0% vs. 2.2%, p = 0.465) and thromboembolic events ... were not significantly different among TXA and non-TXA cohorts. [Note: 2.2% of 46 is exactly 1 event]"
+   },
+   {
+    "name": "Thromboembolic events",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "participants",
+    "events_intervention": 2,
+    "events_control": 1,
+    "n_intervention": 46,
+    "n_control": 46,
+    "is_paired": false,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "harmonized_name": "",
+      "n": 46,
+      "events": 2,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "No TXA",
+      "harmonized_name": "",
+      "n": 46,
+      "events": 1,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "In-hospital",
+    "is_primary": false,
+    "source_quote": "thromboembolic events (4.3% vs. 2.2%, p = 0.59) were not significantly different among TXA and non-TXA cohorts. [Note: 4.3% of 46 is 2 events; 2.2% of 46 is 1 event]"
+   }
+  ],
+  "selected_outcome_idx": 0,
+  "robinsI": {
+   "confounding": "Moderate",
+   "selection": "Moderate",
+   "classification": "Moderate",
+   "deviations": "Moderate",
+   "missingData": "Moderate",
+   "measurement": "Moderate",
+   "reporting": "Low",
+   "overall": "Moderate",
+   "quotes": {
+    "confounding": "To account for the high variability of patients and to correct for potentially confounding factors, a propensity score matched analysis was performed. Cohorts were matched via the propensity score for the outcome measure of receiving TXA, and included adjustment for age, sex, mechanism of injury, ISS, anatomic AIS, vital signs, and GCS score on initial presentation...",
+    "selection": "Patients with no documented head injury or incomplete data were excluded.",
+    "classification": "Additionally, the Joint Trauma Registry only records TXA administration as a binary variable and does not comment on timing of administration, dose, or additional infusion. This has the potential to confound data in the comparison group.",
+    "deviations": "Retrospective review. No details provided on protocol deviations apart from standard massive transfusion protocols mentioned.",
+    "missingData": "Incomplete records were omitted from analysis, potentially resulting in selection bias.",
+    "measurement": "Primary outcomes focused on final severity of TBI at discharge, change in Glasgow Coma Scale (GCS) score from initial presentation to discharge, and in-hospital mortality.",
+    "reporting": "Both primary and secondary prespecified outcomes are reported quantitatively."
+   }
+  }
+ }
+}

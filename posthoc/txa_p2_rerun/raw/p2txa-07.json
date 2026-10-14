@@ -1,0 +1,223 @@
+{
+ "id": "p2txa-07",
+ "pdf": "Administration of tranexamic acid in trauma patients under stricter inclusion criteria increases the treatment window for stabilization from 24 to 48 hours-a retrospective review.pdf",
+ "attempt": 1,
+ "extracted_at": "2026-10-14T17:06:08.472Z",
+ "seconds": 56,
+ "data": {
+  "id": "p2txa-07",
+  "title": "Administration of tranexamic acid in trauma patients under stricter inclusion criteria increases the treatment window for stabilization from 24 to 48 hours-a retrospective review",
+  "author": "Eric Luehr",
+  "year": 2017,
+  "design": "Cohort",
+  "doi": "",
+  "available_outcomes": [
+   {
+    "name": "Venous thromboembolism (VTE)",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "events",
+    "events_intervention": 7,
+    "n_intervention": 53,
+    "events_control": 11,
+    "n_control": 62,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "harmonized_name": "",
+      "n": 53,
+      "events": 7,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control",
+      "harmonized_name": "",
+      "n": 62,
+      "events": 11,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Overall follow-up",
+    "is_primary": false,
+    "source_quote": "Table 1. Demographics between the control and TXA treated groups ... Venus thromboembolism % (n) | Control n = 62: 17.7 (11) | TXA n = 53: 13.2 (7) ... Furthermore, the venous thromboembolism (VTE) rate between the two groups was 17.7% (n = 11) for the control group versus 13.2% (n = 7) for the TXA group (p = 0.68)."
+   },
+   {
+    "name": "Mortality",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "events",
+    "events_intervention": 0,
+    "n_intervention": 53,
+    "events_control": 4,
+    "n_control": 62,
+    "arms": [
+     {
+      "source_name": "Full TXA",
+      "harmonized_name": "",
+      "n": 53,
+      "events": 0,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control",
+      "harmonized_name": "",
+      "n": 62,
+      "events": 4,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Day 0",
+    "is_primary": false,
+    "source_quote": "Figure 1. Cumulative Mortality Rates in Patients who have received a full TXA dose from 2013-2016. Sample size: Control n = 62, and TXA n = 53. % Mortality Follow up time | Control N=62 | Full TXA N=53 ... Day 0 | 6.5 | 0.0 [Note: Events derived from reported percentages: Control 6.5% of 62 = 4; TXA 0.0% of 53 = 0]"
+   },
+   {
+    "name": "Mortality",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "events",
+    "events_intervention": 1,
+    "n_intervention": 53,
+    "events_control": 11,
+    "n_control": 62,
+    "arms": [
+     {
+      "source_name": "Full TXA",
+      "harmonized_name": "",
+      "n": 53,
+      "events": 1,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control",
+      "harmonized_name": "",
+      "n": 62,
+      "events": 11,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Day 1 (24 hrs)",
+    "is_primary": false,
+    "source_quote": "Figure 1. Cumulative Mortality Rates in Patients who have received a full TXA dose from 2013-2016. Sample size: Control n = 62, and TXA n = 53. % Mortality Follow up time | Control N=62 | Full TXA N=53 ... Day 1 | 17.7 | 1.9 ... all-cause mortality (See Figure 1) was significantly reduced by 15.8% at 24 hrs (p = 0.007) [Note: Events derived from reported percentages: Control 17.7% of 62 = 11; TXA 1.9% of 53 = 1]"
+   },
+   {
+    "name": "Mortality",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "events",
+    "events_intervention": 3,
+    "n_intervention": 53,
+    "events_control": 12,
+    "n_control": 62,
+    "arms": [
+     {
+      "source_name": "Full TXA",
+      "harmonized_name": "",
+      "n": 53,
+      "events": 3,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control",
+      "harmonized_name": "",
+      "n": 62,
+      "events": 12,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Day 2 (48 hrs)",
+    "is_primary": false,
+    "source_quote": "Figure 1. Cumulative Mortality Rates in Patients who have received a full TXA dose from 2013-2016. Sample size: Control n = 62, and TXA n = 53. % Mortality Follow up time | Control N=62 | Full TXA N=53 ... Day 2 | 19.4 | 5.7 ... and by 13.7% at 48 hrs (p = 0.029) [Note: Events derived from reported percentages: Control 19.4% of 62 = 12; TXA 5.7% of 53 = 3]"
+   },
+   {
+    "name": "Mortality",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "events",
+    "events_intervention": 4,
+    "n_intervention": 53,
+    "events_control": 12,
+    "n_control": 62,
+    "arms": [
+     {
+      "source_name": "Full TXA",
+      "harmonized_name": "",
+      "n": 53,
+      "events": 4,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control",
+      "harmonized_name": "",
+      "n": 62,
+      "events": 12,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Day 3",
+    "is_primary": false,
+    "source_quote": "Figure 1. Cumulative Mortality Rates in Patients who have received a full TXA dose from 2013-2016. Sample size: Control n = 62, and TXA n = 53. % Mortality Follow up time | Control N=62 | Full TXA N=53 ... Day 3 | 19.4 | 7.5 [Note: Events derived from reported percentages: Control 19.4% of 62 = 12; TXA 7.5% of 53 = 4]"
+   },
+   {
+    "name": "Mortality",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "events",
+    "events_intervention": 7,
+    "n_intervention": 53,
+    "events_control": 13,
+    "n_control": 62,
+    "arms": [
+     {
+      "source_name": "Full TXA",
+      "harmonized_name": "",
+      "n": 53,
+      "events": 7,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control",
+      "harmonized_name": "",
+      "n": 62,
+      "events": 13,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Day 30",
+    "is_primary": false,
+    "source_quote": "Figure 1. Cumulative Mortality Rates in Patients who have received a full TXA dose from 2013-2016. Sample size: Control n = 62, and TXA n = 53. % Mortality Follow up time | Control N=62 | Full TXA N=53 ... Day 30 | 21.0 | 13.5 ... The overall mortality in the Control group of this study was 21% [Note: Events derived from reported percentages: Control 21.0% of 62 = 13; TXA (calculated as 7 events based on 13.2% stated in VTE results for 7/53, recognizing the table's 13.5% likely rounding variance)]"
+   }
+  ],
+  "selected_outcome_idx": 0,
+  "robinsI": {
+   "confounding": "Serious",
+   "selection": "Moderate",
+   "classification": "Low",
+   "deviations": "Low",
+   "missingData": "Low",
+   "measurement": "Low",
+   "reporting": "Low",
+   "overall": "Serious",
+   "quotes": {
+    "confounding": "For non-assessed variables, the patients may not necessarily match because although there is a hospital TXA protocol, the TXA was given at the attending surgeon’s discretion, other factors may have determined the need for the TXA.",
+    "selection": "In addition, being a tertiary care facility with a large rural catchment area can prohibit some patient’s arriving within our 3 hr administration window and unable to receive TXA, thus were included with the control group.",
+    "classification": "After approval from the Institutional Review Board, non-randomized data was abstracted from our hospital trauma registry between 2013 and 2016.",
+    "deviations": "All patients received at least a single blood product.",
+    "missingData": "Only patients meeting all criteria described above were included in the analysis.",
+    "measurement": "Patient arrival at the hospital is determined as Day 0 and all future time points are relative to this point.",
+    "reporting": "We tested, if mortality rate among patients receiving full TXA was significantly lower than the mortality rate in the control group (without TXA administration), by using the two proportion z-test."
+   }
+  }
+ }
+}

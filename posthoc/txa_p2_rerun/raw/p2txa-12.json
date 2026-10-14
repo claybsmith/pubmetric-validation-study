@@ -1,0 +1,303 @@
+{
+ "id": "p2txa-12",
+ "pdf": "Effectiveness of early administration of tranexamic acid in patients with severe trauma.pdf",
+ "attempt": 1,
+ "extracted_at": "2026-10-14T17:10:03.173Z",
+ "seconds": 103,
+ "data": {
+  "id": "p2txa-12",
+  "title": "Effectiveness of early administration of tranexamic acid in patients with severe trauma",
+  "author": "A. Shiraishi",
+  "year": 2017,
+  "design": "Cohort",
+  "doi": "10.1002/bjs.10497",
+  "available_outcomes": [
+   {
+    "name": "28-day mortality",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "patients",
+    "events_intervention": 25,
+    "n_intervention": 250,
+    "events_control": 46,
+    "n_control": 250,
+    "arms": [
+     {
+      "source_name": "Tranexamic acid",
+      "harmonized_name": "",
+      "n": 250,
+      "events": 25,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control",
+      "harmonized_name": "",
+      "n": 250,
+      "events": 46,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "28 days",
+    "is_primary": true,
+    "source_quote": "Table 2 Comparisons of primary and secondary outcomes in injured patients who received tranexamic acid and controls\nPrimary outcome\n28-day mortality (%) | Tranexamic acid (n=250): 10.0 | Control (n=250): 18.4"
+   },
+   {
+    "name": "Cause-specific mortality: Primary brain injury",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "patients",
+    "events_intervention": 15,
+    "n_intervention": 250,
+    "events_control": 33,
+    "n_control": 250,
+    "arms": [
+     {
+      "source_name": "Tranexamic acid",
+      "harmonized_name": "",
+      "n": 250,
+      "events": 15,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control",
+      "harmonized_name": "",
+      "n": 250,
+      "events": 33,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "28 days",
+    "is_primary": false,
+    "source_quote": "Table 2 Comparisons of primary and secondary outcomes in injured patients who received tranexamic acid and controls\nSecondary outcomes\nCause-specific mortality (%)\nPrimary brain injury | Tranexamic acid (n=250): 6.0 | Control (n=250): 13.2"
+   },
+   {
+    "name": "Cause-specific mortality: Haemorrhage",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "patients",
+    "events_intervention": 7,
+    "n_intervention": 250,
+    "events_control": 10,
+    "n_control": 250,
+    "arms": [
+     {
+      "source_name": "Tranexamic acid",
+      "harmonized_name": "",
+      "n": 250,
+      "events": 7,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control",
+      "harmonized_name": "",
+      "n": 250,
+      "events": 10,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "28 days",
+    "is_primary": false,
+    "source_quote": "Table 2 Comparisons of primary and secondary outcomes in injured patients who received tranexamic acid and controls\nSecondary outcomes\nCause-specific mortality (%)\nHaemorrhage | Tranexamic acid (n=250): 2.8 | Control (n=250): 4.0"
+   },
+   {
+    "name": "Cause-specific mortality: Any other cause",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "patients",
+    "events_intervention": 3,
+    "n_intervention": 250,
+    "events_control": 3,
+    "n_control": 250,
+    "arms": [
+     {
+      "source_name": "Tranexamic acid",
+      "harmonized_name": "",
+      "n": 250,
+      "events": 3,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control",
+      "harmonized_name": "",
+      "n": 250,
+      "events": 3,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "28 days",
+    "is_primary": false,
+    "source_quote": "Table 2 Comparisons of primary and secondary outcomes in injured patients who received tranexamic acid and controls\nSecondary outcomes\nCause-specific mortality (%)\nAny other cause | Tranexamic acid (n=250): 1.2 | Control (n=250): 1.2"
+   },
+   {
+    "name": "Receipt of any blood transfusion",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "patients",
+    "events_intervention": 83,
+    "n_intervention": 250,
+    "events_control": 87,
+    "n_control": 250,
+    "arms": [
+     {
+      "source_name": "Tranexamic acid",
+      "harmonized_name": "",
+      "n": 250,
+      "events": 83,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control",
+      "harmonized_name": "",
+      "n": 250,
+      "events": 87,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "24 hours",
+    "is_primary": false,
+    "source_quote": "Table 2 Comparisons of primary and secondary outcomes in injured patients who received tranexamic acid and controls\nReceipt of any blood transfusion (%) | Tranexamic acid (n=250): 33.2 | Control (n=250): 34.8"
+   },
+   {
+    "name": "Mean amount of PRBC transfused within 24 h - Overall population",
+    "type": "Harm",
+    "data_type": "Precalculated",
+    "unit": "MD",
+    "precalc_effect": 0.4,
+    "precalc_ci_lower": -1.3,
+    "precalc_ci_upper": 2.1,
+    "n_intervention": null,
+    "n_control": null,
+    "arms": [],
+    "timepoint": "24 hours",
+    "is_primary": false,
+    "source_quote": "Table 2 Comparisons of primary and secondary outcomes in injured patients who received tranexamic acid and controls\nMean amount of PRBC transfused within 24 h (units*)\nOverall population | Tranexamic acid (n=250): 4.5 | Control (n=250): 4.0 | Absolute difference: 0.4 (-1.3, 2.1)\nNote: Variance (SD/SE) for the individual arms was not reported; therefore, the absolute mean difference and its 95% CI were extracted."
+   },
+   {
+    "name": "Mean amount of PRBC transfused within 24 h - 24-h survivors",
+    "type": "Harm",
+    "data_type": "Precalculated",
+    "unit": "MD",
+    "precalc_effect": 0.9,
+    "precalc_ci_lower": -0.8,
+    "precalc_ci_upper": 2.6,
+    "n_intervention": null,
+    "n_control": null,
+    "arms": [],
+    "timepoint": "24 hours",
+    "is_primary": false,
+    "source_quote": "Table 2 Comparisons of primary and secondary outcomes in injured patients who received tranexamic acid and controls\nMean amount of PRBC transfused within 24 h (units*)\n24-h survivors | Tranexamic acid (n=250): 4.1 | Control (n=250): 3.2 | Absolute difference: 0.9 (-0.8, 2.6)\nNote: Variance (SD/SE) for the individual arms was not reported; therefore, the absolute mean difference and its 95% CI were extracted."
+   },
+   {
+    "name": "Mean amount of FFP transfused within 24 h - Overall population",
+    "type": "Harm",
+    "data_type": "Precalculated",
+    "unit": "MD",
+    "precalc_effect": 0.7,
+    "precalc_ci_lower": -1.2,
+    "precalc_ci_upper": 2.6,
+    "n_intervention": null,
+    "n_control": null,
+    "arms": [],
+    "timepoint": "24 hours",
+    "is_primary": false,
+    "source_quote": "Table 2 Comparisons of primary and secondary outcomes in injured patients who received tranexamic acid and controls\nMean amount of FFP transfused within 24 h (units*)\nOverall population | Tranexamic acid (n=250): 4.7 | Control (n=250): 4.0 | Absolute difference: 0.7 (-1.2, 2.6)\nNote: Variance (SD/SE) for the individual arms was not reported; therefore, the absolute mean difference and its 95% CI were extracted."
+   },
+   {
+    "name": "Mean amount of FFP transfused within 24 h - 24-h survivors",
+    "type": "Harm",
+    "data_type": "Precalculated",
+    "unit": "MD",
+    "precalc_effect": 1,
+    "precalc_ci_lower": -1,
+    "precalc_ci_upper": 2.9,
+    "n_intervention": null,
+    "n_control": null,
+    "arms": [],
+    "timepoint": "24 hours",
+    "is_primary": false,
+    "source_quote": "Table 2 Comparisons of primary and secondary outcomes in injured patients who received tranexamic acid and controls\nMean amount of FFP transfused within 24 h (units*)\n24-h survivors | Tranexamic acid (n=250): 4.3 | Control (n=250): 3.3 | Absolute difference: 1.0 (-1.0, 2.9)\nNote: Variance (SD/SE) for the individual arms was not reported; therefore, the absolute mean difference and its 95% CI were extracted."
+   },
+   {
+    "name": "Thromboembolic complications",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "patients",
+    "events_intervention": 3,
+    "n_intervention": 250,
+    "events_control": 5,
+    "n_control": 250,
+    "arms": [
+     {
+      "source_name": "Tranexamic acid",
+      "harmonized_name": "",
+      "n": 250,
+      "events": 3,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control",
+      "harmonized_name": "",
+      "n": 250,
+      "events": 5,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "during hospital admission",
+    "is_primary": false,
+    "source_quote": "Table 2 Comparisons of primary and secondary outcomes in injured patients who received tranexamic acid and controls\nThromboembolic complications (%) | Tranexamic acid (n=250): 1.2 | Control (n=250): 2.0"
+   }
+  ],
+  "selected_outcome_idx": 0,
+  "rob": {
+   "randomization": "...",
+   "deviations": "...",
+   "missingData": "...",
+   "measurement": "...",
+   "reporting": "...",
+   "overall": "...",
+   "quotes": {}
+  },
+  "robinsI": {
+   "confounding": "Moderate",
+   "selection": "Low",
+   "classification": "Low",
+   "deviations": "Low",
+   "missingData": "Low",
+   "measurement": "Low",
+   "reporting": "Low",
+   "overall": "Moderate",
+   "quotes": {
+    "confounding": "None of the absolute standardized mean differences in the variables included in the propensity score estimation exceeded 0.1; hence, the propensity score matching achieved an acceptable match balance. ... Although instrumental variable analysis allowed for adjustment of unmeasured confounders and demonstrated consistent benefit of tranexamic acid administration for 28-day all-cause mortality, this method was not versatile in that it showed uncertainty with a much broader c.i.",
+    "selection": "This multicentre observational study used retrospectively collected data from consecutive injured patients (Injury Severity Score at least 16) treated in 15 Japanese academic institutions in 2012.",
+    "classification": "The intervention involved intravenous administration of tranexamic acid within 3 h after injury, which was identical to a secondary analysis of the CRASH-2 trial.",
+    "deviations": "The design of the CRASH-2 trial allowed exclusion of a subject when the physician found an indication or contraindication to tranexamic acid administration in an individual injured patient.",
+    "missingData": "a multiple imputation by chained equations complemented all of the missing values in the study variables",
+    "measurement": "The primary study outcome was 28-day mortality from any cause.",
+    "reporting": "All statistical analyses were performed... In all statistical analyses, statistical significance in the two-sided test was accepted at P <0.050."
+   }
+  },
+  "quadas2": {
+   "patientSelection": "...",
+   "indexTest": "...",
+   "referenceStandard": "...",
+   "flowAndTiming": "...",
+   "appPatientSelection": "...",
+   "appIndexTest": "...",
+   "appReferenceStandard": "...",
+   "overall": "...",
+   "quotes": {}
+  }
+ }
+}

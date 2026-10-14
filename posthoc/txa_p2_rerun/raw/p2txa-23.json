@@ -1,0 +1,331 @@
+{
+ "id": "p2txa-23",
+ "pdf": "The impact of tranexamic acid on mortality in injured patients with hyperfibrinolysis.pdf",
+ "attempt": 1,
+ "extracted_at": "2026-10-14T17:25:04.597Z",
+ "seconds": 103,
+ "data": {
+  "id": "p2txa-23",
+  "title": "The impact of tranexamic acid on mortality in injured patients with hyperfibrinolysis",
+  "author": "Harvin",
+  "year": 2015,
+  "design": "Cohort",
+  "doi": "10.1097/TA.0000000000000612",
+  "available_outcomes": [
+   {
+    "name": "In-hospital mortality (Adjusted)",
+    "type": "Harm",
+    "data_type": "Precalculated",
+    "unit": "OR",
+    "precalc_effect": 0.74,
+    "precalc_ci_lower": 0.38,
+    "precalc_ci_upper": 1.403,
+    "n_intervention": null,
+    "n_control": null,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "n": 98,
+      "is_control": false
+     },
+     {
+      "source_name": "No TXA",
+      "n": 934,
+      "is_control": true
+     }
+    ],
+    "timepoint": "In-hospital",
+    "is_primary": true,
+    "source_quote": "TABLE 5. Multivariate Logistic Regression Predicting In-Hospital Mortality, 24-Hour Mortality, and Thrombotic Event... In-hospital mortality TXA 0.74 0.380-1.403 0.801. Adjusted analysis."
+   },
+   {
+    "name": "In-hospital mortality (Unadjusted)",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "patients",
+    "events_intervention": 39,
+    "n_intervention": 98,
+    "events_control": 159,
+    "n_control": 934,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "n": 98,
+      "events": 39,
+      "is_control": false
+     },
+     {
+      "source_name": "No TXA",
+      "n": 934,
+      "events": 159,
+      "is_control": true
+     }
+    ],
+    "timepoint": "In-hospital",
+    "is_primary": true,
+    "source_quote": "TABLE 3. Unadjusted Outcomes and End Points... In-hospital mortality, % | 40 | 17 | <0.001. Events calculated from percentages (40% of 98 and 17% of 934)."
+   },
+   {
+    "name": "24-hour mortality (Adjusted)",
+    "type": "Harm",
+    "data_type": "Precalculated",
+    "unit": "OR",
+    "precalc_effect": 1.92,
+    "precalc_ci_lower": 1.045,
+    "precalc_ci_upper": 3.253,
+    "n_intervention": null,
+    "n_control": null,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "n": 98,
+      "is_control": false
+     },
+     {
+      "source_name": "No TXA",
+      "n": 934,
+      "is_control": true
+     }
+    ],
+    "timepoint": "24 hours",
+    "is_primary": true,
+    "source_quote": "TABLE 5. Multivariate Logistic Regression Predicting In-Hospital Mortality, 24-Hour Mortality, and Thrombotic Event... 24-h mortality TXA 1.92 1.045-3.253 0.035. Adjusted analysis."
+   },
+   {
+    "name": "24-hour mortality (Unadjusted)",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "patients",
+    "events_intervention": 33,
+    "n_intervention": 98,
+    "events_control": 93,
+    "n_control": 934,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "n": 98,
+      "events": 33,
+      "is_control": false
+     },
+     {
+      "source_name": "No TXA",
+      "n": 934,
+      "events": 93,
+      "is_control": true
+     }
+    ],
+    "timepoint": "24 hours",
+    "is_primary": true,
+    "source_quote": "TABLE 3. Unadjusted Outcomes and End Points... 24-h mortality, % | 34 | 10 | <0.001. Events calculated from percentages (34% of 98 and 10% of 934)."
+   },
+   {
+    "name": "ED deaths",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "patients",
+    "events_intervention": 6,
+    "n_intervention": 98,
+    "events_control": 33,
+    "n_control": 934,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "n": 98,
+      "events": 6,
+      "is_control": false
+     },
+     {
+      "source_name": "No TXA",
+      "n": 934,
+      "events": 33,
+      "is_control": true
+     }
+    ],
+    "timepoint": "ED phase",
+    "is_primary": false,
+    "source_quote": "While there was no difference in ED deaths (6.3% vs. 3.5%, p = 0.177)... Events calculated from percentages."
+   },
+   {
+    "name": "Thromboembolic event (Adjusted)",
+    "type": "Harm",
+    "data_type": "Precalculated",
+    "unit": "OR",
+    "precalc_effect": 0.91,
+    "precalc_ci_lower": 0.34,
+    "precalc_ci_upper": 2.452,
+    "n_intervention": null,
+    "n_control": null,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "n": 98,
+      "is_control": false
+     },
+     {
+      "source_name": "No TXA",
+      "n": 934,
+      "is_control": true
+     }
+    ],
+    "timepoint": "In-hospital",
+    "is_primary": false,
+    "source_quote": "TABLE 5. Multivariate Logistic Regression Predicting In-Hospital Mortality, 24-Hour Mortality, and Thrombotic Event... Thromboembolic event TXA 0.91 0.340-2.452 0.858. Adjusted analysis."
+   },
+   {
+    "name": "Thrombotic event rate (Unadjusted)",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "patients",
+    "events_intervention": 6,
+    "n_intervention": 98,
+    "events_control": 41,
+    "n_control": 934,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "n": 98,
+      "events": 6,
+      "is_control": false
+     },
+     {
+      "source_name": "No TXA",
+      "n": 934,
+      "events": 41,
+      "is_control": true
+     }
+    ],
+    "timepoint": "In-hospital",
+    "is_primary": false,
+    "source_quote": "TABLE 3. Unadjusted Outcomes and End Points... Thrombotic event rate, % | 6.3 | 4.4 | 0.389. Events calculated from percentages."
+   },
+   {
+    "name": "PE rate",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "patients",
+    "events_intervention": 3,
+    "n_intervention": 98,
+    "events_control": 35,
+    "n_control": 934,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "n": 98,
+      "events": 3,
+      "is_control": false
+     },
+     {
+      "source_name": "No TXA",
+      "n": 934,
+      "events": 35,
+      "is_control": true
+     }
+    ],
+    "timepoint": "In-hospital",
+    "is_primary": false,
+    "source_quote": "TABLE 3. Unadjusted Outcomes and End Points... PE rate, % | 3.3 | 3.8 | 0.725. Events calculated from percentages."
+   },
+   {
+    "name": "Hospital-free days",
+    "type": "Benefit",
+    "data_type": "Continuous",
+    "unit": "days",
+    "median_intervention": 24,
+    "iqr_lower_intervention": 10,
+    "iqr_upper_intervention": 29,
+    "median_control": 26,
+    "iqr_lower_control": 19,
+    "iqr_upper_control": 29,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "n": 98,
+      "is_control": false
+     },
+     {
+      "source_name": "No TXA",
+      "n": 934,
+      "is_control": true
+     }
+    ],
+    "timepoint": "28 days",
+    "is_primary": false,
+    "source_quote": "TABLE 3. Unadjusted Outcomes and End Points... Hospital-free days, median (IQR) | 24 (10-29) | 26 (19-29) | 0.182. Hospital-free days were calculated as days alive and not hospitalized (28 minus length of stay). Note: Originally reported as median and IQR."
+   },
+   {
+    "name": "ICU-free days",
+    "type": "Benefit",
+    "data_type": "Continuous",
+    "unit": "days",
+    "median_intervention": 28,
+    "iqr_lower_intervention": 22,
+    "iqr_upper_intervention": 29,
+    "median_control": 29,
+    "iqr_lower_control": 27,
+    "iqr_upper_control": 30,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "n": 98,
+      "is_control": false
+     },
+     {
+      "source_name": "No TXA",
+      "n": 934,
+      "is_control": true
+     }
+    ],
+    "timepoint": "28 days",
+    "is_primary": false,
+    "source_quote": "TABLE 3. Unadjusted Outcomes and End Points... ICU-free days, median (IQR) | 28 (22-29) | 29 (27-30) | <0.001. Note: Originally reported as median and IQR."
+   },
+   {
+    "name": "Ventilator-free days",
+    "type": "Benefit",
+    "data_type": "Continuous",
+    "unit": "days",
+    "median_intervention": 29,
+    "iqr_lower_intervention": 25,
+    "iqr_upper_intervention": 30,
+    "median_control": 30,
+    "iqr_lower_control": 29,
+    "iqr_upper_control": 30,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "n": 98,
+      "is_control": false
+     },
+     {
+      "source_name": "No TXA",
+      "n": 934,
+      "is_control": true
+     }
+    ],
+    "timepoint": "28 days",
+    "is_primary": false,
+    "source_quote": "TABLE 3. Unadjusted Outcomes and End Points... Ventilator-free days, median (IQR) | 29 (25-30) | 30 (29-30) | <0.001. Note: Originally reported as median and IQR."
+   }
+  ],
+  "selected_outcome_idx": 0,
+  "robinsI": {
+   "confounding": "Serious",
+   "selection": "Moderate",
+   "classification": "Low",
+   "deviations": "Low",
+   "missingData": "Low",
+   "measurement": "Low",
+   "reporting": "Low",
+   "overall": "Serious",
+   "quotes": {
+    "confounding": "The major limitation to this study is that it is a retrospective, nonrandomized study in which the administration of TXA is based on an attending trauma surgeon's belief that a patient is bleeding. This introduces selection bias into the results, as was seen in the fact that the TXA group was more severely injured.",
+    "selection": "nonadministration of TXA was classified as... death before administration.",
+    "classification": "All patients had an admission r-TEG... Patients were divided into those who received TXA (TXA group) and those that did not receive TXA (no-TXA group).",
+    "deviations": "The guideline stated that TXA was to be administered if all the following were met...",
+    "missingData": "Patient demographics, injury characteristics... and outcomes were retrieved from the trauma registry.",
+    "measurement": "Hospital-free days were calculated as days alive and not hospitalized...",
+    "reporting": "Purposeful regression modeling was then used to construct a multivariate logistic regression model for the outcomes 24-hour mortality, in-hospital mortality, and thromboembolic events."
+   }
+  }
+ }
+}

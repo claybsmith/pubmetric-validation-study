@@ -1,0 +1,617 @@
+{
+ "id": "p2txa-19",
+ "pdf": "Prehospital administration of tranexamic acid in trauma patients.pdf",
+ "attempt": 1,
+ "extracted_at": "2026-10-14T17:23:21.523Z",
+ "seconds": 203,
+ "data": {
+  "id": "p2txa-19",
+  "title": "Prehospital administration of tranexamic acid in trauma patients",
+  "author": "Wafaisade",
+  "year": 2016,
+  "design": "Cohort",
+  "doi": "10.1186/s13054-016-1322-5",
+  "available_outcomes": [
+   {
+    "name": "ICU length of stay",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "days",
+    "mean_intervention": 10.7,
+    "sd_intervention": 12.6,
+    "mean_control": 9.2,
+    "sd_control": 11.4,
+    "n_intervention": 258,
+    "n_control": 258,
+    "arms": [
+     {
+      "source_name": "Tranexamic acid (TXA) group",
+      "harmonized_name": "",
+      "n": 258,
+      "mean": 10.7,
+      "sd": 12.6,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control group",
+      "harmonized_name": "",
+      "n": 258,
+      "mean": 9.2,
+      "sd": 11.4,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Hospital discharge",
+    "is_primary": false,
+    "source_quote": "Table 4 Outcome data... ICU LOS, days, mean ± SD (n) | 10.7 ± 12.6 (258) | 9.2 ± 11.4 (258) | 0.03"
+   },
+   {
+    "name": "Hospital length of stay",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "days",
+    "mean_intervention": 25.5,
+    "sd_intervention": 23.2,
+    "mean_control": 22.3,
+    "sd_control": 25.4,
+    "n_intervention": 258,
+    "n_control": 258,
+    "arms": [
+     {
+      "source_name": "Tranexamic acid (TXA) group",
+      "harmonized_name": "",
+      "n": 258,
+      "mean": 25.5,
+      "sd": 23.2,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control group",
+      "harmonized_name": "",
+      "n": 258,
+      "mean": 22.3,
+      "sd": 25.4,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Hospital discharge",
+    "is_primary": false,
+    "source_quote": "Table 4 Outcome data... Hospital LOS, days, mean ± SD (n) | 25.5 ± 23.2 (258) | 22.3 ± 25.4 (258) | 0.04"
+   },
+   {
+    "name": "Thromboembolic event",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "events",
+    "events_intervention": 4,
+    "events_control": 10,
+    "n_intervention": 71,
+    "n_control": 121,
+    "arms": [
+     {
+      "source_name": "Tranexamic acid (TXA) group",
+      "harmonized_name": "",
+      "n": 71,
+      "events": 4,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control group",
+      "harmonized_name": "",
+      "n": 121,
+      "events": 10,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "In-hospital",
+    "is_primary": false,
+    "source_quote": "Table 4 Outcome data... Thromboembolic event, n (%) | 4/71 (5.6) | 10/121 (8.3) | 0.58. Note: As some values were missing, the respective population is documented... in the denominator for categorical variables."
+   },
+   {
+    "name": "Sepsis",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "events",
+    "events_intervention": 4,
+    "events_control": 8,
+    "n_intervention": 67,
+    "n_control": 119,
+    "arms": [
+     {
+      "source_name": "Tranexamic acid (TXA) group",
+      "harmonized_name": "",
+      "n": 67,
+      "events": 4,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control group",
+      "harmonized_name": "",
+      "n": 119,
+      "events": 8,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "In-hospital",
+    "is_primary": false,
+    "source_quote": "Table 4 Outcome data... Sepsis, n (%) | 4/67 (6.0) | 8/119 (6.7) | 1.00. Note: As some values were missing, the respective population is documented... in the denominator for categorical variables."
+   },
+   {
+    "name": "Multiple organ failure",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "events",
+    "events_intervention": 27,
+    "events_control": 35,
+    "n_intervention": 74,
+    "n_control": 121,
+    "arms": [
+     {
+      "source_name": "Tranexamic acid (TXA) group",
+      "harmonized_name": "",
+      "n": 74,
+      "events": 27,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control group",
+      "harmonized_name": "",
+      "n": 121,
+      "events": 35,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "In-hospital",
+    "is_primary": false,
+    "source_quote": "Table 4 Outcome data... Multiple organ failure, n (%) | 27/74 (36.5) | 35/121 (28.9) | 0.34. Note: As some values were missing, the respective population is documented... in the denominator for categorical variables."
+   },
+   {
+    "name": "Time to death",
+    "type": "Benefit",
+    "data_type": "Continuous",
+    "unit": "days",
+    "mean_intervention": 8.8,
+    "sd_intervention": 13.4,
+    "mean_control": 3.6,
+    "sd_control": 4.9,
+    "n_intervention": 258,
+    "n_control": 258,
+    "arms": [
+     {
+      "source_name": "Tranexamic acid (TXA) group",
+      "harmonized_name": "",
+      "n": 258,
+      "mean": 8.8,
+      "sd": 13.4,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control group",
+      "harmonized_name": "",
+      "n": 258,
+      "mean": 3.6,
+      "sd": 4.9,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "In-hospital",
+    "is_primary": false,
+    "source_quote": "Table 4 Outcome data... Time to death, days, mean ± SD (n) | 8.8 ± 13.4 (258) | 3.6 ± 4.9 (258) | 0.001"
+   },
+   {
+    "name": "6-h mortality",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "events",
+    "events_intervention": 5,
+    "events_control": 24,
+    "n_intervention": 258,
+    "n_control": 258,
+    "arms": [
+     {
+      "source_name": "Tranexamic acid (TXA) group",
+      "harmonized_name": "",
+      "n": 258,
+      "events": 5,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control group",
+      "harmonized_name": "",
+      "n": 258,
+      "events": 24,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "6 hours",
+    "is_primary": false,
+    "source_quote": "Table 4 Outcome data... 6-h mortality, n (%) | 5/258 (1.9) | 24/258 (9.3) | <0.001"
+   },
+   {
+    "name": "12-h mortality",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "events",
+    "events_intervention": 9,
+    "events_control": 28,
+    "n_intervention": 258,
+    "n_control": 258,
+    "arms": [
+     {
+      "source_name": "Tranexamic acid (TXA) group",
+      "harmonized_name": "",
+      "n": 258,
+      "events": 9,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control group",
+      "harmonized_name": "",
+      "n": 258,
+      "events": 28,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "12 hours",
+    "is_primary": false,
+    "source_quote": "Table 4 Outcome data... 12-h mortality, n (%) | 9/258 (3.5) | 28/258 (10.9) | 0.002"
+   },
+   {
+    "name": "24-h mortality",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "events",
+    "events_intervention": 15,
+    "events_control": 32,
+    "n_intervention": 258,
+    "n_control": 258,
+    "arms": [
+     {
+      "source_name": "Tranexamic acid (TXA) group",
+      "harmonized_name": "",
+      "n": 258,
+      "events": 15,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control group",
+      "harmonized_name": "",
+      "n": 258,
+      "events": 32,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "24 hours",
+    "is_primary": false,
+    "source_quote": "Table 4 Outcome data... 24-h mortality, n (%) | 15/258 (5.8) | 32/258 (12.4) | 0.01"
+   },
+   {
+    "name": "30-day mortality",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "events",
+    "events_intervention": 36,
+    "events_control": 42,
+    "n_intervention": 258,
+    "n_control": 258,
+    "arms": [
+     {
+      "source_name": "Tranexamic acid (TXA) group",
+      "harmonized_name": "",
+      "n": 258,
+      "events": 36,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control group",
+      "harmonized_name": "",
+      "n": 258,
+      "events": 42,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "30 days",
+    "is_primary": false,
+    "source_quote": "Table 4 Outcome data... 30-day mortality, n (%) | 36/258 (14.0) | 42/258 (16.3) | 0.54"
+   },
+   {
+    "name": "In-hospital mortality overall",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "events",
+    "events_intervention": 38,
+    "events_control": 42,
+    "n_intervention": 258,
+    "n_control": 258,
+    "arms": [
+     {
+      "source_name": "Tranexamic acid (TXA) group",
+      "harmonized_name": "",
+      "n": 258,
+      "events": 38,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control group",
+      "harmonized_name": "",
+      "n": 258,
+      "events": 42,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Hospital discharge",
+    "is_primary": false,
+    "source_quote": "Table 4 Outcome data... In-hospital mortality overall, n (%) | 38/258 (14.7) | 42/258 (16.3) | 0.72"
+   },
+   {
+    "name": "pRBC transfusion",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "events",
+    "events_intervention": 64,
+    "events_control": 65,
+    "n_intervention": 258,
+    "n_control": 258,
+    "arms": [
+     {
+      "source_name": "Tranexamic acid (TXA) group",
+      "harmonized_name": "",
+      "n": 258,
+      "events": 64,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control group",
+      "harmonized_name": "",
+      "n": 258,
+      "events": 65,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Between emergency room arrival and intensive care unit admission",
+    "is_primary": false,
+    "source_quote": "Table 3 Clinical characteristics upon emergency room admission... pRBC transfusion,b n (%) | 64/258 (24.8) | 65/258 (25.2) | 1.00"
+   },
+   {
+    "name": "pRBC units transfused",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "units",
+    "mean_intervention": 1.6,
+    "sd_intervention": 4.3,
+    "mean_control": 2,
+    "sd_control": 5.8,
+    "n_intervention": 258,
+    "n_control": 258,
+    "arms": [
+     {
+      "source_name": "Tranexamic acid (TXA) group",
+      "harmonized_name": "",
+      "n": 258,
+      "mean": 1.6,
+      "sd": 4.3,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control group",
+      "harmonized_name": "",
+      "n": 258,
+      "mean": 2,
+      "sd": 5.8,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Between emergency room arrival and intensive care unit admission",
+    "is_primary": false,
+    "source_quote": "Table 3 Clinical characteristics upon emergency room admission... pRBC units,b mean ± SD (n) | 1.6 ± 4.3 (258) | 2.0 ± 5.8 (258) | 0.81"
+   },
+   {
+    "name": "FFP transfusion",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "events",
+    "events_intervention": 40,
+    "events_control": 43,
+    "n_intervention": 258,
+    "n_control": 258,
+    "arms": [
+     {
+      "source_name": "Tranexamic acid (TXA) group",
+      "harmonized_name": "",
+      "n": 258,
+      "events": 40,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control group",
+      "harmonized_name": "",
+      "n": 258,
+      "events": 43,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Between emergency room arrival and intensive care unit admission",
+    "is_primary": false,
+    "source_quote": "Table 3 Clinical characteristics upon emergency room admission... FFP transfusion,b n (%) | 40/258 (15.5) | 43/258 (16.7) | 0.81"
+   },
+   {
+    "name": "FFP units transfused",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "units",
+    "mean_intervention": 1.2,
+    "sd_intervention": 3.8,
+    "mean_control": 1.4,
+    "sd_control": 4.6,
+    "n_intervention": 258,
+    "n_control": 258,
+    "arms": [
+     {
+      "source_name": "Tranexamic acid (TXA) group",
+      "harmonized_name": "",
+      "n": 258,
+      "mean": 1.2,
+      "sd": 3.8,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control group",
+      "harmonized_name": "",
+      "n": 258,
+      "mean": 1.4,
+      "sd": 4.6,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Between emergency room arrival and intensive care unit admission",
+    "is_primary": false,
+    "source_quote": "Table 3 Clinical characteristics upon emergency room admission... FFP units,b mean ± SD (n) | 1.2 ± 3.8 (258) | 1.4 ± 4.6 (258) | 0.68"
+   },
+   {
+    "name": "Platelet transfusion",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "events",
+    "events_intervention": 8,
+    "events_control": 12,
+    "n_intervention": 258,
+    "n_control": 256,
+    "arms": [
+     {
+      "source_name": "Tranexamic acid (TXA) group",
+      "harmonized_name": "",
+      "n": 258,
+      "events": 8,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control group",
+      "harmonized_name": "",
+      "n": 256,
+      "events": 12,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Between emergency room arrival and intensive care unit admission",
+    "is_primary": false,
+    "source_quote": "Table 3 Clinical characteristics upon emergency room admission... Platelet transfusion,b n (%) | 8/258 (3.1) | 12/256(4.7) | 0.37"
+   },
+   {
+    "name": "Platelet units transfused",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "units",
+    "mean_intervention": 0.1,
+    "sd_intervention": 0.7,
+    "mean_control": 0.1,
+    "sd_control": 0.9,
+    "n_intervention": 258,
+    "n_control": 256,
+    "arms": [
+     {
+      "source_name": "Tranexamic acid (TXA) group",
+      "harmonized_name": "",
+      "n": 258,
+      "mean": 0.1,
+      "sd": 0.7,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control group",
+      "harmonized_name": "",
+      "n": 256,
+      "mean": 0.1,
+      "sd": 0.9,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Between emergency room arrival and intensive care unit admission",
+    "is_primary": false,
+    "source_quote": "Table 3 Clinical characteristics upon emergency room admission... Platelet units,b mean ± SD (n) | 0.1 ± 0.7 (258) | 0.1 ± 0.9 (256) | 0.37"
+   },
+   {
+    "name": "Massive transfusion (≥10 pRBC)",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "events",
+    "events_intervention": 13,
+    "events_control": 15,
+    "n_intervention": 258,
+    "n_control": 258,
+    "arms": [
+     {
+      "source_name": "Tranexamic acid (TXA) group",
+      "harmonized_name": "",
+      "n": 258,
+      "events": 13,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control group",
+      "harmonized_name": "",
+      "n": 258,
+      "events": 15,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Between emergency room arrival and intensive care unit admission",
+    "is_primary": false,
+    "source_quote": "Table 3 Clinical characteristics upon emergency room admission... Massive transfusion,b ≥10 pRBC, n (%) | 13/258 (5.0) | 15/258 (5.8) | 0.85"
+   }
+  ],
+  "selected_outcome_idx": 10,
+  "robinsI": {
+   "confounding": "Moderate",
+   "selection": "Moderate",
+   "classification": "Moderate",
+   "deviations": "Moderate",
+   "missingData": "Serious",
+   "measurement": "Moderate",
+   "reporting": "Moderate",
+   "overall": "Serious",
+   "quotes": {
+    "confounding": "exact timing of prehospital TXA administration and dosages (TXA or fibrinogen concentrate) have not been documented. Personal correspondence with all participating Air Rescue bases revealed that the majority apply a single dose of 1 g",
+    "selection": "Among the 5765 patients with complete datasets, 258 pairs with corresponding propensity of TXA administration were identified.",
+    "classification": "exact timing of prehospital TXA administration and dosages (TXA or fibrinogen concentrate) have not been documented.",
+    "missingData": "the documentation of data was incomplete and inconsistent with respect to morbidity (organ failure, sepsis, thromboembolism).",
+    "measurement": "the cause of death (e.g., bleeding, brain death) is not documented in the TR-DGU"
+   }
+  }
+ }
+}

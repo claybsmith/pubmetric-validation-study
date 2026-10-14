@@ -1,0 +1,663 @@
+{
+ "id": "p2txa-04",
+ "pdf": "5 RCT Tranexamic Acid During Prehospital Transport in Patients at Risk for Hemorrhage After Injury A Double-blind, Placebo-Controlled, Randomized Clinical Trial.pdf",
+ "attempt": 1,
+ "extracted_at": "2026-10-14T17:05:12.208Z",
+ "seconds": 294,
+ "data": {
+  "id": "p2txa-04",
+  "title": "Tranexamic Acid During Prehospital Transport in Patients at Risk for Hemorrhage After Injury A Double-blind, Placebo-Controlled, Randomized Clinical Trial",
+  "author": "Guyette",
+  "year": 2021,
+  "design": "RCT",
+  "doi": "10.1001/jamasurg.2020.4350",
+  "available_outcomes": [
+   {
+    "name": "30-day all-cause mortality",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "patients",
+    "events_intervention": 36,
+    "events_control": 45,
+    "n_intervention": 447,
+    "n_control": 456,
+    "arms": [
+     {
+      "source_name": "Tranexamic acid",
+      "n": 447,
+      "events": 36,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Placebo",
+      "n": 456,
+      "events": 45,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "30 days",
+    "is_primary": true,
+    "source_quote": "The primary outcome for the trial was 30-day mortality... At 30 days after randomization, 36 deaths (8%) had occurred in the tranexamic acid intervention arm and 45 deaths (10%) in the placebo arm... the intention-to-treat study cohort comprised a total of 903 patients; there were 447 in the tranexamic acid arm and 456 in the placebo arm."
+   },
+   {
+    "name": "24-h Mortality",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "patients",
+    "events_intervention": 16,
+    "events_control": 17,
+    "n_intervention": 447,
+    "n_control": 453,
+    "arms": [
+     {
+      "source_name": "Tranexamic Acid",
+      "n": 447,
+      "events": 16,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Placebo",
+      "n": 453,
+      "events": 17,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "24 hours",
+    "is_primary": false,
+    "source_quote": "Table 2. Secondary Trial Outcomes by Treatment Group... 24-h Mortality | 16 (3.6) | 17 (3.7)"
+   },
+   {
+    "name": "In-hospital mortality",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "patients",
+    "events_intervention": 37,
+    "events_control": 43,
+    "n_intervention": 447,
+    "n_control": 453,
+    "arms": [
+     {
+      "source_name": "Tranexamic Acid",
+      "n": 447,
+      "events": 37,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Placebo",
+      "n": 453,
+      "events": 43,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "In-hospital",
+    "is_primary": false,
+    "source_quote": "Table 2. Secondary Trial Outcomes by Treatment Group... In-hospital mortality | 37 (8.6) | 43 (9.7)"
+   },
+   {
+    "name": "Total blood component transfusion (6-h Outcomes) (median [IQR])",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "U",
+    "median_intervention": 0,
+    "iqr_lower_intervention": 0,
+    "iqr_upper_intervention": 2,
+    "median_control": 0,
+    "iqr_lower_control": 0,
+    "iqr_upper_control": 2,
+    "n_intervention": 447,
+    "n_control": 453,
+    "arms": [
+     {
+      "source_name": "Tranexamic Acid",
+      "n": 447,
+      "mean": null,
+      "sd": null,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Placebo",
+      "n": 453,
+      "mean": null,
+      "sd": null,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "6 hours",
+    "is_primary": false,
+    "source_quote": "Table 2. Secondary Trial Outcomes by Treatment Group... 6-h Outcomes Laboratory values, median (IQR)... Total blood component transfusion, U | 0 (0 to 2) | 0 (0 to 2). Values originally reported as median (IQR)."
+   },
+   {
+    "name": "PRBC transfusion (6-h Outcomes) (median [IQR])",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "U",
+    "median_intervention": 0,
+    "iqr_lower_intervention": 0,
+    "iqr_upper_intervention": 1,
+    "median_control": 0,
+    "iqr_lower_control": 0,
+    "iqr_upper_control": 1,
+    "n_intervention": 447,
+    "n_control": 453,
+    "arms": [
+     {
+      "source_name": "Tranexamic Acid",
+      "n": 447,
+      "mean": null,
+      "sd": null,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Placebo",
+      "n": 453,
+      "mean": null,
+      "sd": null,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "6 hours",
+    "is_primary": false,
+    "source_quote": "Table 2. Secondary Trial Outcomes by Treatment Group... 6-h Outcomes... PRBC transfusion, U | 0 (0 to 1) | 0 (0 to 1). Values originally reported as median (IQR)."
+   },
+   {
+    "name": "Crystalloid infusion volume (6-h Outcomes) (median [IQR])",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "mL",
+    "median_intervention": 1600,
+    "iqr_lower_intervention": 600,
+    "iqr_upper_intervention": 3300,
+    "median_control": 1600,
+    "iqr_lower_control": 600,
+    "iqr_upper_control": 3200,
+    "n_intervention": 447,
+    "n_control": 453,
+    "arms": [
+     {
+      "source_name": "Tranexamic Acid",
+      "n": 447,
+      "mean": null,
+      "sd": null,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Placebo",
+      "n": 453,
+      "mean": null,
+      "sd": null,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "6 hours",
+    "is_primary": false,
+    "source_quote": "Table 2. Secondary Trial Outcomes by Treatment Group... 6-h Outcomes... Crystalloid infusion volume, mL | 1600 (600 to 3300) | 1600 (600 to 3200). Values originally reported as median (IQR)."
+   },
+   {
+    "name": "Total blood component transfusion (24-h Outcomes) (median [IQR])",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "U",
+    "median_intervention": 0,
+    "iqr_lower_intervention": 0,
+    "iqr_upper_intervention": 2,
+    "median_control": 0,
+    "iqr_lower_control": 0,
+    "iqr_upper_control": 2,
+    "n_intervention": 447,
+    "n_control": 453,
+    "arms": [
+     {
+      "source_name": "Tranexamic Acid",
+      "n": 447,
+      "mean": null,
+      "sd": null,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Placebo",
+      "n": 453,
+      "mean": null,
+      "sd": null,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "24 hours",
+    "is_primary": false,
+    "source_quote": "Table 2. Secondary Trial Outcomes by Treatment Group... 24-h Outcomes... Total blood component transfusion, U | 0 (0 to 2) | 0 (0 to 2). Values originally reported as median (IQR)."
+   },
+   {
+    "name": "Crystalloid infusion volume (24-h Outcomes) (median [IQR])",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "mL",
+    "median_intervention": 3100,
+    "iqr_lower_intervention": 1235,
+    "iqr_upper_intervention": 5600,
+    "median_control": 2750,
+    "iqr_lower_control": 1282.5,
+    "iqr_upper_control": 5525,
+    "n_intervention": 447,
+    "n_control": 453,
+    "arms": [
+     {
+      "source_name": "Tranexamic Acid",
+      "n": 447,
+      "mean": null,
+      "sd": null,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Placebo",
+      "n": 453,
+      "mean": null,
+      "sd": null,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "24 hours",
+    "is_primary": false,
+    "source_quote": "Table 2. Secondary Trial Outcomes by Treatment Group... 24-h Outcomes... Crystalloid infusion volume, mL | 3100 (1235 to 5600) | 2750 (1282.5 to 5525). Values originally reported as median (IQR)."
+   },
+   {
+    "name": "Lactate (24-h Outcomes) (median [IQR])",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "mmol/L",
+    "median_intervention": 2.9,
+    "iqr_lower_intervention": 1.9,
+    "iqr_upper_intervention": 3.9,
+    "median_control": 2.6,
+    "iqr_lower_control": 1.8,
+    "iqr_upper_control": 4.2,
+    "n_intervention": 307,
+    "n_control": 304,
+    "arms": [
+     {
+      "source_name": "Tranexamic Acid",
+      "n": 307,
+      "mean": null,
+      "sd": null,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Placebo",
+      "n": 304,
+      "mean": null,
+      "sd": null,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "24 hours",
+    "is_primary": false,
+    "source_quote": "Table 2. Secondary Trial Outcomes by Treatment Group... Lactate, median (IQR), mmol/Ld | 2.9 (1.9 to 3.9) | 2.6 (1.8 to 4.2)... dUnavailable in 140 patients in the tranexamic acid group (n = 307) and 149 patients in the placebo group (n = 304). Values originally reported as median (IQR)."
+   },
+   {
+    "name": "Initial presenting international normalized ratio >1.4",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "patients",
+    "events_intervention": 43,
+    "events_control": 49,
+    "n_intervention": 447,
+    "n_control": 453,
+    "arms": [
+     {
+      "source_name": "Tranexamic Acid",
+      "n": 447,
+      "events": 43,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Placebo",
+      "n": 453,
+      "events": 49,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Initial presentation",
+    "is_primary": false,
+    "source_quote": "Table 2. Secondary Trial Outcomes by Treatment Group... Initial presenting international normalized ratioe... >1.4 | 43 (9.6) | 49 (10.7)"
+   },
+   {
+    "name": "Hyperfibrinolysis",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "patients",
+    "events_intervention": 145,
+    "events_control": 144,
+    "n_intervention": 447,
+    "n_control": 453,
+    "arms": [
+     {
+      "source_name": "Tranexamic Acid",
+      "n": 447,
+      "events": 145,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Placebo",
+      "n": 453,
+      "events": 144,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Initial presentation",
+    "is_primary": false,
+    "source_quote": "Table 2. Secondary Trial Outcomes by Treatment Group... Initial presenting rapid thromboelastography measurements... Hyperfibrinolysisj | 145 (32.4) | 144 (31.6)"
+   },
+   {
+    "name": "Multiple organ failure",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "patients",
+    "events_intervention": 33,
+    "events_control": 39,
+    "n_intervention": 447,
+    "n_control": 453,
+    "arms": [
+     {
+      "source_name": "Tranexamic Acid",
+      "n": 447,
+      "events": 33,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Placebo",
+      "n": 453,
+      "events": 39,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Up to 30 days",
+    "is_primary": false,
+    "source_quote": "Table 2. Secondary Trial Outcomes by Treatment Group... Multiple organ failure | 33 (7.4) | 39 (8.6)"
+   },
+   {
+    "name": "Nosocomial infection",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "patients",
+    "events_intervention": 88,
+    "events_control": 66,
+    "n_intervention": 447,
+    "n_control": 453,
+    "arms": [
+     {
+      "source_name": "Tranexamic Acid",
+      "n": 447,
+      "events": 88,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Placebo",
+      "n": 453,
+      "events": 66,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Up to 30 days",
+    "is_primary": false,
+    "source_quote": "Table 2. Secondary Trial Outcomes by Treatment Group... Nosocomial infection | 88 (19.7) | 66 (14.5)"
+   },
+   {
+    "name": "Seizure in first 24 h",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "patients",
+    "events_intervention": 5,
+    "events_control": 7,
+    "n_intervention": 447,
+    "n_control": 453,
+    "arms": [
+     {
+      "source_name": "Tranexamic Acid",
+      "n": 447,
+      "events": 5,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Placebo",
+      "n": 453,
+      "events": 7,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "24 hours",
+    "is_primary": false,
+    "source_quote": "Table 2. Secondary Trial Outcomes by Treatment Group... Seizure in first 24 h | 5 (1.1) | 7 (1.5)"
+   },
+   {
+    "name": "Pulmonary embolism",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "patients",
+    "events_intervention": 13,
+    "events_control": 7,
+    "n_intervention": 447,
+    "n_control": 453,
+    "arms": [
+     {
+      "source_name": "Tranexamic Acid",
+      "n": 447,
+      "events": 13,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Placebo",
+      "n": 453,
+      "events": 7,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Up to 30 days",
+    "is_primary": false,
+    "source_quote": "Table 2. Secondary Trial Outcomes by Treatment Group... Pulmonary embolism | 13 (2.9) | 7 (1.5)"
+   },
+   {
+    "name": "Deep vein thrombosis",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "patients",
+    "events_intervention": 12,
+    "events_control": 7,
+    "n_intervention": 447,
+    "n_control": 453,
+    "arms": [
+     {
+      "source_name": "Tranexamic Acid",
+      "n": 447,
+      "events": 12,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Placebo",
+      "n": 453,
+      "events": 7,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Up to 30 days",
+    "is_primary": false,
+    "source_quote": "Table 2. Secondary Trial Outcomes by Treatment Group... Deep vein thrombosis | 12 (2.7) | 7 (1.5)"
+   },
+   {
+    "name": "Stroke (arterial thrombotic complications)",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "patients",
+    "events_intervention": 1,
+    "events_control": 4,
+    "n_intervention": 447,
+    "n_control": 456,
+    "arms": [
+     {
+      "source_name": "Tranexamic acid",
+      "n": 447,
+      "events": 1,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Placebo",
+      "n": 456,
+      "events": 4,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Up to 30 days",
+    "is_primary": false,
+    "source_quote": "No group differences were found in the incidence of arterial thrombotic complications (stroke [1 (0.2%) in the tranexamic acid group and 4 (0.9%) in the placebo group] or myocardial infarction or ischemia [1 (0.9% in the tranexamic acid group and 0 in the placebo group])."
+   },
+   {
+    "name": "30-day mortality (by prespecified dosing regimens)",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "patients",
+    "events_intervention": 11,
+    "events_control": 45,
+    "n_intervention": 151,
+    "n_control": 452,
+    "arms": [
+     {
+      "source_name": "Placebo (reference)",
+      "n": 452,
+      "events": 45,
+      "is_control": true,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Abbreviated",
+      "n": 150,
+      "events": 14,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Standard",
+      "n": 141,
+      "events": 11,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Repeat",
+      "n": 151,
+      "events": 11,
+      "is_control": false,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "30 days",
+    "is_primary": false,
+    "source_quote": "Figure 3. Prespecified Tranexamic Acid Dose Response Analysis... A Mortality risk by tranexamic acid prespecified dosing regimens... Placebo (reference) 45/452 (10.0)... Abbreviated 14/150 (9.3)... Standard 11/141 (7.8)... Repeat 11/151 (7.3)"
+   },
+   {
+    "name": "30-day mortality (Time from injury: <=1 h)",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "patients",
+    "events_intervention": 10,
+    "events_control": 18,
+    "n_intervention": 219,
+    "n_control": 238,
+    "arms": [
+     {
+      "source_name": "Tranexamic acid",
+      "n": 219,
+      "events": 10,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Placebo",
+      "n": 238,
+      "events": 18,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "30 days",
+    "is_primary": false,
+    "source_quote": "Figure 3... B Mortality risk by time from injury and shock severity... Time from injury, h <=1 | Placebo 18/238 (7.6) | Tranexamic acid 10/219 (4.6)"
+   },
+   {
+    "name": "30-day mortality (Shock severity: SBP <70 mm Hg)",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "patients",
+    "events_intervention": 5,
+    "events_control": 11,
+    "n_intervention": 27,
+    "n_control": 31,
+    "arms": [
+     {
+      "source_name": "Tranexamic acid",
+      "n": 27,
+      "events": 5,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Placebo",
+      "n": 31,
+      "events": 11,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "30 days",
+    "is_primary": false,
+    "source_quote": "Figure 3... B Mortality risk by time from injury and shock severity... Shock severity... SBP <70 mm Hg | Placebo 11/31 (35.5) | Tranexamic acid 5/27 (18.5)"
+   }
+  ],
+  "selected_outcome_idx": 0,
+  "rob": {
+   "randomization": "Low",
+   "deviations": "Low",
+   "missingData": "Low",
+   "measurement": "Low",
+   "reporting": "Low",
+   "overall": "Low",
+   "quotes": {
+    "randomization": "We generated a 1:1:1:1 ratio random allocation sequence with a block size of 12 using a computer random-number generator. We placed sealed drug kits on each participating ambulance or aircraft according to the allocation sequence... Randomization occurred with kit opening.",
+    "deviations": "The STAAMP study was a phase 3, multicenter, double-blind, placebo-controlled, randomized clinical trial... blinded for the prehospital and in-hospital phase interventions... prehospital teams delivered the assigned prehospital infusion in 887 of the 903 patients (98%).",
+    "missingData": "The primary outcome was available in 894 patients (99%)... multiple imputation for the 9 patients missing the primary outcome... Sensitivity analysis assuming all patients with missing 30-day mortality outcomes were alive demonstrated similar results.",
+    "measurement": "The primary outcome for the trial was 30-day mortality. Mortality in the 7 prespecified subgroups is depicted...",
+    "reporting": "The trial protocol can be found in Supplement 1... ClinicalTrials.gov Identifier: NCT02086500... Prespecified secondary outcomes and planned secondary analyses..."
+   }
+  }
+ }
+}

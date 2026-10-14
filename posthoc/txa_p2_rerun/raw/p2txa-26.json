@@ -1,0 +1,899 @@
+{
+ "id": "p2txa-26",
+ "pdf": "Tranexamic Acid use in Trauma- Effective but not Without Consequences.pdf",
+ "attempt": 1,
+ "extracted_at": "2026-10-14T17:27:22.192Z",
+ "seconds": 138,
+ "data": {
+  "id": "p2txa-26",
+  "title": "Tranexamic Acid use in Trauma: Effective but not Without Consequences",
+  "author": "Swendsen",
+  "year": 2013,
+  "design": "Cohort",
+  "doi": "10.4172/2167-1222.1000179",
+  "available_outcomes": [
+   {
+    "name": "Death within 24 hours (Any criteria)",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "",
+    "events_intervention": 3,
+    "events_control": 13,
+    "n_intervention": 52,
+    "n_control": 74,
+    "timepoint": "24 hours",
+    "is_primary": false,
+    "source_quote": "Table 2: Outcomes and units of blood products transfused. Death 24 H % | 13 (17.6) | 3 (5.8)",
+    "arms": [
+     {
+      "source_name": "TXA Any criteria",
+      "harmonized_name": "",
+      "n": 52,
+      "events": 3,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "NO TXA Any criteria",
+      "harmonized_name": "",
+      "n": 74,
+      "events": 13,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ]
+   },
+   {
+    "name": "Death before hospital discharge (Any criteria)",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "",
+    "events_intervention": 9,
+    "events_control": 17,
+    "n_intervention": 52,
+    "n_control": 74,
+    "timepoint": "Hospital discharge",
+    "is_primary": false,
+    "source_quote": "Table 2: Outcomes and units of blood products transfused. Death D/C % | 17 (23.0) | 9 (17.3)",
+    "arms": [
+     {
+      "source_name": "TXA Any criteria",
+      "harmonized_name": "",
+      "n": 52,
+      "events": 9,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "NO TXA Any criteria",
+      "harmonized_name": "",
+      "n": 74,
+      "events": 17,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ]
+   },
+   {
+    "name": "Myocardial Infarction (Any criteria)",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "",
+    "events_intervention": 0,
+    "events_control": 2,
+    "n_intervention": 52,
+    "n_control": 74,
+    "timepoint": "Hospital discharge",
+    "is_primary": false,
+    "source_quote": "Table 2: Outcomes and units of blood products transfused. MI % | 2 (2.7) | 0 (0)",
+    "arms": [
+     {
+      "source_name": "TXA Any criteria",
+      "harmonized_name": "",
+      "n": 52,
+      "events": 0,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "NO TXA Any criteria",
+      "harmonized_name": "",
+      "n": 74,
+      "events": 2,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ]
+   },
+   {
+    "name": "Stroke (Any criteria)",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "",
+    "events_intervention": 2,
+    "events_control": 0,
+    "n_intervention": 52,
+    "n_control": 74,
+    "timepoint": "Hospital discharge",
+    "is_primary": false,
+    "source_quote": "Table 2: Outcomes and units of blood products transfused. Stroke %* | 0 (0) | 2 (3.9)",
+    "arms": [
+     {
+      "source_name": "TXA Any criteria",
+      "harmonized_name": "",
+      "n": 52,
+      "events": 2,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "NO TXA Any criteria",
+      "harmonized_name": "",
+      "n": 74,
+      "events": 0,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ]
+   },
+   {
+    "name": "Venous Thromboembolism (Any criteria)",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "",
+    "events_intervention": 6,
+    "events_control": 0,
+    "n_intervention": 52,
+    "n_control": 74,
+    "timepoint": "Hospital discharge",
+    "is_primary": false,
+    "source_quote": "Table 2: Outcomes and units of blood products transfused. VTE %* | 0 (0) | 6 (11.5)",
+    "arms": [
+     {
+      "source_name": "TXA Any criteria",
+      "harmonized_name": "",
+      "n": 52,
+      "events": 6,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "NO TXA Any criteria",
+      "harmonized_name": "",
+      "n": 74,
+      "events": 0,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ]
+   },
+   {
+    "name": "Acute Kidney Injury (Any criteria)",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "",
+    "events_intervention": 13,
+    "events_control": 8,
+    "n_intervention": 52,
+    "n_control": 74,
+    "timepoint": "Hospital discharge",
+    "is_primary": false,
+    "source_quote": "Table 2: Outcomes and units of blood products transfused. AKI (%) | 8 (10.8) | 13 (25.0)",
+    "arms": [
+     {
+      "source_name": "TXA Any criteria",
+      "harmonized_name": "",
+      "n": 52,
+      "events": 13,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "NO TXA Any criteria",
+      "harmonized_name": "",
+      "n": 74,
+      "events": 8,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ]
+   },
+   {
+    "name": "Packed red blood cells transfused (Any criteria) (median [IQR])",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "units",
+    "median_intervention": 7,
+    "iqr_lower_intervention": 1.3,
+    "iqr_upper_intervention": 18,
+    "mean_intervention": null,
+    "sd_intervention": null,
+    "median_control": 2,
+    "iqr_lower_control": 0,
+    "iqr_upper_control": 8,
+    "mean_control": null,
+    "sd_control": null,
+    "n_intervention": 52,
+    "n_control": 74,
+    "timepoint": "Hospital discharge",
+    "is_primary": false,
+    "source_quote": "Table 2: Outcomes and units of blood products transfused. PRBC median [IQR]# | 2 [0,8] | 7 [1.3,18] (The paper originally reported Median + IQR).",
+    "arms": [
+     {
+      "source_name": "TXA Any criteria",
+      "harmonized_name": "",
+      "n": 52,
+      "events": null,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "NO TXA Any criteria",
+      "harmonized_name": "",
+      "n": 74,
+      "events": null,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ]
+   },
+   {
+    "name": "Fresh frozen plasma transfused (Any criteria) (median [IQR])",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "units",
+    "median_intervention": 3,
+    "iqr_lower_intervention": 1,
+    "iqr_upper_intervention": 7.8,
+    "mean_intervention": null,
+    "sd_intervention": null,
+    "median_control": 0,
+    "iqr_lower_control": 0,
+    "iqr_upper_control": 5,
+    "mean_control": null,
+    "sd_control": null,
+    "n_intervention": 52,
+    "n_control": 74,
+    "timepoint": "Hospital discharge",
+    "is_primary": false,
+    "source_quote": "Table 2: Outcomes and units of blood products transfused. FFP median [IQR]# | 0 [0,5] | 3 [1,7.8] (The paper originally reported Median + IQR).",
+    "arms": [
+     {
+      "source_name": "TXA Any criteria",
+      "harmonized_name": "",
+      "n": 52,
+      "events": null,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "NO TXA Any criteria",
+      "harmonized_name": "",
+      "n": 74,
+      "events": null,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ]
+   },
+   {
+    "name": "Platelets transfused (Any criteria) (median [IQR])",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "units",
+    "median_intervention": 1,
+    "iqr_lower_intervention": 0,
+    "iqr_upper_intervention": 3,
+    "mean_intervention": null,
+    "sd_intervention": null,
+    "median_control": 0,
+    "iqr_lower_control": 0,
+    "iqr_upper_control": 1,
+    "mean_control": null,
+    "sd_control": null,
+    "n_intervention": 52,
+    "n_control": 74,
+    "timepoint": "Hospital discharge",
+    "is_primary": false,
+    "source_quote": "Table 2: Outcomes and units of blood products transfused. Plt median [IQR]# | 0 [0,1] | 1 [0,3] (The paper originally reported Median + IQR).",
+    "arms": [
+     {
+      "source_name": "TXA Any criteria",
+      "harmonized_name": "",
+      "n": 52,
+      "events": null,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "NO TXA Any criteria",
+      "harmonized_name": "",
+      "n": 74,
+      "events": null,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ]
+   },
+   {
+    "name": "Death within 24 hours (Operation cohort)",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "",
+    "events_intervention": 2,
+    "events_control": 9,
+    "n_intervention": 46,
+    "n_control": 47,
+    "timepoint": "24 hours",
+    "is_primary": false,
+    "source_quote": "Table 2: Outcomes and units of blood products transfused. Death 24 H % | 9 (19.1) | 2 (4.3)",
+    "arms": [
+     {
+      "source_name": "Operation TXA",
+      "harmonized_name": "",
+      "n": 46,
+      "events": 2,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Operation NO TXA",
+      "harmonized_name": "",
+      "n": 47,
+      "events": 9,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ]
+   },
+   {
+    "name": "Death before hospital discharge (Operation cohort)",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "",
+    "events_intervention": 7,
+    "events_control": 12,
+    "n_intervention": 46,
+    "n_control": 47,
+    "timepoint": "Hospital discharge",
+    "is_primary": false,
+    "source_quote": "Table 2: Outcomes and units of blood products transfused. Death D/C % | 12 (25.5) | 7 (15.2)",
+    "arms": [
+     {
+      "source_name": "Operation TXA",
+      "harmonized_name": "",
+      "n": 46,
+      "events": 7,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Operation NO TXA",
+      "harmonized_name": "",
+      "n": 47,
+      "events": 12,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ]
+   },
+   {
+    "name": "Myocardial Infarction (Operation cohort)",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "",
+    "events_intervention": 0,
+    "events_control": 0,
+    "n_intervention": 46,
+    "n_control": 47,
+    "timepoint": "Hospital discharge",
+    "is_primary": false,
+    "source_quote": "Table 2: Outcomes and units of blood products transfused. MI % | 0 (0) | 0 (0)",
+    "arms": [
+     {
+      "source_name": "Operation TXA",
+      "harmonized_name": "",
+      "n": 46,
+      "events": 0,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Operation NO TXA",
+      "harmonized_name": "",
+      "n": 47,
+      "events": 0,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ]
+   },
+   {
+    "name": "Stroke (Operation cohort)",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "",
+    "events_intervention": 2,
+    "events_control": 0,
+    "n_intervention": 46,
+    "n_control": 47,
+    "timepoint": "Hospital discharge",
+    "is_primary": false,
+    "source_quote": "Table 2: Outcomes and units of blood products transfused. Stroke %* | 0 (0) | 2 (4.4)",
+    "arms": [
+     {
+      "source_name": "Operation TXA",
+      "harmonized_name": "",
+      "n": 46,
+      "events": 2,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Operation NO TXA",
+      "harmonized_name": "",
+      "n": 47,
+      "events": 0,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ]
+   },
+   {
+    "name": "Venous Thromboembolism (Operation cohort)",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "",
+    "events_intervention": 6,
+    "events_control": 0,
+    "n_intervention": 46,
+    "n_control": 47,
+    "timepoint": "Hospital discharge",
+    "is_primary": false,
+    "source_quote": "Table 2: Outcomes and units of blood products transfused. VTE %* | 0 (0) | 6 (13.0)",
+    "arms": [
+     {
+      "source_name": "Operation TXA",
+      "harmonized_name": "",
+      "n": 46,
+      "events": 6,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Operation NO TXA",
+      "harmonized_name": "",
+      "n": 47,
+      "events": 0,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ]
+   },
+   {
+    "name": "Acute Kidney Injury (Operation cohort)",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "",
+    "events_intervention": 13,
+    "events_control": 7,
+    "n_intervention": 46,
+    "n_control": 47,
+    "timepoint": "Hospital discharge",
+    "is_primary": false,
+    "source_quote": "Table 2: Outcomes and units of blood products transfused. AKI (%) | 7 (14.9) | 13 (28.3)",
+    "arms": [
+     {
+      "source_name": "Operation TXA",
+      "harmonized_name": "",
+      "n": 46,
+      "events": 13,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Operation NO TXA",
+      "harmonized_name": "",
+      "n": 47,
+      "events": 7,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ]
+   },
+   {
+    "name": "Packed red blood cells transfused (Operation cohort) (median [IQR])",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "units",
+    "median_intervention": 8,
+    "iqr_lower_intervention": 1.8,
+    "iqr_upper_intervention": 18,
+    "mean_intervention": null,
+    "sd_intervention": null,
+    "median_control": 5.5,
+    "iqr_lower_control": 1,
+    "iqr_upper_control": 15,
+    "mean_control": null,
+    "sd_control": null,
+    "n_intervention": 46,
+    "n_control": 47,
+    "timepoint": "Hospital discharge",
+    "is_primary": false,
+    "source_quote": "Table 2: Outcomes and units of blood products transfused. PRBC median [IQR]# | 5.5[1,15] | 8 [1.8,18] (The paper originally reported Median + IQR).",
+    "arms": [
+     {
+      "source_name": "Operation TXA",
+      "harmonized_name": "",
+      "n": 46,
+      "events": null,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Operation NO TXA",
+      "harmonized_name": "",
+      "n": 47,
+      "events": null,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ]
+   },
+   {
+    "name": "Fresh frozen plasma transfused (Operation cohort) (median [IQR])",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "units",
+    "median_intervention": 3,
+    "iqr_lower_intervention": 1,
+    "iqr_upper_intervention": 8,
+    "mean_intervention": null,
+    "sd_intervention": null,
+    "median_control": 2,
+    "iqr_lower_control": 0,
+    "iqr_upper_control": 8,
+    "mean_control": null,
+    "sd_control": null,
+    "n_intervention": 46,
+    "n_control": 47,
+    "timepoint": "Hospital discharge",
+    "is_primary": false,
+    "source_quote": "Table 2: Outcomes and units of blood products transfused. FFP median [IQR]# | 2[0,8] | 3[1,8] (The paper originally reported Median + IQR).",
+    "arms": [
+     {
+      "source_name": "Operation TXA",
+      "harmonized_name": "",
+      "n": 46,
+      "events": null,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Operation NO TXA",
+      "harmonized_name": "",
+      "n": 47,
+      "events": null,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ]
+   },
+   {
+    "name": "Platelets transfused (Operation cohort) (median [IQR])",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "units",
+    "median_intervention": 1,
+    "iqr_lower_intervention": 0,
+    "iqr_upper_intervention": 3,
+    "mean_intervention": null,
+    "sd_intervention": null,
+    "median_control": 1,
+    "iqr_lower_control": 0,
+    "iqr_upper_control": 2,
+    "mean_control": null,
+    "sd_control": null,
+    "n_intervention": 46,
+    "n_control": 47,
+    "timepoint": "Hospital discharge",
+    "is_primary": false,
+    "source_quote": "Table 2: Outcomes and units of blood products transfused. Plt median [IQR]# | 1[0,2] | 1 [0,3] (The paper originally reported Median + IQR).",
+    "arms": [
+     {
+      "source_name": "Operation TXA",
+      "harmonized_name": "",
+      "n": 46,
+      "events": null,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Operation NO TXA",
+      "harmonized_name": "",
+      "n": 47,
+      "events": null,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ]
+   },
+   {
+    "name": "Death from hemorrhage (Any criteria)",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "",
+    "events_intervention": 2,
+    "events_control": 8,
+    "n_intervention": 52,
+    "n_control": 74,
+    "timepoint": "Hospital discharge",
+    "is_primary": false,
+    "source_quote": "Table 3: Causes of Death. Hemorrhage | 8 (47.1) | 2 (22.2) (Note: Percentages in table are out of total deaths per group, but absolute events are 8 and 2 from overall cohort sizes)",
+    "arms": [
+     {
+      "source_name": "TXA Any criteria",
+      "harmonized_name": "",
+      "n": 52,
+      "events": 2,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "NO TXA Any criteria",
+      "harmonized_name": "",
+      "n": 74,
+      "events": 8,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ]
+   },
+   {
+    "name": "Death from brain injury (Any criteria)",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "",
+    "events_intervention": 6,
+    "events_control": 3,
+    "n_intervention": 52,
+    "n_control": 74,
+    "timepoint": "Hospital discharge",
+    "is_primary": false,
+    "source_quote": "Table 3: Causes of Death. Brain Injury | 3 (17.6) | 6 (66.7)",
+    "arms": [
+     {
+      "source_name": "TXA Any criteria",
+      "harmonized_name": "",
+      "n": 52,
+      "events": 6,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "NO TXA Any criteria",
+      "harmonized_name": "",
+      "n": 74,
+      "events": 3,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ]
+   },
+   {
+    "name": "Death from hemorrhage (Operation cohort)",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "",
+    "events_intervention": 2,
+    "events_control": 8,
+    "n_intervention": 46,
+    "n_control": 47,
+    "timepoint": "Hospital discharge",
+    "is_primary": false,
+    "source_quote": "Table 3: Causes of Death. Hemorrhage | 8 (66.7) | 2 (28.6)",
+    "arms": [
+     {
+      "source_name": "Operation TXA",
+      "harmonized_name": "",
+      "n": 46,
+      "events": 2,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Operation NO TXA",
+      "harmonized_name": "",
+      "n": 47,
+      "events": 8,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ]
+   },
+   {
+    "name": "Death from brain injury (Operation cohort)",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "",
+    "events_intervention": 4,
+    "events_control": 2,
+    "n_intervention": 46,
+    "n_control": 47,
+    "timepoint": "Hospital discharge",
+    "is_primary": false,
+    "source_quote": "Table 3: Causes of Death. Brain Injury | 2 (16.7) | 4 (57.1)",
+    "arms": [
+     {
+      "source_name": "Operation TXA",
+      "harmonized_name": "",
+      "n": 46,
+      "events": 4,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Operation NO TXA",
+      "harmonized_name": "",
+      "n": 47,
+      "events": 2,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ]
+   }
+  ],
+  "selected_outcome_idx": 0,
+  "robinsI": {
+   "confounding": "Serious",
+   "selection": "Moderate",
+   "classification": "Low",
+   "deviations": "Low",
+   "missingData": "Low",
+   "measurement": "Low",
+   "reporting": "Low",
+   "overall": "Serious",
+   "quotes": {
+    "confounding": "When controls were selected from hypotensive patients going directly the OR, baseline matching was excellent. Among well matched direct to the OR cohorts TXA recipients had lower 24h mortality... However baseline characteristics were not well matched.",
+    "selection": "We randomly selected control patients (with a goal ratio of 1.5-2 controls per TXA recipient) from those who presented during the 12 months prior to initiation of the guideline",
+    "classification": "records of TXA recipients were reviewed... We confirmed that none of the control patients received TXA",
+    "deviations": "We confirmed that none of the control patients received TXA and none of the subjects (control or TXA) received any other antifibrinolytic medication",
+    "missingData": "We abstracted medical records for demographic, physiologic, biochemical, and injury characteristics, along with TXA dosing and timing and blood product administration.",
+    "measurement": "We defined these outcomes as an attending diagnosis in the presence of a confirmatory test result",
+    "reporting": "We assessed as the main outcomes: death within 24 hours; death during hospitalization; venous thromboembolic events (VTE); myocardial infarction (MI); stroke; acute kidney injury (AKI); and blood product usage."
+   }
+  }
+ }
+}

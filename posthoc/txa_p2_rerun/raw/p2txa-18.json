@@ -1,0 +1,389 @@
+{
+ "id": "p2txa-18",
+ "pdf": "Prehospital administration of tranexamic acid in trauma patients- A 1-1 matched comparative study from a level 1 trauma center.pdf",
+ "attempt": 1,
+ "extracted_at": "2026-10-14T17:19:58.598Z",
+ "seconds": 220,
+ "data": {
+  "id": "p2txa-18",
+  "title": "Prehospital administration of tranexamic acid in trauma patients: A 1:1 matched comparative study from a level 1 trauma center",
+  "author": "El-Menyar",
+  "year": 2020,
+  "design": "Cohort",
+  "doi": "10.1016/j.ajem.2019.04.051",
+  "available_outcomes": [
+   {
+    "name": "MTP activated",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "participants",
+    "events_intervention": 27,
+    "n_intervention": 102,
+    "events_control": 58,
+    "n_control": 102,
+    "arms": [
+     {
+      "source_name": "TXA group",
+      "harmonized_name": "",
+      "n": 102,
+      "events": 27,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control group",
+      "harmonized_name": "",
+      "n": 102,
+      "events": 58,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "In-hospital",
+    "is_primary": false,
+    "source_quote": "Table 2\nHospital course and complications in the control and tranexamic acid groups.\nVariables\tControl group\tTXA group\nMTP activated [n, (%, CI)]\t58 [56.9 (47.3–66.5)]\t27 [26.5 (17.9–35.1)]"
+   },
+   {
+    "name": "Blood transfusion",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "participants",
+    "events_intervention": 64,
+    "n_intervention": 102,
+    "events_control": 102,
+    "n_control": 102,
+    "arms": [
+     {
+      "source_name": "TXA group",
+      "harmonized_name": "",
+      "n": 102,
+      "events": 64,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control group",
+      "harmonized_name": "",
+      "n": 102,
+      "events": 102,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "In-hospital",
+    "is_primary": false,
+    "source_quote": "Table 2\nHospital course and complications in the control and tranexamic acid groups.\nBlood transfusion [n, (%, CI)]\t102 [100 (100–100)]\t64 [63 (53.6–72.4)]"
+   },
+   {
+    "name": "Massive blood transfusion",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "participants",
+    "events_intervention": 19,
+    "n_intervention": 102,
+    "events_control": 40,
+    "n_control": 102,
+    "arms": [
+     {
+      "source_name": "TXA group",
+      "harmonized_name": "",
+      "n": 102,
+      "events": 19,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control group",
+      "harmonized_name": "",
+      "n": 102,
+      "events": 40,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "In-hospital",
+    "is_primary": false,
+    "source_quote": "Table 2\nHospital course and complications in the control and tranexamic acid groups.\nMassive blood transfusion [n, (%, CI)]\t40 [39.2 (29.7–48.7)]\t19 [18.6 (11.1–26.2)]"
+   },
+   {
+    "name": "Pulmonary embolism",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "participants",
+    "events_intervention": 3,
+    "n_intervention": 102,
+    "events_control": 2,
+    "n_control": 102,
+    "arms": [
+     {
+      "source_name": "TXA group",
+      "harmonized_name": "",
+      "n": 102,
+      "events": 3,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control group",
+      "harmonized_name": "",
+      "n": 102,
+      "events": 2,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "In-hospital",
+    "is_primary": false,
+    "source_quote": "Table 2\nHospital course and complications in the control and tranexamic acid groups.\nPulmonary embolism [n, (%, CI)]\t2 [2 (0–4.7)]\t3 [2.9 (0–6.2)]"
+   },
+   {
+    "name": "Deep vein thrombosis",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "participants",
+    "events_intervention": 2,
+    "n_intervention": 102,
+    "events_control": 1,
+    "n_control": 102,
+    "arms": [
+     {
+      "source_name": "TXA group",
+      "harmonized_name": "",
+      "n": 102,
+      "events": 2,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control group",
+      "harmonized_name": "",
+      "n": 102,
+      "events": 1,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "In-hospital",
+    "is_primary": false,
+    "source_quote": "Table 2\nHospital course and complications in the control and tranexamic acid groups.\nDeep vein thrombosis [n, (%), CI]\t1 [1 (0–2.9)]\t2 [2 (0–4.7)]"
+   },
+   {
+    "name": "Thromboembolic events",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "participants",
+    "events_intervention": 4,
+    "n_intervention": 102,
+    "events_control": 2,
+    "n_control": 102,
+    "arms": [
+     {
+      "source_name": "TXA group",
+      "harmonized_name": "",
+      "n": 102,
+      "events": 4,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control group",
+      "harmonized_name": "",
+      "n": 102,
+      "events": 2,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "In-hospital",
+    "is_primary": false,
+    "source_quote": "Table 2\nHospital course and complications in the control and tranexamic acid groups.\nThromboembolic events [n, (%, CI)]\t2 [2 (0–4.7)]\t4 [3.9 (0.1–7.7)]"
+   },
+   {
+    "name": "Mortality",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "participants",
+    "events_intervention": 25,
+    "n_intervention": 102,
+    "events_control": 30,
+    "n_control": 102,
+    "arms": [
+     {
+      "source_name": "TXA group",
+      "harmonized_name": "",
+      "n": 102,
+      "events": 25,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control group",
+      "harmonized_name": "",
+      "n": 102,
+      "events": 30,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "In-hospital",
+    "is_primary": false,
+    "source_quote": "Table 2\nHospital course and complications in the control and tranexamic acid groups.\nMortality [n, (%, CI)]\t30 [29.4 (20.6–38.2)]\t25 [24.5 (16.2–32.9)]"
+   },
+   {
+    "name": "Mortality (Adjusted)",
+    "type": "Harm",
+    "data_type": "Precalculated",
+    "unit": "OR",
+    "precalc_effect": 0.63,
+    "precalc_ci_lower": 0.2,
+    "precalc_ci_upper": 1.96,
+    "n_intervention": null,
+    "n_control": null,
+    "arms": [
+     {
+      "source_name": "TXA group",
+      "harmonized_name": "",
+      "n": null,
+      "events": null,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control group",
+      "harmonized_name": "",
+      "n": null,
+      "events": null,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "In-hospital",
+    "is_primary": false,
+    "source_quote": "Table 5 Multivariable logistic regression analysis for predictors of mortality. Variable Adjusted OR 95% CI interval \n*Prehospital tranexamic acid 0.63 0.20 1.96 0.427 \nVariables were adjusted for age, sex, head AIS, ISS and prehospital heart rate and systolic blood pressure... Adjusted analysis."
+   },
+   {
+    "name": "Blood units transfused (mean, 95% CI)",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "units",
+    "mean_intervention": 5.2,
+    "ci_lower_intervention": 3.8,
+    "ci_upper_intervention": 6.5,
+    "n_intervention": 102,
+    "mean_control": 9.7,
+    "ci_lower_control": 8.2,
+    "ci_upper_control": 11.2,
+    "n_control": 102,
+    "arms": [
+     {
+      "source_name": "TXA group",
+      "harmonized_name": "",
+      "n": 102,
+      "mean": 5.2,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control group",
+      "harmonized_name": "",
+      "n": 102,
+      "mean": 9.7,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "In-hospital",
+    "is_primary": false,
+    "source_quote": "Table 2\nHospital course and complications in the control and tranexamic acid groups.\nBlood units transfused\nMean, (CI)\t9.7 (8.2–11.2)\t5.2 (3.8–6.5)\nConverted from 95% CI."
+   },
+   {
+    "name": "Blood units transfused (median [range])",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "units",
+    "median_intervention": 3,
+    "range_lower_intervention": 0,
+    "range_upper_intervention": 40,
+    "n_intervention": 102,
+    "median_control": 8,
+    "range_lower_control": 1,
+    "range_upper_control": 40,
+    "n_control": 102,
+    "arms": [
+     {
+      "source_name": "TXA group",
+      "harmonized_name": "",
+      "n": 102,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control group",
+      "harmonized_name": "",
+      "n": 102,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "In-hospital",
+    "is_primary": false,
+    "source_quote": "Table 2\nHospital course and complications in the control and tranexamic acid groups.\nBlood units transfused\nMedian, (range)\t8 (1–40)\t3 (0–40)"
+   },
+   {
+    "name": "First 4 h amount of blood (mean, 95% CI)",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "units",
+    "mean_intervention": 2.4,
+    "ci_lower_intervention": 1.5,
+    "ci_upper_intervention": 3.4,
+    "n_intervention": 102,
+    "mean_control": 5.7,
+    "ci_lower_control": 4.8,
+    "ci_upper_control": 6.5,
+    "n_control": 102,
+    "arms": [
+     {
+      "source_name": "TXA group",
+      "harmonized_name": "",
+      "n": 102,
+      "mean": 2.4,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control group",
+      "harmonized_name": "",
+      "n": 102,
+      "mean": 5.7,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "First 4 h",
+    "is_primary": false,
+    "source_quote": "Table 2\nHospital course and complications in the control and tranexamic acid groups.\nFirst 4 h amount of blood [mean, (CI)]\t5.7 (4.8–6.5)\t2.4 (1.5–3.4)\nConverted from 95% CI."
+   }
+  ],
+  "selected_outcome_idx": 0,
+  "robinsI": {
+   "confounding": "Moderate",
+   "selection": "Low",
+   "classification": "Low",
+   "deviations": "Low",
+   "missingData": "Low",
+   "measurement": "Low",
+   "reporting": "Low",
+   "overall": "Moderate",
+   "quotes": {
+    "confounding": "Among the historical controls, manual matching for age, sex, ISS, head AIS, prehospital HR and SBP were used to identify the control group for the analysis... On-admission, the pulse rate, SI and serum lactate levels were significantly greater in the control group.",
+    "selection": "We conducted a retrospective study... Patients who met the CRASH-2 criteria and received blood transfusion within the first 4 h but did not receive TXA during the study period were included as controls. Study exclusion criteria were patients <16 and >80 years of age, vulnerable population...",
+    "classification": "All patients receiving 1 g of intravenous TXA prior to hospital admission... administered only by CCP staff.",
+    "deviations": "The same protocol is also used for all trauma admissions to the emergency department (ED), and it is considered “standard of care” for the EMS team.",
+    "missingData": "Data were extracted from the Qatar National Trauma Registry, which is a mature database in existence since 2007",
+    "measurement": "Diagnosis of VTE included clinical, Doppler ultrasound, echocardiogram and CT pulmonary angiography tools.",
+    "reporting": "All relevant predefined outcomes including MTP, VTE, mortality, and blood transfusion amounts were reported."
+   }
+  }
+ }
+}

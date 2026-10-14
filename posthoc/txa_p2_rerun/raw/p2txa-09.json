@@ -1,0 +1,288 @@
+{
+ "id": "p2txa-09",
+ "pdf": "Association of Cryoprecipitate and Tranexamic Acid With Improved Survival Following Wartime Injury.pdf",
+ "attempt": 1,
+ "extracted_at": "2026-10-14T17:08:14.166Z",
+ "seconds": 116,
+ "data": {
+  "id": "p2txa-09",
+  "title": "Association of Cryoprecipitate and Tranexamic Acid With Improved Survival Following Wartime Injury: Findings From the MATTERs II Study",
+  "author": "Morrison",
+  "year": 2013,
+  "design": "Cohort",
+  "doi": "10.1001/jamasurg.2013.764",
+  "available_outcomes": [
+   {
+    "name": "In-hospital mortality (Unadjusted)",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "",
+    "events_intervention": 30,
+    "n_intervention": 258,
+    "events_control": 179,
+    "n_control": 758,
+    "arms": [
+     {
+      "source_name": "TXA/CRYO",
+      "harmonized_name": "",
+      "n": 258,
+      "events": 30,
+      "is_control": false,
+      "included_in_analysis": true
+     },
+     {
+      "source_name": "TXA",
+      "harmonized_name": "",
+      "n": 148,
+      "events": 27,
+      "is_control": false,
+      "included_in_analysis": true
+     },
+     {
+      "source_name": "CRYO",
+      "harmonized_name": "",
+      "n": 168,
+      "events": 36,
+      "is_control": false,
+      "included_in_analysis": true
+     },
+     {
+      "source_name": "No TXA/CRYO",
+      "harmonized_name": "",
+      "n": 758,
+      "events": 179,
+      "is_control": true,
+      "included_in_analysis": true
+     }
+    ],
+    "timepoint": "In-hospital (within 30 days for NATO, prior to discharge for Host Nationals)",
+    "is_primary": true,
+    "source_quote": "The primary end point of the study was mortality. For North Atlantic Treaty Organization casualties, who were tracked through all stages of care, mortality was defined as death within 30 days of wounding. For Host National casualties, who were discharged into their indigenous health care system when clinically appropriate, mortality was defined as death prior to discharge from the medical treatment facility (ie, in-hospital mortality).\nTable 1. Comparison of Demographic, Prehospital, Mechanistic, and Physiological Data Across Groups... Mortality In-hospital | TXA (n = 148): 27 (18.2) | CRYO (n = 168): 36 (21.4) | TXA/CRYO (n = 258): 30 (11.6) | No TXA/CRYO (n = 758): 179 (23.6)"
+   },
+   {
+    "name": "In-hospital mortality (Adjusted TXA/CRYO vs No TXA/CRYO)",
+    "type": "Harm",
+    "data_type": "Precalculated",
+    "unit": "OR",
+    "precalc_effect": 0.38,
+    "precalc_ci_lower": 0.23,
+    "precalc_ci_upper": 0.62,
+    "n_intervention": null,
+    "n_control": null,
+    "arms": [],
+    "timepoint": "In-hospital",
+    "is_primary": true,
+    "source_quote": "Table 4. Logistic Regression Model From 277 Events (in Hospital Mortality) Among 1332 Patients Adjusted by 1 Propensity Score for Treatment With CRYO and Another for Treatment With TXA ... Independent additive | TXA/CRYO | OR 0.38 (0.23-0.62) | P <.001. Adjusted analysis."
+   },
+   {
+    "name": "In-hospital mortality (Adjusted TXA vs No TXA/CRYO)",
+    "type": "Harm",
+    "data_type": "Precalculated",
+    "unit": "OR",
+    "precalc_effect": 0.61,
+    "precalc_ci_lower": 0.42,
+    "precalc_ci_upper": 0.89,
+    "n_intervention": null,
+    "n_control": null,
+    "arms": [],
+    "timepoint": "In-hospital",
+    "is_primary": true,
+    "source_quote": "Table 4. Logistic Regression Model From 277 Events (in Hospital Mortality) Among 1332 Patients Adjusted by 1 Propensity Score for Treatment With CRYO and Another for Treatment With TXA ... Independent additive | TXA | OR 0.61 (0.42-0.89) | P = .01. Adjusted analysis."
+   },
+   {
+    "name": "In-hospital mortality (Adjusted CRYO vs No TXA/CRYO)",
+    "type": "Harm",
+    "data_type": "Precalculated",
+    "unit": "OR",
+    "precalc_effect": 0.61,
+    "precalc_ci_lower": 0.4,
+    "precalc_ci_upper": 0.94,
+    "n_intervention": null,
+    "n_control": null,
+    "arms": [],
+    "timepoint": "In-hospital",
+    "is_primary": true,
+    "source_quote": "Table 4. Logistic Regression Model From 277 Events (in Hospital Mortality) Among 1332 Patients Adjusted by 1 Propensity Score for Treatment With CRYO and Another for Treatment With TXA ... Independent additive | CRYO | OR 0.61 (0.40-0.94) | P = .02. Adjusted analysis."
+   },
+   {
+    "name": "PRBCs administered in first 24 hours",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "U",
+    "mean_intervention": 22,
+    "sd_intervention": 13.2,
+    "n_intervention": 258,
+    "mean_control": 5.3,
+    "sd_control": 7.9,
+    "n_control": 758,
+    "arms": [
+     {
+      "source_name": "TXA/CRYO",
+      "harmonized_name": "",
+      "n": 258,
+      "mean": 22,
+      "sd": 13.2,
+      "is_control": false,
+      "included_in_analysis": true
+     },
+     {
+      "source_name": "TXA",
+      "harmonized_name": "",
+      "n": 148,
+      "mean": 8,
+      "sd": 6.2,
+      "is_control": false,
+      "included_in_analysis": true
+     },
+     {
+      "source_name": "CRYO",
+      "harmonized_name": "",
+      "n": 168,
+      "mean": 20.1,
+      "sd": 16,
+      "is_control": false,
+      "included_in_analysis": true
+     },
+     {
+      "source_name": "No TXA/CRYO",
+      "harmonized_name": "",
+      "n": 758,
+      "mean": 5.3,
+      "sd": 7.9,
+      "is_control": true,
+      "included_in_analysis": true
+     }
+    ],
+    "timepoint": "First 24 hours",
+    "is_primary": false,
+    "source_quote": "Table 3. Comparison of Resuscitation Volumes Administered in First 24 Hours Across Groups Preadjustment... PRBC administration | PRBCs, U, mean (SD) | TXA (n = 148): 8.0 (6.2) | CRYO (n = 168): 20.1 (16.0) | TXA/CRYO (n = 258): 22.0 (13.2) | No TXA/CRYO (n = 758): 5.3 (7.9). Data reported as mean and SD."
+   },
+   {
+    "name": "FFP administered in first 24 hours",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "U",
+    "mean_intervention": 21.3,
+    "sd_intervention": 12.4,
+    "n_intervention": 258,
+    "mean_control": 3.7,
+    "sd_control": 5.9,
+    "n_control": 758,
+    "arms": [
+     {
+      "source_name": "TXA/CRYO",
+      "harmonized_name": "",
+      "n": 258,
+      "mean": 21.3,
+      "sd": 12.4,
+      "is_control": false,
+      "included_in_analysis": true
+     },
+     {
+      "source_name": "TXA",
+      "harmonized_name": "",
+      "n": 148,
+      "mean": 7.3,
+      "sd": 5.3,
+      "is_control": false,
+      "included_in_analysis": true
+     },
+     {
+      "source_name": "CRYO",
+      "harmonized_name": "",
+      "n": 168,
+      "mean": 17.8,
+      "sd": 14.9,
+      "is_control": false,
+      "included_in_analysis": true
+     },
+     {
+      "source_name": "No TXA/CRYO",
+      "harmonized_name": "",
+      "n": 758,
+      "mean": 3.7,
+      "sd": 5.9,
+      "is_control": true,
+      "included_in_analysis": true
+     }
+    ],
+    "timepoint": "First 24 hours",
+    "is_primary": false,
+    "source_quote": "Table 3. Comparison of Resuscitation Volumes Administered in First 24 Hours Across Groups Preadjustment... FFP administration | FFP, U, mean (SD) | TXA (n = 148): 7.3 (5.3) | CRYO (n = 168): 17.8 (14.9) | TXA/CRYO (n = 258): 21.3 (12.4) | No TXA/CRYO (n = 758): 3.7 (5.9). Data reported as mean and SD."
+   },
+   {
+    "name": "PLTs administered in first 24 hours",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "U",
+    "mean_intervention": 4,
+    "sd_intervention": 3,
+    "n_intervention": 258,
+    "mean_control": 0.2,
+    "sd_control": 0.8,
+    "n_control": 758,
+    "arms": [
+     {
+      "source_name": "TXA/CRYO",
+      "harmonized_name": "",
+      "n": 258,
+      "mean": 4,
+      "sd": 3,
+      "is_control": false,
+      "included_in_analysis": true
+     },
+     {
+      "source_name": "TXA",
+      "harmonized_name": "",
+      "n": 148,
+      "mean": 0.7,
+      "sd": 1.1,
+      "is_control": false,
+      "included_in_analysis": true
+     },
+     {
+      "source_name": "CRYO",
+      "harmonized_name": "",
+      "n": 168,
+      "mean": 3,
+      "sd": 3.4,
+      "is_control": false,
+      "included_in_analysis": true
+     },
+     {
+      "source_name": "No TXA/CRYO",
+      "harmonized_name": "",
+      "n": 758,
+      "mean": 0.2,
+      "sd": 0.8,
+      "is_control": true,
+      "included_in_analysis": true
+     }
+    ],
+    "timepoint": "First 24 hours",
+    "is_primary": false,
+    "source_quote": "Table 3. Comparison of Resuscitation Volumes Administered in First 24 Hours Across Groups Preadjustment... PLT administration | PLTs, U, mean (SD) | TXA (n = 148): 0.7 (1.1) | CRYO (n = 168): 3.0 (3.4) | TXA/CRYO (n = 258): 4.0 (3.0) | No TXA/CRYO (n = 758): 0.2 (0.8). Data reported as mean and SD."
+   }
+  ],
+  "selected_outcome_idx": 0,
+  "robinsI": {
+   "confounding": "Moderate",
+   "selection": "Low",
+   "classification": "Low",
+   "deviations": "Low",
+   "missingData": "Moderate",
+   "measurement": "Low",
+   "reporting": "Low",
+   "overall": "Moderate",
+   "quotes": {
+    "confounding": "The propensity scoring method used in this study has been able to be adjusted for most known variables... However, there are a number of important limitations... unquantified interventions have subtle interaction that cannot be completely controlled... temporal trend in military transfusion practice.",
+    "selection": "A total of 1332 patients were identified from prospectively collected UK and US trauma registries who required 1 U or more of packed red blood cells",
+    "classification": "The study population was divided into 4 cohorts: casualties who received cryoprecipitate but not tranexamic acid, casualties who received tranexamic acid but not cryoprecipitate, those who received both...",
+    "deviations": "the use of tranexamic acid, cryoprecipitate, and recombinant factor VIIa was left to the treating physician’s discretion during the initial part of the study.",
+    "missingData": "Because missing data were not significantly associated with treatment choice, we concluded it reasonable to assume that excluding cases with missing data would not introduce bias. Thus, the propensity scores were developed using subjects with no missing data, which meant excluding 412 patients...",
+    "measurement": "For North Atlantic Treaty Organization casualties... mortality was defined as death within 30 days of wounding. For Host National casualties... mortality was defined as death prior to discharge from the medical treatment facility",
+    "reporting": "Data for primary and secondary endpoints (mortality, blood products) were clearly reported in tables and regression models."
+   }
+  }
+ }
+}

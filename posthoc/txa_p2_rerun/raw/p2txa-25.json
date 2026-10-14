@@ -1,0 +1,1320 @@
+{
+ "id": "p2txa-25",
+ "pdf": "Tranexamic Acid in Civilian Trauma Care in the California Prehospital Antifibrinolytic Therapy Study.pdf",
+ "attempt": 1,
+ "extracted_at": "2026-10-14T17:27:01.991Z",
+ "seconds": 123,
+ "data": {
+  "id": "p2txa-25",
+  "title": "Tranexamic Acid in Civilian Trauma Care in the California Prehospital Antifibrinolytic Therapy Study",
+  "author": "Neeki",
+  "year": 2018,
+  "design": "Cohort",
+  "doi": "10.5811/westjem.2018.8.39336",
+  "available_outcomes": [
+   {
+    "name": "Mortality at 24 hours",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": null,
+    "events_intervention": 7,
+    "events_control": 13,
+    "n_intervention": 362,
+    "n_control": 362,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "harmonized_name": "",
+      "n": 362,
+      "events": 7,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control",
+      "harmonized_name": "",
+      "n": 362,
+      "events": 13,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "24 hours",
+    "is_primary": true,
+    "source_quote": "Table 1. Patient outcomes for the control and TXA groups. ... Mortality at 24 hours 7 (1.9%) 13 (3.6%)"
+   },
+   {
+    "name": "Mortality at 48 hours",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": null,
+    "events_intervention": 10,
+    "events_control": 16,
+    "n_intervention": 362,
+    "n_control": 362,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "harmonized_name": "",
+      "n": 362,
+      "events": 10,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control",
+      "harmonized_name": "",
+      "n": 362,
+      "events": 16,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "48 hours",
+    "is_primary": true,
+    "source_quote": "Table 1. Patient outcomes for the control and TXA groups. ... Mortality at 48 hours 10 (2.8%) 16 (4.4%)"
+   },
+   {
+    "name": "Mortality at 28 days",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": null,
+    "events_intervention": 13,
+    "events_control": 30,
+    "n_intervention": 362,
+    "n_control": 362,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "harmonized_name": "",
+      "n": 362,
+      "events": 13,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control",
+      "harmonized_name": "",
+      "n": 362,
+      "events": 30,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "28 days",
+    "is_primary": true,
+    "source_quote": "Table 1. Patient outcomes for the control and TXA groups. ... Mortality at 28 days 13 (3.6%) 30 (8.3%)"
+   },
+   {
+    "name": "Total blood products transfused (median [IQR])",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "units",
+    "median_intervention": 1,
+    "iqr_lower_intervention": 0,
+    "iqr_upper_intervention": 6,
+    "median_control": 3,
+    "iqr_lower_control": 2,
+    "iqr_upper_control": 8,
+    "n_intervention": 362,
+    "n_control": 362,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "harmonized_name": "",
+      "n": 362,
+      "events": null,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control",
+      "harmonized_name": "",
+      "n": 362,
+      "events": null,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Hospital stay",
+    "is_primary": false,
+    "source_quote": "Table 1. Patient outcomes for the control and TXA groups. ... Total blood products transfused (in units), median (Q1, Q3) 1 (0, 6) 3 (2, 8). Values originally reported as median (Q1, Q3)."
+   },
+   {
+    "name": "Hospital length of stay (median [IQR])",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "days",
+    "median_intervention": 4,
+    "iqr_lower_intervention": 1,
+    "iqr_upper_intervention": 12,
+    "median_control": 8,
+    "iqr_lower_control": 5,
+    "iqr_upper_control": 15,
+    "n_intervention": 362,
+    "n_control": 362,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "harmonized_name": "",
+      "n": 362,
+      "events": null,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control",
+      "harmonized_name": "",
+      "n": 362,
+      "events": null,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Hospital discharge",
+    "is_primary": false,
+    "source_quote": "Table 1. Patient outcomes for the control and TXA groups. ... Hospital LOS (in days), median (Q1, Q3) 4 (1, 12) 8 (5, 15). Values originally reported as median (Q1, Q3)."
+   },
+   {
+    "name": "ICU length of stay (median [IQR])",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "days",
+    "median_intervention": 4,
+    "iqr_lower_intervention": 2,
+    "iqr_upper_intervention": 8,
+    "median_control": 5,
+    "iqr_lower_control": 3,
+    "iqr_upper_control": 8,
+    "n_intervention": 362,
+    "n_control": 362,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "harmonized_name": "",
+      "n": 362,
+      "events": null,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control",
+      "harmonized_name": "",
+      "n": 362,
+      "events": null,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "ICU discharge",
+    "is_primary": false,
+    "source_quote": "Table 1. Patient outcomes for the control and TXA groups. ... ICU LOS (in days), median (Q1, Q3) 4 (2, 8) 5 (3, 8). Values originally reported as median (Q1, Q3)."
+   },
+   {
+    "name": "Thromboembolic events",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": null,
+    "events_intervention": 2,
+    "events_control": 2,
+    "n_intervention": 362,
+    "n_control": 362,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "harmonized_name": "",
+      "n": 362,
+      "events": 2,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control",
+      "harmonized_name": "",
+      "n": 362,
+      "events": 2,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Hospital stay",
+    "is_primary": false,
+    "source_quote": "Table 1. Patient outcomes for the control and TXA groups. ... Adverse events ... Thromboembolic events 2 2"
+   },
+   {
+    "name": "Myocardial infarction events",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": null,
+    "events_intervention": 0,
+    "events_control": 0,
+    "n_intervention": 362,
+    "n_control": 362,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "harmonized_name": "",
+      "n": 362,
+      "events": 0,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control",
+      "harmonized_name": "",
+      "n": 362,
+      "events": 0,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Hospital stay",
+    "is_primary": false,
+    "source_quote": "Table 1. Patient outcomes for the control and TXA groups. ... Adverse events ... Myocardial infarction events 0 0"
+   },
+   {
+    "name": "Neurologic events",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": null,
+    "events_intervention": 0,
+    "events_control": 0,
+    "n_intervention": 362,
+    "n_control": 362,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "harmonized_name": "",
+      "n": 362,
+      "events": 0,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control",
+      "harmonized_name": "",
+      "n": 362,
+      "events": 0,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Hospital stay",
+    "is_primary": false,
+    "source_quote": "Table 1. Patient outcomes for the control and TXA groups. ... Adverse events ... Neurologic events 0 0"
+   },
+   {
+    "name": "Mortality at 24 hours (<10 units of blood transfused)",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": null,
+    "events_intervention": 3,
+    "events_control": 7,
+    "n_intervention": 291,
+    "n_control": 293,
+    "arms": [
+     {
+      "source_name": "TXA (<10 units)",
+      "harmonized_name": "",
+      "n": 291,
+      "events": 3,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control (<10 units)",
+      "harmonized_name": "",
+      "n": 293,
+      "events": 7,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "24 hours",
+    "is_primary": false,
+    "source_quote": "Table 3. Subgroup analysis of patients based on the number of units of blood product transfused. ... <10 units of blood transfused (n=584) ... Mortality at 24 hours 3 (1.0%) 7 (2.4%)"
+   },
+   {
+    "name": "Mortality at 48 hours (<10 units of blood transfused)",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": null,
+    "events_intervention": 5,
+    "events_control": 7,
+    "n_intervention": 291,
+    "n_control": 293,
+    "arms": [
+     {
+      "source_name": "TXA (<10 units)",
+      "harmonized_name": "",
+      "n": 291,
+      "events": 5,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control (<10 units)",
+      "harmonized_name": "",
+      "n": 293,
+      "events": 7,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "48 hours",
+    "is_primary": false,
+    "source_quote": "Table 3. Subgroup analysis of patients based on the number of units of blood product transfused. ... <10 units of blood transfused (n=584) ... Mortality at 48 hours 5 (1.7%) 7 (2.4%)"
+   },
+   {
+    "name": "Mortality at 28 days (<10 units of blood transfused)",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": null,
+    "events_intervention": 7,
+    "events_control": 14,
+    "n_intervention": 291,
+    "n_control": 293,
+    "arms": [
+     {
+      "source_name": "TXA (<10 units)",
+      "harmonized_name": "",
+      "n": 291,
+      "events": 7,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control (<10 units)",
+      "harmonized_name": "",
+      "n": 293,
+      "events": 14,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "28 days",
+    "is_primary": false,
+    "source_quote": "Table 3. Subgroup analysis of patients based on the number of units of blood product transfused. ... <10 units of blood transfused (n=584) ... Mortality at 28 days 7 (2.4%) 14 (4.8%)"
+   },
+   {
+    "name": "Total blood products transfused (<10 units of blood transfused) (median [IQR])",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "units",
+    "median_intervention": 0,
+    "iqr_lower_intervention": 0,
+    "iqr_upper_intervention": 2,
+    "median_control": 2,
+    "iqr_lower_control": 2,
+    "iqr_upper_control": 4.3,
+    "n_intervention": 291,
+    "n_control": 293,
+    "arms": [
+     {
+      "source_name": "TXA (<10 units)",
+      "harmonized_name": "",
+      "n": 291,
+      "events": null,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control (<10 units)",
+      "harmonized_name": "",
+      "n": 293,
+      "events": null,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Hospital stay",
+    "is_primary": false,
+    "source_quote": "Table 3. Subgroup analysis of patients based on the number of units of blood product transfused. ... Total blood products transfused (in units), median (Q1, Q3) ... 0 (0, 2) 2 (2, 4.3). Values originally reported as median (Q1, Q3)."
+   },
+   {
+    "name": "Hospital length of stay (<10 units of blood transfused) (median [IQR])",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "days",
+    "median_intervention": 4,
+    "iqr_lower_intervention": 1,
+    "iqr_upper_intervention": 8,
+    "median_control": 8,
+    "iqr_lower_control": 5,
+    "iqr_upper_control": 15,
+    "n_intervention": 291,
+    "n_control": 293,
+    "arms": [
+     {
+      "source_name": "TXA (<10 units)",
+      "harmonized_name": "",
+      "n": 291,
+      "events": null,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control (<10 units)",
+      "harmonized_name": "",
+      "n": 293,
+      "events": null,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Hospital discharge",
+    "is_primary": false,
+    "source_quote": "Table 3. Subgroup analysis of patients based on the number of units of blood product transfused. ... Hospital LOS (in days), Median (Q1, Q3) ... 4 (1, 8) 8 (5, 15). Values originally reported as median (Q1, Q3)."
+   },
+   {
+    "name": "ICU length of stay (<10 units of blood transfused) (median [IQR])",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "days",
+    "median_intervention": 3,
+    "iqr_lower_intervention": 2,
+    "iqr_upper_intervention": 5.5,
+    "median_control": 4,
+    "iqr_lower_control": 3,
+    "iqr_upper_control": 8,
+    "n_intervention": 291,
+    "n_control": 293,
+    "arms": [
+     {
+      "source_name": "TXA (<10 units)",
+      "harmonized_name": "",
+      "n": 291,
+      "events": null,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control (<10 units)",
+      "harmonized_name": "",
+      "n": 293,
+      "events": null,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "ICU discharge",
+    "is_primary": false,
+    "source_quote": "Table 3. Subgroup analysis of patients based on the number of units of blood product transfused. ... ICU LOS (in days), median (Q1, Q3) ... 3 (2, 5.5) 4 (3, 8). Values originally reported as median (Q1, Q3)."
+   },
+   {
+    "name": "Mortality at 24 hours (>=10 units of blood transfused)",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": null,
+    "events_intervention": 4,
+    "events_control": 6,
+    "n_intervention": 71,
+    "n_control": 69,
+    "arms": [
+     {
+      "source_name": "TXA (>=10 units)",
+      "harmonized_name": "",
+      "n": 71,
+      "events": 4,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control (>=10 units)",
+      "harmonized_name": "",
+      "n": 69,
+      "events": 6,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "24 hours",
+    "is_primary": false,
+    "source_quote": "Table 3. Subgroup analysis of patients based on the number of units of blood product transfused. ... >=10 units of blood transfused (n=140) ... Mortality at 24 hours 4 (5.6%) 6 (8.7%)"
+   },
+   {
+    "name": "Mortality at 48 hours (>=10 units of blood transfused)",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": null,
+    "events_intervention": 5,
+    "events_control": 9,
+    "n_intervention": 71,
+    "n_control": 69,
+    "arms": [
+     {
+      "source_name": "TXA (>=10 units)",
+      "harmonized_name": "",
+      "n": 71,
+      "events": 5,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control (>=10 units)",
+      "harmonized_name": "",
+      "n": 69,
+      "events": 9,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "48 hours",
+    "is_primary": false,
+    "source_quote": "Table 3. Subgroup analysis of patients based on the number of units of blood product transfused. ... >=10 units of blood transfused (n=140) ... Mortality at 48 hours 5 (7%) 9 (13%)"
+   },
+   {
+    "name": "Mortality at 28 days (>=10 units of blood transfused)",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": null,
+    "events_intervention": 6,
+    "events_control": 16,
+    "n_intervention": 71,
+    "n_control": 69,
+    "arms": [
+     {
+      "source_name": "TXA (>=10 units)",
+      "harmonized_name": "",
+      "n": 71,
+      "events": 6,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control (>=10 units)",
+      "harmonized_name": "",
+      "n": 69,
+      "events": 16,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "28 days",
+    "is_primary": false,
+    "source_quote": "Table 3. Subgroup analysis of patients based on the number of units of blood product transfused. ... >=10 units of blood transfused (n=140) ... Mortality at 28 days 6 (8.5%) 16 (23.2%)"
+   },
+   {
+    "name": "Total blood products transfused (>=10 units of blood transfused) (median [IQR])",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "units",
+    "median_intervention": 18,
+    "iqr_lower_intervention": 14,
+    "iqr_upper_intervention": 32,
+    "median_control": 20,
+    "iqr_lower_control": 14,
+    "iqr_upper_control": 31,
+    "n_intervention": 71,
+    "n_control": 69,
+    "arms": [
+     {
+      "source_name": "TXA (>=10 units)",
+      "harmonized_name": "",
+      "n": 71,
+      "events": null,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control (>=10 units)",
+      "harmonized_name": "",
+      "n": 69,
+      "events": null,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Hospital stay",
+    "is_primary": false,
+    "source_quote": "Table 3. Subgroup analysis of patients based on the number of units of blood product transfused. ... Total blood products transfused (in units), median (Q1, Q3) ... 18 (14, 32) 20 (14, 31). Values originally reported as median (Q1, Q3)."
+   },
+   {
+    "name": "Hospital length of stay (>=10 units of blood transfused) (median [IQR])",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "days",
+    "median_intervention": 13,
+    "iqr_lower_intervention": 5,
+    "iqr_upper_intervention": 22,
+    "median_control": 10,
+    "iqr_lower_control": 6,
+    "iqr_upper_control": 14,
+    "n_intervention": 71,
+    "n_control": 69,
+    "arms": [
+     {
+      "source_name": "TXA (>=10 units)",
+      "harmonized_name": "",
+      "n": 71,
+      "events": null,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control (>=10 units)",
+      "harmonized_name": "",
+      "n": 69,
+      "events": null,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Hospital discharge",
+    "is_primary": false,
+    "source_quote": "Table 3. Subgroup analysis of patients based on the number of units of blood product transfused. ... Hospital LOS (in days), Median (Q1, Q3) ... 13 (5, 22) 10 (6, 14). Values originally reported as median (Q1, Q3)."
+   },
+   {
+    "name": "ICU length of stay (>=10 units of blood transfused) (median [IQR])",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "days",
+    "median_intervention": 5,
+    "iqr_lower_intervention": 3,
+    "iqr_upper_intervention": 14,
+    "median_control": 6,
+    "iqr_lower_control": 4,
+    "iqr_upper_control": 8,
+    "n_intervention": 71,
+    "n_control": 69,
+    "arms": [
+     {
+      "source_name": "TXA (>=10 units)",
+      "harmonized_name": "",
+      "n": 71,
+      "events": null,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control (>=10 units)",
+      "harmonized_name": "",
+      "n": 69,
+      "events": null,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "ICU discharge",
+    "is_primary": false,
+    "source_quote": "Table 3. Subgroup analysis of patients based on the number of units of blood product transfused. ... ICU LOS (in days), median (Q1, Q3) ... 5 (3, 14) 6 (4, 8). Values originally reported as median (Q1, Q3)."
+   },
+   {
+    "name": "Mortality at 24 hours (ISS <16)",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": null,
+    "events_intervention": 0,
+    "events_control": 5,
+    "n_intervention": 194,
+    "n_control": 190,
+    "arms": [
+     {
+      "source_name": "TXA (ISS <16)",
+      "harmonized_name": "",
+      "n": 194,
+      "events": 0,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control (ISS <16)",
+      "harmonized_name": "",
+      "n": 190,
+      "events": 5,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "24 hours",
+    "is_primary": false,
+    "source_quote": "Table 4. Subgroup analysis of patients based on the Injury Severity Score. ... Patients with ISS <16 (n=384) ... Mortality at 24 hours 0 (0%) 5 (2.6%)"
+   },
+   {
+    "name": "Mortality at 48 hours (ISS <16)",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": null,
+    "events_intervention": 1,
+    "events_control": 5,
+    "n_intervention": 194,
+    "n_control": 190,
+    "arms": [
+     {
+      "source_name": "TXA (ISS <16)",
+      "harmonized_name": "",
+      "n": 194,
+      "events": 1,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control (ISS <16)",
+      "harmonized_name": "",
+      "n": 190,
+      "events": 5,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "48 hours",
+    "is_primary": false,
+    "source_quote": "Table 4. Subgroup analysis of patients based on the Injury Severity Score. ... Patients with ISS <16 (n=384) ... Mortality at 48 hours 1 (0.5%) 5 (2.6%)"
+   },
+   {
+    "name": "Mortality at 28 days (ISS <16)",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": null,
+    "events_intervention": 3,
+    "events_control": 5,
+    "n_intervention": 194,
+    "n_control": 190,
+    "arms": [
+     {
+      "source_name": "TXA (ISS <16)",
+      "harmonized_name": "",
+      "n": 194,
+      "events": 3,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control (ISS <16)",
+      "harmonized_name": "",
+      "n": 190,
+      "events": 5,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "28 days",
+    "is_primary": false,
+    "source_quote": "Table 4. Subgroup analysis of patients based on the Injury Severity Score. ... Patients with ISS <16 (n=384) ... Mortality at 28 days 3 (1.6%) 5 (2.6%)"
+   },
+   {
+    "name": "Total blood products transfused (ISS <16) (median [IQR])",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "units",
+    "median_intervention": 0,
+    "iqr_lower_intervention": 0,
+    "iqr_upper_intervention": 2,
+    "median_control": 2.7,
+    "iqr_lower_control": 2,
+    "iqr_upper_control": 6,
+    "n_intervention": 194,
+    "n_control": 190,
+    "arms": [
+     {
+      "source_name": "TXA (ISS <16)",
+      "harmonized_name": "",
+      "n": 194,
+      "events": null,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control (ISS <16)",
+      "harmonized_name": "",
+      "n": 190,
+      "events": null,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Hospital stay",
+    "is_primary": false,
+    "source_quote": "Table 4. Subgroup analysis of patients based on the Injury Severity Score. ... Total blood products transfused (in units), median (Q1, Q3) 0 (0, 2) 2.7 (2, 6). Values originally reported as median (Q1, Q3)."
+   },
+   {
+    "name": "Hospital length of stay (ISS <16) (median [IQR])",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "days",
+    "median_intervention": 3,
+    "iqr_lower_intervention": 1,
+    "iqr_upper_intervention": 6,
+    "median_control": 7,
+    "iqr_lower_control": 4,
+    "iqr_upper_control": 13,
+    "n_intervention": 194,
+    "n_control": 190,
+    "arms": [
+     {
+      "source_name": "TXA (ISS <16)",
+      "harmonized_name": "",
+      "n": 194,
+      "events": null,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control (ISS <16)",
+      "harmonized_name": "",
+      "n": 190,
+      "events": null,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Hospital discharge",
+    "is_primary": false,
+    "source_quote": "Table 4. Subgroup analysis of patients based on the Injury Severity Score. ... Hospital LOS (in days), median (Q1, Q3) 3 (1, 6) 7 (4, 13). Values originally reported as median (Q1, Q3)."
+   },
+   {
+    "name": "ICU length of stay (ISS <16) (median [IQR])",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "days",
+    "median_intervention": 3,
+    "iqr_lower_intervention": 2,
+    "iqr_upper_intervention": 5,
+    "median_control": 5,
+    "iqr_lower_control": 3,
+    "iqr_upper_control": 9.5,
+    "n_intervention": 194,
+    "n_control": 190,
+    "arms": [
+     {
+      "source_name": "TXA (ISS <16)",
+      "harmonized_name": "",
+      "n": 194,
+      "events": null,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control (ISS <16)",
+      "harmonized_name": "",
+      "n": 190,
+      "events": null,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "ICU discharge",
+    "is_primary": false,
+    "source_quote": "Table 4. Subgroup analysis of patients based on the Injury Severity Score. ... ICU LOS (in days), median (Q1, Q3) 3 (2, 5) 5 (3, 9.5). Values originally reported as median (Q1, Q3)."
+   },
+   {
+    "name": "Mortality at 24 hours (ISS >=16)",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": null,
+    "events_intervention": 7,
+    "events_control": 8,
+    "n_intervention": 168,
+    "n_control": 172,
+    "arms": [
+     {
+      "source_name": "TXA (ISS >=16)",
+      "harmonized_name": "",
+      "n": 168,
+      "events": 7,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control (ISS >=16)",
+      "harmonized_name": "",
+      "n": 172,
+      "events": 8,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "24 hours",
+    "is_primary": false,
+    "source_quote": "Table 4. Subgroup analysis of patients based on the Injury Severity Score. ... Patients with ISS >=16 (n=340) ... Mortality at 24 hours 7 (4.2%) 8 (4.7%)"
+   },
+   {
+    "name": "Mortality at 48 hours (ISS >=16)",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": null,
+    "events_intervention": 9,
+    "events_control": 11,
+    "n_intervention": 168,
+    "n_control": 172,
+    "arms": [
+     {
+      "source_name": "TXA (ISS >=16)",
+      "harmonized_name": "",
+      "n": 168,
+      "events": 9,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control (ISS >=16)",
+      "harmonized_name": "",
+      "n": 172,
+      "events": 11,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "48 hours",
+    "is_primary": false,
+    "source_quote": "Table 4. Subgroup analysis of patients based on the Injury Severity Score. ... Patients with ISS >=16 (n=340) ... Mortality at 48 hours 9 (5.4%) 11 (6.4%)"
+   },
+   {
+    "name": "Mortality at 28 days (ISS >=16)",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": null,
+    "events_intervention": 10,
+    "events_control": 25,
+    "n_intervention": 168,
+    "n_control": 172,
+    "arms": [
+     {
+      "source_name": "TXA (ISS >=16)",
+      "harmonized_name": "",
+      "n": 168,
+      "events": 10,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control (ISS >=16)",
+      "harmonized_name": "",
+      "n": 172,
+      "events": 25,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "28 days",
+    "is_primary": false,
+    "source_quote": "Table 4. Subgroup analysis of patients based on the Injury Severity Score. ... Patients with ISS >=16 (n=340) ... Mortality at 28 days 10 (6%) 25 (14.5%)"
+   },
+   {
+    "name": "Total blood products transfused (ISS >=16) (median [IQR])",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "units",
+    "median_intervention": 4,
+    "iqr_lower_intervention": 0,
+    "iqr_upper_intervention": 15,
+    "median_control": 4,
+    "iqr_lower_control": 2,
+    "iqr_upper_control": 12,
+    "n_intervention": 168,
+    "n_control": 172,
+    "arms": [
+     {
+      "source_name": "TXA (ISS >=16)",
+      "harmonized_name": "",
+      "n": 168,
+      "events": null,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control (ISS >=16)",
+      "harmonized_name": "",
+      "n": 172,
+      "events": null,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Hospital stay",
+    "is_primary": false,
+    "source_quote": "Table 4. Subgroup analysis of patients based on the Injury Severity Score. ... Total blood products transfused (in units), median (Q1, Q3) ... 4 (0, 15) 4 (2, 12). Values originally reported as median (Q1, Q3)."
+   },
+   {
+    "name": "Hospital length of stay (ISS >=16) (median [IQR])",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "days",
+    "median_intervention": 8,
+    "iqr_lower_intervention": 2,
+    "iqr_upper_intervention": 16,
+    "median_control": 10,
+    "iqr_lower_control": 6,
+    "iqr_upper_control": 17,
+    "n_intervention": 168,
+    "n_control": 172,
+    "arms": [
+     {
+      "source_name": "TXA (ISS >=16)",
+      "harmonized_name": "",
+      "n": 168,
+      "events": null,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control (ISS >=16)",
+      "harmonized_name": "",
+      "n": 172,
+      "events": null,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Hospital discharge",
+    "is_primary": false,
+    "source_quote": "Table 4. Subgroup analysis of patients based on the Injury Severity Score. ... Hospital LOS (in days), median (Q1, Q3) ... 8 (2, 16) 10 (6, 17). Values originally reported as median (Q1, Q3)."
+   },
+   {
+    "name": "ICU length of stay (ISS >=16) (median [IQR])",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "days",
+    "median_intervention": 5,
+    "iqr_lower_intervention": 2,
+    "iqr_upper_intervention": 13,
+    "median_control": 5,
+    "iqr_lower_control": 3,
+    "iqr_upper_control": 8,
+    "n_intervention": 168,
+    "n_control": 172,
+    "arms": [
+     {
+      "source_name": "TXA (ISS >=16)",
+      "harmonized_name": "",
+      "n": 168,
+      "events": null,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control (ISS >=16)",
+      "harmonized_name": "",
+      "n": 172,
+      "events": null,
+      "time": null,
+      "mean": null,
+      "sd": null,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "ICU discharge",
+    "is_primary": false,
+    "source_quote": "Table 4. Subgroup analysis of patients based on the Injury Severity Score. ... ICU LOS (in days), median (Q1, Q3) ... 5 (2, 13) 5 (3, 8). Values originally reported as median (Q1, Q3)."
+   }
+  ],
+  "selected_outcome_idx": 0,
+  "rob": null,
+  "robinsI": {
+   "confounding": "Moderate",
+   "selection": "Low",
+   "classification": "Low",
+   "deviations": "Low",
+   "missingData": "Low",
+   "measurement": "Low",
+   "reporting": "Low",
+   "overall": "Moderate",
+   "quotes": {
+    "confounding": "The control group patients were matched to TXA group patients through propensity scoring based upon gender, age, Injury Severity Score (ISS), and mechanism of injury. ... we acknowledge that we were not able to account for certain potential confounding factors. In the prehospital setting, we did not account for the impact of total EMS transport time, availability of IV access, first responder prehospital interventions, or differences in the transporting provider agency.",
+    "selection": "The control group was formed of patients seen at each receiving center within five years prior to the conclusion of data collection... matched to TXA group patients through propensity scoring",
+    "classification": "TXA administration was carried out uniformly among all participating EMS agencies.",
+    "deviations": "Data for included subjects were abstracted from the electronic medical record and trauma registry for each patient.",
+    "missingData": "In select cases, direct chart review was conducted, and in cases of missing data, study investigators contacted patients' and/or patients' families directly to determine survival outcomes.",
+    "measurement": "The primary outcome was mortality measured at 24 hours, 48 hours, and 28 days. Data for included subjects were abstracted from the electronic medical record and trauma registry for each patient.",
+    "reporting": "We compared clinical outcomes between the TXA and control groups. The results were also presented in Table 1."
+   }
+  },
+  "quadas2": null
+ }
+}

@@ -1,0 +1,301 @@
+{
+ "id": "p2txa-17",
+ "pdf": "Outcomes of tranexamic acid administration in military trauma patients with intracranial hemorrhage- a cohort study.pdf",
+ "attempt": 2,
+ "extracted_at": "2026-10-14T17:22:46.474Z",
+ "seconds": 122,
+ "data": {
+  "id": "p2txa-17",
+  "title": "Outcomes of tranexamic acid administration in military trauma patients with intracranial hemorrhage: a cohort study",
+  "author": "Walker",
+  "year": 2020,
+  "design": "Cohort",
+  "doi": "10.1186/s12873-020-00335-w",
+  "available_outcomes": [
+   {
+    "name": "Underwent cranial decompression",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "Participants",
+    "events_intervention": 7,
+    "n_intervention": 14,
+    "events_control": 24,
+    "n_control": 57,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "harmonized_name": "",
+      "n": 14,
+      "events": 7,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "No TXA",
+      "harmonized_name": "",
+      "n": 57,
+      "events": 24,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "During hospitalization",
+    "is_primary": false,
+    "source_quote": "Table 3 Outcomes stratified by tranexamic acid administration... Underwent cranial decompression, n: TXA (n = 14) 7 (50.0%); No TXA (n = 57) 24 (42.1%)"
+   },
+   {
+    "name": "Field GCS",
+    "type": "Benefit",
+    "data_type": "Continuous",
+    "unit": "Score",
+    "n_intervention": 14,
+    "mean_intervention": 9.2,
+    "sd_intervention": 4.4,
+    "n_control": 57,
+    "mean_control": 12.5,
+    "sd_control": 3.4,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "harmonized_name": "",
+      "n": 14,
+      "mean": 9.2,
+      "sd": 4.4,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "No TXA",
+      "harmonized_name": "",
+      "n": 57,
+      "mean": 12.5,
+      "sd": 3.4,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Initial/Field",
+    "is_primary": false,
+    "source_quote": "Table 3 Outcomes stratified by tranexamic acid administration... Field GCS: TXA (n = 14) 9.2 ± 4.4; No TXA (n = 57) 12.5 ± 3.4. Continuous variables expressed as mean ± standard deviation"
+   },
+   {
+    "name": "Discharge GCS",
+    "type": "Benefit",
+    "data_type": "Continuous",
+    "unit": "Score",
+    "n_intervention": 14,
+    "mean_intervention": 13.3,
+    "sd_intervention": 4,
+    "n_control": 57,
+    "mean_control": 13.8,
+    "sd_control": 3.2,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "harmonized_name": "",
+      "n": 14,
+      "mean": 13.3,
+      "sd": 4,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "No TXA",
+      "harmonized_name": "",
+      "n": 57,
+      "mean": 13.8,
+      "sd": 3.2,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Discharge",
+    "is_primary": false,
+    "source_quote": "Table 3 Outcomes stratified by tranexamic acid administration... Discharge GCS: TXA (n = 14) 13.3 ± 4.0; No TXA (n = 57) 13.8 ± 3.2. Continuous variables expressed as mean ± standard deviation"
+   },
+   {
+    "name": "Change in GCS",
+    "type": "Benefit",
+    "data_type": "Continuous",
+    "unit": "Score",
+    "n_intervention": 14,
+    "mean_intervention": 3.7,
+    "sd_intervention": 3.9,
+    "n_control": 57,
+    "mean_control": 1.3,
+    "sd_control": 3.1,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "harmonized_name": "",
+      "n": 14,
+      "mean": 3.7,
+      "sd": 3.9,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "No TXA",
+      "harmonized_name": "",
+      "n": 57,
+      "mean": 1.3,
+      "sd": 3.1,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Discharge vs Field",
+    "is_primary": false,
+    "source_quote": "Table 3 Outcomes stratified by tranexamic acid administration... Change in GCS: TXA (n = 14) 3.7 ± 3.9; No TXA (n = 57) 1.3 ± 3.1. Continuous variables expressed as mean ± standard deviation"
+   },
+   {
+    "name": "6-month GOS",
+    "type": "Benefit",
+    "data_type": "Continuous",
+    "unit": "Score",
+    "n_intervention": 14,
+    "mean_intervention": 3.5,
+    "sd_intervention": 0.9,
+    "n_control": 57,
+    "mean_control": 3.8,
+    "sd_control": 1,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "harmonized_name": "",
+      "n": 14,
+      "mean": 3.5,
+      "sd": 0.9,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "No TXA",
+      "harmonized_name": "",
+      "n": 57,
+      "mean": 3.8,
+      "sd": 1,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "6 months",
+    "is_primary": false,
+    "source_quote": "Table 3 Outcomes stratified by tranexamic acid administration... 6-month GOS: TXA (n = 14) 3.5 ± 0.9; No TXA (n = 57) 3.8 ± 1.0. Continuous variables expressed as mean ± standard deviation"
+   },
+   {
+    "name": "Mortality",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "Participants",
+    "events_intervention": 1,
+    "n_intervention": 14,
+    "events_control": 4,
+    "n_control": 57,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "harmonized_name": "",
+      "n": 14,
+      "events": 1,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "No TXA",
+      "harmonized_name": "",
+      "n": 57,
+      "events": 4,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Not specified (likely inpatient)",
+    "is_primary": false,
+    "source_quote": "Table 3 Outcomes stratified by tranexamic acid administration... Mortality, n: TXA (n = 14) 1 (7.1%); No TXA (n = 57) 4 (7.0%)"
+   },
+   {
+    "name": "Progression of ICH",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "Participants",
+    "events_intervention": 5,
+    "n_intervention": 10,
+    "events_control": 6,
+    "n_control": 35,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "harmonized_name": "",
+      "n": 10,
+      "events": 5,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "No TXA",
+      "harmonized_name": "",
+      "n": 35,
+      "events": 6,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Follow-up CT prior to intervention",
+    "is_primary": false,
+    "source_quote": "Of the 45 patients with an interval CT scan prior to intervention available for analysis, 11 (24.4%) demonstrated progression of ICH (Table 4)... although there was a trend towards a higher rate of progression in those patients that received TXA (45.5% vs. 14.7%, p = 0.09). Table 4... TXA administration, n: Total (n=45) 10 (22.2%); ICH Progression (n=11) 5 (45.5%); No ICH Progression (n=34) 5 (14.7%). [Calculated from table columns: 5/10 TXA progressed vs 6/35 No TXA progressed]."
+   },
+   {
+    "name": "Venous thromboembolism (VTE)",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "Participants",
+    "events_intervention": 5,
+    "n_intervention": 14,
+    "events_control": 4,
+    "n_control": 57,
+    "arms": [
+     {
+      "source_name": "TXA",
+      "harmonized_name": "",
+      "n": 14,
+      "events": 5,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "No TXA",
+      "harmonized_name": "",
+      "n": 57,
+      "events": 4,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Inpatient",
+    "is_primary": false,
+    "source_quote": "Nine patients in the cohort (12.7%) were diagnosed with VTE (Table 5)... [They] were also more likely to have ... been administered TXA (55.6% vs. 14.5%, p = 0.01). Table 5... Administered TXA, n: VTE (n=9) 5 (55.6%); No VTE (n=62) 9 (14.5%). [Thus among 14 TXA patients, 5 had VTE; among 57 No TXA patients, 4 had VTE]."
+   }
+  ],
+  "selected_outcome_idx": 6,
+  "robinsI": {
+   "confounding": "Serious",
+   "selection": "Moderate",
+   "classification": "Low",
+   "deviations": "Low",
+   "missingData": "Moderate",
+   "measurement": "Low",
+   "reporting": "Low",
+   "overall": "Serious",
+   "quotes": {
+    "confounding": "Patients that received TXA were more severely injured (36.6 ± 12.5 vs. 26.2 ± 11.4, p = 0.003)... lower initial reported GCS (9.2 ± 4.4 vs. 12.5 ± 3.4, p = 0.008)",
+    "selection": "Patients were only included if they survived evacuation to the Continental United States, potentially excluding patients who had worse overall outcomes.",
+    "classification": "Results were stratified based on TXA administration, progression of ICH, and VTE.",
+    "deviations": "Data was obtained from the Department of Defense Trauma Registry (DoDTR)...",
+    "missingData": "Patients were excluded if they... had incomplete data. 26 patients (36.7%) underwent cranial decompression prior to their follow-up CT scan and therefore were excluded from determination of ICH progression.",
+    "measurement": "Progression of ICH was determined qualitatively based on radiologist interpretation.",
+    "reporting": "Data collected included: demographics, types of injuries, initial and interval head computerized tomography (CT) scans, Glasgow Coma Scores (GCS), and six-month Glasgow Outcome Scores (GOS)."
+   }
+  }
+ }
+}

@@ -1,0 +1,1028 @@
+{
+ "id": "p2txa-21",
+ "pdf": "Safety and Efficacy of Hospital Utilization of Tranexamic Acid in Civilian Adult Trauma Resuscitation.pdf",
+ "attempt": 1,
+ "extracted_at": "2026-10-14T17:24:10.485Z",
+ "seconds": 199,
+ "data": {
+  "id": "p2txa-21",
+  "title": "Safety and Efficacy of Hospital Utilization of Tranexamic Acid in Civilian Adult Trauma Resuscitation",
+  "author": "Neeki",
+  "year": 2020,
+  "design": "Cohort",
+  "doi": "10.5811/westjem.2019.10.43055",
+  "available_outcomes": [
+   {
+    "name": "Mortality",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "participants",
+    "events_intervention": 3,
+    "events_control": 3,
+    "n_intervention": 280,
+    "n_control": 280,
+    "arms": [
+     {
+      "source_name": "Hospital TXA group",
+      "harmonized_name": "",
+      "n": 280,
+      "events": 3,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control group",
+      "harmonized_name": "",
+      "n": 280,
+      "events": 3,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "24 hours",
+    "is_primary": true,
+    "source_quote": "Table 2. Comparison of outcomes and factors between hospital tranexamic acid (TXA) and control groups. | Hospital TXA group (n = 280) | Control group (n = 280) | Mortality at 24 hours 3 (1.1%) 3 (1.1%)"
+   },
+   {
+    "name": "Mortality",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "participants",
+    "events_intervention": 3,
+    "events_control": 4,
+    "n_intervention": 280,
+    "n_control": 280,
+    "arms": [
+     {
+      "source_name": "Hospital TXA group",
+      "harmonized_name": "",
+      "n": 280,
+      "events": 3,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control group",
+      "harmonized_name": "",
+      "n": 280,
+      "events": 4,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "48 hours",
+    "is_primary": true,
+    "source_quote": "Table 2. Comparison of outcomes and factors between hospital tranexamic acid (TXA) and control groups. | Hospital TXA group (n = 280) | Control group (n = 280) | Mortality at 48 hours 3 (1.1%) 4 (1.4%)"
+   },
+   {
+    "name": "Mortality",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "participants",
+    "events_intervention": 3,
+    "events_control": 14,
+    "n_intervention": 280,
+    "n_control": 280,
+    "arms": [
+     {
+      "source_name": "Hospital TXA group",
+      "harmonized_name": "",
+      "n": 280,
+      "events": 3,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control group",
+      "harmonized_name": "",
+      "n": 280,
+      "events": 14,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "28 days",
+    "is_primary": true,
+    "source_quote": "The primary outcome of this study was mortality measured at 24 hours, 48 hours, and 28 days.\nTable 2. Comparison of outcomes and factors between hospital tranexamic acid (TXA) and control groups. | Hospital TXA group (n = 280) | Control group (n = 280) | Mortality at 28 days 3 (1.1%) 14 (5%)"
+   },
+   {
+    "name": "Total blood product (median [IQR])",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "units",
+    "median_intervention": 4,
+    "iqr_lower_intervention": 1,
+    "iqr_upper_intervention": 10,
+    "median_control": 7,
+    "iqr_lower_control": 2,
+    "iqr_upper_control": 12.5,
+    "n_intervention": 280,
+    "n_control": 280,
+    "arms": [
+     {
+      "source_name": "Hospital TXA group",
+      "harmonized_name": "",
+      "n": 280,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control group",
+      "harmonized_name": "",
+      "n": 280,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Hospital stay",
+    "is_primary": false,
+    "source_quote": "Table 2. Comparison of outcomes and factors between hospital tranexamic acid (TXA) and control groups. | Hospital TXA group (n = 280) | Control group (n = 280) | Total blood product, units, median (Q1, Q3) 4 (1, 10) 7 (2, 12.5)\n‡ Values were presented as the median and IQR"
+   },
+   {
+    "name": "Hospital LOS (median [IQR])",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "days",
+    "median_intervention": 9,
+    "iqr_lower_intervention": 5,
+    "iqr_upper_intervention": 16,
+    "median_control": 12,
+    "iqr_lower_control": 6,
+    "iqr_upper_control": 22.5,
+    "n_intervention": 280,
+    "n_control": 280,
+    "arms": [
+     {
+      "source_name": "Hospital TXA group",
+      "harmonized_name": "",
+      "n": 280,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control group",
+      "harmonized_name": "",
+      "n": 280,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Hospital stay",
+    "is_primary": false,
+    "source_quote": "Table 2. Comparison of outcomes and factors between hospital tranexamic acid (TXA) and control groups. | Hospital TXA group (n = 280) | Control group (n = 280) | Hospital LOS, days, median (Q1, Q3) 9 (5, 16) 12 (6, 22.5)\n‡ Values were presented as the median and IQR"
+   },
+   {
+    "name": "ICU LOS (median [IQR])",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "days",
+    "median_intervention": 4,
+    "iqr_lower_intervention": 3,
+    "iqr_upper_intervention": 8,
+    "median_control": 4,
+    "iqr_lower_control": 2,
+    "iqr_upper_control": 10,
+    "n_intervention": 280,
+    "n_control": 280,
+    "arms": [
+     {
+      "source_name": "Hospital TXA group",
+      "harmonized_name": "",
+      "n": 280,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control group",
+      "harmonized_name": "",
+      "n": 280,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Hospital stay",
+    "is_primary": false,
+    "source_quote": "Table 2. Comparison of outcomes and factors between hospital tranexamic acid (TXA) and control groups. | Hospital TXA group (n = 280) | Control group (n = 280) | ICU LOS, days, median (Q1, Q3) 4 (3, 8) 4 (2, 10)\n‡ Values were presented as the median and IQR"
+   },
+   {
+    "name": "VTE",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "participants",
+    "events_intervention": 2,
+    "events_control": 2,
+    "n_intervention": 280,
+    "n_control": 280,
+    "arms": [
+     {
+      "source_name": "Hospital TXA group",
+      "harmonized_name": "",
+      "n": 280,
+      "events": 2,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control group",
+      "harmonized_name": "",
+      "n": 280,
+      "events": 2,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Hospital stay",
+    "is_primary": false,
+    "source_quote": "Table 2. Comparison of outcomes and factors between hospital tranexamic acid (TXA) and control groups. | Adverse event during hospital stay | VTE 2 (0.7%) 2 (0.7%)"
+   },
+   {
+    "name": "Mortality (ISS > 15 subgroup)",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "participants",
+    "events_intervention": 3,
+    "events_control": 3,
+    "n_intervention": 167,
+    "n_control": 170,
+    "arms": [
+     {
+      "source_name": "Hospital TXA group",
+      "harmonized_name": "",
+      "n": 167,
+      "events": 3,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control group",
+      "harmonized_name": "",
+      "n": 170,
+      "events": 3,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "24 hours",
+    "is_primary": false,
+    "source_quote": "Table 3. Subgroup analysis: comparison of outcomes and factors between hospital tranexamic acid (TXA) and control groups among patients with Injury Severity Score >15. | Hospital TXA group (n=167) | Control group (n=170) | Mortality at 24 hours 3 (1.8%) 3 (1.8%)"
+   },
+   {
+    "name": "Mortality (ISS > 15 subgroup)",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "participants",
+    "events_intervention": 3,
+    "events_control": 4,
+    "n_intervention": 167,
+    "n_control": 170,
+    "arms": [
+     {
+      "source_name": "Hospital TXA group",
+      "harmonized_name": "",
+      "n": 167,
+      "events": 3,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control group",
+      "harmonized_name": "",
+      "n": 170,
+      "events": 4,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "48 hours",
+    "is_primary": false,
+    "source_quote": "Table 3. Subgroup analysis: comparison of outcomes and factors between hospital tranexamic acid (TXA) and control groups among patients with Injury Severity Score >15. | Hospital TXA group (n=167) | Control group (n=170) | Mortality at 48 hours 3 (1.8%) 4 (2.4%)"
+   },
+   {
+    "name": "Mortality (ISS > 15 subgroup)",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "participants",
+    "events_intervention": 3,
+    "events_control": 12,
+    "n_intervention": 167,
+    "n_control": 170,
+    "arms": [
+     {
+      "source_name": "Hospital TXA group",
+      "harmonized_name": "",
+      "n": 167,
+      "events": 3,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control group",
+      "harmonized_name": "",
+      "n": 170,
+      "events": 12,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "28 days",
+    "is_primary": false,
+    "source_quote": "Table 3. Subgroup analysis: comparison of outcomes and factors between hospital tranexamic acid (TXA) and control groups among patients with Injury Severity Score >15. | Hospital TXA group (n=167) | Control group (n=170) | Mortality at 28 days 3 (1.8%) 12 (7.1%)"
+   },
+   {
+    "name": "Total Blood Product (ISS > 15 subgroup) (median [IQR])",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "units",
+    "median_intervention": 7,
+    "iqr_lower_intervention": 2,
+    "iqr_upper_intervention": 14,
+    "median_control": 8.5,
+    "iqr_lower_control": 4,
+    "iqr_upper_control": 16,
+    "n_intervention": 167,
+    "n_control": 170,
+    "arms": [
+     {
+      "source_name": "Hospital TXA group",
+      "harmonized_name": "",
+      "n": 167,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control group",
+      "harmonized_name": "",
+      "n": 170,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Hospital stay",
+    "is_primary": false,
+    "source_quote": "Table 3. Subgroup analysis: comparison of outcomes and factors between hospital tranexamic acid (TXA) and control groups among patients with Injury Severity Score >15. | Total Blood Product, units, median (Q1, Q3) 7 (2, 14) 8.5 (4, 16)\n‡ Values were presented as the median and IQR"
+   },
+   {
+    "name": "Hospital LOS (ISS > 15 subgroup) (median [IQR])",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "days",
+    "median_intervention": 13,
+    "iqr_lower_intervention": 7,
+    "iqr_upper_intervention": 17,
+    "median_control": 14,
+    "iqr_lower_control": 7,
+    "iqr_upper_control": 27,
+    "n_intervention": 167,
+    "n_control": 170,
+    "arms": [
+     {
+      "source_name": "Hospital TXA group",
+      "harmonized_name": "",
+      "n": 167,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control group",
+      "harmonized_name": "",
+      "n": 170,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Hospital stay",
+    "is_primary": false,
+    "source_quote": "Table 3. Subgroup analysis: comparison of outcomes and factors between hospital tranexamic acid (TXA) and control groups among patients with Injury Severity Score >15. | Hospital LOS, days, median (Q1, Q3) 13 (7, 17) 14 (7, 27)\n‡ Values were presented as the median and IQR"
+   },
+   {
+    "name": "ICU LOS (ISS > 15 subgroup) (median [IQR])",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "days",
+    "median_intervention": 5,
+    "iqr_lower_intervention": 3,
+    "iqr_upper_intervention": 10,
+    "median_control": 5,
+    "iqr_lower_control": 3,
+    "iqr_upper_control": 13,
+    "n_intervention": 167,
+    "n_control": 170,
+    "arms": [
+     {
+      "source_name": "Hospital TXA group",
+      "harmonized_name": "",
+      "n": 167,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control group",
+      "harmonized_name": "",
+      "n": 170,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Hospital stay",
+    "is_primary": false,
+    "source_quote": "Table 3. Subgroup analysis: comparison of outcomes and factors between hospital tranexamic acid (TXA) and control groups among patients with Injury Severity Score >15. | ICU LOS, days, median (Q1, Q3) 5 (3, 10) 5 (3, 13)\n‡ Values were presented as the median and IQR"
+   },
+   {
+    "name": "Mortality (Blood product >= 10 Units subgroup)",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "participants",
+    "events_intervention": 3,
+    "events_control": 3,
+    "n_intervention": 76,
+    "n_control": 100,
+    "arms": [
+     {
+      "source_name": "Hospital TXA group",
+      "harmonized_name": "",
+      "n": 76,
+      "events": 3,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control group",
+      "harmonized_name": "",
+      "n": 100,
+      "events": 3,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "24 hours",
+    "is_primary": false,
+    "source_quote": "Table 4. Subgroup analysis: comparison of outcomes and factors between hospital tranexamic acid (TXA) and control groups among patients who were transfused ≥10 units of blood product. | Hospital TXA group (n=76) | Control group (n=100) | Mortality at 24 hours 3 (4%) 3 (3%)"
+   },
+   {
+    "name": "Mortality (Blood product >= 10 Units subgroup)",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "participants",
+    "events_intervention": 3,
+    "events_control": 4,
+    "n_intervention": 76,
+    "n_control": 100,
+    "arms": [
+     {
+      "source_name": "Hospital TXA group",
+      "harmonized_name": "",
+      "n": 76,
+      "events": 3,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control group",
+      "harmonized_name": "",
+      "n": 100,
+      "events": 4,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "48 hours",
+    "is_primary": false,
+    "source_quote": "Table 4. Subgroup analysis: comparison of outcomes and factors between hospital tranexamic acid (TXA) and control groups among patients who were transfused ≥10 units of blood product. | Hospital TXA group (n=76) | Control group (n=100) | Mortality at 48 hours 3 (4%) 4 (4%)"
+   },
+   {
+    "name": "Mortality (Blood product >= 10 Units subgroup)",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "participants",
+    "events_intervention": 3,
+    "events_control": 11,
+    "n_intervention": 76,
+    "n_control": 100,
+    "arms": [
+     {
+      "source_name": "Hospital TXA group",
+      "harmonized_name": "",
+      "n": 76,
+      "events": 3,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control group",
+      "harmonized_name": "",
+      "n": 100,
+      "events": 11,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "28 days",
+    "is_primary": false,
+    "source_quote": "Table 4. Subgroup analysis: comparison of outcomes and factors between hospital tranexamic acid (TXA) and control groups among patients who were transfused ≥10 units of blood product. | Hospital TXA group (n=76) | Control group (n=100) | Mortality at 28 days 3 (4%) 11 (11%)"
+   },
+   {
+    "name": "Total Blood Product (Blood product >= 10 Units subgroup) (median [IQR])",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "units",
+    "median_intervention": 15.5,
+    "iqr_lower_intervention": 12,
+    "iqr_upper_intervention": 23.5,
+    "median_control": 16,
+    "iqr_lower_control": 12,
+    "iqr_upper_control": 25,
+    "n_intervention": 76,
+    "n_control": 100,
+    "arms": [
+     {
+      "source_name": "Hospital TXA group",
+      "harmonized_name": "",
+      "n": 76,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control group",
+      "harmonized_name": "",
+      "n": 100,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Hospital stay",
+    "is_primary": false,
+    "source_quote": "Table 4. Subgroup analysis: comparison of outcomes and factors between hospital tranexamic acid (TXA) and control groups among patients who were transfused ≥10 units of blood product. | Total Blood Product, units, median (Q1, Q3) 15.5 (12, 23.5) 16 (12, 25)\n‡ Values were presented as the median and IQR"
+   },
+   {
+    "name": "Hospital LOS (Blood product >= 10 Units subgroup) (median [IQR])",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "days",
+    "median_intervention": 16,
+    "iqr_lower_intervention": 8,
+    "iqr_upper_intervention": 23,
+    "median_control": 16,
+    "iqr_lower_control": 7,
+    "iqr_upper_control": 28.5,
+    "n_intervention": 76,
+    "n_control": 100,
+    "arms": [
+     {
+      "source_name": "Hospital TXA group",
+      "harmonized_name": "",
+      "n": 76,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control group",
+      "harmonized_name": "",
+      "n": 100,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Hospital stay",
+    "is_primary": false,
+    "source_quote": "Table 4. Subgroup analysis: comparison of outcomes and factors between hospital tranexamic acid (TXA) and control groups among patients who were transfused ≥10 units of blood product. | Hospital LOS, days, median (Q1, Q3) 16 (8, 23) 16 (7, 28.5)\n‡ Values were presented as the median and IQR"
+   },
+   {
+    "name": "ICU LOS (Blood product >= 10 Units subgroup) (median [IQR])",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "days",
+    "median_intervention": 6,
+    "iqr_lower_intervention": 3,
+    "iqr_upper_intervention": 13,
+    "median_control": 6,
+    "iqr_lower_control": 4,
+    "iqr_upper_control": 13,
+    "n_intervention": 76,
+    "n_control": 100,
+    "arms": [
+     {
+      "source_name": "Hospital TXA group",
+      "harmonized_name": "",
+      "n": 76,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control group",
+      "harmonized_name": "",
+      "n": 100,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Hospital stay",
+    "is_primary": false,
+    "source_quote": "Table 4. Subgroup analysis: comparison of outcomes and factors between hospital tranexamic acid (TXA) and control groups among patients who were transfused ≥10 units of blood product. | ICU LOS, days, median (Q1, Q3) 6 (3, 13) 6 (4, 13)\n‡ Values were presented as the median and IQR"
+   },
+   {
+    "name": "Mortality (Blunt trauma subgroup)",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "participants",
+    "events_intervention": 1,
+    "events_control": 1,
+    "n_intervention": 159,
+    "n_control": 160,
+    "arms": [
+     {
+      "source_name": "Hospital TXA group",
+      "harmonized_name": "",
+      "n": 159,
+      "events": 1,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control group",
+      "harmonized_name": "",
+      "n": 160,
+      "events": 1,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "24 hours",
+    "is_primary": false,
+    "source_quote": "Table 5. Subgroup analysis: comparison of outcomes and factors between hospital tranexamic acid (TXA) and control groups for blunt vs penetrating trauma. | Blunt trauma (n = 319) | Hospital TXA group (n = 159) | Control group (n = 160) | Mortality at 24 hours 1 (0.6%) 1 (0.6%)"
+   },
+   {
+    "name": "Mortality (Blunt trauma subgroup)",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "participants",
+    "events_intervention": 1,
+    "events_control": 2,
+    "n_intervention": 159,
+    "n_control": 160,
+    "arms": [
+     {
+      "source_name": "Hospital TXA group",
+      "harmonized_name": "",
+      "n": 159,
+      "events": 1,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control group",
+      "harmonized_name": "",
+      "n": 160,
+      "events": 2,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "48 hours",
+    "is_primary": false,
+    "source_quote": "Table 5. Subgroup analysis: comparison of outcomes and factors between hospital tranexamic acid (TXA) and control groups for blunt vs penetrating trauma. | Blunt trauma (n = 319) | Hospital TXA group (n = 159) | Control group (n = 160) | Mortality at 48 hours 1 (0.6%) 2 (1.3%)"
+   },
+   {
+    "name": "Mortality (Blunt trauma subgroup)",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "participants",
+    "events_intervention": 1,
+    "events_control": 10,
+    "n_intervention": 159,
+    "n_control": 160,
+    "arms": [
+     {
+      "source_name": "Hospital TXA group",
+      "harmonized_name": "",
+      "n": 159,
+      "events": 1,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control group",
+      "harmonized_name": "",
+      "n": 160,
+      "events": 10,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "28 days",
+    "is_primary": false,
+    "source_quote": "Table 5. Subgroup analysis: comparison of outcomes and factors between hospital tranexamic acid (TXA) and control groups for blunt vs penetrating trauma. | Blunt trauma (n = 319) | Hospital TXA group (n = 159) | Control group (n = 160) | Mortality at 28 days 1 (0.6%) 10 (6.3%)"
+   },
+   {
+    "name": "Total Blood Product (Blunt trauma subgroup) (median [IQR])",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "units",
+    "median_intervention": 5,
+    "iqr_lower_intervention": 2,
+    "iqr_upper_intervention": 11,
+    "median_control": 5,
+    "iqr_lower_control": 2,
+    "iqr_upper_control": 11,
+    "n_intervention": 159,
+    "n_control": 160,
+    "arms": [
+     {
+      "source_name": "Hospital TXA group",
+      "harmonized_name": "",
+      "n": 159,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control group",
+      "harmonized_name": "",
+      "n": 160,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Hospital stay",
+    "is_primary": false,
+    "source_quote": "Table 5. Subgroup analysis: comparison of outcomes and factors between hospital tranexamic acid (TXA) and control groups for blunt vs penetrating trauma. | Total Blood Product, units, median (Q1, Q3) 5 (2, 11) 5 (2, 11)\n‡ Values were presented as the median and IQR"
+   },
+   {
+    "name": "Hospital LOS (Blunt trauma subgroup) (median [IQR])",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "days",
+    "median_intervention": 13,
+    "iqr_lower_intervention": 7,
+    "iqr_upper_intervention": 16,
+    "median_control": 14,
+    "iqr_lower_control": 5,
+    "iqr_upper_control": 23,
+    "n_intervention": 159,
+    "n_control": 160,
+    "arms": [
+     {
+      "source_name": "Hospital TXA group",
+      "harmonized_name": "",
+      "n": 159,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control group",
+      "harmonized_name": "",
+      "n": 160,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Hospital stay",
+    "is_primary": false,
+    "source_quote": "Table 5. Subgroup analysis: comparison of outcomes and factors between hospital tranexamic acid (TXA) and control groups for blunt vs penetrating trauma. | Hospital LOS, days, median (Q1, Q3) 13 (7, 16) 14 (5, 23)\n‡ Values were presented as the median and IQR"
+   },
+   {
+    "name": "ICU LOS (Blunt trauma subgroup) (median [IQR])",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "days",
+    "median_intervention": 5,
+    "iqr_lower_intervention": 3,
+    "iqr_upper_intervention": 10,
+    "median_control": 5,
+    "iqr_lower_control": 2,
+    "iqr_upper_control": 10,
+    "n_intervention": 159,
+    "n_control": 160,
+    "arms": [
+     {
+      "source_name": "Hospital TXA group",
+      "harmonized_name": "",
+      "n": 159,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control group",
+      "harmonized_name": "",
+      "n": 160,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Hospital stay",
+    "is_primary": false,
+    "source_quote": "Table 5. Subgroup analysis: comparison of outcomes and factors between hospital tranexamic acid (TXA) and control groups for blunt vs penetrating trauma. | ICU LOS, days, median (Q1, Q3) 5 (3, 10) 5 (2, 10)\n‡ Values were presented as the median and IQR"
+   },
+   {
+    "name": "Mortality (Penetrating trauma subgroup)",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "participants",
+    "events_intervention": 2,
+    "events_control": 2,
+    "n_intervention": 121,
+    "n_control": 120,
+    "arms": [
+     {
+      "source_name": "Hospital TXA group",
+      "harmonized_name": "",
+      "n": 121,
+      "events": 2,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control group",
+      "harmonized_name": "",
+      "n": 120,
+      "events": 2,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "24 hours",
+    "is_primary": false,
+    "source_quote": "Table 5. Subgroup analysis: comparison of outcomes and factors between hospital tranexamic acid (TXA) and control groups for blunt vs penetrating trauma. | Penetrating trauma (n=241) | Hospital TXA group (n = 121) | Control group (n = 120) | Mortality at 24 hours 2 (1.7%) 2 (1.7%)"
+   },
+   {
+    "name": "Mortality (Penetrating trauma subgroup)",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "participants",
+    "events_intervention": 2,
+    "events_control": 2,
+    "n_intervention": 121,
+    "n_control": 120,
+    "arms": [
+     {
+      "source_name": "Hospital TXA group",
+      "harmonized_name": "",
+      "n": 121,
+      "events": 2,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control group",
+      "harmonized_name": "",
+      "n": 120,
+      "events": 2,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "48 hours",
+    "is_primary": false,
+    "source_quote": "Table 5. Subgroup analysis: comparison of outcomes and factors between hospital tranexamic acid (TXA) and control groups for blunt vs penetrating trauma. | Penetrating trauma (n=241) | Hospital TXA group (n = 121) | Control group (n = 120) | Mortality at 48 hours 2 (1.7%) 2 (1.7%)"
+   },
+   {
+    "name": "Mortality (Penetrating trauma subgroup)",
+    "type": "Harm",
+    "data_type": "Dichotomous",
+    "unit": "participants",
+    "events_intervention": 2,
+    "events_control": 4,
+    "n_intervention": 121,
+    "n_control": 120,
+    "arms": [
+     {
+      "source_name": "Hospital TXA group",
+      "harmonized_name": "",
+      "n": 121,
+      "events": 2,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control group",
+      "harmonized_name": "",
+      "n": 120,
+      "events": 4,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "28 days",
+    "is_primary": false,
+    "source_quote": "Table 5. Subgroup analysis: comparison of outcomes and factors between hospital tranexamic acid (TXA) and control groups for blunt vs penetrating trauma. | Penetrating trauma (n=241) | Hospital TXA group (n = 121) | Control group (n = 120) | Mortality at 28 days 2 (1.7%) 4 (3.3%)"
+   },
+   {
+    "name": "Total Blood Product (Penetrating trauma subgroup) (median [IQR])",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "units",
+    "median_intervention": 2,
+    "iqr_lower_intervention": 1,
+    "iqr_upper_intervention": 8,
+    "median_control": 8,
+    "iqr_lower_control": 5,
+    "iqr_upper_control": 15,
+    "n_intervention": 121,
+    "n_control": 120,
+    "arms": [
+     {
+      "source_name": "Hospital TXA group",
+      "harmonized_name": "",
+      "n": 121,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control group",
+      "harmonized_name": "",
+      "n": 120,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Hospital stay",
+    "is_primary": false,
+    "source_quote": "Table 5. Subgroup analysis: comparison of outcomes and factors between hospital tranexamic acid (TXA) and control groups for blunt vs penetrating trauma. | Penetrating trauma (n=241) | Total Blood Product, units, median (Q1, Q3) 2 (1, 8) 8 (5, 15)\n‡ Values were presented as the median and IQR"
+   },
+   {
+    "name": "Hospital LOS (Penetrating trauma subgroup) (median [IQR])",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "days",
+    "median_intervention": 6,
+    "iqr_lower_intervention": 2.5,
+    "iqr_upper_intervention": 14.5,
+    "median_control": 11,
+    "iqr_lower_control": 7,
+    "iqr_upper_control": 21.5,
+    "n_intervention": 121,
+    "n_control": 120,
+    "arms": [
+     {
+      "source_name": "Hospital TXA group",
+      "harmonized_name": "",
+      "n": 121,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control group",
+      "harmonized_name": "",
+      "n": 120,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Hospital stay",
+    "is_primary": false,
+    "source_quote": "Table 5. Subgroup analysis: comparison of outcomes and factors between hospital tranexamic acid (TXA) and control groups for blunt vs penetrating trauma. | Penetrating trauma (n=241) | Hospital LOS, days, median (Q1, Q3) 6 (2.5, 14.5) 11 (7, 21.5)\n‡ Values were presented as the median and IQR"
+   },
+   {
+    "name": "ICU LOS (Penetrating trauma subgroup) (median [IQR])",
+    "type": "Harm",
+    "data_type": "Continuous",
+    "unit": "days",
+    "median_intervention": 3,
+    "iqr_lower_intervention": 1,
+    "iqr_upper_intervention": 5,
+    "median_control": 4,
+    "iqr_lower_control": 2,
+    "iqr_upper_control": 9,
+    "n_intervention": 121,
+    "n_control": 120,
+    "arms": [
+     {
+      "source_name": "Hospital TXA group",
+      "harmonized_name": "",
+      "n": 121,
+      "is_control": false,
+      "included_in_analysis": null
+     },
+     {
+      "source_name": "Control group",
+      "harmonized_name": "",
+      "n": 120,
+      "is_control": true,
+      "included_in_analysis": null
+     }
+    ],
+    "timepoint": "Hospital stay",
+    "is_primary": false,
+    "source_quote": "Table 5. Subgroup analysis: comparison of outcomes and factors between hospital tranexamic acid (TXA) and control groups for blunt vs penetrating trauma. | Penetrating trauma (n=241) | ICU LOS, days, median (Q1, Q3) 3 (1, 5) 4 (2, 9)\n‡ Values were presented as the median and IQR"
+   }
+  ],
+  "selected_outcome_idx": 2,
+  "robinsI": {
+   "confounding": "Moderate",
+   "selection": "Low",
+   "classification": "Low",
+   "deviations": "Low",
+   "missingData": "Low",
+   "measurement": "Low",
+   "reporting": "Low",
+   "overall": "Moderate",
+   "quotes": {
+    "confounding": "A control group was formed from patients evaluated at each respective trauma center within five years prior to the conclusion of data collection for this report... matched to the “Hospital TXA” group patients through the use of propensity scoring based upon age, gender, injury severity score (ISS), and mechanism of injury.",
+    "selection": "Patients who sustained blunt or penetrating trauma with signs of hemorrhagic shock from June 2014 through July 2018 were considered for TXA treatment.",
+    "classification": "Identification of study patients receiving TXA was achieved through a wristband labeled “TXA” and/or verbal communication at patient hand-off by team members.",
+    "deviations": "TXA was delivered in two doses as per the protocol used in the CRASH-2 trial. The first dose was one gram... followed by a second dose... administered uniformly between centers based on the study protocol.",
+    "missingData": "Follow-up to determine mortality outcomes after hospital discharge were abstracted from the EHR and trauma registry. In select cases, we conducted direct chart review and, in cases of missing data, study investigators contacted the patient(s) and/or the families directly... All patients included in this study were accounted for via hospital follow-up or direct communication.",
+    "measurement": "Follow-up to determine mortality outcomes after hospital discharge were abstracted from the EHR and trauma registry.",
+    "reporting": "Based on the original study design, three pre-specified subgroup analyses were conducted to assess outcomes of patients..."
+   }
+  }
+ }
+}
