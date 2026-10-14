@@ -1,8 +1,8 @@
-# PubMetric Development Study — Data and Analysis Code
+# Evaluating the Data Extraction Accuracy of PubMetric — Data and Analysis Code
 
 Replication materials for:
 
-> Smith C, et al. "Accuracy of AI-assisted systematic review data extraction using PubMetric: a prospective development study." *[Journal TBD]* [Year TBD]. doi: [TBD]
+> Smith C, et al. "Evaluating the Data Extraction Accuracy of PubMetric: A Conditional Accuracy Assessment." *[Journal TBD]* [Year TBD]. doi: [TBD]
 
 PubMetric is described in: Smith C, et al. (2026). *Academic Emergency Medicine*. doi:[10.1111/acem.70326](https://doi.org/10.1111/acem.70326)
 
