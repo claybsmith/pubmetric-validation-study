@@ -110,3 +110,32 @@ And the PubMetric platform paper:
 
 Clay Smith — clay@journalfeed.org  
 Corresponding author for data access and prompt availability requests.
+
+---
+
+## TNK run 1 (added October 2026)
+
+PubMetric extracted the four TNK trials twice. **Run 1** (May 6, 2026) used prompt version P1, the same prompt as the final TXA extraction. After run 1, the denominator rule in the extraction prompt was rewritten, and **run 2** (May 7, 2026) used the revised prompt (P2). Run 2 is the run originally reported. Both runs are now provided so readers can see the effect of the prompt revision.
+
+The run 1 project was later deleted from the application; the file below is the extraction export saved at the time (created May 6, 2026, 20:27 CDT) and is included unchanged.
+
+| File | Contents |
+|---|---|
+| `data/tnk_run1_validation_table_s1eXSMfUh2LF28hgzCoV.csv` | Run 1 extraction export, unchanged (70 outcomes). Rows marked `was_edited = YES` are the application's automatic n = 1 placeholders on precalculated outcomes; no values were changed by hand. |
+| `data/tnk_run1_vs_adjudicated_ground_truth.csv` | Run 1 scored cell by cell against the adjudicated ground truth (`data/tnk_ground_truth.csv`), on the same 247 cells used for run 2. |
+| `data/tnk_side_by_side.csv` | For each of the 247 cells: adjudicated ground truth, both human extractors, PubMetric run 1, PubMetric run 2, and Claude, with match flags. |
+| `analysis/04_tnk_run1_score.py` | Reproduces the run 1 score (Python 3, standard library only): `python3 analysis/04_tnk_run1_score.py` |
+
+**Results against the adjudicated ground truth (three-physician consensus), 247 cells:**
+
+| Extractor | Correct |
+|---|---|
+| PubMetric run 1 (P1) | 237 (96.0%) |
+| PubMetric run 2 (P2) | 245 (99.2%) |
+| Human extractor (B. Long) | 239 (96.8%) |
+| Human extractor (S. Rouleau) | 232 (93.9%) |
+| Claude | 247 (100%) |
+
+All 10 run 1 errors were denominators in Albers et al.: run 1 applied the randomized N (228/230) to every efficacy outcome. Run 2 corrected 8 of the 10; the median modified Rankin scale denominator (228/230 vs 226/229) remained incorrect. Run 1 and run 2 agreed on 239 of 247 cells; the 8 differences are the corrected Albers denominators. Run 1 also extracted 15 outcomes (subgroups and hemorrhage-severity categories) that are not in the adjudicated ground truth and are not scored.
+
+TXA and TNK were development sets: the extraction prompt was revised using them, so accuracy on these sets is in-sample and may overestimate performance on new articles. Gemini temperature was not specified for these extractions (API default, 1.0).

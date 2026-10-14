@@ -1,0 +1,248 @@
+study,outcome,field,adjudicated_ground_truth,Sam,Sam_ok,Brit,Brit_ok,PM_run1,run1_ok,PM_run2,run2_ok,Claude,Claude_ok
+Albers,Median score on the modified Rankin scale at 90 days (median [IQR]),n_intervention,226,228,NO,228,NO,228,NO,228,NO,226,YES
+Albers,Median score on the modified Rankin scale at 90 days (median [IQR]),n_control,229,230,NO,230,NO,230,NO,230,NO,229,YES
+Albers,Median score on the modified Rankin scale at 90 days (median [IQR]),median_intervention,3,3,YES,3,YES,3,YES,3,YES,3,YES
+Albers,Median score on the modified Rankin scale at 90 days (median [IQR]),iqr_lower_intervention,1,1,YES,1,YES,1,YES,1,YES,1,YES
+Albers,Median score on the modified Rankin scale at 90 days (median [IQR]),iqr_upper_intervention,5,5,YES,5,YES,5,YES,5,YES,5,YES
+Albers,Median score on the modified Rankin scale at 90 days (median [IQR]),median_control,3,3,YES,3,YES,3,YES,3,YES,3,YES
+Albers,Median score on the modified Rankin scale at 90 days (median [IQR]),iqr_lower_control,1,1,YES,1,YES,1,YES,1,YES,1,YES
+Albers,Median score on the modified Rankin scale at 90 days (median [IQR]),iqr_upper_control,4,4,YES,4,YES,4,YES,4,YES,4,YES
+Albers,Distribution of scores on the modified Rankin scale at 90 days,effect_size,1.13,1.13,YES,1.13,YES,1.13,YES,1.13,YES,1.13,YES
+Albers,Distribution of scores on the modified Rankin scale at 90 days,ci_lower,0.82,0.82,YES,0.82,YES,0.82,YES,0.82,YES,0.82,YES
+Albers,Distribution of scores on the modified Rankin scale at 90 days,ci_upper,1.57,1.57,YES,1.57,YES,1.57,YES,1.57,YES,1.57,YES
+Albers,Functional independence at 90 days,n_intervention,226,226,YES,226,YES,228,NO,226,YES,226,YES
+Albers,Functional independence at 90 days,events_intervention,104,104,YES,104,YES,104,YES,104,YES,104,YES
+Albers,Functional independence at 90 days,n_control,229,229,YES,229,YES,230,NO,229,YES,229,YES
+Albers,Functional independence at 90 days,events_control,97,97,YES,97,YES,97,YES,97,YES,97,YES
+Albers,Recanalization at 24 hr,n_intervention,193,193,YES,193,YES,228,NO,193,YES,193,YES
+Albers,Recanalization at 24 hr,events_intervention,148,148,YES,148,YES,148,YES,148,YES,148,YES
+Albers,Recanalization at 24 hr,n_control,194,194,YES,194,YES,230,NO,194,YES,194,YES
+Albers,Recanalization at 24 hr,events_control,124,124,YES,124,YES,124,YES,124,YES,124,YES
+Albers,Reperfusion at 24 hr,n_intervention,174,174,YES,174,YES,228,NO,174,YES,174,YES
+Albers,Reperfusion at 24 hr,events_intervention,99,99,YES,99,YES,99,YES,99,YES,99,YES
+Albers,Reperfusion at 24 hr,n_control,182,182,YES,182,YES,230,NO,182,YES,182,YES
+Albers,Reperfusion at 24 hr,events_control,105,105,YES,105,YES,105,YES,105,YES,105,YES
+Albers,Reperfusion at the conclusion of endovascular thrombectomy,n_intervention,175,175,YES,175,YES,228,NO,175,YES,175,YES
+Albers,Reperfusion at the conclusion of endovascular thrombectomy,events_intervention,156,156,YES,156,YES,156,YES,156,YES,156,YES
+Albers,Reperfusion at the conclusion of endovascular thrombectomy,n_control,178,178,YES,178,YES,230,NO,178,YES,178,YES
+Albers,Reperfusion at the conclusion of endovascular thrombectomy,events_control,152,152,YES,152,YES,152,YES,152,YES,152,YES
+Albers,Death within 30 days,n_intervention,218,218,YES,218,YES,218,YES,218,YES,218,YES
+Albers,Death within 30 days,events_intervention,32,32,YES,32,YES,32,YES,32,YES,32,YES
+Albers,Death within 30 days,n_control,214,214,YES,214,YES,214,YES,214,YES,214,YES
+Albers,Death within 30 days,events_control,32,32,YES,32,YES,32,YES,32,YES,32,YES
+Albers,Death within 90 days,n_intervention,218,218,YES,218,YES,218,YES,218,YES,218,YES
+Albers,Death within 90 days,events_intervention,43,43,YES,43,YES,43,YES,43,YES,43,YES
+Albers,Death within 90 days,n_control,214,214,YES,214,YES,214,YES,214,YES,214,YES
+Albers,Death within 90 days,events_control,39,39,YES,39,YES,39,YES,39,YES,39,YES
+Albers,Symptomatic intracranial hemorrhage within 36 hr,n_intervention,218,218,YES,218,YES,218,YES,218,YES,218,YES
+Albers,Symptomatic intracranial hemorrhage within 36 hr,events_intervention,7,7,YES,7,YES,7,YES,7,YES,7,YES
+Albers,Symptomatic intracranial hemorrhage within 36 hr,n_control,214,214,YES,214,YES,214,YES,214,YES,214,YES
+Albers,Symptomatic intracranial hemorrhage within 36 hr,events_control,5,5,YES,5,YES,5,YES,5,YES,5,YES
+Albers,Parenchymal hematoma within 72 hr - Type 1,n_intervention,218,218,YES,218,YES,218,YES,218,YES,218,YES
+Albers,Parenchymal hematoma within 72 hr - Type 1,events_intervention,2,2,YES,2,YES,2,YES,2,YES,2,YES
+Albers,Parenchymal hematoma within 72 hr - Type 1,n_control,214,214,YES,214,YES,214,YES,214,YES,214,YES
+Albers,Parenchymal hematoma within 72 hr - Type 1,events_control,1,1,YES,1,YES,1,YES,1,YES,1,YES
+Albers,Parenchymal hematoma within 72 hr - Type 2,n_intervention,218,218,YES,218,YES,218,YES,218,YES,218,YES
+Albers,Parenchymal hematoma within 72 hr - Type 2,events_intervention,8,8,YES,8,YES,8,YES,8,YES,8,YES
+Albers,Parenchymal hematoma within 72 hr - Type 2,n_control,214,214,YES,214,YES,214,YES,214,YES,214,YES
+Albers,Parenchymal hematoma within 72 hr - Type 2,events_control,6,6,YES,6,YES,6,YES,6,YES,6,YES
+Albers,Final infarct volume (mean +/- SD),n_intervention,228,,NO,216,NO,228,YES,228,YES,228,YES
+Albers,Final infarct volume (mean +/- SD),n_control,230,,NO,218,NO,230,YES,230,YES,230,YES
+Albers,Final infarct volume (mean +/- SD),mean_intervention,47.9,47.9,YES,47.9,YES,47.9,YES,47.9,YES,47.9,YES
+Albers,Final infarct volume (mean +/- SD),sd_intervention,71.1,71.1,YES,71.1,YES,71.1,YES,71.1,YES,71.1,YES
+Albers,Final infarct volume (mean +/- SD),mean_control,56.5,56.5,YES,56.5,YES,56.5,YES,56.5,YES,56.5,YES
+Albers,Final infarct volume (mean +/- SD),sd_control,81.5,81.5,YES,81.5,YES,81.5,YES,81.5,YES,81.5,YES
+Cheng,Primary outcome (major reperfusion without sICH 24 to 48 hours after randomization),n_intervention,111,111,YES,111,YES,111,YES,111,YES,111,YES
+Cheng,Primary outcome (major reperfusion without sICH 24 to 48 hours after randomization),events_intervention,37,37,YES,37,YES,37,YES,37,YES,37,YES
+Cheng,Primary outcome (major reperfusion without sICH 24 to 48 hours after randomization),n_control,111,111,YES,111,YES,111,YES,111,YES,111,YES
+Cheng,Primary outcome (major reperfusion without sICH 24 to 48 hours after randomization),events_control,12,12,YES,12,YES,12,YES,12,YES,12,YES
+Cheng,Recanalization,n_intervention,109,109,YES,109,YES,109,YES,109,YES,109,YES
+Cheng,Recanalization,events_intervention,39,39,YES,39,YES,39,YES,39,YES,39,YES
+Cheng,Recanalization,n_control,112,112,YES,112,YES,112,YES,112,YES,112,YES
+Cheng,Recanalization,events_control,16,16,YES,16,YES,16,YES,16,YES,16,YES
+Cheng,Infarct growth at 3-5 d (median [IQR]),n_intervention,102,,NO,111,NO,102,YES,102,YES,102,YES
+Cheng,Infarct growth at 3-5 d (median [IQR]),n_control,109,,NO,113,NO,109,YES,109,YES,109,YES
+Cheng,Infarct growth at 3-5 d (median [IQR]),median_intervention,18.9,18.9,YES,18.9,YES,18.9,YES,18.9,YES,18.9,YES
+Cheng,Infarct growth at 3-5 d (median [IQR]),iqr_lower_intervention,4.2,4.2,YES,4.2,YES,4.2,YES,4.2,YES,4.2,YES
+Cheng,Infarct growth at 3-5 d (median [IQR]),iqr_upper_intervention,59.6,59.6,YES,59.6,YES,59.6,YES,59.6,YES,59.6,YES
+Cheng,Infarct growth at 3-5 d (median [IQR]),median_control,16.5,16.5,YES,16.5,YES,16.5,YES,16.5,YES,16.5,YES
+Cheng,Infarct growth at 3-5 d (median [IQR]),iqr_lower_control,2.6,2.6,YES,2.6,YES,2.6,YES,2.6,YES,2.6,YES
+Cheng,Infarct growth at 3-5 d (median [IQR]),iqr_upper_control,42.3,42.3,YES,42.3,YES,42.3,YES,42.3,YES,42.3,YES
+Cheng,Major neurological improvement,n_intervention,110,110,YES,110,YES,110,YES,110,YES,110,YES
+Cheng,Major neurological improvement,events_intervention,24,24,YES,24,YES,24,YES,24,YES,24,YES
+Cheng,Major neurological improvement,n_control,112,112,YES,112,YES,112,YES,112,YES,112,YES
+Cheng,Major neurological improvement,events_control,26,26,YES,26,YES,26,YES,26,YES,26,YES
+Cheng,Change in NIHSS score compared with baseline (median [IQR]),n_intervention,110,,NO,111,NO,110,YES,110,YES,110,YES
+Cheng,Change in NIHSS score compared with baseline (median [IQR]),n_control,112,,NO,113,NO,112,YES,112,YES,112,YES
+Cheng,Change in NIHSS score compared with baseline (median [IQR]),median_intervention,-1,-1,YES,-1,YES,-1,YES,-1,YES,-1,YES
+Cheng,Change in NIHSS score compared with baseline (median [IQR]),iqr_lower_intervention,-4,-4,YES,-4,YES,-4,YES,-4,YES,-4,YES
+Cheng,Change in NIHSS score compared with baseline (median [IQR]),iqr_upper_intervention,0,0,YES,0,YES,0,YES,0,YES,0,YES
+Cheng,Change in NIHSS score compared with baseline (median [IQR]),median_control,-1,-1,YES,-1,YES,-1,YES,-1,YES,-1,YES
+Cheng,Change in NIHSS score compared with baseline (median [IQR]),iqr_lower_control,-5,-5,YES,-5,YES,-5,YES,-5,YES,-5,YES
+Cheng,Change in NIHSS score compared with baseline (median [IQR]),iqr_upper_control,0,0,YES,0,YES,0,YES,0,YES,0,YES
+Cheng,mRS score 0-1,n_intervention,111,111,YES,111,YES,111,YES,111,YES,111,YES
+Cheng,mRS score 0-1,events_intervention,44,44,YES,44,YES,44,YES,44,YES,44,YES
+Cheng,mRS score 0-1,n_control,113,113,YES,113,YES,113,YES,113,YES,113,YES
+Cheng,mRS score 0-1,events_control,41,41,YES,41,YES,41,YES,41,YES,41,YES
+Cheng,mRS score 0-2,n_intervention,111,111,YES,111,YES,111,YES,111,YES,111,YES
+Cheng,mRS score 0-2,events_intervention,56,56,YES,56,YES,56,YES,56,YES,56,YES
+Cheng,mRS score 0-2,n_control,113,113,YES,113,YES,113,YES,113,YES,113,YES
+Cheng,mRS score 0-2,events_control,66,66,YES,66,YES,66,YES,66,YES,66,YES
+Cheng,Symptomatic intracranial hemorrhage,n_intervention,111,111,YES,111,YES,111,YES,111,YES,111,YES
+Cheng,Symptomatic intracranial hemorrhage,events_intervention,6,6,YES,6,YES,6,YES,6,YES,6,YES
+Cheng,Symptomatic intracranial hemorrhage,n_control,113,113,YES,113,YES,113,YES,113,YES,113,YES
+Cheng,Symptomatic intracranial hemorrhage,events_control,5,5,YES,5,YES,5,YES,5,YES,5,YES
+Cheng,Any intracranial hemorrhage,n_intervention,111,111,YES,111,YES,111,YES,111,YES,111,YES
+Cheng,Any intracranial hemorrhage,events_intervention,27,27,YES,27,YES,27,YES,27,YES,27,YES
+Cheng,Any intracranial hemorrhage,n_control,113,113,YES,113,YES,113,YES,113,YES,113,YES
+Cheng,Any intracranial hemorrhage,events_control,21,21,YES,21,YES,21,YES,21,YES,21,YES
+Cheng,Parenchymal hemorrhage type 2,n_intervention,111,111,YES,111,YES,111,YES,111,YES,111,YES
+Cheng,Parenchymal hemorrhage type 2,events_intervention,10,10,YES,10,YES,10,YES,10,YES,10,YES
+Cheng,Parenchymal hemorrhage type 2,n_control,113,113,YES,113,YES,113,YES,113,YES,113,YES
+Cheng,Parenchymal hemorrhage type 2,events_control,4,4,YES,4,YES,4,YES,4,YES,4,YES
+Cheng,mRS score 5-6,n_intervention,111,111,YES,111,YES,111,YES,111,YES,111,YES
+Cheng,mRS score 5-6,events_intervention,22,22,YES,22,YES,22,YES,22,YES,22,YES
+Cheng,mRS score 5-6,n_control,113,113,YES,113,YES,113,YES,113,YES,113,YES
+Cheng,mRS score 5-6,events_control,20,20,YES,20,YES,20,YES,20,YES,20,YES
+Cheng,Systemic hemorrhage,n_intervention,111,111,YES,111,YES,111,YES,111,YES,111,YES
+Cheng,Systemic hemorrhage,events_intervention,5,5,YES,5,YES,5,YES,5,YES,5,YES
+Cheng,Systemic hemorrhage,n_control,113,113,YES,113,YES,113,YES,113,YES,113,YES
+Cheng,Systemic hemorrhage,events_control,7,7,YES,7,YES,7,YES,7,YES,7,YES
+Wang,mRS (0-1) at 90 days,n_intervention,40,40,YES,40,YES,40,YES,40,YES,40,YES
+Wang,mRS (0-1) at 90 days,events_intervention,21,21,YES,21,YES,21,YES,21,YES,21,YES
+Wang,mRS (0-1) at 90 days,n_control,40,40,YES,40,YES,40,YES,40,YES,40,YES
+Wang,mRS (0-1) at 90 days,events_control,20,20,YES,20,YES,20,YES,20,YES,20,YES
+Wang,mRS (0-2) at 90 days,n_intervention,40,40,YES,40,YES,40,YES,40,YES,40,YES
+Wang,mRS (0-2) at 90 days,events_intervention,26,26,YES,26,YES,26,YES,26,YES,26,YES
+Wang,mRS (0-2) at 90 days,n_control,40,40,YES,40,YES,40,YES,40,YES,40,YES
+Wang,mRS (0-2) at 90 days,events_control,24,24,YES,24,YES,24,YES,24,YES,24,YES
+Wang,mRS distribution at 90 days,effect_size,0.91,0.91,YES,0.91,YES,0.91,YES,0.91,YES,0.91,YES
+Wang,mRS distribution at 90 days,ci_lower,0.42,0.42,YES,0.42,YES,0.42,YES,0.42,YES,0.42,YES
+Wang,mRS distribution at 90 days,ci_upper,1.98,1.98,YES,1.98,YES,1.98,YES,1.98,YES,1.98,YES
+Wang,Changes in NIHSS at 24 hours (median [IQR]),n_intervention,40,,NO,40,YES,40,YES,40,YES,40,YES
+Wang,Changes in NIHSS at 24 hours (median [IQR]),n_control,40,,NO,40,YES,40,YES,40,YES,40,YES
+Wang,Changes in NIHSS at 24 hours (median [IQR]),median_intervention,-2,-2,YES,-2,YES,-2,YES,-2,YES,-2,YES
+Wang,Changes in NIHSS at 24 hours (median [IQR]),iqr_lower_intervention,-4,-4,YES,-4,YES,-4,YES,-4,YES,-4,YES
+Wang,Changes in NIHSS at 24 hours (median [IQR]),iqr_upper_intervention,0,0,YES,0,YES,0,YES,0,YES,0,YES
+Wang,Changes in NIHSS at 24 hours (median [IQR]),median_control,0,0,YES,0,YES,0,YES,0,YES,0,YES
+Wang,Changes in NIHSS at 24 hours (median [IQR]),iqr_lower_control,-2,-2,YES,-2,YES,-2,YES,-2,YES,-2,YES
+Wang,Changes in NIHSS at 24 hours (median [IQR]),iqr_upper_control,0,0,YES,0,YES,0,YES,0,YES,0,YES
+Wang,Changes in NIHSS at 7 days (median [IQR]),n_intervention,40,,NO,40,YES,40,YES,40,YES,40,YES
+Wang,Changes in NIHSS at 7 days (median [IQR]),n_control,40,,NO,40,YES,40,YES,40,YES,40,YES
+Wang,Changes in NIHSS at 7 days (median [IQR]),median_intervention,-3,-3,YES,-3,YES,-3,YES,-3,YES,-3,YES
+Wang,Changes in NIHSS at 7 days (median [IQR]),iqr_lower_intervention,-6,-6,YES,-6,YES,-6,YES,-6,YES,-6,YES
+Wang,Changes in NIHSS at 7 days (median [IQR]),iqr_upper_intervention,0,0,YES,0,YES,0,YES,0,YES,0,YES
+Wang,Changes in NIHSS at 7 days (median [IQR]),median_control,-2,-2,YES,-2,YES,-2,YES,-2,YES,-2,YES
+Wang,Changes in NIHSS at 7 days (median [IQR]),iqr_lower_control,-4,-4,YES,-4,YES,-4,YES,-4,YES,-4,YES
+Wang,Changes in NIHSS at 7 days (median [IQR]),iqr_upper_control,-1,-1,YES,-1,YES,-1,YES,-1,YES,-1,YES
+Wang,ENI (Early neurological improvement),n_intervention,40,40,YES,40,YES,40,YES,40,YES,40,YES
+Wang,ENI (Early neurological improvement),events_intervention,11,11,YES,11,YES,11,YES,11,YES,11,YES
+Wang,ENI (Early neurological improvement),n_control,40,40,YES,40,YES,40,YES,40,YES,40,YES
+Wang,ENI (Early neurological improvement),events_control,3,3,YES,3,YES,3,YES,3,YES,3,YES
+Wang,sICH,n_intervention,40,40,YES,40,YES,40,YES,40,YES,40,YES
+Wang,sICH,events_intervention,0,0,YES,0,YES,0,YES,0,YES,0,YES
+Wang,sICH,n_control,40,40,YES,40,YES,40,YES,40,YES,40,YES
+Wang,sICH,events_control,0,0,YES,0,YES,0,YES,0,YES,0,YES
+Wang,HT within 7 days,n_intervention,40,40,YES,40,YES,40,YES,40,YES,40,YES
+Wang,HT within 7 days,events_intervention,3,3,YES,3,YES,3,YES,3,YES,3,YES
+Wang,HT within 7 days,n_control,40,40,YES,40,YES,40,YES,40,YES,40,YES
+Wang,HT within 7 days,events_control,0,0,YES,0,YES,0,YES,0,YES,0,YES
+Wang,HI-1,n_intervention,40,40,YES,40,YES,40,YES,40,YES,40,YES
+Wang,HI-1,events_intervention,0,0,YES,0,YES,0,YES,0,YES,0,YES
+Wang,HI-1,n_control,40,40,YES,40,YES,40,YES,40,YES,40,YES
+Wang,HI-1,events_control,0,0,YES,0,YES,0,YES,0,YES,0,YES
+Wang,HI-2,n_intervention,40,40,YES,40,YES,40,YES,40,YES,40,YES
+Wang,HI-2,events_intervention,0,0,YES,0,YES,0,YES,0,YES,0,YES
+Wang,HI-2,n_control,40,40,YES,40,YES,40,YES,40,YES,40,YES
+Wang,HI-2,events_control,0,0,YES,0,YES,0,YES,0,YES,0,YES
+Wang,PH-1,n_intervention,40,40,YES,40,YES,40,YES,40,YES,40,YES
+Wang,PH-1,events_intervention,2,2,YES,2,YES,2,YES,2,YES,2,YES
+Wang,PH-1,n_control,40,40,YES,40,YES,40,YES,40,YES,40,YES
+Wang,PH-1,events_control,0,0,YES,0,YES,0,YES,0,YES,0,YES
+Wang,PH-2,n_intervention,40,40,YES,40,YES,40,YES,40,YES,40,YES
+Wang,PH-2,events_intervention,1,1,YES,1,YES,1,YES,1,YES,1,YES
+Wang,PH-2,n_control,40,40,YES,40,YES,40,YES,40,YES,40,YES
+Wang,PH-2,events_control,0,0,YES,0,YES,0,YES,0,YES,0,YES
+Wang,Other bleeding events within 7 days,n_intervention,40,40,YES,40,YES,40,YES,40,YES,40,YES
+Wang,Other bleeding events within 7 days,events_intervention,0,0,YES,0,YES,0,YES,0,YES,0,YES
+Wang,Other bleeding events within 7 days,n_control,40,40,YES,40,YES,40,YES,40,YES,40,YES
+Wang,Other bleeding events within 7 days,events_control,0,0,YES,0,YES,0,YES,0,YES,0,YES
+Wang,Death within 14 days,n_intervention,40,40,YES,40,YES,40,YES,40,YES,40,YES
+Wang,Death within 14 days,events_intervention,0,0,YES,0,YES,0,YES,0,YES,0,YES
+Wang,Death within 14 days,n_control,40,40,YES,40,YES,40,YES,40,YES,40,YES
+Wang,Death within 14 days,events_control,0,0,YES,0,YES,0,YES,0,YES,0,YES
+Wang,Adverse events,n_intervention,40,40,YES,40,YES,40,YES,40,YES,40,YES
+Wang,Adverse events,events_intervention,11,11,YES,11,YES,11,YES,11,YES,11,YES
+Wang,Adverse events,n_control,40,40,YES,40,YES,40,YES,40,YES,40,YES
+Wang,Adverse events,events_control,4,4,YES,4,YES,4,YES,4,YES,4,YES
+Wang,Severe adverse events,n_intervention,40,40,YES,40,YES,40,YES,40,YES,40,YES
+Wang,Severe adverse events,events_intervention,7,7,YES,7,YES,7,YES,7,YES,7,YES
+Wang,Severe adverse events,n_control,40,40,YES,40,YES,40,YES,40,YES,40,YES
+Wang,Severe adverse events,events_control,2,2,YES,2,YES,2,YES,2,YES,2,YES
+Xiong,Score of 0 or 1 on the modified Rankin scale,n_intervention,264,264,YES,264,YES,264,YES,264,YES,264,YES
+Xiong,Score of 0 or 1 on the modified Rankin scale,events_intervention,87,87,YES,87,YES,87,YES,87,YES,87,YES
+Xiong,Score of 0 or 1 on the modified Rankin scale,n_control,252,252,YES,252,YES,252,YES,252,YES,252,YES
+Xiong,Score of 0 or 1 on the modified Rankin scale,events_control,61,61,YES,61,YES,61,YES,61,YES,61,YES
+Xiong,Ordinal distribution of scores on the modified Rankin scale,effect_size,1.33,1.33,YES,1.33,YES,1.33,YES,1.33,YES,1.33,YES
+Xiong,Ordinal distribution of scores on the modified Rankin scale,ci_lower,0.98,0.98,YES,0.98,YES,0.98,YES,0.98,YES,0.98,YES
+Xiong,Ordinal distribution of scores on the modified Rankin scale,ci_upper,1.81,1.81,YES,1.81,YES,1.81,YES,1.81,YES,1.81,YES
+Xiong,"Score of <=2 on the modified Rankin scale, indicating functional independence",n_intervention,264,264,YES,264,YES,264,YES,264,YES,264,YES
+Xiong,"Score of <=2 on the modified Rankin scale, indicating functional independence",events_intervention,115,115,YES,115,YES,115,YES,115,YES,115,YES
+Xiong,"Score of <=2 on the modified Rankin scale, indicating functional independence",n_control,252,252,YES,252,YES,252,YES,252,YES,252,YES
+Xiong,"Score of <=2 on the modified Rankin scale, indicating functional independence",events_control,84,84,YES,84,YES,84,YES,84,YES,84,YES
+Xiong,Major neurologic improvement,n_intervention,250,250,YES,250,YES,250,YES,250,YES,250,YES
+Xiong,Major neurologic improvement,events_intervention,40,40,YES,40,YES,40,YES,40,YES,40,YES
+Xiong,Major neurologic improvement,n_control,249,249,YES,249,YES,249,YES,249,YES,249,YES
+Xiong,Major neurologic improvement,events_control,15,15,YES,15,YES,15,YES,15,YES,15,YES
+Xiong,Reperfusion,n_intervention,239,239,YES,239,YES,239,YES,239,YES,239,YES
+Xiong,Reperfusion,events_intervention,48,48,YES,48,YES,48,YES,48,YES,48,YES
+Xiong,Reperfusion,n_control,229,229,YES,229,YES,229,YES,229,YES,229,YES
+Xiong,Reperfusion,events_control,27,27,YES,27,YES,27,YES,27,YES,27,YES
+Xiong,Change in the NIHSS score (median [IQR]),n_intervention,264,,NO,264,YES,264,YES,264,YES,264,YES
+Xiong,Change in the NIHSS score (median [IQR]),n_control,252,,NO,252,YES,252,YES,252,YES,252,YES
+Xiong,Change in the NIHSS score (median [IQR]),median_intervention,-4,-4,YES,-4,YES,-4,YES,-4,YES,-4,YES
+Xiong,Change in the NIHSS score (median [IQR]),iqr_lower_intervention,-6,-6,YES,-6,YES,-6,YES,-6,YES,-6,YES
+Xiong,Change in the NIHSS score (median [IQR]),iqr_upper_intervention,-1,-1,YES,-1,YES,-1,YES,-1,YES,-1,YES
+Xiong,Change in the NIHSS score (median [IQR]),median_control,-2,-2,YES,-2,YES,-2,YES,-2,YES,-2,YES
+Xiong,Change in the NIHSS score (median [IQR]),iqr_lower_control,-5,-5,YES,-5,YES,-5,YES,-5,YES,-5,YES
+Xiong,Change in the NIHSS score (median [IQR]),iqr_upper_control,0,0,YES,0,YES,0,YES,0,YES,0,YES
+Xiong,Symptomatic intracranial hemorrhage within 36 hr after randomization,n_intervention,264,264,YES,264,YES,264,YES,264,YES,264,YES
+Xiong,Symptomatic intracranial hemorrhage within 36 hr after randomization,events_intervention,8,8,YES,8,YES,8,YES,8,YES,8,YES
+Xiong,Symptomatic intracranial hemorrhage within 36 hr after randomization,n_control,252,252,YES,252,YES,252,YES,252,YES,252,YES
+Xiong,Symptomatic intracranial hemorrhage within 36 hr after randomization,events_control,2,2,YES,2,YES,2,YES,2,YES,2,YES
+Xiong,Death within 90 days,n_intervention,264,264,YES,264,YES,264,YES,264,YES,264,YES
+Xiong,Death within 90 days,events_intervention,35,35,YES,35,YES,35,YES,35,YES,35,YES
+Xiong,Death within 90 days,n_control,252,252,YES,252,YES,252,YES,252,YES,252,YES
+Xiong,Death within 90 days,events_control,33,33,YES,33,YES,33,YES,33,YES,33,YES
+Xiong,Moderate or severe systemic bleeding within 90 days,n_intervention,264,264,YES,264,YES,264,YES,264,YES,264,YES
+Xiong,Moderate or severe systemic bleeding within 90 days,events_intervention,5,5,YES,5,YES,5,YES,5,YES,5,YES
+Xiong,Moderate or severe systemic bleeding within 90 days,n_control,252,252,YES,252,YES,252,YES,252,YES,252,YES
+Xiong,Moderate or severe systemic bleeding within 90 days,events_control,2,2,YES,2,YES,2,YES,2,YES,2,YES
+Xiong,Any adverse event,n_intervention,264,264,YES,264,YES,264,YES,264,YES,264,YES
+Xiong,Any adverse event,events_intervention,134,134,YES,134,YES,134,YES,134,YES,134,YES
+Xiong,Any adverse event,n_control,252,252,YES,252,YES,252,YES,252,YES,252,YES
+Xiong,Any adverse event,events_control,129,129,YES,129,YES,129,YES,129,YES,129,YES
+Xiong,Any serious adverse event,n_intervention,264,264,YES,264,YES,264,YES,264,YES,264,YES
+Xiong,Any serious adverse event,events_intervention,53,54,NO,53,YES,53,YES,53,YES,53,YES
+Xiong,Any serious adverse event,n_control,252,252,YES,252,YES,252,YES,252,YES,252,YES
+Xiong,Any serious adverse event,events_control,43,43,YES,43,YES,43,YES,43,YES,43,YES
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: Age <80 yr),n_intervention,236,236,YES,236,YES,236,YES,236,YES,236,YES
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: Age <80 yr),events_intervention,81,81,YES,81,YES,81,YES,81,YES,81,YES
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: Age <80 yr),n_control,213,213,YES,213,YES,213,YES,213,YES,213,YES
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: Age <80 yr),events_control,57,57,YES,57,YES,57,YES,57,YES,57,YES
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: Age >=80 yr),n_intervention,28,28,YES,28,YES,28,YES,28,YES,28,YES
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: Age >=80 yr),events_intervention,6,6,YES,6,YES,6,YES,6,YES,6,YES
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: Age >=80 yr),n_control,39,39,YES,39,YES,39,YES,39,YES,39,YES
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: Age >=80 yr),events_control,4,4,YES,4,YES,4,YES,4,YES,4,YES
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: Time >4.5 to 9.0 hr),n_intervention,59,59,YES,59,YES,59,YES,59,YES,59,YES
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: Time >4.5 to 9.0 hr),events_intervention,20,20,YES,20,YES,20,YES,20,YES,20,YES
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: Time >4.5 to 9.0 hr),n_control,54,54,YES,54,YES,54,YES,54,YES,54,YES
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: Time >4.5 to 9.0 hr),events_control,13,13,YES,13,YES,13,YES,13,YES,13,YES
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: Time >9.0 to 24.0 hr),n_intervention,104,104,YES,104,YES,104,YES,104,YES,104,YES
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: Time >9.0 to 24.0 hr),events_intervention,38,38,YES,38,YES,38,YES,38,YES,38,YES
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: Time >9.0 to 24.0 hr),n_control,114,114,YES,114,YES,114,YES,114,YES,114,YES
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: Time >9.0 to 24.0 hr),events_control,29,29,YES,29,YES,29,YES,29,YES,29,YES
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: Stroke on awakening),n_intervention,101,101,YES,101,YES,101,YES,101,YES,101,YES
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: Stroke on awakening),events_intervention,29,29,YES,29,YES,29,YES,29,YES,29,YES
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: Stroke on awakening),n_control,84,84,YES,84,YES,84,YES,84,YES,84,YES
+Xiong,Score of 0 or 1 on the modified Rankin scale (Subgroup: Stroke on awakening),events_control,19,19,YES,19,YES,19,YES,19,YES,19,YES
